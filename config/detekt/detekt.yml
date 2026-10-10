@@ -30,7 +30,10 @@ complexity:
 naming:
   FunctionNaming:
     active: true
-    excludes: ['**/test/**', '**/ui/**', '**/designs/**']
+    excludes: ['**/test/**', '**/ui/**', '**/designs/**', '**/core/theme/**']
+  MatchingDeclarationName:
+    active: true
+    excludes: ['**/core/theme/**']
 
 style:
   MagicNumber:

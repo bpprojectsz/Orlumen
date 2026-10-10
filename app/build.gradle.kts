@@ -83,6 +83,15 @@ android {
     }
 }
 
+dependencies {
+    implementation(platform(libs.androidx.compose.bom))
+    implementation(libs.androidx.compose.foundation)
+    implementation(libs.androidx.compose.material3)
+    implementation(libs.androidx.compose.ui)
+    implementation(libs.androidx.core.ktx)
+    testImplementation(libs.junit)
+}
+
 kotlin {
     compilerOptions {
         jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
@@ -90,6 +99,7 @@ kotlin {
 }
 
 ktlint {
+    version.set("1.7.1")
     android.set(true)
 }
 
