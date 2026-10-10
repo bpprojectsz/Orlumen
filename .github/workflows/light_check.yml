@@ -31,4 +31,16 @@ jobs:
       - name: ktlint and detekt
         run: |
           chmod +x gradlew
-          ./gradlew ktlintCheck detekt --stacktrace
+          set -o pipefail
+          ./gradlew ktlintCheck detekt 2>&1 | tee gradle.log
+
+      - name: Relay failure output to annotations
+        if: failure()
+        run: |
+          python3 - <<'PY'
+          text = open("gradle.log").read()
+          start = text.find("FAILURE:")
+          text = text[start:start + 5500] if start >= 0 else text[-5500:]
+          text = text.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+          print("::error title=Gradle output::" + text)
+          PY
