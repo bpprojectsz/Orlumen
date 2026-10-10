@@ -1,0 +1,41 @@
+build:
+  maxIssues: 0
+
+config:
+  validation: true
+  warningsAsErrors: false
+
+complexity:
+  LongMethod:
+    active: true
+    threshold: 80
+    excludes: ['**/test/**', '**/ui/**', '**/designs/**']
+  LongParameterList:
+    active: true
+    functionThreshold: 8
+    constructorThreshold: 10
+    excludes: ['**/test/**', '**/ui/**', '**/designs/**']
+  CyclomaticComplexMethod:
+    active: true
+    threshold: 20
+    excludes: ['**/test/**', '**/ui/**', '**/designs/**']
+  NestedBlockDepth:
+    active: true
+    threshold: 5
+    excludes: ['**/test/**', '**/ui/**', '**/designs/**']
+  TooManyFunctions:
+    active: true
+    excludes: ['**/test/**', '**/ui/**', '**/designs/**']
+
+naming:
+  FunctionNaming:
+    active: true
+    excludes: ['**/test/**', '**/ui/**', '**/designs/**']
+
+style:
+  MagicNumber:
+    active: true
+    excludes: ['**/test/**', '**/androidTest/**', '**/core/theme/**', '**/ui/**', '**/designs/**']
+  MaxLineLength:
+    active: true
+    maxLineLength: 120
