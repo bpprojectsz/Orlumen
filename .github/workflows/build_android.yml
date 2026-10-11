@@ -11,6 +11,7 @@ jobs:
       ADMOB_APP_ID: ${{ vars.ADMOB_APP_ID }}
       ADMOB_BANNER_ID: ${{ vars.ADMOB_BANNER_ID }}
       ADMOB_INTERSTITIAL_ID: ${{ vars.ADMOB_INTERSTITIAL_ID }}
+      WEBSITE_BASE_URL: ${{ vars.WEBSITE_BASE_URL }}
     steps:
       - uses: actions/checkout@v4
 
@@ -51,10 +52,24 @@ jobs:
       - name: Unit tests
         run: |
           chmod +x gradlew
-          ./gradlew test --stacktrace
+          set -o pipefail
+          ./gradlew test 2>&1 | tee gradle.log
 
       - name: Build release APK and AAB
-        run: ./gradlew bundleRelease assembleRelease --stacktrace
+        run: |
+          set -o pipefail
+          ./gradlew bundleRelease assembleRelease 2>&1 | tee -a gradle.log
+
+      - name: Relay failure output to annotations
+        if: failure()
+        run: |
+          python3 - <<'PY'
+          text = open("gradle.log").read()
+          start = text.find("FAILURE:")
+          text = text[start:start + 5500] if start >= 0 else text[-5500:]
+          text = text.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+          print("::error title=Gradle output::" + text)
+          PY
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
