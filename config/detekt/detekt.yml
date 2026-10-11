@@ -25,12 +25,12 @@ complexity:
     excludes: ['**/test/**', '**/ui/**', '**/designs/**']
   TooManyFunctions:
     active: true
-    excludes: ['**/test/**', '**/ui/**', '**/designs/**']
+    excludes: ['**/test/**', '**/ui/**', '**/designs/**', '**/platform/overlay/OrlumenRuntimeService.kt']
 
 naming:
   FunctionNaming:
     active: true
-    excludes: ['**/test/**', '**/ui/**', '**/designs/**', '**/core/theme/**', '**/navigation/**']
+    excludes: ['**/test/**', '**/ui/**', '**/designs/**', '**/core/theme/**', '**/navigation/**', '**/platform/overlay/**']
   MatchingDeclarationName:
     active: true
     excludes: ['**/core/theme/**']

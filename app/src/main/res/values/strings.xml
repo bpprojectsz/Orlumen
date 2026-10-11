@@ -22,4 +22,7 @@
     <string name="palette_sunset">Sunset</string>
     <string name="palette_monochrome">Monochrome</string>
     <string name="palette_album_art">Album art</string>
+    <string name="tile_label">Edge lights</string>
+    <string name="notification_title">Edge visualizer is active</string>
+    <string name="notification_stop">Stop</string>
 </resources>
