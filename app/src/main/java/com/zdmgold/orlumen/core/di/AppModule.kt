@@ -9,6 +9,8 @@ import androidx.room.Room
 import com.zdmgold.orlumen.core.database.ConfigDao
 import com.zdmgold.orlumen.core.database.OrlumenDatabase
 import com.zdmgold.orlumen.core.database.PaletteDao
+import com.zdmgold.orlumen.platform.monetization.BillingAdapter
+import com.zdmgold.orlumen.platform.monetization.BillingGateway
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -31,6 +33,9 @@ object AppModule {
 
     @Provides
     fun providePaletteDao(database: OrlumenDatabase): PaletteDao = database.paletteDao()
+
+    @Provides
+    fun provideBillingGateway(adapter: BillingAdapter): BillingGateway = adapter
 
     @Provides
     @Singleton

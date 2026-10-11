@@ -88,6 +88,9 @@ android {
 }
 
 dependencies {
+    implementation(libs.android.billing)
+    implementation(libs.android.ump)
+    implementation(libs.google.play.services.ads)
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.splashscreen)
