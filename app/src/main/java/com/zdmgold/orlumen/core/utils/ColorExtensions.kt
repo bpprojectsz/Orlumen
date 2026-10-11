@@ -21,15 +21,21 @@ fun Int.perceivedBrightness(): Float {
     return RED_WEIGHT * red + GREEN_WEIGHT * green + BLUE_WEIGHT * blue
 }
 
+fun Int.redChannel(): Int = this shr RED_SHIFT and CHANNEL_MASK
+
+fun Int.greenChannel(): Int = this shr GREEN_SHIFT and CHANNEL_MASK
+
+fun Int.blueChannel(): Int = this and CHANNEL_MASK
+
+fun Int.blendedTowardWhite(amount: Float): Int = (this and OPAQUE_ALPHA) or
+    blendChannel(redChannel(), amount, RED_SHIFT) or
+    blendChannel(greenChannel(), amount, GREEN_SHIFT) or
+    blendChannel(blueChannel(), amount, 0)
+
 fun Int.liftedForDarkBackground(minBrightness: Float = MIN_VISIBLE_BRIGHTNESS): Int {
     val brightness = perceivedBrightness()
     if (brightness >= minBrightness) return this
-    val amount = (minBrightness - brightness) / (1f - brightness)
-    val alpha = this and OPAQUE_ALPHA
-    return alpha or
-        blendChannel(this shr RED_SHIFT and CHANNEL_MASK, amount, RED_SHIFT) or
-        blendChannel(this shr GREEN_SHIFT and CHANNEL_MASK, amount, GREEN_SHIFT) or
-        blendChannel(this and CHANNEL_MASK, amount, 0)
+    return blendedTowardWhite((minBrightness - brightness) / (1f - brightness))
 }
 
 fun List<Int>.liftedForDarkBackground(): List<Int> = map { it.liftedForDarkBackground() }
