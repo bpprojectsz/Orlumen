@@ -2,6 +2,7 @@ package com.zdmgold.orlumen.core.repository
 
 import com.zdmgold.orlumen.core.database.PaletteDao
 import com.zdmgold.orlumen.core.database.PaletteEntity
+import com.zdmgold.orlumen.core.model.ColorPalette
 import com.zdmgold.orlumen.core.model.StockPalettes
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -63,5 +64,16 @@ class PaletteRepositoryTest {
         assertThrows(IllegalArgumentException::class.java) {
             runBlocking { repository.saveCustomPalette("Bad", listOf(-1)) }
         }
+    }
+
+    @Test
+    fun resolvePaletteHonoursAlbumColorsThenSelectionThenFallback() {
+        val album = ColorPalette(id = "album_art", name = "Album", colorsArgb = listOf(-1, -2), isBuiltIn = false)
+        val custom = ColorPalette(id = "mine", name = "Mine", colorsArgb = listOf(-3, -4), isBuiltIn = false)
+        val all = StockPalettes.all + custom
+        assertEquals(album, resolvePalette("mine", all, album, autoApplyAlbumColors = true))
+        assertEquals(custom, resolvePalette("mine", all, album, autoApplyAlbumColors = false))
+        assertEquals(custom, resolvePalette("mine", all, null, autoApplyAlbumColors = true))
+        assertEquals(StockPalettes.all.first(), resolvePalette("missing", all, null, autoApplyAlbumColors = false))
     }
 }

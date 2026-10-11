@@ -10,6 +10,16 @@ import javax.inject.Singleton
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
+fun resolvePalette(
+    paletteId: String,
+    palettes: List<ColorPalette>,
+    albumPalette: ColorPalette?,
+    autoApplyAlbumColors: Boolean
+): ColorPalette {
+    if (autoApplyAlbumColors && albumPalette != null) return albumPalette
+    return palettes.firstOrNull { it.id == paletteId } ?: StockPalettes.all.first()
+}
+
 @Singleton
 class PaletteRepository @Inject constructor(private val paletteDao: PaletteDao) {
     val palettes: Flow<List<ColorPalette>> = paletteDao.observeAll()

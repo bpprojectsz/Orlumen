@@ -21,6 +21,7 @@ data class UserPreferences(
     val themeMode: ThemeMode = ThemeMode.DARK,
     val audioSourceMode: AudioSourceMode = AudioSourceMode.AUTO,
     val aodHostMode: AodHostMode = AodHostMode.ACTIVITY,
+    val aodEnabled: Boolean = false,
     val isProUser: Boolean = false,
     val dimBackground: Boolean = false,
     val keepScreenOn: Boolean = false,

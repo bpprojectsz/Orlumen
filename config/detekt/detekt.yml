@@ -9,28 +9,28 @@ complexity:
   LongMethod:
     active: true
     threshold: 80
-    excludes: ['**/test/**', '**/ui/**', '**/designs/**']
+    excludes: ['**/test/**', '**/ui/**', '**/designs/**', '**/platform/aod/AodHostContent.kt']
   LongParameterList:
     active: true
     functionThreshold: 8
     constructorThreshold: 10
-    excludes: ['**/test/**', '**/ui/**', '**/designs/**']
+    excludes: ['**/test/**', '**/ui/**', '**/designs/**', '**/platform/aod/AodHostContent.kt']
   CyclomaticComplexMethod:
     active: true
     threshold: 20
-    excludes: ['**/test/**', '**/ui/**', '**/designs/**']
+    excludes: ['**/test/**', '**/ui/**', '**/designs/**', '**/platform/aod/AodHostContent.kt']
   NestedBlockDepth:
     active: true
     threshold: 5
-    excludes: ['**/test/**', '**/ui/**', '**/designs/**']
+    excludes: ['**/test/**', '**/ui/**', '**/designs/**', '**/platform/aod/AodHostContent.kt']
   TooManyFunctions:
     active: true
-    excludes: ['**/test/**', '**/ui/**', '**/designs/**', '**/platform/overlay/OrlumenRuntimeService.kt']
+    excludes: ['**/test/**', '**/ui/**', '**/designs/**', '**/platform/aod/AodHostContent.kt', '**/platform/overlay/OrlumenRuntimeService.kt']
 
 naming:
   FunctionNaming:
     active: true
-    excludes: ['**/test/**', '**/ui/**', '**/designs/**', '**/core/theme/**', '**/navigation/**', '**/platform/overlay/**']
+    excludes: ['**/test/**', '**/ui/**', '**/designs/**', '**/platform/aod/AodHostContent.kt', '**/core/theme/**', '**/navigation/**', '**/platform/overlay/**']
   MatchingDeclarationName:
     active: true
     excludes: ['**/core/theme/**']
@@ -38,7 +38,7 @@ naming:
 style:
   MagicNumber:
     active: true
-    excludes: ['**/test/**', '**/androidTest/**', '**/core/theme/**', '**/core/model/StockPalettes.kt', '**/ui/**', '**/designs/**']
+    excludes: ['**/test/**', '**/androidTest/**', '**/core/theme/**', '**/core/model/StockPalettes.kt', '**/ui/**', '**/designs/**', '**/platform/aod/AodHostContent.kt']
   MaxLineLength:
     active: true
     maxLineLength: 120

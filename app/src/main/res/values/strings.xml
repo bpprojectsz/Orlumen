@@ -25,4 +25,6 @@
     <string name="tile_label">Edge lights</string>
     <string name="notification_title">Edge visualizer is active</string>
     <string name="notification_stop">Stop</string>
+    <string name="dream_label">Orlumen clock</string>
+    <string name="aod_charging">Charging</string>
 </resources>

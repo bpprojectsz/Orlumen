@@ -27,6 +27,7 @@ private object Keys {
     val themeMode = stringPreferencesKey("theme_mode")
     val audioSourceMode = stringPreferencesKey("audio_source_mode")
     val aodHostMode = stringPreferencesKey("aod_host_mode")
+    val aodEnabled = booleanPreferencesKey("aod_enabled")
     val isProUser = booleanPreferencesKey("is_pro_user")
     val dimBackground = booleanPreferencesKey("dim_background")
     val keepScreenOn = booleanPreferencesKey("keep_screen_on")
@@ -55,6 +56,8 @@ class PreferencesRepository @Inject constructor(private val dataStore: DataStore
 
     suspend fun setAodHostMode(mode: AodHostMode) = update { it.copy(aodHostMode = mode) }
 
+    suspend fun setAodEnabled(enabled: Boolean) = update { it.copy(aodEnabled = enabled) }
+
     suspend fun setProUser(isPro: Boolean) = update { it.copy(isProUser = isPro) }
 
     suspend fun setOnboardingCompleted(completed: Boolean) = update { it.copy(onboardingCompleted = completed) }
@@ -66,6 +69,7 @@ private fun Preferences.toUserPreferences(): UserPreferences {
         themeMode = enumOrDefault(this[Keys.themeMode], defaults.themeMode),
         audioSourceMode = enumOrDefault(this[Keys.audioSourceMode], defaults.audioSourceMode),
         aodHostMode = enumOrDefault(this[Keys.aodHostMode], defaults.aodHostMode),
+        aodEnabled = this[Keys.aodEnabled] ?: defaults.aodEnabled,
         isProUser = this[Keys.isProUser] ?: defaults.isProUser,
         dimBackground = this[Keys.dimBackground] ?: defaults.dimBackground,
         keepScreenOn = this[Keys.keepScreenOn] ?: defaults.keepScreenOn,
@@ -81,6 +85,7 @@ private fun MutablePreferences.write(value: UserPreferences) {
     this[Keys.themeMode] = value.themeMode.name
     this[Keys.audioSourceMode] = value.audioSourceMode.name
     this[Keys.aodHostMode] = value.aodHostMode.name
+    this[Keys.aodEnabled] = value.aodEnabled
     this[Keys.isProUser] = value.isProUser
     this[Keys.dimBackground] = value.dimBackground
     this[Keys.keepScreenOn] = value.keepScreenOn

@@ -31,6 +31,9 @@ import com.zdmgold.orlumen.core.model.VisualizerConfig
 import com.zdmgold.orlumen.core.repository.ConfigRepository
 import com.zdmgold.orlumen.core.repository.NowPlayingRepository
 import com.zdmgold.orlumen.core.repository.PaletteRepository
+import com.zdmgold.orlumen.core.repository.resolvePalette
+import com.zdmgold.orlumen.platform.aod.AodController
+import com.zdmgold.orlumen.platform.aod.ScreenStateReceiver
 import com.zdmgold.orlumen.platform.audio.AudioPipeline
 import com.zdmgold.orlumen.platform.audio.PlaybackCaptureSpectrumSource
 import com.zdmgold.orlumen.platform.audio.SpectrumSourceException
@@ -77,6 +80,8 @@ class OrlumenRuntimeService : Service() {
 
     @Inject lateinit var controller: VisualizerController
 
+    @Inject lateinit var aodController: AodController
+
     @Inject lateinit var mediaProjectionManager: MediaProjectionManager
 
     private val scope = CoroutineScope(SupervisorJob() + Dispatchers.Main.immediate)
@@ -85,6 +90,7 @@ class OrlumenRuntimeService : Service() {
     private var host: OverlayComposeHost? = null
     private var projection: MediaProjection? = null
     private var running = false
+    private var screenReceiver: ScreenStateReceiver? = null
     private var appliedKeepScreenOn = false
     private var appliedDim = false
 
@@ -105,6 +111,8 @@ class OrlumenRuntimeService : Service() {
             overlay.destroy()
         }
         host = null
+        screenReceiver?.unregister(this)
+        screenReceiver = null
         projection?.stop()
         projection = null
         playbackCapture.detachProjection()
@@ -119,7 +127,8 @@ class OrlumenRuntimeService : Service() {
             IntentCompat.getParcelableExtra(it, EXTRA_PROJECTION_DATA, Intent::class.java)
         }
         val hasConsent = resultCode == Activity.RESULT_OK && projectionData != null
-        if (!enterForeground(hasConsent)) {
+        val aodOnly = intent?.getBooleanExtra(EXTRA_AOD_ONLY, false) == true
+        if (!enterForeground(hasConsent, aodOnly)) {
             controller.report(RuntimeState.Failed(RuntimeFailure.START_NOT_ALLOWED))
             stopSelf()
             return
@@ -128,12 +137,30 @@ class OrlumenRuntimeService : Service() {
         foregroundAppDetector.reset()
         if (hasConsent && projectionData != null) attachProjection(resultCode, projectionData)
         showOverlay()
-        startCollectors()
+        registerScreenReceiver()
+        startCollectors(aodOnly)
+        if (aodOnly) controller.report(RuntimeState.Running(null))
     }
 
-    private fun enterForeground(withProjection: Boolean): Boolean {
-        var type = ServiceInfo.FOREGROUND_SERVICE_TYPE_MICROPHONE
-        if (withProjection) type = type or ServiceInfo.FOREGROUND_SERVICE_TYPE_MEDIA_PROJECTION
+    private fun registerScreenReceiver() {
+        val receiver = ScreenStateReceiver(
+            object : ScreenStateReceiver.Listener {
+                override fun onScreenOff() {
+                    scope.launch { aodController.onScreenOff() }
+                }
+            }
+        )
+        receiver.register(this)
+        screenReceiver = receiver
+    }
+
+    private fun enterForeground(withProjection: Boolean, aodOnly: Boolean): Boolean {
+        var type = if (aodOnly) {
+            ServiceInfo.FOREGROUND_SERVICE_TYPE_SPECIAL_USE
+        } else {
+            ServiceInfo.FOREGROUND_SERVICE_TYPE_MICROPHONE
+        }
+        if (withProjection && !aodOnly) type = type or ServiceInfo.FOREGROUND_SERVICE_TYPE_MEDIA_PROJECTION
         return try {
             ServiceCompat.startForeground(this, NOTIFICATION_ID, buildNotification(), type)
             true
@@ -187,10 +214,11 @@ class OrlumenRuntimeService : Service() {
         EdgeLevelsContent(frame = current, config = state.config, colors = state.colors)
     }
 
-    private fun startCollectors() {
-        scope.launch { runPipeline() }
+    private fun startCollectors(aodOnly: Boolean) {
         scope.launch { observeSettings() }
         scope.launch { pollVisibility() }
+        if (aodOnly) return
+        scope.launch { runPipeline() }
         scope.launch {
             audioPipeline.activeKind.collect { kind ->
                 if (kind != null) controller.report(RuntimeState.Running(kind))
@@ -216,11 +244,7 @@ class OrlumenRuntimeService : Service() {
             paletteRepository.palettes,
             nowPlayingRepository.albumPalette
         ) { config, prefs, palettes, album ->
-            val palette = if (prefs.autoApplyAlbumColors && album != null) {
-                album
-            } else {
-                palettes.firstOrNull { it.id == config.paletteId } ?: StockPalettes.all.first()
-            }
+            val palette = resolvePalette(config.paletteId, palettes, album, prefs.autoApplyAlbumColors)
             audioPipeline.updateTuning(config.sensitivity, config.smoothing)
             applyWindowFlags(prefs.keepScreenOn, prefs.dimBackground)
             OverlayUiState(config, palette.colorsArgb.map { Color(it) })
@@ -283,13 +307,19 @@ class OrlumenRuntimeService : Service() {
         const val ACTION_STOP = "com.zdmgold.orlumen.action.STOP"
         const val EXTRA_PROJECTION_RESULT_CODE = "projection_result_code"
         const val EXTRA_PROJECTION_DATA = "projection_data"
+        const val EXTRA_AOD_ONLY = "aod_only"
 
-        fun startIntent(context: Context, projectionResultCode: Int?, projectionData: Intent?): Intent =
-            Intent(context, OrlumenRuntimeService::class.java).apply {
-                if (projectionResultCode != null && projectionData != null) {
-                    putExtra(EXTRA_PROJECTION_RESULT_CODE, projectionResultCode)
-                    putExtra(EXTRA_PROJECTION_DATA, projectionData)
-                }
+        fun startIntent(
+            context: Context,
+            projectionResultCode: Int?,
+            projectionData: Intent?,
+            aodOnly: Boolean = false
+        ): Intent = Intent(context, OrlumenRuntimeService::class.java).apply {
+            putExtra(EXTRA_AOD_ONLY, aodOnly)
+            if (projectionResultCode != null && projectionData != null) {
+                putExtra(EXTRA_PROJECTION_RESULT_CODE, projectionResultCode)
+                putExtra(EXTRA_PROJECTION_DATA, projectionData)
             }
+        }
     }
 }

@@ -41,17 +41,21 @@ class VisualizerController @Inject constructor(
     val state: StateFlow<RuntimeState> = _state.asStateFlow()
 
     /** Returns null when the service was started, otherwise the reason it could not be. */
-    fun start(projectionResultCode: Int? = null, projectionData: Intent? = null): RuntimeFailure? {
+    fun start(
+        projectionResultCode: Int? = null,
+        projectionData: Intent? = null,
+        aodOnly: Boolean = false
+    ): RuntimeFailure? {
         val missing = when {
             !permissionChecker.canDrawOverlays() -> RuntimeFailure.OVERLAY_PERMISSION_MISSING
-            !permissionChecker.hasRecordAudio() -> RuntimeFailure.AUDIO_PERMISSION_MISSING
+            !aodOnly && !permissionChecker.hasRecordAudio() -> RuntimeFailure.AUDIO_PERMISSION_MISSING
             else -> null
         }
         if (missing != null) {
             _state.value = RuntimeState.Failed(missing)
             return missing
         }
-        val intent = OrlumenRuntimeService.startIntent(context, projectionResultCode, projectionData)
+        val intent = OrlumenRuntimeService.startIntent(context, projectionResultCode, projectionData, aodOnly)
         return try {
             ContextCompat.startForegroundService(context, intent)
             _state.value = RuntimeState.Starting

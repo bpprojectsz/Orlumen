@@ -40,12 +40,14 @@ class PreferencesRepositoryTest {
         repo.setAudioSourceMode(AudioSourceMode.PLAYBACK_CAPTURE)
         repo.setAodHostMode(AodHostMode.SCREENSAVER)
         repo.setProUser(true)
+        repo.setAodEnabled(true)
         repo.setOnboardingCompleted(true)
         val saved = repo.preferences.first()
         assertEquals(ThemeMode.LIGHT, saved.themeMode)
         assertEquals(AudioSourceMode.PLAYBACK_CAPTURE, saved.audioSourceMode)
         assertEquals(AodHostMode.SCREENSAVER, saved.aodHostMode)
         assertTrue(saved.isProUser)
+        assertTrue(saved.aodEnabled)
         assertTrue(saved.onboardingCompleted)
     }
 
