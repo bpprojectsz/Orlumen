@@ -4,6 +4,8 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.hilt)
+    alias(libs.plugins.ksp)
     alias(libs.plugins.ktlint)
     alias(libs.plugins.detekt)
 }
@@ -21,6 +23,7 @@ fun envOrProperty(name: String, default: String): String {
     return candidates.firstOrNull { !it.isNullOrBlank() } ?: default
 }
 
+val websiteBaseUrl = envOrProperty("WEBSITE_BASE_URL", "")
 val admobAppId = envOrProperty("ADMOB_APP_ID", "ca-app-pub-3940256099942544~3347511713")
 val admobBannerId = envOrProperty("ADMOB_BANNER_ID", "ca-app-pub-3940256099942544/9214589741")
 val admobInterstitialId = envOrProperty("ADMOB_INTERSTITIAL_ID", "ca-app-pub-3940256099942544/1033173712")
@@ -39,6 +42,7 @@ android {
         manifestPlaceholders["admobAppId"] = admobAppId
         buildConfigField("String", "ADMOB_BANNER_ID", "\"$admobBannerId\"")
         buildConfigField("String", "ADMOB_INTERSTITIAL_ID", "\"$admobInterstitialId\"")
+        buildConfigField("String", "WEBSITE_BASE_URL", "\"$websiteBaseUrl\"")
         buildConfigField("String", "PRO_PRODUCT_ID", "\"com.zdmgold.orlumen.pro\"")
     }
 
@@ -84,6 +88,11 @@ android {
 }
 
 dependencies {
+    implementation(libs.androidx.activity.compose)
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.splashscreen)
+    implementation(libs.hilt.android)
+    ksp(libs.hilt.compiler)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.compose.foundation)
     implementation(libs.androidx.compose.icons.core)

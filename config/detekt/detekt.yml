@@ -30,7 +30,7 @@ complexity:
 naming:
   FunctionNaming:
     active: true
-    excludes: ['**/test/**', '**/ui/**', '**/designs/**', '**/core/theme/**']
+    excludes: ['**/test/**', '**/ui/**', '**/designs/**', '**/core/theme/**', '**/navigation/**']
   MatchingDeclarationName:
     active: true
     excludes: ['**/core/theme/**']

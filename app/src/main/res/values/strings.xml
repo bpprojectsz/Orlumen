@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Orlumen</string>
+    <string name="channel_runtime_name">Orlumen running</string>
+    <string name="action_back">Back</string>
+    <string name="about_title">About</string>
+    <string name="about_section_app">App</string>
+    <string name="about_version">Version</string>
+    <string name="about_section_support">Support</string>
+    <string name="about_contact_support">Contact support</string>
+    <string name="about_section_legal">Legal</string>
+    <string name="about_privacy_policy">Privacy policy</string>
+    <string name="about_terms_of_service">Terms of service</string>
+</resources>
