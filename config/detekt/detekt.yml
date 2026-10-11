@@ -38,7 +38,7 @@ naming:
 style:
   MagicNumber:
     active: true
-    excludes: ['**/test/**', '**/androidTest/**', '**/core/theme/**', '**/ui/**', '**/designs/**']
+    excludes: ['**/test/**', '**/androidTest/**', '**/core/theme/**', '**/core/model/StockPalettes.kt', '**/ui/**', '**/designs/**']
   MaxLineLength:
     active: true
     maxLineLength: 120

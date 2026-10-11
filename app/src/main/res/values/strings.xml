@@ -11,4 +11,14 @@
     <string name="about_section_legal">Legal</string>
     <string name="about_privacy_policy">Privacy policy</string>
     <string name="about_terms_of_service">Terms of service</string>
+    <string name="palette_obsidian_violet">Obsidian violet</string>
+    <string name="palette_deep_space">Deep space</string>
+    <string name="palette_ember_dusk">Ember dusk</string>
+    <string name="palette_glacier">Glacier</string>
+    <string name="palette_jade">Jade</string>
+    <string name="palette_rose_gold">Rose gold</string>
+    <string name="palette_solar">Solar</string>
+    <string name="palette_neon_grid">Neon grid</string>
+    <string name="palette_sunset">Sunset</string>
+    <string name="palette_monochrome">Monochrome</string>
 </resources>
