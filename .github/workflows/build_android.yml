@@ -65,8 +65,10 @@ jobs:
         run: |
           python3 - <<'PY'
           text = open("gradle.log").read()
+          errors = [line for line in text.splitlines() if line.startswith("e: ") or " error: " in line]
           start = text.find("FAILURE:")
-          text = text[start:start + 5500] if start >= 0 else text[-5500:]
+          tail = text[start:start + 1500] if start >= 0 else text[-1500:]
+          text = "\n".join(errors)[:4000] + "\n---\n" + tail
           text = text.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
           print("::error title=Gradle output::" + text)
           PY
