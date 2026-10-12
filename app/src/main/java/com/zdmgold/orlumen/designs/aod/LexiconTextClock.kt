@@ -1,11 +1,9 @@
 package com.zdmgold.orlumen.designs.aod
 
-import android.icu.text.RuleBasedNumberFormat
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -22,8 +20,12 @@ private const val NUMERIC_SIZE_SP = 28
 private const val SYMBOL_SIZE_SP = 28f
 private const val MARKER_SIZE_SP = 18
 private const val MINUTES_ALPHA = 0.92f
+private const val ENGLISH = "en"
 
-/** The time spelled out in words in the phone's language, for example "Seven" over "Twenty-nine". */
+/**
+ * The time as stacked words, for example "Seven" over "Twenty-nine". Words are available in
+ * English; in other languages the same layout shows the numerals instead.
+ */
 object LexiconTextClock : AodDesign {
     override val descriptor = DesignDescriptor(
         id = "lexicon",
@@ -35,14 +37,14 @@ object LexiconTextClock : AodDesign {
 
     @Composable
     override fun Clock(input: AodClockInput, modifier: Modifier) {
-        val locale = Locale.getDefault()
-        val speller = remember(locale) { RuleBasedNumberFormat(locale, RuleBasedNumberFormat.SPELLOUT) }
+        val spelled = Locale.getDefault().language == ENGLISH
         val weight = FontWeight(input.config.clockWeight)
-        val hourWord = speller.format(input.clock.hours.toLong()).replaceFirstChar { it.titlecase(locale) }
-        val minuteValue = input.clock.minutes.toLong()
+        val hourText = if (spelled) NumberWords.englishTitleCase(input.clock.hours.toInt()) else input.clock.hours
+        val minuteValue = input.clock.minutes.toInt()
+        val minuteText = if (spelled) NumberWords.englishTitleCase(minuteValue) else input.clock.minutes
         Column(modifier = modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
             Text(
-                text = hourWord,
+                text = hourText,
                 color = input.accent,
                 fontSize = WORD_SIZE_SP.sp,
                 fontWeight = weight,
@@ -55,11 +57,11 @@ object LexiconTextClock : AodDesign {
                     fontSize = (SYMBOL_SIZE_SP * input.config.symbolScale).sp
                 )
             }
-            if (minuteValue == 0L) {
+            if (spelled && minuteValue == 0) {
                 Text(text = input.clock.minutes, color = input.secondary, fontSize = NUMERIC_SIZE_SP.sp)
             } else {
                 Text(
-                    text = speller.format(minuteValue).replaceFirstChar { it.titlecase(locale) },
+                    text = minuteText,
                     color = Color.White.copy(alpha = MINUTES_ALPHA),
                     fontSize = WORD_SIZE_SP.sp,
                     fontWeight = weight,
