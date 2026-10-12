@@ -74,4 +74,22 @@
     <string name="symbol_note">Note</string>
     <string name="symbol_sun">Sun</string>
     <string name="symbol_flower">Flower</string>
+    <string name="badge_pro">PRO</string>
+    <string name="picker_brightness">Brightness</string>
+    <string name="perm_continue">Continue</string>
+    <string name="perm_not_now">Not now</string>
+    <string name="perm_overlay_title">Draw over other apps</string>
+    <string name="perm_overlay_message">Orlumen draws the edge lights on top of other apps. Android asks you to allow this in Settings.</string>
+    <string name="perm_microphone_title">Listen to your music</string>
+    <string name="perm_microphone_message">Orlumen analyzes the audio your phone is playing to animate the lights. The audio is processed on your device in real time and is never recorded, stored or sent anywhere.</string>
+    <string name="perm_notification_access_title">See what is playing</string>
+    <string name="perm_notification_access_message">Notification access lets Orlumen read the current track, album art and playback state so it can match colors and show the music card. Orlumen does not read or store the content of your notifications.</string>
+    <string name="perm_usage_access_title">Know which app is open</string>
+    <string name="perm_usage_access_message">Usage access lets Orlumen hide the lights over games and videos, or show them only over apps you choose. It only checks which app is in front.</string>
+    <string name="perm_notifications_title">Show the status notification</string>
+    <string name="perm_notifications_message">Android needs a notification while Orlumen runs in the background. It also gives you a Stop button.</string>
+    <string name="perm_battery_title">Keep it running</string>
+    <string name="perm_battery_message">Some phones stop background apps to save battery. Allowing Orlumen to run unrestricted keeps the lights from stopping on their own.</string>
+    <string name="perm_screen_capture_title">Capture app audio</string>
+    <string name="perm_screen_capture_message">Some music apps can only be visualized by capturing the audio they play. Android shows its own prompt each time. Orlumen never records or views your screen.</string>
 </resources>
