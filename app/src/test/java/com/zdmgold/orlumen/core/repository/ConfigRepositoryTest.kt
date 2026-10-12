@@ -93,7 +93,9 @@ class ConfigRepositoryTest {
             symbolScale = 1.5f,
             showMusicCard = false,
             showStatusRow = true,
-            backgroundUri = "content://media/a/b?c=d&e=f"
+            backgroundUri = "content://media/a/b?c=d&e=f",
+            extras = mapOf("stars" to 80f),
+            choices = mapOf("zone" to "Asia/Tokyo")
         )
         repo.setActiveAodConfig(config)
         assertEquals(config, repo.activeAodConfig.first())

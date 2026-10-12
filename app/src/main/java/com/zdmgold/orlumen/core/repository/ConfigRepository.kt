@@ -34,6 +34,7 @@ private object Keys {
 }
 
 private const val EXTRA_PREFIX = "x."
+private const val CHOICE_PREFIX = "c."
 private const val KEY_THICKNESS = "thickness"
 private const val KEY_HEIGHT = "height"
 private const val KEY_SENSITIVITY = "sensitivity"
@@ -169,8 +170,11 @@ private fun visualizerFrom(
     }.getOrNull()
 }
 
-private fun AodConfig.toNumbers(): Map<String, Float> =
-    mapOf(KEY_CLOCK_WEIGHT to clockWeight.toFloat(), KEY_SYMBOL_SCALE to symbolScale)
+private fun AodConfig.toNumbers(): Map<String, Float> {
+    val numbers = mutableMapOf(KEY_CLOCK_WEIGHT to clockWeight.toFloat(), KEY_SYMBOL_SCALE to symbolScale)
+    extras.forEach { (key, value) -> numbers[EXTRA_PREFIX + key] = value }
+    return numbers
+}
 
 private fun AodConfig.toTexts(): Map<String, String> {
     val texts = mutableMapOf(
@@ -179,6 +183,7 @@ private fun AodConfig.toTexts(): Map<String, String> {
     )
     symbolId?.let { texts[KEY_SYMBOL_ID] = it }
     backgroundUri?.let { texts[KEY_BACKGROUND_URI] = it }
+    choices.forEach { (key, value) -> texts[CHOICE_PREFIX + key] = value }
     return texts
 }
 
@@ -198,7 +203,9 @@ private fun aodFrom(
             symbolScale = numbers[KEY_SYMBOL_SCALE] ?: AodConfig.DEFAULT_SYMBOL_SCALE,
             showMusicCard = texts[KEY_SHOW_MUSIC]?.toBooleanStrictOrNull() ?: true,
             showStatusRow = texts[KEY_SHOW_STATUS]?.toBooleanStrictOrNull() ?: true,
-            backgroundUri = texts[KEY_BACKGROUND_URI]
+            backgroundUri = texts[KEY_BACKGROUND_URI],
+            extras = numbers.filterKeys { it.startsWith(EXTRA_PREFIX) }.mapKeys { it.key.removePrefix(EXTRA_PREFIX) },
+            choices = texts.filterKeys { it.startsWith(CHOICE_PREFIX) }.mapKeys { it.key.removePrefix(CHOICE_PREFIX) }
         )
     }.getOrNull()
 }

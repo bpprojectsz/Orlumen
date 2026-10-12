@@ -8,7 +8,9 @@ data class AodConfig(
     val symbolScale: Float = DEFAULT_SYMBOL_SCALE,
     val showMusicCard: Boolean = true,
     val showStatusRow: Boolean = true,
-    val backgroundUri: String? = null
+    val backgroundUri: String? = null,
+    val extras: Map<String, Float> = emptyMap(),
+    val choices: Map<String, String> = emptyMap()
 ) {
     init {
         require(designId.isNotBlank()) { "designId must not be blank" }
@@ -16,6 +18,10 @@ data class AodConfig(
         require(clockWeight in MIN_CLOCK_WEIGHT..MAX_CLOCK_WEIGHT) { "clockWeight out of range: $clockWeight" }
         require(symbolScale in MIN_SYMBOL_SCALE..MAX_SYMBOL_SCALE) { "symbolScale out of range: $symbolScale" }
     }
+
+    fun withExtra(key: String, value: Float): AodConfig = copy(extras = extras + (key to value))
+
+    fun withChoice(key: String, value: String): AodConfig = copy(choices = choices + (key to value))
 
     companion object {
         const val DEFAULT_DESIGN_ID = "orbit"
