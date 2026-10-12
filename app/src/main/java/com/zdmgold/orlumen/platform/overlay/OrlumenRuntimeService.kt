@@ -32,6 +32,7 @@ import com.zdmgold.orlumen.core.repository.ConfigRepository
 import com.zdmgold.orlumen.core.repository.NowPlayingRepository
 import com.zdmgold.orlumen.core.repository.PaletteRepository
 import com.zdmgold.orlumen.core.repository.resolvePalette
+import com.zdmgold.orlumen.designs.visualizer.VisualizerCanvas
 import com.zdmgold.orlumen.platform.aod.AodController
 import com.zdmgold.orlumen.platform.aod.ScreenStateReceiver
 import com.zdmgold.orlumen.platform.audio.AudioPipeline
@@ -56,7 +57,7 @@ private const val TAG = "OrlumenRuntimeService"
 private const val NOTIFICATION_ID = 1001
 private const val VISIBILITY_POLL_MS = 1000L
 
-private data class OverlayUiState(val config: VisualizerConfig, val colors: List<Color>)
+private data class OverlayUiState(val config: VisualizerConfig, val colors: List<Color>, val corners: CornerRadii)
 
 @AndroidEntryPoint
 class OrlumenRuntimeService : Service() {
@@ -86,10 +87,12 @@ class OrlumenRuntimeService : Service() {
 
     private val scope = CoroutineScope(SupervisorJob() + Dispatchers.Main.immediate)
     private val frame = MutableStateFlow<SpectrumFrame?>(null)
-    private val uiState = MutableStateFlow(OverlayUiState(VisualizerConfig.defaults(), emptyList()))
+    private val uiState =
+        MutableStateFlow(OverlayUiState(VisualizerConfig.defaults(), emptyList(), CornerRadii.uniform(0f)))
     private var host: OverlayComposeHost? = null
     private var projection: MediaProjection? = null
     private var running = false
+    private var corners = CornerRadii.uniform(0f)
     private var screenReceiver: ScreenStateReceiver? = null
     private var appliedKeepScreenOn = false
     private var appliedDim = false
@@ -194,6 +197,7 @@ class OrlumenRuntimeService : Service() {
             stopSelf()
             return
         }
+        corners = windowManagerHelper.measureGeometry().corners
         val overlay = OverlayComposeHost(this)
         overlay.setContent { OverlayContent() }
         val params = windowManagerHelper.overlayParams(keepScreenOn = false, dimBackground = false)
@@ -211,7 +215,7 @@ class OrlumenRuntimeService : Service() {
     private fun OverlayContent() {
         val current by frame.collectAsState()
         val state by uiState.collectAsState()
-        EdgeLevelsContent(frame = current, config = state.config, colors = state.colors)
+        VisualizerCanvas(frame = current, config = state.config, colors = state.colors, corners = state.corners)
     }
 
     private fun startCollectors(aodOnly: Boolean) {
@@ -247,7 +251,7 @@ class OrlumenRuntimeService : Service() {
             val palette = resolvePalette(config.paletteId, palettes, album, prefs.autoApplyAlbumColors)
             audioPipeline.updateTuning(config.sensitivity, config.smoothing)
             applyWindowFlags(prefs.keepScreenOn, prefs.dimBackground)
-            OverlayUiState(config, palette.colorsArgb.map { Color(it) })
+            OverlayUiState(config, palette.colorsArgb.map { Color(it) }, corners)
         }.collect { uiState.value = it }
     }
 

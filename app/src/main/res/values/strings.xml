@@ -27,4 +27,17 @@
     <string name="notification_stop">Stop</string>
     <string name="dream_label">Orlumen clock</string>
     <string name="aod_charging">Charging</string>
+    <string name="design_filament">Filament</string>
+    <string name="design_tide">Tide</string>
+    <string name="design_strand">Strand</string>
+    <string name="design_rail">Rail</string>
+    <string name="design_ember">Ember</string>
+    <string name="design_aurora">Aurora</string>
+    <string name="param_spacing">Spacing</string>
+    <string name="param_opacity">Opacity</string>
+    <string name="param_twist">Twist</string>
+    <string name="param_gap">Gap</string>
+    <string name="param_rounded">Rounded ends</string>
+    <string name="param_pulse">Pulse</string>
+    <string name="param_reach">Reach</string>
 </resources>
