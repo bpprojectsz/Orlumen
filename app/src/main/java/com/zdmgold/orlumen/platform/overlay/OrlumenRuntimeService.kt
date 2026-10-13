@@ -16,7 +16,6 @@ import android.util.Log
 import android.view.View
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
 import androidx.compose.ui.graphics.Color
 import androidx.core.app.NotificationCompat
 import androidx.core.app.ServiceCompat
@@ -26,7 +25,6 @@ import com.zdmgold.orlumen.OrlumenApplication
 import com.zdmgold.orlumen.R
 import com.zdmgold.orlumen.core.datastore.PreferencesRepository
 import com.zdmgold.orlumen.core.model.SpectrumFrame
-import com.zdmgold.orlumen.core.model.StockPalettes
 import com.zdmgold.orlumen.core.model.VisualizerConfig
 import com.zdmgold.orlumen.core.repository.ConfigRepository
 import com.zdmgold.orlumen.core.repository.NowPlayingRepository

@@ -1,17 +1,12 @@
 package com.zdmgold.orlumen.core.repository
 
 import androidx.datastore.preferences.core.PreferenceDataStoreFactory
-import com.zdmgold.orlumen.core.database.ConfigDao
-import com.zdmgold.orlumen.core.database.PresetEntity
 import com.zdmgold.orlumen.core.model.AodConfig
-import com.zdmgold.orlumen.core.model.DesignKind
 import com.zdmgold.orlumen.core.model.VisualizerConfig
 import com.zdmgold.orlumen.core.model.VisualizerDirection
+import com.zdmgold.orlumen.testing.FakeConfigDao
 import kotlinx.coroutines.ExperimentalCoroutinesApi
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.first
-import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.test.TestScope
 import kotlinx.coroutines.test.UnconfinedTestDispatcher
 import kotlinx.coroutines.test.runTest
@@ -20,31 +15,6 @@ import org.junit.Assert.assertTrue
 import org.junit.Rule
 import org.junit.Test
 import org.junit.rules.TemporaryFolder
-
-private class FakeConfigDao : ConfigDao {
-    private val rows = MutableStateFlow<List<PresetEntity>>(emptyList())
-    private var nextId = 1L
-
-    override fun observePresets(kind: DesignKind): Flow<List<PresetEntity>> = rows.map { list ->
-        list.filter { it.kind == kind }
-    }
-
-    override suspend fun getPreset(id: Long): PresetEntity? = rows.value.firstOrNull { it.id == id }
-
-    override suspend fun insert(preset: PresetEntity): Long {
-        val id = nextId++
-        rows.value = rows.value + preset.copy(id = id)
-        return id
-    }
-
-    override suspend fun update(preset: PresetEntity) {
-        rows.value = rows.value.map { if (it.id == preset.id) preset else it }
-    }
-
-    override suspend fun delete(id: Long) {
-        rows.value = rows.value.filterNot { it.id == id }
-    }
-}
 
 @OptIn(ExperimentalCoroutinesApi::class)
 class ConfigRepositoryTest {

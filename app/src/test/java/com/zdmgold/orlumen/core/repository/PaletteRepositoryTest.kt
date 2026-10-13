@@ -1,11 +1,8 @@
 package com.zdmgold.orlumen.core.repository
 
-import com.zdmgold.orlumen.core.database.PaletteDao
-import com.zdmgold.orlumen.core.database.PaletteEntity
 import com.zdmgold.orlumen.core.model.ColorPalette
 import com.zdmgold.orlumen.core.model.StockPalettes
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.MutableStateFlow
+import com.zdmgold.orlumen.testing.FakePaletteDao
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.test.runTest
@@ -16,22 +13,6 @@ import org.junit.Assert.assertNull
 import org.junit.Assert.assertThrows
 import org.junit.Assert.assertTrue
 import org.junit.Test
-
-private class FakePaletteDao : PaletteDao {
-    private val rows = MutableStateFlow<List<PaletteEntity>>(emptyList())
-
-    override fun observeAll(): Flow<List<PaletteEntity>> = rows
-
-    override suspend fun getById(id: String): PaletteEntity? = rows.value.firstOrNull { it.id == id }
-
-    override suspend fun upsert(palette: PaletteEntity) {
-        rows.value = rows.value.filterNot { it.id == palette.id } + palette
-    }
-
-    override suspend fun delete(id: String) {
-        rows.value = rows.value.filterNot { it.id == id }
-    }
-}
 
 class PaletteRepositoryTest {
     private val repository = PaletteRepository(FakePaletteDao())

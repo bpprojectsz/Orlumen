@@ -92,4 +92,5 @@
     <string name="perm_battery_message">Some phones stop background apps to save battery. Allowing Orlumen to run unrestricted keeps the lights from stopping on their own.</string>
     <string name="perm_screen_capture_title">Capture app audio</string>
     <string name="perm_screen_capture_message">Some music apps can only be visualized by capturing the audio they play. Android shows its own prompt each time. Orlumen never records or views your screen.</string>
+    <string name="palette_wallpaper">Wallpaper</string>
 </resources>

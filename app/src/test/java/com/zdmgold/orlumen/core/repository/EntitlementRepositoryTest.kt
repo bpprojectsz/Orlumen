@@ -1,16 +1,10 @@
 package com.zdmgold.orlumen.core.repository
 
-import android.app.Activity
 import androidx.datastore.preferences.core.PreferenceDataStoreFactory
 import com.zdmgold.orlumen.core.datastore.PreferencesRepository
-import com.zdmgold.orlumen.platform.monetization.BillingGateway
 import com.zdmgold.orlumen.platform.monetization.Ownership
-import com.zdmgold.orlumen.platform.monetization.ProProductInfo
-import com.zdmgold.orlumen.platform.monetization.PurchaseEvent
-import com.zdmgold.orlumen.platform.monetization.PurchaseLaunchResult
+import com.zdmgold.orlumen.testing.FakeGateway
 import kotlinx.coroutines.ExperimentalCoroutinesApi
-import kotlinx.coroutines.flow.MutableSharedFlow
-import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.test.TestScope
@@ -22,24 +16,6 @@ import org.junit.Assert.assertTrue
 import org.junit.Rule
 import org.junit.Test
 import org.junit.rules.TemporaryFolder
-
-private class FakeGateway : BillingGateway {
-    override val ownership = MutableStateFlow(Ownership.UNKNOWN)
-    override val product = MutableStateFlow<ProProductInfo?>(null)
-    override val events = MutableSharedFlow<PurchaseEvent>(extraBufferCapacity = 1)
-    var connectCalls = 0
-    var refreshCalls = 0
-
-    override fun connect() {
-        connectCalls++
-    }
-
-    override fun refresh() {
-        refreshCalls++
-    }
-
-    override fun launchPurchase(activity: Activity): PurchaseLaunchResult = PurchaseLaunchResult.LAUNCHED
-}
 
 @OptIn(ExperimentalCoroutinesApi::class)
 class EntitlementRepositoryTest {

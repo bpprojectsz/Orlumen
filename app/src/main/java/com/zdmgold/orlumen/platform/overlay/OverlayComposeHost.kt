@@ -1,16 +1,8 @@
 package com.zdmgold.orlumen.platform.overlay
 
 import android.content.Context
-import androidx.compose.foundation.Canvas
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.geometry.Offset
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.StrokeCap
-import androidx.compose.ui.graphics.lerp
 import androidx.compose.ui.platform.ComposeView
-import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LifecycleRegistry
@@ -22,9 +14,6 @@ import androidx.savedstate.SavedStateRegistry
 import androidx.savedstate.SavedStateRegistryController
 import androidx.savedstate.SavedStateRegistryOwner
 import androidx.savedstate.setViewTreeSavedStateRegistryOwner
-import com.zdmgold.orlumen.core.model.SpectrumFrame
-import com.zdmgold.orlumen.core.model.VisualizerConfig
-import com.zdmgold.orlumen.core.model.VisualizerDirection
 
 /**
  * Hosts Compose content inside a service-owned window. A service has no lifecycle, saved-state or
