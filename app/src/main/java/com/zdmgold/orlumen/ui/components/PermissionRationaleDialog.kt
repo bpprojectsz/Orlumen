@@ -9,7 +9,8 @@ import com.zdmgold.orlumen.R
 import com.zdmgold.orlumen.core.model.PermissionKind
 import com.zdmgold.orlumen.core.theme.OrlumenTheme
 
-internal fun rationaleFor(kind: PermissionKind): Rationale = when (kind) {
+/** Returns the title and message string resources for a permission. */
+internal fun rationaleFor(kind: PermissionKind): Pair<Int, Int> = when (kind) {
     PermissionKind.OVERLAY -> Pair(R.string.perm_overlay_title, R.string.perm_overlay_message)
     PermissionKind.MICROPHONE -> Pair(R.string.perm_microphone_title, R.string.perm_microphone_message)
     PermissionKind.NOTIFICATION_ACCESS ->

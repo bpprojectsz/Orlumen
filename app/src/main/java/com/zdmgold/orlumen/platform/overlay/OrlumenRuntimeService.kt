@@ -16,6 +16,7 @@ import android.util.Log
 import android.view.View
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.graphics.Color
 import androidx.core.app.NotificationCompat
 import androidx.core.app.ServiceCompat
