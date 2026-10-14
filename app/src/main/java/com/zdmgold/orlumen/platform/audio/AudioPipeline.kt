@@ -25,6 +25,9 @@ class AudioPipeline @Inject constructor(private val selector: AudioSourceSelecto
     private val _activeKind = MutableStateFlow<SpectrumSourceKind?>(null)
     val activeKind: StateFlow<SpectrumSourceKind?> = _activeKind.asStateFlow()
 
+    private val _latestPeak = MutableStateFlow(0f)
+    val latestPeak: StateFlow<Float> = _latestPeak.asStateFlow()
+
     fun updateTuning(sensitivity: Float, smoothing: Float) {
         this.sensitivity = sensitivity
         this.smoothing = smoothing
@@ -38,7 +41,10 @@ class AudioPipeline @Inject constructor(private val selector: AudioSourceSelecto
             try {
                 _activeKind.value = source.kind
                 source.blocks().collect { block ->
-                    toFrame(block, processor, fftBySize)?.let { emit(it) }
+                    toFrame(block, processor, fftBySize)?.let { frame ->
+                        _latestPeak.value = frame.peak
+                        emit(frame)
+                    }
                 }
                 return@flow
             } catch (failure: SpectrumSourceException) {
@@ -46,7 +52,10 @@ class AudioPipeline @Inject constructor(private val selector: AudioSourceSelecto
             }
         }
         throw SpectrumSourceException("No audio source could be started for $mode", lastFailure)
-    }.onCompletion { _activeKind.value = null }
+    }.onCompletion {
+        _activeKind.value = null
+        _latestPeak.value = 0f
+    }
 
     private fun toFrame(
         block: SampleBlock,

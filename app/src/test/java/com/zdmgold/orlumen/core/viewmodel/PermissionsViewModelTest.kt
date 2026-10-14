@@ -49,4 +49,20 @@ class PermissionsViewModelTest {
         assertFalse(requiredPermissionsGranted(state(audio = false)))
         assertFalse(requiredPermissionsGranted(state(overlay = false)))
     }
+
+    @Test
+    fun isGrantedReadsTheMatchingFlag() {
+        val partial = state(audio = false, usage = false)
+        assertFalse(partial.isGranted(PermissionKind.MICROPHONE))
+        assertFalse(partial.isGranted(PermissionKind.USAGE_ACCESS))
+        assertTrue(partial.isGranted(PermissionKind.OVERLAY))
+        assertTrue(partial.isGranted(PermissionKind.NOTIFICATIONS))
+        assertTrue(partial.isGranted(PermissionKind.NOTIFICATION_ACCESS))
+        assertTrue(partial.isGranted(PermissionKind.BATTERY))
+    }
+
+    @Test
+    fun screenCaptureIsNeverPermanentlyGranted() {
+        assertFalse(state().isGranted(PermissionKind.SCREEN_CAPTURE))
+    }
 }

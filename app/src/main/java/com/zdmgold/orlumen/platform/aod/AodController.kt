@@ -58,6 +58,9 @@ class AodController @Inject constructor(
     private val _isActivityActive = MutableStateFlow(false)
     val isActivityActive: StateFlow<Boolean> = _isActivityActive.asStateFlow()
 
+    private val _lastLaunchAttempt = MutableStateFlow(0L)
+    val lastLaunchAttempt: StateFlow<Long> = _lastLaunchAttempt.asStateFlow()
+
     @Volatile
     private var lastLaunchMillis = 0L
 
@@ -73,6 +76,7 @@ class AodController @Inject constructor(
             nowMillis - lastLaunchMillis >= MIN_RELAUNCH_MS
         if (!shouldLaunch) return
         lastLaunchMillis = nowMillis
+        _lastLaunchAttempt.value = nowMillis
         val intent = Intent(context, AodActivity::class.java).addFlags(
             Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NO_ANIMATION
         )
