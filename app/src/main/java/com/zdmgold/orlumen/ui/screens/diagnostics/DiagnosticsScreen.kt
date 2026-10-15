@@ -119,6 +119,7 @@ fun DiagnosticsScreen(
     val activity = context.findActivity() as ComponentActivity
     val main: MainViewModel = hiltViewModel(viewModelStoreOwner = activity)
     val state by viewModel.uiState.collectAsStateWithLifecycle()
+    val requester = rememberPermissionRequester { viewModel.refreshPermissions() }
     val projectionManager = remember { context.getSystemService(MediaProjectionManager::class.java) }
     val captureLauncher =
         rememberLauncherForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
@@ -127,7 +128,6 @@ fun DiagnosticsScreen(
                 requester.withNotifications { main.startVisualizer(result.resultCode, data) }
             }
         }
-    val requester = rememberPermissionRequester { viewModel.refreshPermissions() }
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { viewModel.refreshPermissions() }
 
     val current = state
