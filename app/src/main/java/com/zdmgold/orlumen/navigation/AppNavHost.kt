@@ -37,7 +37,6 @@ fun AppNavHost(startDestination: String, onOnboardingFinished: () -> Unit, modif
         }
         composable(NavRoutes.DIAGNOSTICS) {
             DiagnosticsScreen(
-                onOpenPermissions = { navController.navigate(NavRoutes.PERMISSIONS) },
                 onOpenAbout = { navController.navigate(NavRoutes.ABOUT) }
             )
         }

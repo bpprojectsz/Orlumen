@@ -54,9 +54,10 @@ import com.zdmgold.orlumen.ui.components.SectionHeader
 import com.zdmgold.orlumen.ui.components.findActivity
 import com.zdmgold.orlumen.ui.components.iconCheck
 import com.zdmgold.orlumen.ui.components.iconInfo
-import com.zdmgold.orlumen.ui.components.iconSettings
 import com.zdmgold.orlumen.ui.components.iconWarning
 import com.zdmgold.orlumen.ui.components.rationaleFor
+import com.zdmgold.orlumen.ui.screens.permissions.PermissionRequesterDialogs
+import com.zdmgold.orlumen.ui.screens.permissions.rememberPermissionRequester
 import java.util.Date
 
 private const val PERCENT = 100
@@ -110,7 +111,6 @@ private fun LevelBar(level: Float, modifier: Modifier = Modifier) {
 
 @Composable
 fun DiagnosticsScreen(
-    onOpenPermissions: () -> Unit,
     onOpenAbout: () -> Unit,
     modifier: Modifier = Modifier,
     viewModel: DiagnosticsViewModel = hiltViewModel()
@@ -123,8 +123,11 @@ fun DiagnosticsScreen(
     val captureLauncher =
         rememberLauncherForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
             val data = result.data
-            if (result.resultCode == Activity.RESULT_OK && data != null) main.startVisualizer(result.resultCode, data)
+            if (result.resultCode == Activity.RESULT_OK && data != null) {
+                requester.withNotifications { main.startVisualizer(result.resultCode, data) }
+            }
         }
+    val requester = rememberPermissionRequester { viewModel.refreshPermissions() }
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { viewModel.refreshPermissions() }
 
     val current = state
@@ -143,17 +146,18 @@ fun DiagnosticsScreen(
         if (current != null) {
             DiagnosticsContent(
                 state = current,
-                onStart = { main.startVisualizer() },
+                onStart = { requester.withNotifications { main.startVisualizer() } },
                 onStop = main::stopVisualizer,
                 onStartWithCapture = { captureLauncher.launch(projectionManager.createScreenCaptureIntent()) },
                 onAodToggle = main::setAodEnabled,
                 onOpenAodNow = { context.startActivity(Intent(context, AodActivity::class.java)) },
-                onOpenPermissions = onOpenPermissions,
+                onRequestPermission = requester::request,
                 onOpenAbout = onOpenAbout
             )
         }
         Spacer(modifier = Modifier.height(Spacing.xl))
     }
+    PermissionRequesterDialogs(requester)
 }
 
 @Composable
@@ -164,7 +168,7 @@ private fun DiagnosticsContent(
     onStartWithCapture: () -> Unit,
     onAodToggle: (Boolean) -> Unit,
     onOpenAodNow: () -> Unit,
-    onOpenPermissions: () -> Unit,
+    onRequestPermission: (PermissionKind) -> Unit,
     onOpenAbout: () -> Unit
 ) {
     val colors = OrlumenTheme.colors
@@ -256,14 +260,10 @@ private fun DiagnosticsContent(
                 title = stringResource(rationaleFor(kind).first),
                 subtitle = stringResource(if (granted) R.string.perm_status_allowed else R.string.perm_status_needed),
                 leadingIcon = if (granted) iconCheck else iconWarning,
-                showChevron = false
+                showChevron = !granted,
+                onClick = if (granted) null else ({ onRequestPermission(kind) })
             )
         }
-        AppRow(
-            title = stringResource(R.string.diag_open_permissions),
-            leadingIcon = iconSettings,
-            onClick = onOpenPermissions
-        )
         AppRow(title = stringResource(R.string.diag_open_about), leadingIcon = iconInfo, onClick = onOpenAbout)
     }
 }

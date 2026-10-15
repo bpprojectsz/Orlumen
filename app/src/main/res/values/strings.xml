@@ -95,13 +95,13 @@
     <string name="palette_wallpaper">Wallpaper</string>
     <string name="onboarding_skip">Skip</string>
     <string name="onboarding_next">Next</string>
-    <string name="onboarding_setup">Set up permissions</string>
+    <string name="onboarding_setup">Set up</string>
     <string name="onboarding_title_1">Light up your screen edges</string>
     <string name="onboarding_body_1">Orlumen turns the music you play into live lights around your screen and into an always-on clock.</string>
     <string name="onboarding_title_2">Make it yours</string>
     <string name="onboarding_body_2">Pick from edge-light styles and clock faces, match the colors to your album art, and tune every detail.</string>
-    <string name="onboarding_title_3">A few permissions first</string>
-    <string name="onboarding_body_3">Orlumen needs a few permissions to hear your music and draw on screen. You will see why for each one before Android asks.</string>
+    <string name="onboarding_title_3">Two quick permissions</string>
+    <string name="onboarding_body_3">Orlumen needs to hear your music and draw on screen. That is all it needs to start. Everything else is optional and can be added later.</string>
     <string name="perm_hub_title">Permissions</string>
     <string name="perm_hub_intro">Allow what Orlumen needs. You can change any of these later in Android settings.</string>
     <string name="perm_section_required">Required</string>
@@ -144,4 +144,10 @@
     <string name="diag_section_permissions">Permissions</string>
     <string name="diag_open_permissions">Permission setup</string>
     <string name="diag_open_about">About Orlumen</string>
+    <string name="setup_title">Quick setup</string>
+    <string name="setup_step">Step %1$d of %2$d</string>
+    <string name="setup_allow">Allow</string>
+    <string name="perm_access_help">If Android says “App was denied access”, open App info, tap the three-dot menu, choose “Allow restricted settings”, then come back and try again.</string>
+    <string name="perm_open_settings">Open settings</string>
+    <string name="perm_open_app_info">Open app info</string>
 </resources>

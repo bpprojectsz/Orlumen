@@ -65,4 +65,14 @@ class PermissionsViewModelTest {
     fun screenCaptureIsNeverPermanentlyGranted() {
         assertFalse(state().isGranted(PermissionKind.SCREEN_CAPTURE))
     }
+
+    @Test
+    fun onlyAudioAndOverlayBlockTheFirstRun() {
+        assertEquals(
+            listOf(PermissionKind.MICROPHONE, PermissionKind.OVERLAY),
+            requiredMissing(state(audio = false, overlay = false))
+        )
+        assertEquals(listOf(PermissionKind.OVERLAY), requiredMissing(state(overlay = false)))
+        assertTrue(requiredMissing(state(notificationAccess = false, usage = false, battery = false)).isEmpty())
+    }
 }

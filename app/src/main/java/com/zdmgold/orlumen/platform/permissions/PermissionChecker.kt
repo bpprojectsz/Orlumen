@@ -2,6 +2,7 @@ package com.zdmgold.orlumen.platform.permissions
 
 import android.Manifest
 import android.app.AppOpsManager
+import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -12,6 +13,7 @@ import android.os.Process
 import android.provider.Settings
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
+import com.zdmgold.orlumen.platform.media.OrlumenNotificationListener
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
 import javax.inject.Singleton
@@ -67,9 +69,18 @@ object PermissionIntents {
     fun overlaySettings(context: Context): Intent =
         Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION, Uri.parse("package:${context.packageName}"))
 
-    fun usageAccessSettings(): Intent = Intent(Settings.ACTION_USAGE_ACCESS_SETTINGS)
+    fun usageAccessSettings(context: Context): Intent =
+        Intent(Settings.ACTION_USAGE_ACCESS_SETTINGS, Uri.parse("package:${context.packageName}"))
 
-    fun notificationListenerSettings(): Intent = Intent(Settings.ACTION_NOTIFICATION_LISTENER_SETTINGS)
+    /** Opens Orlumen's own notification-access page on Android 11+, and the full list before that. */
+    fun notificationListenerDetail(context: Context): Intent {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.R) {
+            return Intent(Settings.ACTION_NOTIFICATION_LISTENER_SETTINGS)
+        }
+        val listener = ComponentName(context, OrlumenNotificationListener::class.java)
+        return Intent(Settings.ACTION_NOTIFICATION_LISTENER_DETAIL_SETTINGS)
+            .putExtra(Settings.EXTRA_NOTIFICATION_LISTENER_COMPONENT_NAME, listener.flattenToString())
+    }
 
     fun batterySettings(): Intent = Intent(Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS)
 

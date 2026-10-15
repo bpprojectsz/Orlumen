@@ -20,6 +20,12 @@ fun missingPermissions(state: PermissionState): List<PermissionKind> = buildList
     if (!state.batteryUnrestricted) add(PermissionKind.BATTERY)
 }
 
+/** The permissions the edge visualizer cannot run without, in the order they are asked for. */
+fun requiredMissing(state: PermissionState): List<PermissionKind> = buildList {
+    if (!state.recordAudio) add(PermissionKind.MICROPHONE)
+    if (!state.overlay) add(PermissionKind.OVERLAY)
+}
+
 /** Screen capture is asked for every time it is used, so it is never reported as permanently granted. */
 fun PermissionState.isGranted(kind: PermissionKind): Boolean = when (kind) {
     PermissionKind.MICROPHONE -> recordAudio
