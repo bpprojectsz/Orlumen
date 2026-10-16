@@ -13,6 +13,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
@@ -22,6 +25,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zdmgold.orlumen.R
+import com.zdmgold.orlumen.core.model.PermissionKind
 import com.zdmgold.orlumen.core.theme.OrlumenTheme
 import com.zdmgold.orlumen.core.theme.Spacing
 import com.zdmgold.orlumen.core.viewmodel.PermissionsViewModel
@@ -47,6 +51,7 @@ fun PermissionHubScreen(
     val state by viewModel.state.collectAsStateWithLifecycle()
     val requester = rememberPermissionRequester { viewModel.refresh() }
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { viewModel.refresh() }
+    var awaiting by remember { mutableStateOf<PermissionKind?>(null) }
     val missing = requiredMissing(state)
     LaunchedEffect(missing.isEmpty()) { if (missing.isEmpty()) onDone() }
     val colors = OrlumenTheme.colors
@@ -66,6 +71,7 @@ fun PermissionHubScreen(
         val current = missing.firstOrNull()
         if (current != null) {
             val rationale = rationaleFor(current)
+            val stillOff = awaiting == current && missing.contains(current)
             Column(
                 modifier = Modifier.weight(1f).fillMaxWidth(),
                 horizontalAlignment = Alignment.CenterHorizontally,
@@ -90,8 +96,40 @@ fun PermissionHubScreen(
                     color = colors.textSecondary,
                     textAlign = TextAlign.Center
                 )
+                if (current == PermissionKind.OVERLAY) {
+                    Spacer(modifier = Modifier.height(Spacing.md))
+                    Text(
+                        text = stringResource(R.string.setup_overlay_hint),
+                        style = OrlumenTheme.typography.body,
+                        color = colors.accent,
+                        textAlign = TextAlign.Center
+                    )
+                }
+                if (stillOff) {
+                    Spacer(modifier = Modifier.height(Spacing.lg))
+                    Text(
+                        text = stringResource(
+                            if (current ==
+                                PermissionKind.OVERLAY
+                            ) {
+                                R.string.setup_still_off_overlay
+                            } else {
+                                R.string.setup_still_off_audio
+                            }
+                        ),
+                        style = OrlumenTheme.typography.body,
+                        color = colors.accentSecondary,
+                        textAlign = TextAlign.Center
+                    )
+                }
             }
-            AppPrimaryButton(text = stringResource(R.string.setup_allow), onClick = { requester.request(current) })
+            AppPrimaryButton(
+                text = stringResource(if (stillOff) R.string.setup_open_again else R.string.setup_allow),
+                onClick = {
+                    awaiting = current
+                    requester.request(current)
+                }
+            )
         }
     }
     PermissionRequesterDialogs(requester)

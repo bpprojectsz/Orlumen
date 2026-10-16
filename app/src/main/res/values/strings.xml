@@ -95,13 +95,13 @@
     <string name="palette_wallpaper">Wallpaper</string>
     <string name="onboarding_skip">Skip</string>
     <string name="onboarding_next">Next</string>
-    <string name="onboarding_setup">Set up</string>
+    <string name="onboarding_setup">Get started</string>
     <string name="onboarding_title_1">Light up your screen edges</string>
     <string name="onboarding_body_1">Orlumen turns the music you play into live lights around your screen and into an always-on clock.</string>
     <string name="onboarding_title_2">Make it yours</string>
     <string name="onboarding_body_2">Pick from edge-light styles and clock faces, match the colors to your album art, and tune every detail.</string>
-    <string name="onboarding_title_3">Two quick permissions</string>
-    <string name="onboarding_body_3">Orlumen needs to hear your music and draw on screen. That is all it needs to start. Everything else is optional and can be added later.</string>
+    <string name="onboarding_title_3">Asked only when needed</string>
+    <string name="onboarding_body_3">Orlumen only asks for a permission at the moment a feature needs it, and always tells you why first.</string>
     <string name="perm_hub_title">Permissions</string>
     <string name="perm_hub_intro">Allow what Orlumen needs. You can change any of these later in Android settings.</string>
     <string name="perm_section_required">Required</string>
@@ -150,4 +150,9 @@
     <string name="perm_access_help">If Android says “App was denied access”, open App info, tap the three-dot menu, choose “Allow restricted settings”, then come back and try again.</string>
     <string name="perm_open_settings">Open settings</string>
     <string name="perm_open_app_info">Open app info</string>
+    <string name="setup_overlay_hint">On the next screen, find Orlumen in the list and switch it on. Android lists every app there, but only Orlumen needs to be on. Tip: tap the search icon and type Orlumen.</string>
+    <string name="setup_still_off_overlay">Orlumen is still off. Find Orlumen in the list and switch it on, then come back.</string>
+    <string name="setup_still_off_audio">Audio access is still off. Tap Allow, then choose While using the app.</string>
+    <string name="setup_open_again">Open again</string>
+    <string name="perm_status_find">Tap, then find Orlumen in the list and switch it on</string>
 </resources>

@@ -22,6 +22,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
@@ -42,6 +43,7 @@ import com.zdmgold.orlumen.core.viewmodel.DiagnosticsUiState
 import com.zdmgold.orlumen.core.viewmodel.DiagnosticsViewModel
 import com.zdmgold.orlumen.core.viewmodel.MainViewModel
 import com.zdmgold.orlumen.core.viewmodel.isGranted
+import com.zdmgold.orlumen.core.viewmodel.requiredMissing
 import com.zdmgold.orlumen.platform.aod.AodActivity
 import com.zdmgold.orlumen.platform.audio.SpectrumSourceKind
 import com.zdmgold.orlumen.platform.overlay.RuntimeFailure
@@ -111,6 +113,9 @@ private fun LevelBar(level: Float, modifier: Modifier = Modifier) {
 
 @Composable
 fun DiagnosticsScreen(
+    autoStart: Boolean,
+    onAutoStartHandled: () -> Unit,
+    onNeedPermissions: () -> Unit,
     onOpenAbout: () -> Unit,
     modifier: Modifier = Modifier,
     viewModel: DiagnosticsViewModel = hiltViewModel()
@@ -131,6 +136,20 @@ fun DiagnosticsScreen(
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { viewModel.refreshPermissions() }
 
     val current = state
+    fun startOrAskForSetup() {
+        val granted = current?.permissions
+        if (granted != null && requiredMissing(granted).isNotEmpty()) {
+            onNeedPermissions()
+        } else {
+            requester.withNotifications { main.startVisualizer() }
+        }
+    }
+    LaunchedEffect(autoStart, current != null) {
+        if (autoStart && current != null) {
+            onAutoStartHandled()
+            requester.withNotifications { main.startVisualizer() }
+        }
+    }
     Column(
         modifier = modifier
             .fillMaxSize()
@@ -146,7 +165,7 @@ fun DiagnosticsScreen(
         if (current != null) {
             DiagnosticsContent(
                 state = current,
-                onStart = { requester.withNotifications { main.startVisualizer() } },
+                onStart = ::startOrAskForSetup,
                 onStop = main::stopVisualizer,
                 onStartWithCapture = { captureLauncher.launch(projectionManager.createScreenCaptureIntent()) },
                 onAodToggle = main::setAodEnabled,
@@ -258,7 +277,7 @@ private fun DiagnosticsContent(
             val granted = state.permissions.isGranted(kind)
             AppRow(
                 title = stringResource(rationaleFor(kind).first),
-                subtitle = stringResource(if (granted) R.string.perm_status_allowed else R.string.perm_status_needed),
+                subtitle = permissionSubtitle(kind, granted),
                 leadingIcon = if (granted) iconCheck else iconWarning,
                 showChevron = !granted,
                 onClick = if (granted) null else ({ onRequestPermission(kind) })
@@ -273,4 +292,19 @@ private fun lastLaunchText(context: Context, millis: Long): String = if (millis 
     stringResource(R.string.diag_aod_never)
 } else {
     stringResource(R.string.diag_aod_last_launch, DateFormat.getTimeFormat(context).format(Date(millis)))
+}
+
+@Composable
+private fun permissionSubtitle(kind: PermissionKind, granted: Boolean): String {
+    val inSettingsList = kind == PermissionKind.OVERLAY ||
+        kind == PermissionKind.NOTIFICATION_ACCESS ||
+        kind == PermissionKind.USAGE_ACCESS ||
+        kind == PermissionKind.BATTERY
+    return stringResource(
+        when {
+            granted -> R.string.perm_status_allowed
+            inSettingsList -> R.string.perm_status_find
+            else -> R.string.perm_status_needed
+        }
+    )
 }
