@@ -41,18 +41,26 @@ class PermissionRequester(private val context: Context) {
     var onChanged: () -> Unit = {}
     var audioLauncher: ManagedActivityResultLauncher<String, Boolean>? = null
     var notificationLauncher: ManagedActivityResultLauncher<String, Boolean>? = null
-    var accessHelpVisible by mutableStateOf(false)
+    var helpKind by mutableStateOf<PermissionKind?>(null)
         private set
+    val installedFromPlayStore: Boolean
+        get() = installedFromPlay()
 
     private var afterNotifications: (() -> Unit)? = null
 
-    fun request(kind: PermissionKind) {
+    /** [askFirst] shows the restricted-settings help before opening settings, for callers without inline help. */
+    fun request(kind: PermissionKind, askFirst: Boolean = true) {
         when (kind) {
             PermissionKind.MICROPHONE -> audioLauncher?.launch(Manifest.permission.RECORD_AUDIO)
             PermissionKind.NOTIFICATIONS -> requestNotifications()
-            PermissionKind.OVERLAY -> openSettings(PermissionIntents.overlaySettings(context))
+            PermissionKind.OVERLAY ->
+                if (askFirst && needsRestrictedHelp(kind)) {
+                    helpKind = kind
+                } else {
+                    openSettings(PermissionIntents.overlaySettings(context))
+                }
             PermissionKind.NOTIFICATION_ACCESS ->
-                if (installedFromPlay()) openNotificationAccess() else accessHelpVisible = true
+                if (askFirst && needsRestrictedHelp(kind)) helpKind = kind else openNotificationAccess()
             PermissionKind.USAGE_ACCESS -> openSettings(PermissionIntents.usageAccessSettings(context))
             PermissionKind.BATTERY -> openSettings(PermissionIntents.batterySettings())
             PermissionKind.SCREEN_CAPTURE -> Unit
@@ -85,19 +93,25 @@ class PermissionRequester(private val context: Context) {
         if (!granted && blockedForGood) openSettings(PermissionIntents.appDetails(context))
     }
 
-    fun confirmAccessHelp() {
-        accessHelpVisible = false
-        openNotificationAccess()
+    fun confirmHelp() {
+        val kind = helpKind
+        helpKind = null
+        if (kind != null) request(kind, askFirst = false)
     }
 
     fun openAppInfoFromHelp() {
-        accessHelpVisible = false
-        openSettings(PermissionIntents.appDetails(context))
+        helpKind = null
+        openAppInfo()
     }
 
-    fun dismissAccessHelp() {
-        accessHelpVisible = false
+    fun dismissHelp() {
+        helpKind = null
     }
+
+    fun openAppInfo() = openSettings(PermissionIntents.appDetails(context))
+
+    private fun needsRestrictedHelp(kind: PermissionKind): Boolean =
+        (kind == PermissionKind.OVERLAY || kind == PermissionKind.NOTIFICATION_ACCESS) && !installedFromPlay()
 
     private fun requestNotifications() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
@@ -148,11 +162,11 @@ fun rememberPermissionRequester(onChanged: () -> Unit): PermissionRequester {
 /** Shows the extra how-to for notification access on sideloaded installs. Place once per screen. */
 @Composable
 fun PermissionRequesterDialogs(requester: PermissionRequester) {
-    if (!requester.accessHelpVisible) return
+    val kind = requester.helpKind ?: return
     val colors = OrlumenTheme.colors
-    val rationale = rationaleFor(PermissionKind.NOTIFICATION_ACCESS)
+    val rationale = rationaleFor(kind)
     AlertDialog(
-        onDismissRequest = requester::dismissAccessHelp,
+        onDismissRequest = requester::dismissHelp,
         containerColor = colors.bgElevated,
         title = {
             Text(
@@ -169,7 +183,7 @@ fun PermissionRequesterDialogs(requester: PermissionRequester) {
             )
         },
         confirmButton = {
-            TextButton(onClick = requester::confirmAccessHelp) {
+            TextButton(onClick = requester::confirmHelp) {
                 Text(text = stringResource(R.string.perm_open_settings), color = colors.accent)
             }
         },

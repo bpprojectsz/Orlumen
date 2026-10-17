@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -105,6 +106,18 @@ fun PermissionHubScreen(
                         textAlign = TextAlign.Center
                     )
                 }
+                if (current == PermissionKind.OVERLAY && !requester.installedFromPlayStore) {
+                    Spacer(modifier = Modifier.height(Spacing.md))
+                    Text(
+                        text = stringResource(R.string.perm_access_help),
+                        style = OrlumenTheme.typography.caption,
+                        color = colors.textSecondary,
+                        textAlign = TextAlign.Center
+                    )
+                    TextButton(onClick = requester::openAppInfo) {
+                        Text(text = stringResource(R.string.perm_open_app_info), color = colors.accent)
+                    }
+                }
                 if (stillOff) {
                     Spacer(modifier = Modifier.height(Spacing.lg))
                     Text(
@@ -127,7 +140,7 @@ fun PermissionHubScreen(
                 text = stringResource(if (stillOff) R.string.setup_open_again else R.string.setup_allow),
                 onClick = {
                     awaiting = current
-                    requester.request(current)
+                    requester.request(current, askFirst = false)
                 }
             )
         }
