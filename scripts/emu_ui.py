@@ -14,8 +14,16 @@ def adb(*args):
 
 
 def dump_xml():
-    adb("shell", "uiautomator", "dump", "/sdcard/ui.xml")
-    return adb("exec-out", "cat", "/sdcard/ui.xml")
+    """Dump the UI tree, retrying because uiautomator fails on constantly animating screens."""
+    for attempt in range(6):
+        adb("shell", "rm", "-f", "/sdcard/ui.xml")
+        message = adb("shell", "uiautomator", "dump", "/sdcard/ui.xml")
+        xml = adb("exec-out", "cat", "/sdcard/ui.xml")
+        if xml.strip().startswith("<?xml") and "<node" in xml:
+            return xml
+        print(f"dump attempt {attempt + 1} failed: {message.strip()[:120]}")
+        time.sleep(1.5)
+    return ""
 
 
 def center(node):
