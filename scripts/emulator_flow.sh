@@ -25,12 +25,16 @@ top_activity() {
 launch() { adb shell am start -n "$PKG/.MainActivity" > /dev/null; }
 
 log "device: $(adb shell getprop ro.product.model) api $(adb shell getprop ro.build.version.sdk) $(adb shell wm size | tr '\n' ' ')"
+adb shell settings put global hide_error_dialogs 1
 adb shell settings put global window_animation_scale 0
 adb shell settings put global transition_animation_scale 0
 adb shell settings put global animator_duration_scale 0
 adb shell input keyevent KEYCODE_WAKEUP
 adb shell wm dismiss-keyguard
 
+log "letting the fresh emulator settle"
+sleep 45
+if python3 scripts/emu_ui.py has "isn't responding" > /dev/null 2>&1; then python3 scripts/emu_ui.py tap "Wait"; fi
 log "install"
 adb install -r "$APK" | tee -a "$OUT/flow.log"
 adb logcat -c
