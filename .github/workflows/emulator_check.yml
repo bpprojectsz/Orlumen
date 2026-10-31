@@ -1,0 +1,79 @@
+name: Emulator check
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  emulator:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Enable KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Install Android SDK components
+        run: |
+          SDKMANAGER="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
+          yes | "$SDKMANAGER" --licenses > /dev/null || true
+          "$SDKMANAGER" "platforms;android-36" "build-tools;36.0.0"
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Build debug APK
+        run: |
+          chmod +x gradlew
+          set -o pipefail
+          ./gradlew assembleDebug 2>&1 | tee gradle.log
+
+      - name: Relay failure output to annotations
+        if: failure()
+        run: |
+          python3 - <<'PY'
+          text = open("gradle.log").read()
+          errors = [line for line in text.splitlines() if line.startswith("e: ") or " error: " in line]
+          start = text.find("FAILURE:")
+          tail = text[start:start + 1500] if start >= 0 else text[-1500:]
+          text = "\n".join(errors)[:4000] + "\n---\n" + tail
+          text = text.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+          print("::error title=Gradle output::" + text)
+          PY
+
+      - name: Run the app on an emulator
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 35
+          target: google_apis
+          arch: x86_64
+          profile: pixel_6
+          disable-animations: true
+          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none
+          script: bash scripts/emulator_flow.sh emu-out
+
+      - name: Publish screenshots to the ci-screenshots branch
+        if: always()
+        run: |
+          [ -d emu-out ] || { echo "::warning::no emulator output"; exit 0; }
+          RUN_DIR="$(mktemp -d)"
+          cp -r emu-out/. "$RUN_DIR"/
+          echo "run ${{ github.run_id }} commit ${{ github.sha }}" > "$RUN_DIR/INFO.txt"
+          cd "$RUN_DIR"
+          git init -q -b ci-screenshots
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A
+          git commit -q -m "emulator run ${{ github.run_id }} at ${{ github.sha }}"
+          git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          git push -f origin ci-screenshots
