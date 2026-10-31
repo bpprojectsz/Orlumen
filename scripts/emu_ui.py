@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Tiny uiautomator helper for the emulator check: tap a node by its visible text."""
+import os
 import re
 import subprocess
 import sys
@@ -53,6 +54,53 @@ def find(xml, needle):
         if fallback is None:
             fallback = point
     return fallback
+
+
+def save_dump(xml, name):
+    out = os.environ.get("EMU_OUT")
+    if out:
+        os.makedirs(os.path.join(out, "ui"), exist_ok=True)
+        with open(os.path.join(out, "ui", name), "w") as handle:
+            handle.write(xml)
+
+
+def find_class(xml, class_part):
+    try:
+        root = ET.fromstring(xml)
+    except ET.ParseError:
+        return None, None
+    for node in root.iter("node"):
+        if class_part.lower() in (node.get("class") or "").lower():
+            point = center(node)
+            if point is not None:
+                return point, node.get("checked")
+    return None, None
+
+
+def cmd_tap_class(class_part):
+    """Tap the first node of a widget class (for example a Switch) and report its checked state."""
+    width, height = screen_size()
+    for direction_up, tries in ((True, 6), (False, 12)):
+        for _ in range(tries):
+            xml = dump_xml()
+            point, checked = find_class(xml, class_part)
+            if point is not None:
+                time.sleep(0.8)
+                xml = dump_xml()
+                save_dump(xml, "last_tap_before.xml")
+                point, checked = find_class(xml, class_part)
+                if point is None:
+                    continue
+                print(f"{class_part} at {point} checked={checked}; tapping")
+                tap_point(point)
+                time.sleep(1.2)
+                _, after = find_class(dump_xml(), class_part)
+                print(f"{class_part} checked after tap={after}")
+                return 0
+            swipe(width, height, direction_up)
+            time.sleep(0.6)
+    print(f"NOT FOUND class: {class_part}")
+    return 1
 
 
 def screen_size():
@@ -134,7 +182,7 @@ def main():
         return 2
     action = sys.argv[1]
     arg = sys.argv[2] if len(sys.argv) > 2 else ""
-    handlers = {"tap": cmd_tap, "scroll-tap": cmd_scroll_tap, "has": cmd_has}
+    handlers = {"tap": cmd_tap, "scroll-tap": cmd_scroll_tap, "has": cmd_has, "tap-class": cmd_tap_class}
     if action == "texts":
         return cmd_texts()
     if action in handlers:

@@ -5,6 +5,7 @@ set -u
 
 PKG=com.zdmgold.orlumen
 OUT="${1:-emu-out}"
+export EMU_OUT="$OUT"
 APK=app/build/outputs/apk/debug/app-debug.apk
 mkdir -p "$OUT/shots" "$OUT/ui"
 count=0
@@ -95,7 +96,7 @@ adb shell input keyevent KEYCODE_HOME; sleep 1
 log "PHASE 3: always-on display"
 adb shell settings put secure immersive_mode_confirmations confirmed
 launch; sleep 3
-ui scroll-tap "Always-on display"; sleep 1
+ui tap-class "android.widget.Switch"; sleep 1
 shot aod_toggled
 ui scroll-tap "Open the always-on screen now"; sleep 4
 shot aod_open_now
