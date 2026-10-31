@@ -277,7 +277,7 @@ class OrlumenRuntimeService : Service() {
                 ownPackage = packageName
             )
             val rules = VisibilityRules(prefs.hideOverFullscreen, prefs.visualizerAppPackages)
-            val visible = OverlayVisibilityPolicy.isVisible(input, rules)
+            val visible = OverlayVisibilityPolicy.isVisible(input, rules) && !aodController.isActivityActive.value
             host?.view?.visibility = if (visible) View.VISIBLE else View.GONE
             delay(VISIBILITY_POLL_MS)
         }

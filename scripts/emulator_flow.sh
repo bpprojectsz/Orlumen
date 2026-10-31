@@ -47,9 +47,11 @@ ui tap "Get started"; sleep 2; shot diagnostics_first_open
 ui scroll-tap "Start edge lights"; sleep 3
 shot start_pressed_nothing_granted
 top_activity
+ui tap "Allow"; sleep 2
+shot audio_system_dialog
 ui tap "While using"; sleep 2
-shot after_audio_dialog
-ui tap "Open settings"; sleep 3
+shot setup_step_2_overlay
+ui tap "Allow"; sleep 3
 shot overlay_settings_page
 top_activity
 adb shell input keyevent KEYCODE_BACK; sleep 2
@@ -78,16 +80,16 @@ adb shell am start -a android.settings.SETTINGS > /dev/null; sleep 3
 shot settings_app_with_lights
 adb shell input keyevent KEYCODE_HOME; sleep 1
 
-adb shell cmd statusbar expand-notifications; sleep 2
+adb shell input swipe 540 5 540 900 400; sleep 2
 shot notification_shade
-adb shell cmd statusbar collapse; sleep 1
-adb shell cmd statusbar add-tile "$PKG/$PKG.platform.overlay.OrlumenTileService"
-adb shell cmd statusbar expand-settings; sleep 2
-shot quick_settings
-adb shell cmd statusbar collapse; sleep 1
+adb shell input swipe 540 5 540 1800 400; sleep 2
+shot quick_settings_expanded
+adb shell input keyevent KEYCODE_BACK; sleep 1
+adb shell input keyevent KEYCODE_HOME; sleep 1
 
 # ---------- Phase 3: always-on display ----------
 log "PHASE 3: always-on display"
+adb shell settings put secure immersive_mode_confirmations confirmed
 launch; sleep 3
 ui scroll-tap "Always-on display"; sleep 1
 shot aod_toggled

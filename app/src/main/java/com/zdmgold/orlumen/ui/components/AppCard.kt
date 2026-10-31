@@ -7,6 +7,7 @@ import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.interaction.collectIsPressedAsState
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
@@ -40,6 +41,7 @@ fun AppCard(modifier: Modifier = Modifier, onClick: (() -> Unit)? = null, conten
     val shape = RoundedCornerShape(Radius.md)
     Column(
         modifier = modifier
+            .fillMaxWidth()
             .clip(shape)
             .background(colors.bgSurface)
             .border(Stroke.hairline, colors.border, shape)
