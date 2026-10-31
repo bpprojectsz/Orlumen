@@ -65,6 +65,17 @@ def tap_point(point):
     adb("shell", "input", "tap", str(point[0]), str(point[1]))
 
 
+def settled(needle, first):
+    """Re-dump after a short pause and return the position once two dumps agree."""
+    for _ in range(4):
+        time.sleep(0.8)
+        second = find(dump_xml(), needle)
+        if second is not None and abs(second[1] - first[1]) < 6:
+            return second
+        first = second if second is not None else first
+    return first
+
+
 def swipe(width, height, up):
     x = str(width // 2)
     start, end = (0.75, 0.30) if up else (0.30, 0.75)
@@ -76,6 +87,7 @@ def cmd_tap(needle):
     if point is None:
         print(f"NOT FOUND: {needle}")
         return 1
+    point = settled(needle, point)
     tap_point(point)
     print(f"tapped: {needle} at {point}")
     return 0
@@ -87,6 +99,7 @@ def cmd_scroll_tap(needle):
         for _ in range(tries):
             point = find(dump_xml(), needle)
             if point is not None:
+                point = settled(needle, point)
                 tap_point(point)
                 print(f"tapped: {needle} at {point}")
                 return 0

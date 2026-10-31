@@ -80,9 +80,9 @@ adb shell am start -a android.settings.SETTINGS > /dev/null; sleep 3
 shot settings_app_with_lights
 adb shell input keyevent KEYCODE_HOME; sleep 1
 
-adb shell input swipe 540 5 540 900 400; sleep 2
+adb shell input swipe 540 0 540 1100 900; sleep 2
 shot notification_shade
-adb shell input swipe 540 5 540 1800 400; sleep 2
+adb shell input swipe 540 0 540 2000 900; sleep 2
 shot quick_settings_expanded
 adb shell input keyevent KEYCODE_BACK; sleep 1
 adb shell input keyevent KEYCODE_HOME; sleep 1
