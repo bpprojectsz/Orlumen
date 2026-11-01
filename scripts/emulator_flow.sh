@@ -153,6 +153,30 @@ ui tap "Wallpaper"; sleep 2
 shot palettes_wallpaper
 adb shell input keyevent KEYCODE_BACK; sleep 1
 
+
+# ---------- Phase 6: settings, picker, paywall, consent ----------
+log "PHASE 6: settings and commerce"
+launch; sleep 3
+ui scroll-tap "Audio source, apps, clock"; sleep 3
+shot settings_top
+adb shell input swipe 540 1800 540 500 500; sleep 1
+shot settings_middle
+adb shell input swipe 540 1800 540 300 500; sleep 1
+shot settings_bottom
+ui scroll-tap "Show only over chosen apps"; sleep 4
+shot app_picker
+adb shell input keyevent KEYCODE_BACK; sleep 1
+ui scroll-tap "Music apps"; sleep 4
+shot music_sources
+adb shell input keyevent KEYCODE_BACK; sleep 1
+ui scroll-tap "Ad and privacy choices"; sleep 3
+shot consent_screen
+adb shell input keyevent KEYCODE_BACK; sleep 1
+adb shell input keyevent KEYCODE_BACK; sleep 2
+ui scroll-tap "One-time purchase"; sleep 3
+shot paywall
+adb shell input keyevent KEYCODE_BACK; sleep 1
+
 # ---------- Phase 4: about screen and teardown ----------
 launch; sleep 3
 ui scroll-tap "About Orlumen"; sleep 2
