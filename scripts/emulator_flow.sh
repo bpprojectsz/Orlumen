@@ -47,7 +47,7 @@ sleep 5
 shot onboarding_1
 ui tap "Next"; sleep 1; shot onboarding_2
 ui tap "Next"; sleep 1; shot onboarding_3
-ui tap "Get started"; sleep 2; shot diagnostics_first_open
+ui tap "Get started"; sleep 2; shot home_first_open
 
 ui scroll-tap "Start edge lights"; sleep 3
 shot start_pressed_nothing_granted
@@ -73,10 +73,10 @@ adb shell am force-stop "$PKG"
 sleep 1
 launch
 sleep 4
-shot diagnostics_granted
+shot home_granted
 
 ui scroll-tap "Start edge lights"; sleep 5
-shot diagnostics_running
+shot home_running
 adb shell dumpsys activity services "$PKG" > "$OUT/services.txt" 2>&1
 
 adb shell input keyevent KEYCODE_HOME; sleep 2
@@ -98,9 +98,12 @@ adb shell settings put secure immersive_mode_confirmations confirmed
 launch; sleep 3
 ui tap-class "android.widget.Switch"; sleep 1
 shot aod_toggled
+ui scroll-tap "Check audio, permissions"; sleep 2
+shot diagnostics_screen
 ui scroll-tap "Open the always-on screen now"; sleep 4
 shot aod_open_now
 top_activity
+adb shell input keyevent KEYCODE_BACK; sleep 2
 adb shell input keyevent KEYCODE_BACK; sleep 2
 
 log "screen off"
@@ -111,6 +114,42 @@ shot screen_off_state
 adb shell input keyevent KEYCODE_WAKEUP; sleep 3
 shot after_wake
 top_activity
+
+
+# ---------- Phase 5: design galleries, editors, palettes ----------
+log "PHASE 5: design screens"
+adb shell input keyevent KEYCODE_WAKEUP
+launch; sleep 3
+shot home_final
+ui scroll-tap "Pick a design and tune it"; sleep 3
+shot visualizer_gallery
+ui tap "Tide"; sleep 3
+shot visualizer_editor_top
+adb shell input swipe 540 1800 540 500 500; sleep 1
+shot visualizer_editor_middle
+adb shell input swipe 540 1800 540 300 500; sleep 1
+shot visualizer_editor_bottom
+adb shell input keyevent KEYCODE_BACK; sleep 1
+adb shell input keyevent KEYCODE_BACK; sleep 2
+ui scroll-tap "Pick a clock style"; sleep 3
+shot aod_gallery
+ui tap "Lunar"; sleep 3
+shot aod_editor_top
+adb shell input swipe 540 1800 540 500 500; sleep 1
+shot aod_editor_middle
+adb shell input swipe 540 1800 540 300 500; sleep 1
+shot aod_editor_bottom
+adb shell input keyevent KEYCODE_BACK; sleep 1
+adb shell input keyevent KEYCODE_BACK; sleep 2
+ui scroll-tap "Palettes, album art and wallpaper"; sleep 3
+shot palettes_stock
+ui tap "Mine"; sleep 2
+shot palettes_mine
+ui tap "Album art"; sleep 2
+shot palettes_album
+ui tap "Wallpaper"; sleep 2
+shot palettes_wallpaper
+adb shell input keyevent KEYCODE_BACK; sleep 1
 
 # ---------- Phase 4: about screen and teardown ----------
 launch; sleep 3
