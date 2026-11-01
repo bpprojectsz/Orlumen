@@ -33,7 +33,11 @@ import com.zdmgold.orlumen.ui.components.ScreenHeader
 import com.zdmgold.orlumen.ui.components.findActivity
 
 @Composable
-fun PaywallScreen(onBack: () -> Unit, modifier: Modifier = Modifier, viewModel: EntitlementViewModel = hiltViewModel()) {
+fun PaywallScreen(
+    onBack: () -> Unit,
+    modifier: Modifier = Modifier,
+    viewModel: EntitlementViewModel = hiltViewModel()
+) {
     val state by viewModel.uiState.collectAsStateWithLifecycle()
     val activity = LocalContext.current.findActivity()
     var message by remember { mutableStateOf<Int?>(null) }

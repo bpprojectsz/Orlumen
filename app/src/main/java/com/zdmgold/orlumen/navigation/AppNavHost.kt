@@ -132,7 +132,9 @@ private fun NavGraphBuilder.settingsDestinations(navController: NavHostControlle
                 onOpenVisualizerApps = {
                     navController.navigate(NavRoutes.appPicker(AppPickerTarget.VISUALIZER_APPS.name))
                 },
-                onOpenMusicSources = { navController.navigate(NavRoutes.appPicker(AppPickerTarget.MUSIC_SOURCES.name)) },
+                onOpenMusicSources = {
+                    navController.navigate(NavRoutes.appPicker(AppPickerTarget.MUSIC_SOURCES.name))
+                },
                 onOpenConsent = { navController.navigate(NavRoutes.CONSENT) }
             )
         )
