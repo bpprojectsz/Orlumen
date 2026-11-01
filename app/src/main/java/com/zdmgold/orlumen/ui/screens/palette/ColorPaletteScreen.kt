@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.verticalScroll
@@ -250,7 +251,7 @@ private fun NewPaletteEditor(onSave: (String, List<Int>) -> Unit) {
                 ColorPickerWheel(
                     colorArgb = colors[selected],
                     onColorChange = { colors[selected] = it },
-                    modifier = Modifier.size(WHEEL_SIZE_DP.dp)
+                    modifier = Modifier.width(WHEEL_SIZE_DP.dp)
                 )
             }
             if (colors.size < ColorPalette.MAX_COLORS) {
