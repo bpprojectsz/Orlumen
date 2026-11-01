@@ -3,6 +3,8 @@ package com.zdmgold.orlumen.navigation
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import androidx.navigation.NavGraphBuilder
+import androidx.navigation.NavHostController
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -51,39 +53,6 @@ fun AppNavHost(startDestination: String, onOnboardingFinished: () -> Unit, modif
                 )
             )
         }
-        composable(NavRoutes.VISUALIZER_GALLERY) {
-            VisualizerGalleryScreen(
-                onBack = { navController.popBackStack() },
-                onOpenEditor = { navController.navigate(NavRoutes.visualizerEditor(it)) }
-            )
-        }
-        composable(
-            NavRoutes.VISUALIZER_EDITOR,
-            arguments = listOf(navArgument(NavRoutes.ARG_DESIGN_ID) { type = NavType.StringType })
-        ) { entry ->
-            VisualizerEditorScreen(
-                designId = entry.arguments?.getString(NavRoutes.ARG_DESIGN_ID).orEmpty(),
-                onBack = { navController.popBackStack() }
-            )
-        }
-        composable(NavRoutes.AOD_GALLERY) {
-            AodGalleryScreen(
-                onBack = { navController.popBackStack() },
-                onOpenEditor = { navController.navigate(NavRoutes.aodEditor(it)) }
-            )
-        }
-        composable(
-            NavRoutes.AOD_EDITOR,
-            arguments = listOf(navArgument(NavRoutes.ARG_DESIGN_ID) { type = NavType.StringType })
-        ) { entry ->
-            AodEditorScreen(
-                designId = entry.arguments?.getString(NavRoutes.ARG_DESIGN_ID).orEmpty(),
-                onBack = { navController.popBackStack() }
-            )
-        }
-        composable(NavRoutes.PALETTES) {
-            ColorPaletteScreen(onBack = { navController.popBackStack() })
-        }
         composable(NavRoutes.PERMISSIONS) {
             PermissionHubScreen(
                 onDone = {
@@ -102,8 +71,45 @@ fun AppNavHost(startDestination: String, onOnboardingFinished: () -> Unit, modif
                 onOpenAbout = { navController.navigate(NavRoutes.ABOUT) }
             )
         }
+        designDestinations(navController)
         composable(NavRoutes.ABOUT) {
             AboutAndLegalScreen(onBack = { navController.popBackStack() })
         }
+    }
+}
+
+private fun NavGraphBuilder.designDestinations(navController: NavHostController) {
+    composable(NavRoutes.VISUALIZER_GALLERY) {
+        VisualizerGalleryScreen(
+            onBack = { navController.popBackStack() },
+            onOpenEditor = { navController.navigate(NavRoutes.visualizerEditor(it)) }
+        )
+    }
+    composable(
+        NavRoutes.VISUALIZER_EDITOR,
+        arguments = listOf(navArgument(NavRoutes.ARG_DESIGN_ID) { type = NavType.StringType })
+    ) { entry ->
+        VisualizerEditorScreen(
+            designId = entry.arguments?.getString(NavRoutes.ARG_DESIGN_ID).orEmpty(),
+            onBack = { navController.popBackStack() }
+        )
+    }
+    composable(NavRoutes.AOD_GALLERY) {
+        AodGalleryScreen(
+            onBack = { navController.popBackStack() },
+            onOpenEditor = { navController.navigate(NavRoutes.aodEditor(it)) }
+        )
+    }
+    composable(
+        NavRoutes.AOD_EDITOR,
+        arguments = listOf(navArgument(NavRoutes.ARG_DESIGN_ID) { type = NavType.StringType })
+    ) { entry ->
+        AodEditorScreen(
+            designId = entry.arguments?.getString(NavRoutes.ARG_DESIGN_ID).orEmpty(),
+            onBack = { navController.popBackStack() }
+        )
+    }
+    composable(NavRoutes.PALETTES) {
+        ColorPaletteScreen(onBack = { navController.popBackStack() })
     }
 }

@@ -39,15 +39,6 @@ import com.zdmgold.orlumen.ui.components.iconStar
 import com.zdmgold.orlumen.ui.screens.permissions.PermissionRequesterDialogs
 import com.zdmgold.orlumen.ui.screens.permissions.rememberPermissionRequester
 
-class HomeActions(
-    val onNeedPermissions: () -> Unit,
-    val onOpenVisualizers: () -> Unit,
-    val onOpenAod: () -> Unit,
-    val onOpenPalettes: () -> Unit,
-    val onOpenDiagnostics: () -> Unit,
-    val onOpenAbout: () -> Unit
-)
-
 @Composable
 fun HomeScreen(
     autoStart: Boolean,
