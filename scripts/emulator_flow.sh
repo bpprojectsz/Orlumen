@@ -89,6 +89,7 @@ adb shell input swipe 540 0 540 1100 900; sleep 2
 shot notification_shade
 adb shell input swipe 540 0 540 2000 900; sleep 2
 shot quick_settings_expanded
+adb shell cmd statusbar collapse; sleep 1
 adb shell input keyevent KEYCODE_BACK; sleep 1
 adb shell input keyevent KEYCODE_HOME; sleep 1
 
@@ -96,7 +97,7 @@ adb shell input keyevent KEYCODE_HOME; sleep 1
 log "PHASE 3: always-on display"
 adb shell settings put secure immersive_mode_confirmations confirmed
 launch; sleep 3
-ui tap-class "android.widget.Switch"; sleep 1
+ui tap-class "checkable"; sleep 1
 shot aod_toggled
 ui scroll-tap "Check audio, permissions"; sleep 2
 shot diagnostics_screen
@@ -119,11 +120,12 @@ top_activity
 # ---------- Phase 5: design galleries, editors, palettes ----------
 log "PHASE 5: design screens"
 adb shell input keyevent KEYCODE_WAKEUP
+adb shell cmd statusbar collapse; sleep 1
 launch; sleep 3
 shot home_final
 ui scroll-tap "Pick a design and tune it"; sleep 3
 shot visualizer_gallery
-ui tap "Tide"; sleep 3
+ui scroll-tap "Tide"; sleep 3
 shot visualizer_editor_top
 adb shell input swipe 540 1800 540 500 500; sleep 1
 shot visualizer_editor_middle
@@ -133,7 +135,7 @@ adb shell input keyevent KEYCODE_BACK; sleep 1
 adb shell input keyevent KEYCODE_BACK; sleep 2
 ui scroll-tap "Pick a clock style"; sleep 3
 shot aod_gallery
-ui tap "Lunar"; sleep 3
+ui scroll-tap "Lunar"; sleep 3
 shot aod_editor_top
 adb shell input swipe 540 1800 540 500 500; sleep 1
 shot aod_editor_middle

@@ -70,7 +70,10 @@ def find_class(xml, class_part):
     except ET.ParseError:
         return None, None
     for node in root.iter("node"):
-        if class_part.lower() in (node.get("class") or "").lower():
+        is_match = class_part.lower() in (node.get("class") or "").lower()
+        if class_part == "checkable":
+            is_match = node.get("checkable") == "true"
+        if is_match:
             point = center(node)
             if point is not None:
                 return point, node.get("checked")
