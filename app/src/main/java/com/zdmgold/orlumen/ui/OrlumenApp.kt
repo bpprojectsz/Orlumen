@@ -9,7 +9,6 @@ import androidx.compose.foundation.layout.systemBarsPadding
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.SideEffect
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalView
@@ -35,7 +34,7 @@ fun OrlumenApp() {
             // The start destination is decided once, when saved settings first arrive, so finishing
             // onboarding does not rebuild the navigation graph underneath the user.
             val startDestination = remember(mainState == null) {
-                mainState?.let { if (it.onboardingCompleted) NavRoutes.DIAGNOSTICS else NavRoutes.ONBOARDING }
+                mainState?.let { if (it.onboardingCompleted) NavRoutes.HOME else NavRoutes.ONBOARDING }
             }
             if (startDestination != null) {
                 AppNavHost(
