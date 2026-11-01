@@ -11,8 +11,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.zdmgold.orlumen.ui.screens.about.AboutAndLegalScreen
 import com.zdmgold.orlumen.core.viewmodel.AppPickerTarget
+import com.zdmgold.orlumen.ui.screens.about.AboutAndLegalScreen
 import com.zdmgold.orlumen.ui.screens.aod.AodEditorScreen
 import com.zdmgold.orlumen.ui.screens.aod.AodGalleryScreen
 import com.zdmgold.orlumen.ui.screens.consent.ConsentManagementScreen
