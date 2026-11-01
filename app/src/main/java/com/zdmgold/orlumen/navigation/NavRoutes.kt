@@ -12,8 +12,15 @@ object NavRoutes {
     const val AOD_GALLERY = "aod_gallery"
     const val AOD_EDITOR = "aod_editor/{$ARG_DESIGN_ID}"
     const val PALETTES = "palettes"
+    const val ARG_PICKER_TARGET = "target"
+    const val SETTINGS = "settings"
+    const val APP_PICKER = "app_picker/{$ARG_PICKER_TARGET}"
+    const val PAYWALL = "paywall"
+    const val CONSENT = "consent"
 
     fun visualizerEditor(designId: String) = "visualizer_editor/$designId"
+
+    fun appPicker(target: String) = "app_picker/$target"
 
     fun aodEditor(designId: String) = "aod_editor/$designId"
 }

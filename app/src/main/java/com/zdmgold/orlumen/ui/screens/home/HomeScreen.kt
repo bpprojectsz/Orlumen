@@ -36,6 +36,7 @@ import com.zdmgold.orlumen.ui.components.findActivity
 import com.zdmgold.orlumen.ui.components.iconEdit
 import com.zdmgold.orlumen.ui.components.iconInfo
 import com.zdmgold.orlumen.ui.components.iconLock
+import com.zdmgold.orlumen.ui.components.iconSettings
 import com.zdmgold.orlumen.ui.components.iconStar
 import com.zdmgold.orlumen.ui.screens.permissions.PermissionRequesterDialogs
 import com.zdmgold.orlumen.ui.screens.permissions.rememberPermissionRequester
@@ -128,6 +129,18 @@ fun HomeScreen(
             }
             SectionHeader(text = stringResource(R.string.home_section_tools))
             AppCard {
+                AppRow(
+                    title = stringResource(R.string.home_settings),
+                    subtitle = stringResource(R.string.home_settings_sub),
+                    leadingIcon = iconSettings,
+                    onClick = actions.onOpenSettings
+                )
+                AppRow(
+                    title = stringResource(R.string.home_remove_ads),
+                    subtitle = stringResource(R.string.home_remove_ads_sub),
+                    leadingIcon = iconStar,
+                    onClick = actions.onOpenPaywall
+                )
                 AppRow(
                     title = stringResource(R.string.home_diagnostics),
                     subtitle = stringResource(R.string.home_diagnostics_sub),

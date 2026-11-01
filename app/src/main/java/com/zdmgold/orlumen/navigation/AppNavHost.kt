@@ -12,14 +12,20 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.zdmgold.orlumen.ui.screens.about.AboutAndLegalScreen
+import com.zdmgold.orlumen.core.viewmodel.AppPickerTarget
 import com.zdmgold.orlumen.ui.screens.aod.AodEditorScreen
 import com.zdmgold.orlumen.ui.screens.aod.AodGalleryScreen
+import com.zdmgold.orlumen.ui.screens.consent.ConsentManagementScreen
 import com.zdmgold.orlumen.ui.screens.diagnostics.DiagnosticsScreen
 import com.zdmgold.orlumen.ui.screens.home.HomeActions
 import com.zdmgold.orlumen.ui.screens.home.HomeScreen
 import com.zdmgold.orlumen.ui.screens.onboarding.OnboardingScreen
 import com.zdmgold.orlumen.ui.screens.palette.ColorPaletteScreen
+import com.zdmgold.orlumen.ui.screens.paywall.PaywallScreen
 import com.zdmgold.orlumen.ui.screens.permissions.PermissionHubScreen
+import com.zdmgold.orlumen.ui.screens.settings.AppPickerScreen
+import com.zdmgold.orlumen.ui.screens.settings.SettingsActions
+import com.zdmgold.orlumen.ui.screens.settings.SettingsScreen
 import com.zdmgold.orlumen.ui.screens.visualizer.VisualizerEditorScreen
 import com.zdmgold.orlumen.ui.screens.visualizer.VisualizerGalleryScreen
 
@@ -50,7 +56,9 @@ fun AppNavHost(startDestination: String, onOnboardingFinished: () -> Unit, modif
                     onOpenAod = { navController.navigate(NavRoutes.AOD_GALLERY) },
                     onOpenPalettes = { navController.navigate(NavRoutes.PALETTES) },
                     onOpenDiagnostics = { navController.navigate(NavRoutes.DIAGNOSTICS) },
-                    onOpenAbout = { navController.navigate(NavRoutes.ABOUT) }
+                    onOpenAbout = { navController.navigate(NavRoutes.ABOUT) },
+                    onOpenSettings = { navController.navigate(NavRoutes.SETTINGS) },
+                    onOpenPaywall = { navController.navigate(NavRoutes.PAYWALL) }
                 )
             )
         }
@@ -73,6 +81,7 @@ fun AppNavHost(startDestination: String, onOnboardingFinished: () -> Unit, modif
             )
         }
         designDestinations(navController)
+        settingsDestinations(navController)
         composable(NavRoutes.ABOUT) {
             AboutAndLegalScreen(onBack = { navController.popBackStack() })
         }
@@ -113,4 +122,30 @@ private fun NavGraphBuilder.designDestinations(navController: NavHostController)
     composable(NavRoutes.PALETTES) {
         ColorPaletteScreen(onBack = { navController.popBackStack() })
     }
+}
+
+private fun NavGraphBuilder.settingsDestinations(navController: NavHostController) {
+    composable(NavRoutes.SETTINGS) {
+        SettingsScreen(
+            onBack = { navController.popBackStack() },
+            actions = SettingsActions(
+                onOpenVisualizerApps = {
+                    navController.navigate(NavRoutes.appPicker(AppPickerTarget.VISUALIZER_APPS.name))
+                },
+                onOpenMusicSources = { navController.navigate(NavRoutes.appPicker(AppPickerTarget.MUSIC_SOURCES.name)) },
+                onOpenConsent = { navController.navigate(NavRoutes.CONSENT) }
+            )
+        )
+    }
+    composable(
+        NavRoutes.APP_PICKER,
+        arguments = listOf(navArgument(NavRoutes.ARG_PICKER_TARGET) { type = NavType.StringType })
+    ) { entry ->
+        val target = entry.arguments?.getString(NavRoutes.ARG_PICKER_TARGET)
+            ?.let { name -> AppPickerTarget.entries.firstOrNull { it.name == name } }
+            ?: AppPickerTarget.VISUALIZER_APPS
+        AppPickerScreen(target = target, onBack = { navController.popBackStack() })
+    }
+    composable(NavRoutes.PAYWALL) { PaywallScreen(onBack = { navController.popBackStack() }) }
+    composable(NavRoutes.CONSENT) { ConsentManagementScreen(onBack = { navController.popBackStack() }) }
 }

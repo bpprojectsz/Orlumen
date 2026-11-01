@@ -6,5 +6,7 @@ class HomeActions(
     val onOpenAod: () -> Unit,
     val onOpenPalettes: () -> Unit,
     val onOpenDiagnostics: () -> Unit,
-    val onOpenAbout: () -> Unit
+    val onOpenAbout: () -> Unit,
+    val onOpenSettings: () -> Unit,
+    val onOpenPaywall: () -> Unit
 )
