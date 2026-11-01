@@ -67,7 +67,11 @@ private enum class PaletteTab(@StringRes val label: Int) {
 }
 
 @Composable
-fun ColorPaletteScreen(onBack: () -> Unit, modifier: Modifier = Modifier, viewModel: PaletteViewModel = hiltViewModel()) {
+fun ColorPaletteScreen(
+    onBack: () -> Unit,
+    modifier: Modifier = Modifier,
+    viewModel: PaletteViewModel = hiltViewModel()
+) {
     val state by viewModel.uiState.collectAsStateWithLifecycle()
     var tabIndex by remember { mutableIntStateOf(0) }
     val tabs = PaletteTab.entries
@@ -130,7 +134,10 @@ private fun PaletteCard(
 ) {
     AppCard {
         Column(verticalArrangement = Arrangement.spacedBy(Spacing.sm)) {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(Spacing.md)) {
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(Spacing.md)
+            ) {
                 PaletteSwatch(colors = palette.colorsArgb)
                 Text(
                     text = palette.nameRes?.let { stringResource(it) } ?: palette.name,
@@ -140,13 +147,24 @@ private fun PaletteCard(
                 )
                 if (onDelete != null) {
                     IconButton(onClick = onDelete) {
-                        IconWrapper(imageVector = iconDelete, contentDescription = stringResource(R.string.palette_delete))
+                        IconWrapper(
+                            imageVector = iconDelete,
+                            contentDescription = stringResource(R.string.palette_delete)
+                        )
                     }
                 }
             }
             Row(horizontalArrangement = Arrangement.spacedBy(Spacing.sm)) {
-                AppChip(label = stringResource(R.string.palette_use_lights), selected = lightsSelected, onClick = onLights)
-                AppChip(label = stringResource(R.string.palette_use_aod), selected = aodSelected, onClick = onAod)
+                AppChip(
+                    label = stringResource(R.string.palette_use_lights),
+                    selected = lightsSelected,
+                    onClick = onLights
+                )
+                AppChip(
+                    label = stringResource(R.string.palette_use_aod),
+                    selected = aodSelected,
+                    onClick = onAod
+                )
             }
         }
     }
