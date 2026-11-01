@@ -22,6 +22,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zdmgold.orlumen.R
 import com.zdmgold.orlumen.core.theme.OrlumenTheme
 import com.zdmgold.orlumen.core.theme.Spacing
+import com.zdmgold.orlumen.core.viewmodel.ConsentViewModel
 import com.zdmgold.orlumen.core.viewmodel.DiagnosticsViewModel
 import com.zdmgold.orlumen.core.viewmodel.MainViewModel
 import com.zdmgold.orlumen.core.viewmodel.requiredMissing
@@ -51,6 +52,8 @@ fun HomeScreen(
 ) {
     val activity = LocalContext.current.findActivity() as ComponentActivity
     val main: MainViewModel = hiltViewModel(viewModelStoreOwner = activity)
+    val consent: ConsentViewModel = hiltViewModel(viewModelStoreOwner = activity)
+    LaunchedEffect(Unit) { consent.gatherConsent(activity) }
     val state by viewModel.uiState.collectAsStateWithLifecycle()
     val requester = rememberPermissionRequester { viewModel.refreshPermissions() }
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { viewModel.refreshPermissions() }
