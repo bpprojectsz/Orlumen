@@ -39,7 +39,13 @@ jobs:
         run: |
           python3 - <<'PY'
           text = open("gradle.log").read()
+          import glob, re
           errors = [line for line in text.splitlines() if line.startswith("e: ") or " error: " in line]
+          errors += [line for line in text.splitlines() if re.search(r"\.kt:\d+", line) and line not in errors]
+          for report in glob.glob("app/build/reports/detekt/*.xml") + glob.glob("app/build/reports/ktlint/**/*.txt", recursive=True):
+              for line in open(report).read().splitlines():
+                  if "<file " in line or "<error " in line or ".kt:" in line:
+                      errors.append(re.sub(r"\s+", " ", line.strip())[:300])
           start = text.find("FAILURE:")
           tail = text[start:start + 1500] if start >= 0 else text[-1500:]
           text = "\n".join(errors)[:4000] + "\n---\n" + tail
