@@ -131,6 +131,10 @@ adb shell input swipe 540 1800 540 500 500; sleep 1
 shot visualizer_editor_middle
 adb shell input swipe 540 1800 540 300 500; sleep 1
 shot visualizer_editor_bottom
+ui scroll-tap "Apply"; sleep 8
+shot after_apply_interstitial
+adb shell input keyevent KEYCODE_BACK; sleep 2
+shot after_interstitial_back
 adb shell input keyevent KEYCODE_BACK; sleep 1
 adb shell input keyevent KEYCODE_BACK; sleep 2
 ui scroll-tap "Pick a clock style"; sleep 3
