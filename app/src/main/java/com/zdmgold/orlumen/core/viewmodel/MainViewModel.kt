@@ -15,12 +15,12 @@ import com.zdmgold.orlumen.platform.overlay.RuntimeFailure
 import com.zdmgold.orlumen.platform.overlay.RuntimeState
 import com.zdmgold.orlumen.platform.overlay.VisualizerController
 import dagger.hilt.android.lifecycle.HiltViewModel
+import javax.inject.Inject
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
-import javax.inject.Inject
 
 private const val STOP_TIMEOUT_MS = 5_000L
 
