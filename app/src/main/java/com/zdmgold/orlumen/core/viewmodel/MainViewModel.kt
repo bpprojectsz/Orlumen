@@ -1,5 +1,6 @@
 package com.zdmgold.orlumen.core.viewmodel
 
+import android.app.Activity
 import android.content.Intent
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -14,12 +15,12 @@ import com.zdmgold.orlumen.platform.overlay.RuntimeFailure
 import com.zdmgold.orlumen.platform.overlay.RuntimeState
 import com.zdmgold.orlumen.platform.overlay.VisualizerController
 import dagger.hilt.android.lifecycle.HiltViewModel
-import javax.inject.Inject
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
 private const val STOP_TIMEOUT_MS = 5_000L
 
@@ -52,7 +53,7 @@ class MainViewModel @Inject constructor(
     private val entitlementRepository: EntitlementRepository,
     consentRepository: ConsentRepository,
     nowPlayingRepository: NowPlayingRepository,
-    private val adAdapter: AdAdapter
+    val adAdapter: AdAdapter
 ) : ViewModel() {
     private val showAds = combine(entitlementRepository.isPro, consentRepository.consent) { isPro, consent ->
         adsAllowed(isPro, consent)
@@ -78,6 +79,11 @@ class MainViewModel @Inject constructor(
         controller.start(projectionResultCode, projectionData)
 
     fun stopVisualizer() = controller.stop()
+
+    /** Shows an interstitial after an in-app save when ads are allowed. Never call it from the overlay or AOD. */
+    fun showInterstitial(activity: Activity) {
+        if (uiState.value?.adsAllowed == true) adAdapter.showInterstitial(activity, isPro = false) {}
+    }
 
     fun setAodEnabled(enabled: Boolean) {
         viewModelScope.launch {

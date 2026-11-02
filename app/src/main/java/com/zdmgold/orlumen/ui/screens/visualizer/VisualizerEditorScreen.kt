@@ -1,5 +1,6 @@
 package com.zdmgold.orlumen.ui.screens.visualizer
 
+import androidx.activity.ComponentActivity
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -19,6 +20,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -26,6 +28,7 @@ import com.zdmgold.orlumen.R
 import com.zdmgold.orlumen.core.model.VisualizerConfig
 import com.zdmgold.orlumen.core.model.VisualizerDirection
 import com.zdmgold.orlumen.core.theme.Spacing
+import com.zdmgold.orlumen.core.viewmodel.MainViewModel
 import com.zdmgold.orlumen.core.viewmodel.VisualizerViewModel
 import com.zdmgold.orlumen.designs.visualizer.VisualizerRegistry
 import com.zdmgold.orlumen.ui.components.AppChip
@@ -36,6 +39,7 @@ import com.zdmgold.orlumen.ui.components.ParamEditorPanel
 import com.zdmgold.orlumen.ui.components.ScreenHeader
 import com.zdmgold.orlumen.ui.components.SectionHeader
 import com.zdmgold.orlumen.ui.components.VisualizerPreviewCanvas
+import com.zdmgold.orlumen.ui.components.findActivity
 import com.zdmgold.orlumen.ui.components.formatSliderValue
 import com.zdmgold.orlumen.ui.components.paletteColors
 
@@ -50,6 +54,8 @@ fun VisualizerEditorScreen(
     viewModel: VisualizerViewModel = hiltViewModel()
 ) {
     val state by viewModel.uiState.collectAsStateWithLifecycle()
+    val activity = LocalContext.current.findActivity()
+    val main: MainViewModel = hiltViewModel(viewModelStoreOwner = activity as ComponentActivity)
     val current = state
     LaunchedEffect(designId, current != null) {
         if (current != null && current.draft.designId != designId) viewModel.selectDesign(designId)
@@ -141,7 +147,10 @@ fun VisualizerEditorScreen(
             Spacer(modifier = Modifier.height(Spacing.lg))
             AppPrimaryButton(
                 text = stringResource(R.string.action_apply),
-                onClick = viewModel::apply,
+                onClick = {
+                    viewModel.apply()
+                    activity?.let(main::showInterstitial)
+                },
                 enabled = current.isDirty
             )
             TextButton(onClick = viewModel::resetDraft, enabled = current.isDirty) {

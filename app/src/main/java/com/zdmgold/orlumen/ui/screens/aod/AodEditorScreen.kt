@@ -1,6 +1,7 @@
 package com.zdmgold.orlumen.ui.screens.aod
 
 import android.text.format.DateFormat
+import androidx.activity.ComponentActivity
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -28,6 +29,7 @@ import com.zdmgold.orlumen.R
 import com.zdmgold.orlumen.core.model.AodConfig
 import com.zdmgold.orlumen.core.theme.Spacing
 import com.zdmgold.orlumen.core.viewmodel.AodViewModel
+import com.zdmgold.orlumen.core.viewmodel.MainViewModel
 import com.zdmgold.orlumen.designs.aod.AodRegistry
 import com.zdmgold.orlumen.designs.aod.AodSymbolSet
 import com.zdmgold.orlumen.ui.components.AodPreviewCanvas
@@ -40,6 +42,7 @@ import com.zdmgold.orlumen.ui.components.PaletteChipRow
 import com.zdmgold.orlumen.ui.components.ParamEditorPanel
 import com.zdmgold.orlumen.ui.components.ScreenHeader
 import com.zdmgold.orlumen.ui.components.SectionHeader
+import com.zdmgold.orlumen.ui.components.findActivity
 import com.zdmgold.orlumen.ui.components.formatSliderValue
 import com.zdmgold.orlumen.ui.components.paletteColorsArgb
 import kotlin.math.roundToInt
@@ -54,6 +57,8 @@ fun AodEditorScreen(
     viewModel: AodViewModel = hiltViewModel()
 ) {
     val state by viewModel.uiState.collectAsStateWithLifecycle()
+    val activity = LocalContext.current.findActivity()
+    val main: MainViewModel = hiltViewModel(viewModelStoreOwner = activity as ComponentActivity)
     val use24Hour = DateFormat.is24HourFormat(LocalContext.current)
     val current = state
     LaunchedEffect(designId, current != null) {
@@ -147,7 +152,10 @@ fun AodEditorScreen(
             Spacer(modifier = Modifier.height(Spacing.lg))
             AppPrimaryButton(
                 text = stringResource(R.string.action_apply),
-                onClick = viewModel::apply,
+                onClick = {
+                    viewModel.apply()
+                    activity?.let(main::showInterstitial)
+                },
                 enabled = current.isDirty
             )
             TextButton(onClick = viewModel::resetDraft, enabled = current.isDirty) {

@@ -1,5 +1,6 @@
 package com.zdmgold.orlumen.navigation
 
+import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
@@ -9,9 +10,11 @@ import androidx.navigation.NavHostController
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.zdmgold.orlumen.core.viewmodel.AppPickerTarget
+import com.zdmgold.orlumen.ui.components.MainAdBanner
 import com.zdmgold.orlumen.ui.screens.about.AboutAndLegalScreen
 import com.zdmgold.orlumen.ui.screens.aod.AodEditorScreen
 import com.zdmgold.orlumen.ui.screens.aod.AodGalleryScreen
@@ -34,6 +37,32 @@ private const val AUTO_START_KEY = "autoStart"
 @Composable
 fun AppNavHost(startDestination: String, onOnboardingFinished: () -> Unit, modifier: Modifier = Modifier) {
     val navController = rememberNavController()
+    val backStackEntry by navController.currentBackStackEntryAsState()
+    Column(modifier = modifier) {
+        AppNavGraph(
+            navController = navController,
+            startDestination = startDestination,
+            onOnboardingFinished = onOnboardingFinished,
+            modifier = Modifier.weight(1f)
+        )
+        if (backStackEntry?.destination?.route in AD_ROUTES) MainAdBanner()
+    }
+}
+
+private val AD_ROUTES = setOf(
+    NavRoutes.HOME,
+    NavRoutes.VISUALIZER_GALLERY,
+    NavRoutes.AOD_GALLERY,
+    NavRoutes.PALETTES
+)
+
+@Composable
+private fun AppNavGraph(
+    navController: NavHostController,
+    startDestination: String,
+    onOnboardingFinished: () -> Unit,
+    modifier: Modifier
+) {
     NavHost(navController = navController, startDestination = startDestination, modifier = modifier) {
         composable(NavRoutes.ONBOARDING) {
             OnboardingScreen(
