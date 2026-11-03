@@ -25,6 +25,7 @@ data class UserPreferences(
     val isProUser: Boolean = false,
     val dimBackground: Boolean = false,
     val keepScreenOn: Boolean = false,
+    val keepClearOfStatusBar: Boolean = false,
     val hideOverFullscreen: Boolean = true,
     val autoApplyAlbumColors: Boolean = true,
     val onboardingCompleted: Boolean = false,

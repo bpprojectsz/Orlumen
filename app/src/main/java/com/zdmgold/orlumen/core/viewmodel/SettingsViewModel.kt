@@ -31,6 +31,8 @@ class SettingsViewModel @Inject constructor(private val preferencesRepository: P
 
     fun setKeepScreenOn(enabled: Boolean) = change { it.copy(keepScreenOn = enabled) }
 
+    fun setKeepClearOfStatusBar(enabled: Boolean) = change { it.copy(keepClearOfStatusBar = enabled) }
+
     fun setHideOverFullscreen(enabled: Boolean) = change { it.copy(hideOverFullscreen = enabled) }
 
     fun setAutoApplyAlbumColors(enabled: Boolean) = change { it.copy(autoApplyAlbumColors = enabled) }

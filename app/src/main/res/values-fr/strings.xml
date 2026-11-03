@@ -245,6 +245,13 @@
     <string name="settings_language_sub_app">Choisissez une langue pour Orlumen</string>
     <string name="settings_language_sub_system">Orlumen utilise la langue de votre téléphone</string>
     <string name="settings_theme_hint">Système suit le réglage clair ou sombre de votre téléphone.</string>
+    <string name="settings_keep_clear_status">Dégager la barre d’état</string>
+    <string name="settings_keep_clear_status_sub">Démarre les lumières sous la barre d’état pour que l’heure reste lisible.</string>
+    <string name="preset_section">Préréglages</string>
+    <string name="preset_name">Nom du préréglage</string>
+    <string name="preset_save">Enregistrer le préréglage</string>
+    <string name="preset_delete">Supprimer le préréglage</string>
+    <string name="preset_empty">Aucun préréglage enregistré</string>
     <plurals name="picker_selected">
         <item quantity="one">%d appli sélectionnée</item>
         <item quantity="many">%d d’applis sélectionnées</item>

@@ -245,6 +245,13 @@
     <string name="settings_language_sub_app">Orlumen の言語を選択</string>
     <string name="settings_language_sub_system">Orlumen は端末の言語に従います</string>
     <string name="settings_theme_hint">システムは端末のライト／ダーク設定に従います。</string>
+    <string name="settings_keep_clear_status">ステータスバーを避ける</string>
+    <string name="settings_keep_clear_status_sub">時刻が読みやすいよう、ライトをステータスバーの下から表示します。</string>
+    <string name="preset_section">プリセット</string>
+    <string name="preset_name">プリセット名</string>
+    <string name="preset_save">プリセットを保存</string>
+    <string name="preset_delete">プリセットを削除</string>
+    <string name="preset_empty">保存済みのプリセットはまだありません</string>
     <plurals name="picker_selected">
         <item quantity="other">%d 個のアプリを選択中</item>
     </plurals>

@@ -40,6 +40,7 @@ import com.zdmgold.orlumen.ui.components.AppSlider
 import com.zdmgold.orlumen.ui.components.AppSwitchRow
 import com.zdmgold.orlumen.ui.components.PaletteChipRow
 import com.zdmgold.orlumen.ui.components.ParamEditorPanel
+import com.zdmgold.orlumen.ui.components.PresetsSection
 import com.zdmgold.orlumen.ui.components.ScreenHeader
 import com.zdmgold.orlumen.ui.components.SectionHeader
 import com.zdmgold.orlumen.ui.components.findActivity
@@ -148,6 +149,13 @@ fun AodEditorScreen(
                 palettes = current.palettes,
                 selectedId = draft.paletteId,
                 onSelect = { viewModel.selectPalette(it.id) }
+            )
+            SectionHeader(text = stringResource(R.string.preset_section))
+            PresetsSection(
+                presets = current.presets.map { it.id to it.name },
+                onLoad = { id -> current.presets.firstOrNull { it.id == id }?.let(viewModel::loadPreset) },
+                onDelete = viewModel::deletePreset,
+                onSave = viewModel::savePreset
             )
             Spacer(modifier = Modifier.height(Spacing.lg))
             AppPrimaryButton(

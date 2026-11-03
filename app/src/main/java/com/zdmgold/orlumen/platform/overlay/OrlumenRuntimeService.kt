@@ -14,10 +14,15 @@ import android.os.IBinder
 import android.os.Looper
 import android.util.Log
 import android.view.View
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalDensity
 import androidx.core.app.NotificationCompat
 import androidx.core.app.ServiceCompat
 import androidx.core.content.IntentCompat
@@ -56,7 +61,12 @@ private const val TAG = "OrlumenRuntimeService"
 private const val NOTIFICATION_ID = 1001
 private const val VISIBILITY_POLL_MS = 1000L
 
-private data class OverlayUiState(val config: VisualizerConfig, val colors: List<Color>, val corners: CornerRadii)
+private data class OverlayUiState(
+    val config: VisualizerConfig,
+    val colors: List<Color>,
+    val corners: CornerRadii,
+    val topInsetPx: Float = 0f
+)
 
 @AndroidEntryPoint
 class OrlumenRuntimeService : Service() {
@@ -214,7 +224,10 @@ class OrlumenRuntimeService : Service() {
     private fun OverlayContent() {
         val current by frame.collectAsState()
         val state by uiState.collectAsState()
-        VisualizerCanvas(frame = current, config = state.config, colors = state.colors, corners = state.corners)
+        val topPadding = with(LocalDensity.current) { state.topInsetPx.toDp() }
+        Box(modifier = Modifier.fillMaxSize().padding(top = topPadding)) {
+            VisualizerCanvas(frame = current, config = state.config, colors = state.colors, corners = state.corners)
+        }
     }
 
     private fun startCollectors(aodOnly: Boolean) {
@@ -250,7 +263,13 @@ class OrlumenRuntimeService : Service() {
             val palette = resolvePalette(config.paletteId, palettes, album, prefs.autoApplyAlbumColors)
             audioPipeline.updateTuning(config.sensitivity, config.smoothing)
             applyWindowFlags(prefs.keepScreenOn, prefs.dimBackground)
-            OverlayUiState(config, palette.colorsArgb.map { Color(it) }, corners)
+            val clear = prefs.keepClearOfStatusBar
+            OverlayUiState(
+                config = config,
+                colors = palette.colorsArgb.map { Color(it) },
+                corners = if (clear) corners.copy(topLeft = 0f, topRight = 0f) else corners,
+                topInsetPx = if (clear) windowManagerHelper.statusBarHeightPx() else 0f
+            )
         }.collect { uiState.value = it }
     }
 

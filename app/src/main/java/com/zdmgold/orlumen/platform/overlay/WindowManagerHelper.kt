@@ -74,6 +74,11 @@ class WindowManagerHelper @Inject constructor(
         return geometryOf(real.widthPixels.toFloat(), real.heightPixels.toFloat(), CornerRadii.uniform(fallback))
     }
 
+    fun statusBarHeightPx(): Float {
+        val id = context.resources.getIdentifier("status_bar_height", "dimen", "android")
+        return if (id > 0) context.resources.getDimensionPixelSize(id).toFloat() else 0f
+    }
+
     private fun geometryOf(width: Float, height: Float, corners: CornerRadii): EdgeGeometry =
         EdgeGeometry(width, height, corners.coercedTo(minOf(width, height) / 2f))
 

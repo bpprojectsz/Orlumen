@@ -102,6 +102,12 @@ fun SettingsScreen(
                 onCheckedChange = viewModel::setDimBackground
             )
             AppSwitchRow(
+                title = stringResource(R.string.settings_keep_clear_status),
+                subtitle = stringResource(R.string.settings_keep_clear_status_sub),
+                checked = prefs.keepClearOfStatusBar,
+                onCheckedChange = viewModel::setKeepClearOfStatusBar
+            )
+            AppSwitchRow(
                 title = stringResource(R.string.settings_keep_screen_on),
                 checked = prefs.keepScreenOn,
                 onCheckedChange = viewModel::setKeepScreenOn

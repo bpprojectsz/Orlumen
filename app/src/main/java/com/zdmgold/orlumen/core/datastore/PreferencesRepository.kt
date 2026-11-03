@@ -31,6 +31,7 @@ private object Keys {
     val isProUser = booleanPreferencesKey("is_pro_user")
     val dimBackground = booleanPreferencesKey("dim_background")
     val keepScreenOn = booleanPreferencesKey("keep_screen_on")
+    val keepClearOfStatusBar = booleanPreferencesKey("keep_clear_status_bar")
     val hideOverFullscreen = booleanPreferencesKey("hide_over_fullscreen")
     val autoApplyAlbumColors = booleanPreferencesKey("auto_apply_album_colors")
     val onboardingCompleted = booleanPreferencesKey("onboarding_completed")
@@ -73,6 +74,7 @@ private fun Preferences.toUserPreferences(): UserPreferences {
         isProUser = this[Keys.isProUser] ?: defaults.isProUser,
         dimBackground = this[Keys.dimBackground] ?: defaults.dimBackground,
         keepScreenOn = this[Keys.keepScreenOn] ?: defaults.keepScreenOn,
+        keepClearOfStatusBar = this[Keys.keepClearOfStatusBar] ?: defaults.keepClearOfStatusBar,
         hideOverFullscreen = this[Keys.hideOverFullscreen] ?: defaults.hideOverFullscreen,
         autoApplyAlbumColors = this[Keys.autoApplyAlbumColors] ?: defaults.autoApplyAlbumColors,
         onboardingCompleted = this[Keys.onboardingCompleted] ?: defaults.onboardingCompleted,
@@ -89,6 +91,7 @@ private fun MutablePreferences.write(value: UserPreferences) {
     this[Keys.isProUser] = value.isProUser
     this[Keys.dimBackground] = value.dimBackground
     this[Keys.keepScreenOn] = value.keepScreenOn
+    this[Keys.keepClearOfStatusBar] = value.keepClearOfStatusBar
     this[Keys.hideOverFullscreen] = value.hideOverFullscreen
     this[Keys.autoApplyAlbumColors] = value.autoApplyAlbumColors
     this[Keys.onboardingCompleted] = value.onboardingCompleted
