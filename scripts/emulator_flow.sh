@@ -183,8 +183,14 @@ adb shell input keyevent KEYCODE_BACK; sleep 1
 
 # ---------- Phase 4: about screen and teardown ----------
 launch; sleep 3
-ui scroll-tap "About Orlumen"; sleep 2
-shot about
+ui scroll-tap "About and legal"; sleep 3
+shot about_top
+ui scroll-tap "Open-source licenses"; sleep 3
+shot licenses
+adb shell input keyevent KEYCODE_BACK; sleep 1
+adb shell input keyevent KEYCODE_BACK; sleep 2
+ui scroll-tap "Audio source, apps, clock"; sleep 3
+shot settings_light_theme
 
 adb logcat -d -v threadtime > "$OUT/logcat_full.txt"
 tail -n 4000 "$OUT/logcat_full.txt" > "$OUT/logcat_tail.txt"
