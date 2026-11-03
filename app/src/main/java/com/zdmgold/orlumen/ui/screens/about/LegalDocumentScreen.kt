@@ -24,6 +24,7 @@ import com.zdmgold.orlumen.ui.components.ScreenHeader
 fun LegalDocumentScreen(doc: String, onBack: () -> Unit, modifier: Modifier = Modifier) {
     val context = LocalContext.current
     @RawRes val rawId = if (doc == LEGAL_TERMS) R.raw.terms_of_use else R.raw.privacy_policy
+    val titleRes = if (doc == LEGAL_TERMS) R.string.about_terms_of_service else R.string.about_privacy_policy
     val lines = remember(rawId) {
         context.resources.openRawResource(rawId).bufferedReader().use { it.readLines() }
     }
@@ -33,10 +34,7 @@ fun LegalDocumentScreen(doc: String, onBack: () -> Unit, modifier: Modifier = Mo
             .padding(horizontal = Spacing.lg)
             .verticalScroll(rememberScrollState())
     ) {
-        ScreenHeader(
-            title = stringResource(if (doc == LEGAL_TERMS) R.string.about_terms_of_service else R.string.about_privacy_policy),
-            onBack = onBack
-        )
+        ScreenHeader(title = stringResource(titleRes), onBack = onBack)
         lines.filter { it.isNotBlank() }.forEach { line ->
             when {
                 line.startsWith("## ") -> Text(
