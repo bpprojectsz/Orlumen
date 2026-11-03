@@ -85,6 +85,9 @@ h3 { font-size: 1.1rem; margin: 0 0 0.35rem; }
   font-size: 0.95rem;
 }
 
+a.badge { color: var(--text); font-weight: 600; background: linear-gradient(90deg, var(--accent), var(--accent-2)); border: 0; }
+a.badge:hover { text-decoration: none; filter: brightness(1.08); }
+
 .phone {
   position: relative;
   width: min(260px, 70vw);

@@ -1,5 +1,12 @@
 package com.zdmgold.orlumen.ui.screens.settings
 
+import android.content.ActivityNotFoundException
+import android.content.Context
+import android.content.Intent
+import android.net.Uri
+import android.os.Build
+import android.provider.Settings
+import android.util.Log
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -14,6 +21,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -43,6 +51,7 @@ fun SettingsScreen(
     viewModel: SettingsViewModel = hiltViewModel()
 ) {
     val prefs by viewModel.preferences.collectAsStateWithLifecycle()
+    val context = LocalContext.current
     Column(
         modifier = modifier
             .fillMaxSize()
@@ -61,6 +70,22 @@ fun SettingsScreen(
             selected = prefs.themeMode,
             onSelect = viewModel::setThemeMode
         )
+        Hint(text = stringResource(R.string.settings_theme_hint))
+        Spacer(modifier = Modifier.height(Spacing.md))
+        AppCard {
+            AppRow(
+                title = stringResource(R.string.settings_language),
+                subtitle = stringResource(
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                        R.string.settings_language_sub_app
+                    } else {
+                        R.string.settings_language_sub_system
+                    }
+                ),
+                leadingIcon = iconInfo,
+                onClick = { openLanguageSettings(context) }
+            )
+        }
 
         SectionHeader(text = stringResource(R.string.home_edge_lights))
         AppCard {
@@ -166,4 +191,17 @@ private fun Hint(text: String) {
         color = OrlumenTheme.colors.textTertiary,
         modifier = Modifier.padding(top = Spacing.sm)
     )
+}
+
+private fun openLanguageSettings(context: Context) {
+    val intent = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+        Intent(Settings.ACTION_APP_LOCALE_SETTINGS, Uri.fromParts("package", context.packageName, null))
+    } else {
+        Intent(Settings.ACTION_LOCALE_SETTINGS)
+    }
+    try {
+        context.startActivity(intent)
+    } catch (notFound: ActivityNotFoundException) {
+        Log.w("SettingsScreen", "No language settings screen available", notFound)
+    }
 }

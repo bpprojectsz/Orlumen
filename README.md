@@ -26,7 +26,7 @@ Android app that turns music into edge lights and an always-on clock. Applicatio
 ## Release signing
 Create these repository secrets (Settings, Secrets and variables, Actions): `ANDROID_KEYSTORE_BASE64`, `ANDROID_KEYSTORE_PASSWORD`, `ANDROID_KEY_ALIAS`, `ANDROID_KEY_PASSWORD`. Without them the release build falls back to debug signing.
 
-Optional repository variables: `WEBSITE_BASE_URL` (shows privacy and terms links in the About screen), and real AdMob IDs once your account exists. Google's public test IDs are the default.
+Optional repository variables: `WEBSITE_BASE_URL` (defaults to the live site), and real AdMob IDs once your account exists. Google's public test IDs are the default.
 
 ## Local build
 Requires JDK 17 and the Android SDK (platform 36).
@@ -34,4 +34,4 @@ Requires JDK 17 and the Android SDK (platform 36).
     ./gradlew ktlintCheck detekt testDebugUnitTest assembleDebug
 
 ## Website
-Deploy the `website/` folder with Cloudflare Pages (no build command, output directory `website`).
+Live at https://orlumen.bpprojectsz.workers.dev (privacy, terms and support pages at `/privacy`, `/terms`, `/support`). Deploy the `website/` folder as static assets; the About screen uses this URL by default, override it with the `WEBSITE_BASE_URL` repo variable.

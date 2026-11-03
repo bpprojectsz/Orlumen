@@ -23,7 +23,7 @@ fun envOrProperty(name: String, default: String): String {
     return candidates.firstOrNull { !it.isNullOrBlank() } ?: default
 }
 
-val websiteBaseUrl = envOrProperty("WEBSITE_BASE_URL", "")
+val websiteBaseUrl = envOrProperty("WEBSITE_BASE_URL", "https://orlumen.bpprojectsz.workers.dev")
 val admobAppId = envOrProperty("ADMOB_APP_ID", "ca-app-pub-3940256099942544~3347511713")
 val admobBannerId = envOrProperty("ADMOB_BANNER_ID", "ca-app-pub-3940256099942544/9214589741")
 val admobInterstitialId = envOrProperty("ADMOB_INTERSTITIAL_ID", "ca-app-pub-3940256099942544/1033173712")

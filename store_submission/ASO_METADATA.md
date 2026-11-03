@@ -39,8 +39,10 @@ Personalization
 
 ## Contact
 Email: stmakarios@gmail.com
-Website: set from the Cloudflare Pages URL after deployment
-Privacy policy URL: <website>/privacy.html
+Website: https://orlumen.bpprojectsz.workers.dev
+Privacy policy URL: https://orlumen.bpprojectsz.workers.dev/privacy
+Terms URL: https://orlumen.bpprojectsz.workers.dev/terms
+Support URL: https://orlumen.bpprojectsz.workers.dev/support
 
 ## Graphics to create (not text)
 - 512 x 512 icon (Pulse ring)

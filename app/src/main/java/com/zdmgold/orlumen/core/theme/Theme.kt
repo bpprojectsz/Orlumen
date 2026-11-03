@@ -28,7 +28,7 @@ private fun OrlumenColors.toMaterial(isDark: Boolean): ColorScheme {
 }
 
 @Composable
-fun OrlumenTheme(themeMode: ThemeMode = ThemeMode.DARK, content: @Composable () -> Unit) {
+fun OrlumenTheme(themeMode: ThemeMode = ThemeMode.SYSTEM, content: @Composable () -> Unit) {
     val useDark = when (themeMode) {
         ThemeMode.DARK -> true
         ThemeMode.LIGHT -> false

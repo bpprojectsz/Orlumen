@@ -230,6 +230,21 @@
     <string name="home_settings_sub">오디오 소스, 앱, 시계, 개인정보</string>
     <string name="home_remove_ads">광고 제거</string>
     <string name="home_remove_ads_sub">1회 구매</string>
+    <string name="about_rate">Orlumen 평가하기</string>
+    <string name="about_rate_sub">Google Play에 리뷰 남기기</string>
+    <string name="about_share">Orlumen 공유</string>
+    <string name="about_share_sub">친구에게 알려 주세요</string>
+    <string name="about_licenses">오픈소스 라이선스</string>
+    <string name="share_text">Orlumen을 써 보세요: 음악에 맞춰 빛나는 엣지 라이트와 상시 표시 시계. %1$s</string>
+    <string name="share_chooser_title">Orlumen 공유</string>
+    <string name="licenses_title">오픈소스 라이선스</string>
+    <string name="licenses_intro">Orlumen은 다음 오픈소스 라이브러리로 만들어졌으며, 각각 해당 라이선스에 따라 사용됩니다.</string>
+    <string name="licenses_full_text">라이선스 전문: apache.org/licenses/LICENSE-2.0</string>
+    <string name="licenses_google_note">Google Mobile Ads SDK, User Messaging Platform, Play Billing Library는 Google이 자체 약관에 따라 제공합니다.</string>
+    <string name="settings_language">언어</string>
+    <string name="settings_language_sub_app">Orlumen 언어 선택</string>
+    <string name="settings_language_sub_system">Orlumen은 휴대전화 언어를 따릅니다</string>
+    <string name="settings_theme_hint">시스템은 휴대전화의 라이트/다크 설정을 따릅니다.</string>
     <plurals name="picker_selected">
         <item quantity="other">앱 %d개 선택됨</item>
     </plurals>

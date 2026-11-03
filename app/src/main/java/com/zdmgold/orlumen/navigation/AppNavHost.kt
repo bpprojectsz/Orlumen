@@ -15,7 +15,10 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.zdmgold.orlumen.core.viewmodel.AppPickerTarget
 import com.zdmgold.orlumen.ui.components.MainAdBanner
+import com.zdmgold.orlumen.ui.screens.about.AboutActions
 import com.zdmgold.orlumen.ui.screens.about.AboutAndLegalScreen
+import com.zdmgold.orlumen.ui.screens.about.LegalDocumentScreen
+import com.zdmgold.orlumen.ui.screens.about.LicensesScreen
 import com.zdmgold.orlumen.ui.screens.aod.AodEditorScreen
 import com.zdmgold.orlumen.ui.screens.aod.AodGalleryScreen
 import com.zdmgold.orlumen.ui.screens.consent.ConsentManagementScreen
@@ -111,9 +114,7 @@ private fun AppNavGraph(
         }
         designDestinations(navController)
         settingsDestinations(navController)
-        composable(NavRoutes.ABOUT) {
-            AboutAndLegalScreen(onBack = { navController.popBackStack() })
-        }
+        aboutDestinations(navController)
     }
 }
 
@@ -179,4 +180,26 @@ private fun NavGraphBuilder.settingsDestinations(navController: NavHostControlle
     }
     composable(NavRoutes.PAYWALL) { PaywallScreen(onBack = { navController.popBackStack() }) }
     composable(NavRoutes.CONSENT) { ConsentManagementScreen(onBack = { navController.popBackStack() }) }
+}
+
+private fun NavGraphBuilder.aboutDestinations(navController: NavHostController) {
+    composable(NavRoutes.ABOUT) {
+        AboutAndLegalScreen(
+            actions = AboutActions(
+                onOpenLegal = { navController.navigate(NavRoutes.legal(it)) },
+                onOpenLicenses = { navController.navigate(NavRoutes.LICENSES) }
+            ),
+            onBack = { navController.popBackStack() }
+        )
+    }
+    composable(
+        NavRoutes.LEGAL,
+        arguments = listOf(navArgument(NavRoutes.ARG_LEGAL_DOC) { type = NavType.StringType })
+    ) { entry ->
+        LegalDocumentScreen(
+            doc = entry.arguments?.getString(NavRoutes.ARG_LEGAL_DOC).orEmpty(),
+            onBack = { navController.popBackStack() }
+        )
+    }
+    composable(NavRoutes.LICENSES) { LicensesScreen(onBack = { navController.popBackStack() }) }
 }

@@ -1,0 +1,19 @@
+# Terms of Use
+Effective November 1, 2026
+By installing or using Orlumen (“the app”) you agree to these terms. If you do not agree, please do not use the app.
+## License
+You may install and use the app on your own Android devices for personal, non-commercial use. You may not copy, resell, reverse engineer or redistribute it, except where the law gives you that right.
+## Purchases and refunds
+Orlumen Pro is a one-time purchase that removes ads. It is sold and billed by Google Play, and refunds are handled under Google Play’s refund policy. You can restore the purchase from the Orlumen Pro screen on any device signed in to the same Google account.
+## Permissions you grant
+The app asks for permissions it needs for its features, as explained in the Privacy Policy. You can withdraw any permission in Android settings, though some features will then stop working.
+## Photosensitivity and safe use
+The edge lights move and change brightness with sound. If you are sensitive to flashing or flickering light, lower the sensitivity or do not use the lights. Do not use the app in a way that distracts you while driving or doing anything that needs your full attention.
+## Battery and device effects
+Running the lights and the always-on clock uses battery. The always-on clock is shown by the app when the screen turns off; it is not a built-in system feature and may behave differently across devices. Use the app at your own discretion.
+## No warranty
+The app is provided “as is” without warranties of any kind. To the maximum extent permitted by law, we are not liable for indirect or consequential damages, or for loss of data or device settings arising from your use of the app.
+## Changes
+We may update these terms. Continued use after an update means you accept the new terms.
+## Contact
+stmakarios@gmail.com

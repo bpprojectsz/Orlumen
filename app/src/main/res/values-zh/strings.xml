@@ -230,6 +230,21 @@
     <string name="home_settings_sub">音频源、应用、时钟和隐私</string>
     <string name="home_remove_ads">移除广告</string>
     <string name="home_remove_ads_sub">一次性购买</string>
+    <string name="about_rate">为 Orlumen 评分</string>
+    <string name="about_rate_sub">在 Google Play 上留下评价</string>
+    <string name="about_share">分享 Orlumen</string>
+    <string name="about_share_sub">告诉朋友</string>
+    <string name="about_licenses">开源许可</string>
+    <string name="share_text">试试 Orlumen：随音乐闪耀的边缘灯光和常亮时钟。%1$s</string>
+    <string name="share_chooser_title">分享 Orlumen</string>
+    <string name="licenses_title">开源许可</string>
+    <string name="licenses_intro">Orlumen 使用以下开源库构建，每个库均按其许可使用。</string>
+    <string name="licenses_full_text">许可全文：apache.org/licenses/LICENSE-2.0</string>
+    <string name="licenses_google_note">Google Mobile Ads SDK、User Messaging Platform 和 Play Billing Library 由 Google 依其自有条款提供。</string>
+    <string name="settings_language">语言</string>
+    <string name="settings_language_sub_app">为 Orlumen 选择语言</string>
+    <string name="settings_language_sub_system">Orlumen 跟随手机语言</string>
+    <string name="settings_theme_hint">跟随系统会遵循手机的浅色或深色设置。</string>
     <plurals name="picker_selected">
         <item quantity="other">已选择 %d 个应用</item>
     </plurals>

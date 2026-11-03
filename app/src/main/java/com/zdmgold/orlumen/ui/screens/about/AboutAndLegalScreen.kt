@@ -6,63 +6,65 @@ import android.content.Intent
 import android.net.Uri
 import android.util.Log
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.IconButton
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import com.zdmgold.orlumen.BuildConfig
 import com.zdmgold.orlumen.R
-import com.zdmgold.orlumen.core.theme.OrlumenTheme
 import com.zdmgold.orlumen.core.theme.Spacing
 import com.zdmgold.orlumen.ui.components.AppCard
 import com.zdmgold.orlumen.ui.components.AppRow
-import com.zdmgold.orlumen.ui.components.IconWrapper
+import com.zdmgold.orlumen.ui.components.ScreenHeader
 import com.zdmgold.orlumen.ui.components.SectionHeader
-import com.zdmgold.orlumen.ui.components.iconBack
 import com.zdmgold.orlumen.ui.components.iconInfo
 import com.zdmgold.orlumen.ui.components.iconLock
+import com.zdmgold.orlumen.ui.components.iconStar
 
 private const val TAG = "AboutAndLegalScreen"
 private const val SUPPORT_EMAIL = "stmakarios@gmail.com"
+private const val PLAY_WEB_URL = "https://play.google.com/store/apps/details?id="
+
+const val LEGAL_PRIVACY = "privacy"
+const val LEGAL_TERMS = "terms"
+
+class AboutActions(val onOpenLegal: (String) -> Unit, val onOpenLicenses: () -> Unit)
 
 @Composable
-fun AboutAndLegalScreen(modifier: Modifier = Modifier, onBack: (() -> Unit)? = null) {
+fun AboutAndLegalScreen(actions: AboutActions, modifier: Modifier = Modifier, onBack: (() -> Unit)? = null) {
     val context = LocalContext.current
-    val colors = OrlumenTheme.colors
-    val hasWebsite = BuildConfig.WEBSITE_BASE_URL.isNotBlank()
+    val website = BuildConfig.WEBSITE_BASE_URL
     Column(
         modifier = modifier
             .fillMaxSize()
             .padding(horizontal = Spacing.lg)
             .verticalScroll(rememberScrollState())
     ) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            if (onBack != null) {
-                IconButton(onClick = onBack) {
-                    IconWrapper(imageVector = iconBack, contentDescription = stringResource(R.string.action_back))
-                }
-            }
-            Text(
-                text = stringResource(R.string.about_title),
-                style = OrlumenTheme.typography.headline,
-                color = colors.textPrimary,
-                modifier = Modifier.padding(vertical = Spacing.lg)
-            )
-        }
+        ScreenHeader(title = stringResource(R.string.about_title), onBack = onBack)
         SectionHeader(text = stringResource(R.string.about_section_app))
         AppCard {
             AppRow(
                 title = stringResource(R.string.about_version),
                 subtitle = BuildConfig.VERSION_NAME,
                 showChevron = false
+            )
+            AppRow(
+                title = stringResource(R.string.about_rate),
+                subtitle = stringResource(R.string.about_rate_sub),
+                leadingIcon = iconStar,
+                onClick = { openStoreListing(context) }
+            )
+            AppRow(
+                title = stringResource(R.string.about_share),
+                subtitle = stringResource(R.string.about_share_sub),
+                leadingIcon = iconInfo,
+                onClick = { shareApp(context) }
             )
         }
         SectionHeader(text = stringResource(R.string.about_section_support))
@@ -74,21 +76,61 @@ fun AboutAndLegalScreen(modifier: Modifier = Modifier, onBack: (() -> Unit)? = n
                 onClick = { openUri(context, "mailto:$SUPPORT_EMAIL", Intent.ACTION_SENDTO) }
             )
         }
-        if (hasWebsite) {
-            SectionHeader(text = stringResource(R.string.about_section_legal))
-            AppCard {
-                AppRow(
-                    title = stringResource(R.string.about_privacy_policy),
-                    leadingIcon = iconLock,
-                    onClick = { openUri(context, "${BuildConfig.WEBSITE_BASE_URL}/privacy.html", Intent.ACTION_VIEW) }
-                )
-                AppRow(
-                    title = stringResource(R.string.about_terms_of_service),
-                    leadingIcon = iconInfo,
-                    onClick = { openUri(context, "${BuildConfig.WEBSITE_BASE_URL}/terms.html", Intent.ACTION_VIEW) }
-                )
-            }
+        SectionHeader(text = stringResource(R.string.about_section_legal))
+        AppCard {
+            AppRow(
+                title = stringResource(R.string.about_privacy_policy),
+                leadingIcon = iconLock,
+                onClick = {
+                    if (website.isNotBlank()) {
+                        openUri(context, "$website/privacy", Intent.ACTION_VIEW)
+                    } else {
+                        actions.onOpenLegal(LEGAL_PRIVACY)
+                    }
+                }
+            )
+            AppRow(
+                title = stringResource(R.string.about_terms_of_service),
+                leadingIcon = iconInfo,
+                onClick = {
+                    if (website.isNotBlank()) {
+                        openUri(context, "$website/terms", Intent.ACTION_VIEW)
+                    } else {
+                        actions.onOpenLegal(LEGAL_TERMS)
+                    }
+                }
+            )
+            AppRow(
+                title = stringResource(R.string.about_licenses),
+                leadingIcon = iconInfo,
+                onClick = actions.onOpenLicenses
+            )
         }
+        Spacer(modifier = Modifier.height(Spacing.xl))
+    }
+}
+
+private fun storeUrl() = PLAY_WEB_URL + BuildConfig.APPLICATION_ID
+
+private fun openStoreListing(context: Context) {
+    val market = Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=${BuildConfig.APPLICATION_ID}"))
+    try {
+        context.startActivity(market)
+    } catch (notFound: ActivityNotFoundException) {
+        Log.w(TAG, "Play Store app not available, opening the web listing", notFound)
+        openUri(context, storeUrl(), Intent.ACTION_VIEW)
+    }
+}
+
+private fun shareApp(context: Context) {
+    val send = Intent(Intent.ACTION_SEND).apply {
+        type = "text/plain"
+        putExtra(Intent.EXTRA_TEXT, context.getString(R.string.share_text, storeUrl()))
+    }
+    try {
+        context.startActivity(Intent.createChooser(send, context.getString(R.string.share_chooser_title)))
+    } catch (notFound: ActivityNotFoundException) {
+        Log.w(TAG, "Nothing can share text", notFound)
     }
 }
 

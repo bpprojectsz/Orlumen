@@ -17,8 +17,13 @@ object NavRoutes {
     const val APP_PICKER = "app_picker/{$ARG_PICKER_TARGET}"
     const val PAYWALL = "paywall"
     const val CONSENT = "consent"
+    const val ARG_LEGAL_DOC = "doc"
+    const val LEGAL = "legal/{$ARG_LEGAL_DOC}"
+    const val LICENSES = "licenses"
 
     fun visualizerEditor(designId: String) = "visualizer_editor/$designId"
+
+    fun legal(doc: String) = "legal/$doc"
 
     fun appPicker(target: String) = "app_picker/$target"
 

@@ -18,7 +18,7 @@ enum class AodHostMode {
 }
 
 data class UserPreferences(
-    val themeMode: ThemeMode = ThemeMode.DARK,
+    val themeMode: ThemeMode = ThemeMode.SYSTEM,
     val audioSourceMode: AudioSourceMode = AudioSourceMode.AUTO,
     val aodHostMode: AodHostMode = AodHostMode.ACTIVITY,
     val aodEnabled: Boolean = false,
