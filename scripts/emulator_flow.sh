@@ -131,6 +131,11 @@ adb shell input swipe 540 1800 540 500 500; sleep 1
 shot visualizer_editor_middle
 adb shell input swipe 540 1800 540 300 500; sleep 1
 shot visualizer_editor_bottom
+ui scroll-tap "Preset name"; sleep 1
+adb shell input text MyLook; sleep 1
+adb shell input keyevent 111; sleep 1
+ui scroll-tap "Save preset"; sleep 2
+shot preset_saved
 ui scroll-tap "Apply"; sleep 8
 shot after_apply_interstitial
 adb shell input keyevent KEYCODE_BACK; sleep 2
@@ -191,6 +196,10 @@ adb shell input keyevent KEYCODE_BACK; sleep 1
 adb shell input keyevent KEYCODE_BACK; sleep 2
 ui scroll-tap "Audio source, apps, clock"; sleep 3
 shot settings_light_theme
+ui scroll-tap "Keep clear of the status bar"; sleep 2
+shot status_bar_option_on
+adb shell input keyevent KEYCODE_HOME; sleep 3
+shot lights_clear_of_status_bar
 
 adb logcat -d -v threadtime > "$OUT/logcat_full.txt"
 tail -n 4000 "$OUT/logcat_full.txt" > "$OUT/logcat_tail.txt"
