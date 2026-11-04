@@ -35,7 +35,13 @@ private val defaultDotSize = 18.dp
 fun PaletteSwatch(colors: List<Int>, modifier: Modifier = Modifier, dotSize: Dp = defaultDotSize) {
     Row(modifier = modifier, horizontalArrangement = Arrangement.spacedBy(Spacing.xxs)) {
         colors.forEach { argb ->
-            Box(modifier = Modifier.size(dotSize).clip(CircleShape).background(Color(argb)))
+            Box(
+                modifier = Modifier
+                    .size(dotSize)
+                    .clip(CircleShape)
+                    .background(Color(argb))
+                    .border(Stroke.hairline, OrlumenTheme.colors.border, CircleShape)
+            )
         }
     }
 }

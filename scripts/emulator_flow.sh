@@ -198,6 +198,8 @@ ui scroll-tap "Audio source, apps, clock"; sleep 3
 shot settings_light_theme
 ui scroll-tap "Keep clear of the status bar"; sleep 2
 shot status_bar_option_on
+adb shell input keyevent KEYCODE_BACK; sleep 2
+ui tap "Start edge lights"; sleep 4
 adb shell input keyevent KEYCODE_HOME; sleep 3
 shot lights_clear_of_status_bar
 
