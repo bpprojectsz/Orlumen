@@ -2,6 +2,11 @@ name: Emulator check
 
 on:
   workflow_dispatch:
+    inputs:
+      flow:
+        description: Script in scripts/ to run on the emulator
+        default: emulator_flow.sh
+        required: false
 
 permissions:
   contents: write
@@ -60,7 +65,7 @@ jobs:
           profile: pixel_6
           disable-animations: true
           emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none
-          script: bash scripts/emulator_flow.sh emu-out
+          script: bash scripts/${{ inputs.flow || 'emulator_flow.sh' }} emu-out
 
       - name: Publish screenshots to the ci-screenshots branch
         if: always()

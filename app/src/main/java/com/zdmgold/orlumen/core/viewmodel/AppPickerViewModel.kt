@@ -59,7 +59,11 @@ class AppPickerViewModel @Inject constructor(
     private val apps = MutableStateFlow<List<InstalledApp>?>(null)
     private val mediaApps = MutableStateFlow<List<InstalledApp>?>(null)
 
-    val uiState: StateFlow<AppPickerUiState> = combine(apps, mediaApps, preferencesRepository.preferences) { installed, media, prefs ->
+    val uiState: StateFlow<AppPickerUiState> = combine(
+        apps,
+        mediaApps,
+        preferencesRepository.preferences
+    ) { installed, media, prefs ->
         AppPickerUiState(
             apps = installed.orEmpty(),
             musicApps = media?.takeIf { it.isNotEmpty() } ?: installed.orEmpty(),
