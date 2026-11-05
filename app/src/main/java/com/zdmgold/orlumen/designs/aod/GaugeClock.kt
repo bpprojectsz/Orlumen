@@ -62,14 +62,7 @@ object GaugeClock : AodDesign {
 }
 
 @Composable
-private fun Gauge(
-    barWidth: Float,
-    fill: Float,
-    accent: Color,
-    secondary: Color,
-    digits: String,
-    weight: Int
-) {
+private fun Gauge(barWidth: Float, fill: Float, accent: Color, secondary: Color, digits: String, weight: Int) {
     Column(horizontalAlignment = Alignment.CenterHorizontally) {
         Canvas(modifier = Modifier.width(barWidth.dp).height(BAR_HEIGHT_DP.dp)) {
             val radius = CornerRadius(size.width / 2f, size.width / 2f)
