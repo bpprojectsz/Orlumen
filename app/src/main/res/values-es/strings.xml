@@ -257,6 +257,14 @@
     <string name="diag_ads_allowed_no">Anuncios desactivados (Pro activo o aún sin elección de anuncios)</string>
     <string name="diag_ads_banner">Banner: %1$s</string>
     <string name="diag_ads_interstitial">Intersticial: %1$s</string>
+    <string name="param_comets">Cometas</string>
+    <string name="param_trail">Longitud de la estela</string>
+    <string name="param_speed">Velocidad</string>
+    <string name="param_segments">Segmentos</string>
+    <string name="param_density">Densidad</string>
+    <string name="param_dot_size">Tamaño de punto</string>
+    <string name="param_arch">Altura del arco</string>
+    <string name="param_bar_width">Ancho de barra</string>
     <plurals name="picker_selected">
         <item quantity="one">%d app seleccionada</item>
         <item quantity="other">%d apps seleccionadas</item>

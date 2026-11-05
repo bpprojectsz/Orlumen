@@ -257,6 +257,14 @@
     <string name="diag_ads_allowed_no">الإعلانات متوقفة (Pro مفعّل أو لم يتم اختيار الإعلانات بعد)</string>
     <string name="diag_ads_banner">اللافتة: %1$s</string>
     <string name="diag_ads_interstitial">الإعلان البيني: %1$s</string>
+    <string name="param_comets">المذنبات</string>
+    <string name="param_trail">طول الذيل</string>
+    <string name="param_speed">السرعة</string>
+    <string name="param_segments">المقاطع</string>
+    <string name="param_density">الكثافة</string>
+    <string name="param_dot_size">حجم النقطة</string>
+    <string name="param_arch">ارتفاع القوس</string>
+    <string name="param_bar_width">عرض الشريط</string>
     <plurals name="picker_selected">
         <item quantity="zero">لم يتم اختيار أي تطبيق</item>
         <item quantity="one">تم اختيار تطبيق واحد</item>

@@ -25,9 +25,9 @@ class AodRegistryTest {
     @Test
     fun shipsEightDesignsWithUniqueIdsAndNames() {
         val descriptors = AodRegistry.descriptors
-        assertEquals(8, descriptors.size)
-        assertEquals(8, descriptors.map { it.id }.toSet().size)
-        assertEquals(8, descriptors.map { it.nameRes }.toSet().size)
+        assertEquals(11, descriptors.size)
+        assertEquals(11, descriptors.map { it.id }.toSet().size)
+        assertEquals(11, descriptors.map { it.nameRes }.toSet().size)
     }
 
     @Test

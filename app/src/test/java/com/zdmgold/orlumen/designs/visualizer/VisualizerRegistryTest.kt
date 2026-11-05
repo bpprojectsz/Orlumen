@@ -17,9 +17,9 @@ class VisualizerRegistryTest {
     @Test
     fun shipsSixDesignsWithUniqueIdsAndNames() {
         val descriptors = VisualizerRegistry.descriptors
-        assertEquals(6, descriptors.size)
-        assertEquals(6, descriptors.map { it.id }.toSet().size)
-        assertEquals(6, descriptors.map { it.nameRes }.toSet().size)
+        assertEquals(9, descriptors.size)
+        assertEquals(9, descriptors.map { it.id }.toSet().size)
+        assertEquals(9, descriptors.map { it.nameRes }.toSet().size)
     }
 
     @Test

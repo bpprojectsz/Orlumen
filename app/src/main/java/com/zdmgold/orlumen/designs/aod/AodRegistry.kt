@@ -11,7 +11,10 @@ object AodRegistry {
         LexiconTextClock,
         LunarClock,
         DuetClock,
-        BitmapClock
+        BitmapClock,
+        BinaryClock,
+        HorizonClock,
+        GaugeClock
     )
 
     val descriptors: List<DesignDescriptor>

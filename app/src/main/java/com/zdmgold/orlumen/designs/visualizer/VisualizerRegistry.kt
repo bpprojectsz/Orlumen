@@ -9,7 +9,10 @@ object VisualizerRegistry {
         StrandDesign,
         RailDesign,
         EmberDesign,
-        AuroraDesign
+        AuroraDesign,
+        CometDesign,
+        PrismDesign,
+        SparkDesign
     )
 
     val descriptors: List<DesignDescriptor>

@@ -257,6 +257,14 @@
     <string name="diag_ads_allowed_no">광고가 꺼져 있습니다 (Pro 보유 또는 광고 선택 미완료)</string>
     <string name="diag_ads_banner">배너: %1$s</string>
     <string name="diag_ads_interstitial">전면 광고: %1$s</string>
+    <string name="param_comets">혜성 수</string>
+    <string name="param_trail">꼬리 길이</string>
+    <string name="param_speed">속도</string>
+    <string name="param_segments">세그먼트</string>
+    <string name="param_density">밀도</string>
+    <string name="param_dot_size">점 크기</string>
+    <string name="param_arch">아치 높이</string>
+    <string name="param_bar_width">막대 너비</string>
     <plurals name="picker_selected">
         <item quantity="other">앱 %d개 선택됨</item>
     </plurals>

@@ -257,6 +257,14 @@
     <string name="diag_ads_allowed_no">广告已关闭（已拥有 Pro，或尚未做出广告选择）</string>
     <string name="diag_ads_banner">横幅：%1$s</string>
     <string name="diag_ads_interstitial">插页广告：%1$s</string>
+    <string name="param_comets">彗星数量</string>
+    <string name="param_trail">拖尾长度</string>
+    <string name="param_speed">速度</string>
+    <string name="param_segments">分段数</string>
+    <string name="param_density">密度</string>
+    <string name="param_dot_size">圆点大小</string>
+    <string name="param_arch">弧线高度</string>
+    <string name="param_bar_width">条形宽度</string>
     <plurals name="picker_selected">
         <item quantity="other">已选择 %d 个应用</item>
     </plurals>

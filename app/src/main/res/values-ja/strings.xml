@@ -257,6 +257,14 @@
     <string name="diag_ads_allowed_no">広告はオフです（Pro 所有済み、または広告の選択が未設定）</string>
     <string name="diag_ads_banner">バナー: %1$s</string>
     <string name="diag_ads_interstitial">インタースティシャル: %1$s</string>
+    <string name="param_comets">彗星の数</string>
+    <string name="param_trail">尾の長さ</string>
+    <string name="param_speed">速さ</string>
+    <string name="param_segments">セグメント数</string>
+    <string name="param_density">密度</string>
+    <string name="param_dot_size">ドットの大きさ</string>
+    <string name="param_arch">アーチの高さ</string>
+    <string name="param_bar_width">バーの幅</string>
     <plurals name="picker_selected">
         <item quantity="other">%d 個のアプリを選択中</item>
     </plurals>

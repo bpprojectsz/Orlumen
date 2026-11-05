@@ -257,6 +257,14 @@
     <string name="diag_ads_allowed_no">विज्ञापन बंद हैं (Pro मौजूद है, या विज्ञापन विकल्प अभी नहीं चुना)</string>
     <string name="diag_ads_banner">बैनर: %1$s</string>
     <string name="diag_ads_interstitial">इंटरस्टिशियल: %1$s</string>
+    <string name="param_comets">धूमकेतु</string>
+    <string name="param_trail">पूँछ की लंबाई</string>
+    <string name="param_speed">गति</string>
+    <string name="param_segments">खंड</string>
+    <string name="param_density">घनत्व</string>
+    <string name="param_dot_size">बिंदु का आकार</string>
+    <string name="param_arch">चाप की ऊँचाई</string>
+    <string name="param_bar_width">पट्टी की चौड़ाई</string>
     <plurals name="picker_selected">
         <item quantity="one">%d ऐप चुना गया</item>
         <item quantity="other">%d ऐप्स चुने गए</item>

@@ -257,6 +257,14 @@
     <string name="diag_ads_allowed_no">הפרסומות כבויות (יש Pro, או שבחירת הפרסומות עדיין לא נעשתה)</string>
     <string name="diag_ads_banner">באנר: %1$s</string>
     <string name="diag_ads_interstitial">מודעה במסך מלא: %1$s</string>
+    <string name="param_comets">שביטים</string>
+    <string name="param_trail">אורך הזנב</string>
+    <string name="param_speed">מהירות</string>
+    <string name="param_segments">קטעים</string>
+    <string name="param_density">צפיפות</string>
+    <string name="param_dot_size">גודל נקודה</string>
+    <string name="param_arch">גובה הקשת</string>
+    <string name="param_bar_width">רוחב פס</string>
     <plurals name="picker_selected">
         <item quantity="one">אפליקציה אחת נבחרה</item>
         <item quantity="two">נבחרו שתי אפליקציות</item>
