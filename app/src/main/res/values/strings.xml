@@ -288,6 +288,11 @@
     <string name="preset_save">Save preset</string>
     <string name="preset_delete">Delete preset</string>
     <string name="preset_empty">No saved presets yet</string>
+        <string name="diag_section_ads">Ads</string>
+    <string name="diag_ads_allowed_yes">Ads are allowed on this device</string>
+    <string name="diag_ads_allowed_no">Ads are off (Pro owned, or ad choice not given yet)</string>
+    <string name="diag_ads_banner">Banner: %1$s</string>
+    <string name="diag_ads_interstitial">Interstitial: %1$s</string>
     <plurals name="picker_selected">
         <item quantity="one">%d app selected</item>
         <item quantity="other">%d apps selected</item>

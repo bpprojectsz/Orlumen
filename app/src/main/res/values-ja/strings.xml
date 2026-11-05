@@ -252,6 +252,11 @@
     <string name="preset_save">プリセットを保存</string>
     <string name="preset_delete">プリセットを削除</string>
     <string name="preset_empty">保存済みのプリセットはまだありません</string>
+    <string name="diag_section_ads">広告</string>
+    <string name="diag_ads_allowed_yes">この端末では広告が許可されています</string>
+    <string name="diag_ads_allowed_no">広告はオフです（Pro 所有済み、または広告の選択が未設定）</string>
+    <string name="diag_ads_banner">バナー: %1$s</string>
+    <string name="diag_ads_interstitial">インタースティシャル: %1$s</string>
     <plurals name="picker_selected">
         <item quantity="other">%d 個のアプリを選択中</item>
     </plurals>

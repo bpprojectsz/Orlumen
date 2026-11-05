@@ -252,6 +252,11 @@
     <string name="preset_save">Enregistrer le préréglage</string>
     <string name="preset_delete">Supprimer le préréglage</string>
     <string name="preset_empty">Aucun préréglage enregistré</string>
+    <string name="diag_section_ads">Publicités</string>
+    <string name="diag_ads_allowed_yes">Les publicités sont autorisées sur cet appareil</string>
+    <string name="diag_ads_allowed_no">Publicités désactivées (Pro actif ou choix de publicité pas encore fait)</string>
+    <string name="diag_ads_banner">Bannière : %1$s</string>
+    <string name="diag_ads_interstitial">Interstitiel : %1$s</string>
     <plurals name="picker_selected">
         <item quantity="one">%d appli sélectionnée</item>
         <item quantity="many">%d d’applis sélectionnées</item>

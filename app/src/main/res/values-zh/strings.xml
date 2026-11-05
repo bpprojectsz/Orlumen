@@ -252,6 +252,11 @@
     <string name="preset_save">保存预设</string>
     <string name="preset_delete">删除预设</string>
     <string name="preset_empty">还没有保存的预设</string>
+    <string name="diag_section_ads">广告</string>
+    <string name="diag_ads_allowed_yes">此设备允许显示广告</string>
+    <string name="diag_ads_allowed_no">广告已关闭（已拥有 Pro，或尚未做出广告选择）</string>
+    <string name="diag_ads_banner">横幅：%1$s</string>
+    <string name="diag_ads_interstitial">插页广告：%1$s</string>
     <plurals name="picker_selected">
         <item quantity="other">已选择 %d 个应用</item>
     </plurals>

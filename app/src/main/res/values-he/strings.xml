@@ -252,6 +252,11 @@
     <string name="preset_save">שמירת הגדרה</string>
     <string name="preset_delete">מחיקת הגדרה</string>
     <string name="preset_empty">אין עדיין הגדרות שמורות</string>
+    <string name="diag_section_ads">פרסומות</string>
+    <string name="diag_ads_allowed_yes">פרסומות מותרות במכשיר זה</string>
+    <string name="diag_ads_allowed_no">הפרסומות כבויות (יש Pro, או שבחירת הפרסומות עדיין לא נעשתה)</string>
+    <string name="diag_ads_banner">באנר: %1$s</string>
+    <string name="diag_ads_interstitial">מודעה במסך מלא: %1$s</string>
     <plurals name="picker_selected">
         <item quantity="one">אפליקציה אחת נבחרה</item>
         <item quantity="two">נבחרו שתי אפליקציות</item>

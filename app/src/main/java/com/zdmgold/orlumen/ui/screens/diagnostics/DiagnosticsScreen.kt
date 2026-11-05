@@ -9,6 +9,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -173,6 +174,7 @@ fun DiagnosticsScreen(
                 onRequestPermission = requester::request,
                 onOpenAbout = onOpenAbout
             )
+            AdsDiagnostics(main)
         }
         Spacer(modifier = Modifier.height(Spacing.xl))
     }
@@ -307,4 +309,32 @@ private fun permissionSubtitle(kind: PermissionKind, granted: Boolean): String {
             else -> R.string.perm_status_needed
         }
     )
+}
+
+@Composable
+private fun AdsDiagnostics(main: MainViewModel) {
+    val mainState by main.uiState.collectAsStateWithLifecycle()
+    val ads by main.adAdapter.status.collectAsStateWithLifecycle()
+    SectionHeader(text = stringResource(R.string.diag_section_ads))
+    AppCard {
+        Column(verticalArrangement = Arrangement.spacedBy(Spacing.xs)) {
+            Text(
+                text = stringResource(
+                    if (mainState?.adsAllowed == true) R.string.diag_ads_allowed_yes else R.string.diag_ads_allowed_no
+                ),
+                style = OrlumenTheme.typography.body,
+                color = OrlumenTheme.colors.textPrimary
+            )
+            Text(
+                text = stringResource(R.string.diag_ads_banner, ads.banner),
+                style = OrlumenTheme.typography.caption,
+                color = OrlumenTheme.colors.textSecondary
+            )
+            Text(
+                text = stringResource(R.string.diag_ads_interstitial, ads.interstitial),
+                style = OrlumenTheme.typography.caption,
+                color = OrlumenTheme.colors.textSecondary
+            )
+        }
+    }
 }

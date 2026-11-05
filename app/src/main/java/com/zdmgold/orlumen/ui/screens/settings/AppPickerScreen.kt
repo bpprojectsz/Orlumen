@@ -67,7 +67,8 @@ fun AppPickerScreen(
             )
         } else {
             LazyColumn(modifier = Modifier.fillMaxSize()) {
-                items(state.apps, key = { it.packageName }) { app ->
+                val shown = if (target == AppPickerTarget.MUSIC_SOURCES) state.musicApps else state.apps
+                items(shown, key = { it.packageName }) { app ->
                     val isSelected = app.packageName in selected
                     Row(
                         verticalAlignment = Alignment.CenterVertically,

@@ -18,8 +18,19 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import java.util.concurrent.atomic.AtomicBoolean
 import javax.inject.Inject
 import javax.inject.Singleton
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.update
 
 private const val TAG = "AdAdapter"
+
+/** What the ads SDK is doing right now, shown on the Diagnostics screen. */
+data class AdStatus(
+    val sdkStarted: Boolean = false,
+    val banner: String = "Not requested",
+    val interstitial: String = "Not requested"
+)
 private const val INTERSTITIAL_MIN_INTERVAL_MS = 3 * 60 * 1000L
 
 internal fun shouldShowInterstitial(
@@ -38,9 +49,12 @@ class AdAdapter @Inject constructor(@ApplicationContext private val context: Con
     private val initialized = AtomicBoolean(false)
     private var interstitial: InterstitialAd? = null
     private var lastInterstitialMillis = 0L
+    private val statusFlow = MutableStateFlow(AdStatus())
+    val status: StateFlow<AdStatus> = statusFlow.asStateFlow()
 
     fun initialize(canRequestAds: Boolean) {
         if (canRequestAds && initialized.compareAndSet(false, true)) {
+            statusFlow.update { it.copy(sdkStarted = true) }
             MobileAds.initialize(context) {}
             loadInterstitial()
         }
@@ -50,10 +64,18 @@ class AdAdapter @Inject constructor(@ApplicationContext private val context: Con
         AdView(viewContext).apply {
             setAdSize(AdSize.getCurrentOrientationAnchoredAdaptiveBannerAdSize(viewContext, widthDp))
             adUnitId = BuildConfig.ADMOB_BANNER_ID
+            statusFlow.update { it.copy(banner = "Loading") }
             adListener = object : AdListener() {
-                override fun onAdLoaded() = onResult(true)
+                override fun onAdLoaded() {
+                    statusFlow.update { it.copy(banner = "Loaded") }
+                    onResult(true)
+                }
 
-                override fun onAdFailedToLoad(error: LoadAdError) = onResult(false)
+                override fun onAdFailedToLoad(error: LoadAdError) {
+                    Log.w(TAG, "Banner failed to load: ${error.code} ${error.message}")
+                    statusFlow.update { it.copy(banner = "Failed (code ${error.code}): ${error.message}") }
+                    onResult(false)
+                }
             }
             loadAd(AdRequest.Builder().build())
         }
@@ -92,11 +114,13 @@ class AdAdapter @Inject constructor(@ApplicationContext private val context: Con
             object : InterstitialAdLoadCallback() {
                 override fun onAdLoaded(ad: InterstitialAd) {
                     interstitial = ad
+                    statusFlow.update { it.copy(interstitial = "Ready") }
                 }
 
                 override fun onAdFailedToLoad(error: LoadAdError) {
                     interstitial = null
-                    Log.w(TAG, "Interstitial failed to load: ${error.message}")
+                    Log.w(TAG, "Interstitial failed to load: ${error.code} ${error.message}")
+                    statusFlow.update { it.copy(interstitial = "Failed (code ${error.code}): ${error.message}") }
                 }
             }
         )
