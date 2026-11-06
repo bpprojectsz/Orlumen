@@ -35,7 +35,7 @@ def center(node):
     return (left + right) // 2, (top + bottom) // 2
 
 
-def find(xml, needle):
+def find(xml, needle, exact=False):
     try:
         root = ET.fromstring(xml)
     except ET.ParseError:
@@ -44,7 +44,8 @@ def find(xml, needle):
     fallback = None
     for node in root.iter("node"):
         label = ((node.get("text") or "") + " " + (node.get("content-desc") or "")).lower()
-        if needle not in label:
+        matches = label.strip() == needle if exact else needle in label
+        if not matches:
             continue
         point = center(node)
         if point is None:
@@ -133,8 +134,8 @@ def swipe(width, height, up):
     adb("shell", "input", "swipe", x, str(int(height * start)), x, str(int(height * end)), "300")
 
 
-def cmd_tap(needle):
-    point = find(dump_xml(), needle)
+def cmd_tap(needle, exact=False):
+    point = find(dump_xml(), needle, exact)
     if point is None:
         print(f"NOT FOUND: {needle}")
         return 1
@@ -144,11 +145,11 @@ def cmd_tap(needle):
     return 0
 
 
-def cmd_scroll_tap(needle):
+def cmd_scroll_tap(needle, exact=False):
     width, height = screen_size()
     for direction_up, tries in ((True, 7), (False, 14)):
         for _ in range(tries):
-            point = find(dump_xml(), needle)
+            point = find(dump_xml(), needle, exact)
             if point is not None:
                 point = settled(needle, point)
                 tap_point(point)
@@ -185,7 +186,14 @@ def main():
         return 2
     action = sys.argv[1]
     arg = sys.argv[2] if len(sys.argv) > 2 else ""
-    handlers = {"tap": cmd_tap, "scroll-tap": cmd_scroll_tap, "has": cmd_has, "tap-class": cmd_tap_class}
+    handlers = {
+        "tap": cmd_tap,
+        "scroll-tap": cmd_scroll_tap,
+        "has": cmd_has,
+        "tap-class": cmd_tap_class,
+        "tap-exact": lambda n: cmd_tap(n, True),
+        "scroll-tap-exact": lambda n: cmd_scroll_tap(n, True),
+    }
     if action == "texts":
         return cmd_texts()
     if action in handlers:

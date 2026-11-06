@@ -34,12 +34,12 @@ for L in ar he de ja; do
   log "LANGUAGE $L"
 
   setlocale en; fresh
-  ui scroll-tap "Audio source, apps, clock"; sleep 3
+  ui scroll-tap-exact "Settings"; sleep 3
   setlocale "$L"
   shot "${L}_settings_top"; swipe_up; shot "${L}_settings_middle"; swipe_up; shot "${L}_settings_bottom"
 
   setlocale en; fresh
-  ui scroll-tap "Pick a design and tune it"; sleep 3
+  ui scroll-tap-exact "Edge lights"; sleep 3
   ui scroll-tap "Strand"; sleep 3
   setlocale "$L"
   shot "${L}_editor_top"; swipe_up; swipe_up; shot "${L}_editor_bottom"

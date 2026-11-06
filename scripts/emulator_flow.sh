@@ -123,7 +123,7 @@ adb shell input keyevent KEYCODE_WAKEUP
 adb shell cmd statusbar collapse; sleep 1
 launch; sleep 3
 shot home_final
-ui scroll-tap "Pick a design and tune it"; sleep 3
+ui scroll-tap-exact "Edge lights"; sleep 3
 shot visualizer_gallery
 ui scroll-tap "Tide"; sleep 3
 shot visualizer_editor_top
@@ -142,7 +142,7 @@ adb shell input keyevent KEYCODE_BACK; sleep 2
 shot after_interstitial_back
 adb shell input keyevent KEYCODE_BACK; sleep 1
 adb shell input keyevent KEYCODE_BACK; sleep 2
-ui scroll-tap "Pick a clock style"; sleep 3
+ui scroll-tap-exact "Always-on clock"; sleep 3
 shot aod_gallery
 ui scroll-tap "Lunar"; sleep 3
 shot aod_editor_top
@@ -152,7 +152,7 @@ adb shell input swipe 540 1800 540 300 500; sleep 1
 shot aod_editor_bottom
 adb shell input keyevent KEYCODE_BACK; sleep 1
 adb shell input keyevent KEYCODE_BACK; sleep 2
-ui scroll-tap "Palettes, album art and wallpaper"; sleep 3
+ui scroll-tap-exact "Colors"; sleep 3
 shot palettes_stock
 ui tap "Mine"; sleep 2
 shot palettes_mine
@@ -166,7 +166,7 @@ adb shell input keyevent KEYCODE_BACK; sleep 1
 # ---------- Phase 6: settings, picker, paywall, consent ----------
 log "PHASE 6: settings and commerce"
 launch; sleep 3
-ui scroll-tap "Audio source, apps, clock"; sleep 3
+ui scroll-tap-exact "Settings"; sleep 3
 shot settings_top
 adb shell input swipe 540 1800 540 500 500; sleep 1
 shot settings_middle
@@ -194,7 +194,7 @@ ui scroll-tap "Open-source licenses"; sleep 3
 shot licenses
 adb shell input keyevent KEYCODE_BACK; sleep 1
 adb shell input keyevent KEYCODE_BACK; sleep 2
-ui scroll-tap "Audio source, apps, clock"; sleep 3
+ui scroll-tap-exact "Settings"; sleep 3
 shot settings_light_theme
 ui scroll-tap "Keep clear of the status bar"; sleep 2
 shot status_bar_option_on
