@@ -1,0 +1,56 @@
+Performing Streamed Install
+Success
+tapped: Skip at (941, 255)
+[05:35:24] LANGUAGE ar
+tapped: Settings at (975, 204)
+[05:35:53] shot 01_ar_settings_top
+[05:35:57] shot 02_ar_settings_middle
+[05:36:01] shot 03_ar_settings_bottom
+tapped: Edge lights at (600, 493)
+NOT FOUND after scrolling: Strand
+[05:38:03] shot 04_ar_editor_top
+[05:38:09] shot 05_ar_editor_bottom
+tapped: Check audio, permissions at (548, 2310)
+[05:38:53] shot 06_ar_diagnostics
+[05:39:13] shot 07_ar_home
+[05:39:18] shot 08_ar_home_bottom
+[05:39:18] LANGUAGE he
+tapped: Settings at (975, 204)
+[05:39:50] shot 09_he_settings_top
+[05:39:54] shot 10_he_settings_middle
+[05:39:58] shot 11_he_settings_bottom
+tapped: Edge lights at (600, 493)
+NOT FOUND after scrolling: Strand
+[05:42:03] shot 12_he_editor_top
+[05:42:10] shot 13_he_editor_bottom
+tapped: Check audio, permissions at (548, 2310)
+[05:42:50] shot 14_he_diagnostics
+[05:43:09] shot 15_he_home
+[05:43:14] shot 16_he_home_bottom
+[05:43:14] LANGUAGE de
+tapped: Settings at (975, 204)
+[05:43:42] shot 17_de_settings_top
+[05:43:46] shot 18_de_settings_middle
+[05:43:50] shot 19_de_settings_bottom
+tapped: Edge lights at (600, 493)
+NOT FOUND after scrolling: Strand
+[05:45:58] shot 20_de_editor_top
+[05:46:05] shot 21_de_editor_bottom
+tapped: Check audio, permissions at (548, 2310)
+[05:46:47] shot 22_de_diagnostics
+[05:47:06] shot 23_de_home
+[05:47:12] shot 24_de_home_bottom
+[05:47:12] LANGUAGE ja
+tapped: Settings at (975, 204)
+[05:47:39] shot 25_ja_settings_top
+[05:47:43] shot 26_ja_settings_middle
+[05:47:47] shot 27_ja_settings_bottom
+tapped: Edge lights at (600, 493)
+NOT FOUND after scrolling: Strand
+[05:49:47] shot 28_ja_editor_top
+[05:49:54] shot 29_ja_editor_bottom
+tapped: Check audio, permissions at (548, 2310)
+[05:50:37] shot 30_ja_diagnostics
+[05:50:56] shot 31_ja_home
+[05:51:01] shot 32_ja_home_bottom
+[05:51:03] done: 32 screenshots
