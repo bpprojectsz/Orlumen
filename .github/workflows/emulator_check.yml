@@ -75,10 +75,10 @@ jobs:
           cp -r emu-out/. "$RUN_DIR"/
           echo "run ${{ github.run_id }} commit ${{ github.sha }}" > "$RUN_DIR/INFO.txt"
           cd "$RUN_DIR"
-          git init -q -b ci-screenshots
+          git init -q -b out
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           git add -A
           git commit -q -m "emulator run ${{ github.run_id }} at ${{ github.sha }}"
           git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
-          git push -f origin ci-screenshots
+          git push -f origin out:${{ inputs.flow == 'emulator_locales.sh' && 'ci-screenshots-locales' || 'ci-screenshots' }}

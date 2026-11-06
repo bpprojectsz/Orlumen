@@ -101,6 +101,10 @@ ui tap-class "checkable"; sleep 1
 shot aod_toggled
 ui scroll-tap "Check audio, permissions"; sleep 2
 shot diagnostics_screen
+adb shell input swipe 540 1900 540 300 500; sleep 1
+adb shell input swipe 540 1900 540 300 500; sleep 1
+adb shell input swipe 540 1900 540 300 500; sleep 1
+shot diagnostics_ads
 ui scroll-tap "Open the always-on screen now"; sleep 4
 shot aod_open_now
 top_activity
@@ -125,6 +129,11 @@ launch; sleep 3
 shot home_final
 ui scroll-tap-exact "Edge lights"; sleep 3
 shot visualizer_gallery
+adb shell input swipe 540 1800 540 300 500; sleep 1
+shot visualizer_gallery_more
+adb shell input swipe 540 1800 540 300 500; sleep 1
+shot visualizer_gallery_end
+adb shell input swipe 540 300 540 2000 500; sleep 1
 ui scroll-tap "Tide"; sleep 3
 shot visualizer_editor_top
 adb shell input swipe 540 1800 540 500 500; sleep 1
