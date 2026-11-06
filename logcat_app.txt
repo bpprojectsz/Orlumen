@@ -1,0 +1,1500 @@
+11-06 05:36:48.648   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{a51ab00 com.android.printspooler/10126} BLOCKED
+11-06 05:36:48.648   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{8dfff39 com.google.android.connectivity.resources.goldfish.overlay/10090} BLOCKED
+11-06 05:36:48.648   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{639397e com.android.dreams.basic/10114} BLOCKED
+11-06 05:36:48.648   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{b560edf com.google.android.networkstack.tethering.emulator/10029} BLOCKED
+11-06 05:36:48.648   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{ba6772c com.android.providers.settings.auto_generated_rro_product__/10077} BLOCKED
+11-06 05:36:48.648   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{63855f5 com.google.android.as.oss/10131} BLOCKED
+11-06 05:36:48.648   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{ab6f8a com.android.traceur.auto_generated_rro_product__/10028} BLOCKED
+11-06 05:36:48.648   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{3b6b9fb com.android.internal.emulation.pixel_9_pro_fold/10057} BLOCKED
+11-06 05:36:48.648   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{499da18 com.google.android.devicelockcontroller/10196} BLOCKED
+11-06 05:36:48.648   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{c855c71 com.android.internal.emulation.pixel_3/10014} BLOCKED
+11-06 05:36:48.648   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{758fa56 com.android.internal.emulation.pixel_4/10055} BLOCKED
+11-06 05:36:48.648   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{1acfad7 com.android.internal.emulation.pixel_5/10080} BLOCKED
+11-06 05:36:48.648   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{45e7fc4 com.android.internal.emulation.pixel_6/10023} BLOCKED
+11-06 05:36:48.648   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{cc24ead com.android.internal.emulation.pixel_7/10015} BLOCKED
+11-06 05:36:48.648   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{98265e2 com.android.internal.emulation.pixel_8/10030} BLOCKED
+11-06 05:36:48.648   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{65c6d73 com.android.internal.emulation.pixel_9/10056} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{8a5d430 com.google.android.captiveportallogin/10121} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{26228a9 android.auto_generated_characteristics_rro/10059} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{7e4fe2e com.google.android.appsearch.apk/10203} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{7866dcf com.android.musicfx/10094} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{6cc035c com.google.android.markup/10150} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{30ba665 com.google.android.rkpdapp/10204} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{fc6cf3a com.android.server.telecom.auto_generated_rro_product__/10037} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{ba617eb com.android.phone.auto_generated_characteristics_rro/10016} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{bc3f948 com.google.android.overlay.googleconfig/10084} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{e1543e1 com.android.bips.auto_generated_rro_product__/10045} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{ac2a506 com.google.android.apps.customization.pixel/10149} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{bcc47c7 com.google.android.tag/10099} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{ec361f4 com.google.android.overlay.permissioncontroller/10060} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{7c13d1d com.google.android.partnersetup/10133} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{f540b92 com.google.android.apps.wallpaper.nexus/10159} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{2aea960 com.android.theme.font.notoserifsource/10044} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{c398e19 com.google.android.safetycenter.resources/10184} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{e234ede com.android.internal.display.cutout.emulation.waterfall/10025} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{4c468bf com.android.internal.systemui.navbar.transparent/10066} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{244fb8c com.google.android.connectivity.resources/10206} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{64bf2d5 com.android.providers.contacts.auto_generated_rro_product__/10009} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{8117aea com.google.android.feedback/10173} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{de0d1db com.google.android.printservice.recommendation/10118} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{30c4478 com.android.systemui.emulation.pixel_3a_xl/10078} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{5e5e751 com.android.systemui.emulation.pixel_6_pro/10035} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{9045bb6 com.android.systemui.emulation.pixel_7_pro/10064} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{f90b0b7 com.android.systemui.emulation.pixel_8_pro/10072} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{afd3024 com.android.systemui.emulation.pixel_9_pro/10022} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{250a78d com.android.carrierconfig.auto_generated_rro_product__/10006} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{3727d42 com.android.devicediagnostics.auto_generated_rro_product__/10062} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{cf5a153 com.android.providers.partnerbookmarks/10113} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{4ef2a90 com.android.wallpaper.livepicker/10097} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{42d2f89 com.android.providers.telephony.auto_generated_rro_product__/10034} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{8af2b8e com.android.phone.auto_generated_rro_vendor__/10089} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{faeffaf com.android.imsserviceentitlement/10137} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{fc45fbc com.android.internal.emulation.pixel_9_pro_xl/10012} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{3303b45 com.google.android.healthconnect.controller/10186} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{9f6729a com.android.internal.emulation.pixel_2_xl/10000} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{1f5e7cb com.android.internal.emulation.pixel_3_xl/10082} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{455bba8 com.android.internal.emulation.pixel_4_xl/10036} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{39e46c1 com.android.internal.emulation.pixel_fold/10013} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{e391e66 com.android.bookmarkprovider/10112} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{e7935a7 com.google.android.overlay.pixelconfigcommon/10003} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{e1eea54 com.android.systemui.accessibility.accessibilitymenu.auto_generated_rro_product__/10041} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{f878dfd com.android.systemui.emulation.pixel_3a/10074} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{8a8baf2 com.android.systemui.emulation.pixel_4a/10042} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{1f98543 com.android.systemui.emulation.pixel_6a/10073} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{2aa57c0 com.android.systemui.emulation.pixel_7a/10083} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{7c40cf9 com.android.systemui.emulation.pixel_8a/10069} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{c03943e com.google.android.settings.intelligence/10139} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{aa5329f com.google.android.uwb.resources/10198} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{8dc92b0 com.android.cts.ctsshim/10189} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{3bd2fec com.google.android.wifi.resources/10191} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{8af7fb5 com.google.android.wifi.dialog/10193} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{6a0b64a com.android.wallpaper/10176} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{cee343d com.android.microdroid.empty_payload/10202} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{13459bb com.google.android.apps.wallpaper/10178} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{8435ed8 com.google.android.odad/10132} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{ea56231 com.android.settings.auto_generated_rro_product__/10081} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{33bed16 com.android.systemui.emulation.pixel_9_pro_xl/10027} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{7c4d697 com.android.companiondevicemanager.auto_generated_characteristics_rro/10054} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{7fb9084 com.android.internal.systemui.navbar.gestural/10020} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{63cf06d com.android.bluetoothmidiservice/10116} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{a81c4a2 com.android.storagemanager.auto_generated_rro_product__/10018} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{a764533 com.android.phone.auto_generated_rro_product__/10010} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{5e330f0 com.android.systemui.emulation.pixel_9_pro_fold/10026} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{4452669 android.auto_generated_rro_product__/10002} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{15b88ee android.auto_generated_rro_vendor__/10086} BLOCKED
+11-06 05:36:48.649   559  1812 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{dc6018f com.google.android.apps.restore/10140} BLOCKED
+11-06 05:36:48.663   559  1812 D ConnectivityService: requestNetwork for uid/pid:10209/5216 activeRequest: null callbackRequest: 156 [NetworkRequest [ REQUEST id=157, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10209 RequestorUid: 10209 RequestorPkg: com.zdmgold.orlumen UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false
+11-06 05:36:48.664   559   821 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=157, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10209 RequestorUid: 10209 RequestorPkg: com.zdmgold.orlumen UnderlyingNetworks: Null] ]
+11-06 05:36:48.664   559   821 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=157, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10209 RequestorUid: 10209 RequestorPkg: com.zdmgold.orlumen UnderlyingNetworks: Null] ]
+11-06 05:36:48.664   559   821 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=157, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10209 RequestorUid: 10209 RequestorPkg: com.zdmgold.orlumen UnderlyingNetworks: Null] ]
+11-06 05:36:48.664   559   821 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=157, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10209 RequestorUid: 10209 RequestorPkg: com.zdmgold.orlumen UnderlyingNetworks: Null] ]
+11-06 05:36:48.672  5216  5216 W AdWorker(Defaul: type=1400 audit(0.0:63): avc:  granted  { execute } for  path="/data/data/com.zdmgold.orlumen/app_pccache/6/4E191A78311FD9C287938BC7B148CB2595927348/pcam.jar" dev="dm-46" ino=361943 scontext=u:r:untrusted_app:s0:c209,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c209,c256,c512,c768 tclass=file app=com.zdmgold.orlumen
+11-06 05:36:48.690  5216  5354 D nativeloader: Load /data/user/0/com.zdmgold.orlumen/app_pccache/6/4E191A78311FD9C287938BC7B148CB2595927348/pcam.jar!/libd5AE61AF89A98.so using isolated ns clns-10 (caller=/data/user/0/com.zdmgold.orlumen/app_pccache/6/4E191A78311FD9C287938BC7B148CB2595927348/pcam.jar): ok
+11-06 05:36:48.719   559  1199 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:36:48.935   559  1199 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:36:48.977  5216  5398 W GooglePlayServicesUtil: Google Play services out of date for com.zdmgold.orlumen.  Requires 254730000 but found 242335041
+11-06 05:36:49.100  5216  5400 W GooglePlayServicesUtil: Google Play services out of date for com.zdmgold.orlumen.  Requires 254730000 but found 242335041
+11-06 05:36:49.539  5406  5406 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:36:49.550  5406  5406 I AndroidRuntime: Using default boot image
+11-06 05:36:49.550  5406  5406 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:36:49.676  5406  5406 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:36:51.802  5216  5427 D ProfileInstaller: Installing profile for com.zdmgold.orlumen
+11-06 05:36:51.904  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 19MB AllocSpace bytes, 132(21MB) LOS objects, 49% free, 11MB/23MB, paused 235us,4.868ms total 218.109ms
+11-06 05:36:51.927  5216  5226 W zdmgold.orlumen: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~UQ8cHnyJLIUBA1fFc-RYHQ==/com.google.android.webview-b4ytAUG4Ou2BpzQc5s1mdg==/WebViewGoogle.apk' with 2 weak references
+11-06 05:36:51.975  5216  5226 W zdmgold.orlumen: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk' with 1 weak references
+11-06 05:36:52.860  5216  5223 I zdmgold.orlumen: Compiler allocated 4219KB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+11-06 05:36:52.965  5216  5223 I zdmgold.orlumen: Compiler allocated 4221KB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+11-06 05:36:53.054   559  1010 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:36:53.451   559   559 V NotificationManagerService$NotificationListeners: Not registering ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.platform.media.OrlumenNotificationListener} is already bound
+11-06 05:36:54.925  5406  5406 D AndroidRuntime: Shutting down VM
+11-06 05:36:56.170  5475  5475 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:36:56.175  5475  5475 I AndroidRuntime: Using default boot image
+11-06 05:36:56.175  5475  5475 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:36:56.411  5475  5475 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:36:57.239   920   939 W ssioncontroller: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~J49bBFsOxNiU6do_SqTsHw==/com.zdmgold.orlumen-a4Jk2UmAgY0cRJFNOKe2Ug==/base.apk' with 1 weak references
+11-06 05:36:57.875  5475  5475 D AndroidRuntime: Shutting down VM
+11-06 05:36:59.744  5496  5496 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:36:59.749  5496  5496 I AndroidRuntime: Using default boot image
+11-06 05:36:59.749  5496  5496 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:36:59.866  5496  5496 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:37:01.845  5496  5496 D AndroidRuntime: Shutting down VM
+11-06 05:37:02.985   559  1199 I ActivityManager: Background started FGS: Allowed [callingPackage: com.zdmgold.orlumen; callingUid: 10209; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { cmp=com.zdmgold.orlumen/.platform.overlay.OrlumenRuntimeService (has extras) }; code:PROC_STATE_TOP; tempAllowListReason:<null>; targetSdkVersion:36; callerTargetSdkVersion:36; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+11-06 05:37:03.206   559  1010 W WindowManager: App com.zdmgold.orlumen has a system alert window (type = 2038) with FLAG_NOT_TOUCHABLE and LayoutParams.alpha = 1.00 > 0.80, setting alpha to 0.80 to let touches pass through (if this is isn't desirable, remove flag FLAG_NOT_TOUCHABLE).
+11-06 05:37:03.229   559  1010 W WindowManager: App com.zdmgold.orlumen has a system alert window (type = 2038) with FLAG_NOT_TOUCHABLE and LayoutParams.alpha = 1.00 > 0.80, setting alpha to 0.80 to let touches pass through (if this is isn't desirable, remove flag FLAG_NOT_TOUCHABLE).
+11-06 05:37:04.171  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 12(1276KB) LOS objects, 49% free, 10MB/20MB, paused 21.247ms,3.390ms total 491.109ms
+11-06 05:37:09.562  5537  5537 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:37:09.584  5537  5537 I AndroidRuntime: Using default boot image
+11-06 05:37:09.584  5537  5537 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:37:09.681  5537  5537 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:37:11.659  5537  5537 D AndroidRuntime: Shutting down VM
+11-06 05:37:13.201   559   581 V WindowManager:         {WCT{RemoteToken{45252e1 Task{bab6f88 #9 type=standard A=10209:com.zdmgold.orlumen}}} m=TO_BACK f=NONE leash=Surface(name=Task=9)/@0x322ceeb sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+11-06 05:37:13.382   559   584 W ActivityTaskManager: Activity top resumed state loss timeout for ActivityRecord{5cd4b7a u0 com.zdmgold.orlumen/.MainActivity t9}
+11-06 05:37:14.461   559  1041 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:37:20.735  5586  5586 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:37:20.739  5586  5586 I AndroidRuntime: Using default boot image
+11-06 05:37:20.743  5586  5586 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:37:20.863  5586  5586 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:37:22.058  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 10MB AllocSpace bytes, 2(104KB) LOS objects, 49% free, 10216KB/19MB, paused 310us,3.955ms total 299.660ms
+11-06 05:37:23.889  5586  5586 D AndroidRuntime: Shutting down VM
+11-06 05:37:29.028  5644  5644 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:37:29.032  5644  5644 I AndroidRuntime: Using default boot image
+11-06 05:37:29.032  5644  5644 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:37:29.113  5644  5644 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:37:30.513  5644  5644 D AndroidRuntime: Shutting down VM
+11-06 05:37:45.663  5693  5693 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:37:45.670  5693  5693 I AndroidRuntime: Using default boot image
+11-06 05:37:45.670  5693  5693 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:37:45.892  5693  5693 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:37:47.195  5693  5693 D AndroidRuntime: Shutting down VM
+11-06 05:37:52.927  5723  5723 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:37:52.930  5723  5723 I AndroidRuntime: Using default boot image
+11-06 05:37:52.930  5723  5723 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:37:53.019  5723  5723 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:37:54.122  5723  5723 D AndroidRuntime: Shutting down VM
+11-06 05:37:58.925   559  1678 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.zdmgold.orlumen/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=2
+11-06 05:37:58.925   909   971 V WindowManagerShell: Transition requested (#34): android.os.BinderProxy@c65005a TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=9 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.zdmgold.orlumen/.MainActivity } baseActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity} topActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity} origActivity=null realActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity} numActivities=1 lastActiveTime=206414 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@cb8c28b} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{8735f68 com.zdmgold.orlumen.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 34 }
+11-06 05:37:58.959   909   971 D WindowManagerShell: onActivityRestartAttempt: ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity}
+11-06 05:37:59.210  1188  1188 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=9, baseIntent=Intent { flg=0x10000000 cmp=com.zdmgold.orlumen/.MainActivity }
+11-06 05:37:59.307   559   581 V WindowManager: Sent Transition (#34) createdAt=11-06 05:37:58.852 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=9 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.zdmgold.orlumen/.MainActivity } baseActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity} topActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity} origActivity=null realActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity} numActivities=1 lastActiveTime=206414 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{45252e1 Task{bab6f88 #9 type=standard A=10209:com.zdmgold.orlumen}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{7540806 com.zdmgold.orlumen.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 34 }
+11-06 05:37:59.307   559   581 V WindowManager:         {WCT{RemoteToken{45252e1 Task{bab6f88 #9 type=standard A=10209:com.zdmgold.orlumen}}} m=TO_FRONT f=MOVE_TO_TOP leash=Surface(name=Task=9)/@0x322ceeb sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+11-06 05:37:59.817   559   581 W ziparchive: Unable to open '/data/app/~~J49bBFsOxNiU6do_SqTsHw==/com.zdmgold.orlumen-a4Jk2UmAgY0cRJFNOKe2Ug==/base.dm': No such file or directory
+11-06 05:38:00.222   559   682 I ImeTracker: com.zdmgold.orlumen:a33ac4af: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-06 05:38:00.222   559   682 I ImeTracker: com.zdmgold.orlumen:a33ac4af: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-06 05:38:00.236  1385  1385 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.zdmgold.orlumen, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-06 05:38:00.275   559  1804 W PackageConfigPersister: App-specific configuration not found for packageName: com.zdmgold.orlumen and userId: 0
+11-06 05:38:02.344  5795  5795 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:38:02.352  5795  5795 I AndroidRuntime: Using default boot image
+11-06 05:38:02.352  5795  5795 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:38:02.495  5795  5795 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:38:03.154   559   577 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:38:03.209  5216  5813 W GooglePlayServicesUtil: Google Play services out of date for com.zdmgold.orlumen.  Requires 254730000 but found 242335041
+11-06 05:38:04.348  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 9302KB AllocSpace bytes, 14(2460KB) LOS objects, 49% free, 11MB/22MB, paused 338us,6.277ms total 181.143ms
+11-06 05:38:05.033  5795  5795 D AndroidRuntime: Shutting down VM
+11-06 05:38:06.666   559  2135 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:38:06.939  5832  5832 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:38:06.941  5832  5832 I AndroidRuntime: Using default boot image
+11-06 05:38:06.942  5832  5832 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:38:07.009  5832  5832 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:38:08.041  5832  5832 D AndroidRuntime: Shutting down VM
+11-06 05:38:10.714  5850  5850 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:38:10.718  5850  5850 I AndroidRuntime: Using default boot image
+11-06 05:38:10.718  5850  5850 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:38:11.007  5850  5850 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:38:14.799  5850  5850 D AndroidRuntime: Shutting down VM
+11-06 05:38:17.416  5879  5879 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:38:17.423  5879  5879 I AndroidRuntime: Using default boot image
+11-06 05:38:17.423  5879  5879 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:38:17.565  5879  5879 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:38:17.633  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 10177KB AllocSpace bytes, 32(8980KB) LOS objects, 49% free, 10MB/21MB, paused 178us,13.306ms total 338.567ms
+11-06 05:38:20.652  5879  5879 D AndroidRuntime: Shutting down VM
+11-06 05:38:23.580  5902  5902 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:38:23.585  5902  5902 I AndroidRuntime: Using default boot image
+11-06 05:38:23.585  5902  5902 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:38:23.703  5902  5902 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:38:26.703  5902  5902 D AndroidRuntime: Shutting down VM
+11-06 05:38:28.059  5932  5932 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:38:28.063  5932  5932 I AndroidRuntime: Using default boot image
+11-06 05:38:28.063  5932  5932 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:38:28.244  5932  5932 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:38:31.153  5932  5932 D AndroidRuntime: Shutting down VM
+11-06 05:38:32.481  5216  5216 W zdmgold.orlumen: Accessing hidden method Landroid/view/ViewTreeObserver;->dispatchOnScrollChanged()V (unsupported, reflection, allowed)
+11-06 05:38:33.366  5960  5960 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:38:33.373  5960  5960 I AndroidRuntime: Using default boot image
+11-06 05:38:33.373  5960  5960 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:38:33.541  5960  5960 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:38:33.854  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 10MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 10MB/21MB, paused 191us,3.182ms total 123.079ms
+11-06 05:38:36.219  5960  5960 D AndroidRuntime: Shutting down VM
+11-06 05:38:38.272  5982  5982 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:38:38.299  5982  5982 I AndroidRuntime: Using default boot image
+11-06 05:38:38.299  5982  5982 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:38:38.444  5982  5982 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:38:41.332  5982  5982 D AndroidRuntime: Shutting down VM
+11-06 05:38:42.802   559   577 D CoreBackPreview: Window{955e852 u0 com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@1328b56, mPriority=0, mIsAnimationCallback=true}
+11-06 05:38:45.243  6024  6024 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:38:45.247  6024  6024 I AndroidRuntime: Using default boot image
+11-06 05:38:45.248  6024  6024 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:38:45.347  6024  6024 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:38:46.374  6024  6024 D AndroidRuntime: Shutting down VM
+11-06 05:38:48.471  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 10MB AllocSpace bytes, 1(24KB) LOS objects, 49% free, 10MB/21MB, paused 277us,8.348ms total 157.002ms
+11-06 05:38:53.038  6065  6065 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:38:53.046  6065  6065 I AndroidRuntime: Using default boot image
+11-06 05:38:53.046  6065  6065 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:38:53.149  6065  6065 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:38:54.190  6065  6065 D AndroidRuntime: Shutting down VM
+11-06 05:38:55.295  6089  6089 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:38:55.298  6089  6089 I AndroidRuntime: Using default boot image
+11-06 05:38:55.298  6089  6089 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:38:55.440  6089  6089 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:38:56.493  6089  6089 D AndroidRuntime: Shutting down VM
+11-06 05:38:58.316  6107  6107 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:38:58.321  6107  6107 I AndroidRuntime: Using default boot image
+11-06 05:38:58.321  6107  6107 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:38:58.413  6107  6107 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:38:59.466  6107  6107 D AndroidRuntime: Shutting down VM
+11-06 05:39:00.354   909   971 V WindowManagerShell: Transition requested (#35): android.os.BinderProxy@552e6a5 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=11 displayId=0 isRunning=true baseIntent=Intent { flg=0x10800000 cmp=com.zdmgold.orlumen/.platform.aod.AodActivity } baseActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.platform.aod.AodActivity} topActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.platform.aod.AodActivity} origActivity=null realActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.platform.aod.AodActivity} numActivities=1 lastActiveTime=313941 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@f30aa7a} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{5f22b com.zdmgold.orlumen.platform.aod.AodActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 35 }
+11-06 05:39:00.354   559  1041 I ActivityTaskManager: START u0 {cmp=com.zdmgold.orlumen/.platform.aod.AodActivity} with LAUNCH_SINGLE_INSTANCE from uid 10209 (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+11-06 05:39:00.358  1188  1188 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=11, baseIntent=Intent { flg=0x10800000 cmp=com.zdmgold.orlumen/.platform.aod.AodActivity }
+11-06 05:39:00.513   559   581 V WindowManager: Sent Transition (#35) createdAt=11-06 05:39:00.351 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=11 displayId=0 isRunning=true baseIntent=Intent { flg=0x10800000 cmp=com.zdmgold.orlumen/.platform.aod.AodActivity } baseActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.platform.aod.AodActivity} topActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.platform.aod.AodActivity} origActivity=null realActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.platform.aod.AodActivity} numActivities=1 lastActiveTime=313941 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{2fe7da3 Task{a23169c #11 type=standard I=com.zdmgold.orlumen/.platform.aod.AodActivity}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{fb558a0 com.zdmgold.orlumen.platform.aod.AodActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 35 }
+11-06 05:39:00.513   559   581 V WindowManager:         {WCT{RemoteToken{2fe7da3 Task{a23169c #11 type=standard I=com.zdmgold.orlumen/.platform.aod.AodActivity}}} m=OPEN f=NONE leash=Surface(name=Task=11)/@0x9cdf75d sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+11-06 05:39:00.513   559   581 V WindowManager:         {WCT{RemoteToken{45252e1 Task{bab6f88 #9 type=standard A=10209:com.zdmgold.orlumen}}} m=TO_BACK f=NONE leash=Surface(name=Task=9)/@0x322ceeb sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}
+11-06 05:39:00.543   559  1804 D CoreBackPreview: Window{1cdb01e u0 com.zdmgold.orlumen/com.zdmgold.orlumen.platform.aod.AodActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@c275ecc, mPriority=-1, mIsAnimationCallback=false}
+11-06 05:39:00.800   559   581 I ActivityTaskManager: Displayed com.zdmgold.orlumen/.platform.aod.AodActivity for user 0: +450ms
+11-06 05:39:00.947   559  1199 W InputManager-JNI: Input channel object 'a990088 Splash Screen com.zdmgold.orlumen (client)' was disposed without first being removed with the input manager!
+11-06 05:39:00.953   559   682 I ImeTracker: com.zdmgold.orlumen:27fa88ea: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-06 05:39:00.954   559   682 I ImeTracker: com.zdmgold.orlumen:27fa88ea: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-06 05:39:01.152  1385  1385 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.zdmgold.orlumen, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-06 05:39:01.165   559  1199 W PackageConfigPersister: App-specific configuration not found for packageName: com.zdmgold.orlumen and userId: 0
+11-06 05:39:01.202   559  1199 D CoreBackPreview: Window{955e852 u0 com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@75f61f5, mPriority=-1, mIsAnimationCallback=false}
+11-06 05:39:01.303  5216  5216 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=true, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.zdmgold.orlumen
+11-06 05:39:04.677  6140  6140 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:39:04.680  6140  6140 I AndroidRuntime: Using default boot image
+11-06 05:39:04.680  6140  6140 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:39:04.748  6140  6140 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:39:05.767  6140  6140 D AndroidRuntime: Shutting down VM
+11-06 05:39:06.651   909   971 V WindowManagerShell: Transition requested (#36): android.os.BinderProxy@508783 TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=11 displayId=0 isRunning=false baseIntent=Intent { flg=0x10800000 cmp=com.zdmgold.orlumen/.platform.aod.AodActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.platform.aod.AodActivity} numActivities=0 lastActiveTime=313950 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@de5cd00} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 36 }
+11-06 05:39:06.653  1188  1188 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=9, baseIntent=Intent { flg=0x10000000 cmp=com.zdmgold.orlumen/.MainActivity }
+11-06 05:39:06.658   559  1804 D CoreBackPreview: Window{955e852 u0 com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@df519fd, mPriority=0, mIsAnimationCallback=true}
+11-06 05:39:06.759   559   581 V WindowManager: Sent Transition (#36) createdAt=11-06 05:39:06.651 via request=TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=11 displayId=0 isRunning=false baseIntent=Intent { flg=0x10800000 cmp=com.zdmgold.orlumen/.platform.aod.AodActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.platform.aod.AodActivity} numActivities=0 lastActiveTime=313950 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{2fe7da3 Task{a23169c #11 type=standard I=com.zdmgold.orlumen/.platform.aod.AodActivity}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 36 }
+11-06 05:39:06.765   559   581 V WindowManager:         {WCT{RemoteToken{45252e1 Task{bab6f88 #9 type=standard A=10209:com.zdmgold.orlumen}}} m=TO_FRONT f=NONE leash=Surface(name=Task=9)/@0x322ceeb sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+11-06 05:39:06.765   559   581 V WindowManager:         {WCT{RemoteToken{2fe7da3 Task{a23169c #11 type=standard I=com.zdmgold.orlumen/.platform.aod.AodActivity}}} m=CLOSE f=NONE leash=Surface(name=Task=11)/@0x9cdf75d sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}
+11-06 05:39:06.877   559  1804 D CoreBackPreview: Window{1cdb01e u0 com.zdmgold.orlumen/com.zdmgold.orlumen.platform.aod.AodActivity}: Setting back callback null
+11-06 05:39:06.884   559  1804 W InputManager-JNI: Input channel object '1cdb01e com.zdmgold.orlumen/com.zdmgold.orlumen.platform.aod.AodActivity (client)' was disposed without first being removed with the input manager!
+11-06 05:39:06.913   559   682 I ImeTracker: com.zdmgold.orlumen:c67bcbc2: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-06 05:39:06.913   559   682 I ImeTracker: com.zdmgold.orlumen:c67bcbc2: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-06 05:39:06.928  1385  1385 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.zdmgold.orlumen, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-06 05:39:06.953   559  1804 W PackageConfigPersister: App-specific configuration not found for packageName: com.zdmgold.orlumen and userId: 0
+11-06 05:39:08.711   559  1804 D CoreBackPreview: Window{955e852 u0 com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@61a90c, mPriority=-1, mIsAnimationCallback=false}
+11-06 05:39:08.729   559  1804 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:39:08.795  5216  6191 W GooglePlayServicesUtil: Google Play services out of date for com.zdmgold.orlumen.  Requires 254730000 but found 242335041
+11-06 05:39:08.819  5216  5224 W zdmgold.orlumen: Suspending all threads took: 5.905ms
+11-06 05:39:08.827  5216  5224 W zdmgold.orlumen: Cleared Reference was only reachable from finalizer (only reported once)
+11-06 05:39:08.961  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 1(16KB) LOS objects, 49% free, 12MB/24MB, paused 9.054ms,5.123ms total 212.059ms
+11-06 05:39:12.108   559  1199 I ActivityTaskManager: START u0 {flg=0x14010000 cmp=com.zdmgold.orlumen/.platform.aod.AodActivity} with LAUNCH_SINGLE_INSTANCE from uid 10209 (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+11-06 05:39:12.109   909   971 V WindowManagerShell: Transition requested (#37): android.os.BinderProxy@16e8e02 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=12 displayId=0 isRunning=true baseIntent=Intent { flg=0x14810000 cmp=com.zdmgold.orlumen/.platform.aod.AodActivity } baseActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.platform.aod.AodActivity} topActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.platform.aod.AodActivity} origActivity=null realActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.platform.aod.AodActivity} numActivities=1 lastActiveTime=325694 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@2e34313} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{ce58950 com.zdmgold.orlumen.platform.aod.AodActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=false isVisibleRequested=false isSleeping=true locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 37 }
+11-06 05:39:12.117  1188  1188 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=12, baseIntent=Intent { flg=0x14810000 cmp=com.zdmgold.orlumen/.platform.aod.AodActivity }
+11-06 05:39:12.177   559  1041 D CoreBackPreview: Window{67a3121 u0 com.zdmgold.orlumen/com.zdmgold.orlumen.platform.aod.AodActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@49a2034, mPriority=-1, mIsAnimationCallback=false}
+11-06 05:39:12.289   559   581 W ziparchive: Unable to open '/data/app/~~J49bBFsOxNiU6do_SqTsHw==/com.zdmgold.orlumen-a4Jk2UmAgY0cRJFNOKe2Ug==/base.dm': No such file or directory
+11-06 05:39:12.315   559   581 I ActivityTaskManager: Displayed com.zdmgold.orlumen/.platform.aod.AodActivity for user 0: +155ms
+11-06 05:39:12.315   559   581 V WindowManager: Sent Transition (#37) createdAt=11-06 05:39:12.095 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=12 displayId=0 isRunning=true baseIntent=Intent { flg=0x14810000 cmp=com.zdmgold.orlumen/.platform.aod.AodActivity } baseActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.platform.aod.AodActivity} topActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.platform.aod.AodActivity} origActivity=null realActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.platform.aod.AodActivity} numActivities=1 lastActiveTime=325694 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{b4b9582 Task{50d2e04 #12 type=standard I=com.zdmgold.orlumen/.platform.aod.AodActivity}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{b487493 com.zdmgold.orlumen.platform.aod.AodActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=false isVisibleRequested=false isSleeping=true locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 37 }
+11-06 05:39:12.315   559   581 V WindowManager:         {WCT{RemoteToken{b4b9582 Task{50d2e04 #12 type=standard I=com.zdmgold.orlumen/.platform.aod.AodActivity}}} m=OPEN f=NO_ANIMATION p=WCT{RemoteToken{e109cd0 DefaultTaskDisplayArea@227131591}} leash=Surface(name=Task=12)/@0x6b17d1b sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+11-06 05:39:12.601   559   682 I ImeTracker: com.zdmgold.orlumen:2e4cf427: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-06 05:39:12.612   559   682 I ImeTracker: com.zdmgold.orlumen:2e4cf427: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-06 05:39:12.627  1385  1385 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.zdmgold.orlumen, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-06 05:39:12.631  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 7869KB AllocSpace bytes, 54(5708KB) LOS objects, 49% free, 11MB/23MB, paused 1.176ms,4.348ms total 446.722ms
+11-06 05:39:12.635   559  2133 W PackageConfigPersister: App-specific configuration not found for packageName: com.zdmgold.orlumen and userId: 0
+11-06 05:39:16.281  6252  6252 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:39:16.284  6252  6252 I AndroidRuntime: Using default boot image
+11-06 05:39:16.284  6252  6252 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:39:16.347  6252  6252 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:39:17.365  6252  6252 D AndroidRuntime: Shutting down VM
+11-06 05:39:21.534  6283  6283 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:39:21.537  6283  6283 I AndroidRuntime: Using default boot image
+11-06 05:39:21.537  6283  6283 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:39:21.603  6283  6283 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:39:22.618  6283  6283 D AndroidRuntime: Shutting down VM
+11-06 05:39:24.532   909   971 V WindowManagerShell: Transition requested (#38): android.os.BinderProxy@2ee055 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=9 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.zdmgold.orlumen/.MainActivity } baseActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity} topActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity} origActivity=null realActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity} numActivities=1 lastActiveTime=325309 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@30d9a6a} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{9d33b5b com.zdmgold.orlumen.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 38 }
+11-06 05:39:24.532   559   577 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.zdmgold.orlumen/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=2
+11-06 05:39:24.541   909   971 D WindowManagerShell: onActivityRestartAttempt: ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity}
+11-06 05:39:24.549  1188  1188 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=9, baseIntent=Intent { flg=0x10000000 cmp=com.zdmgold.orlumen/.MainActivity }
+11-06 05:39:24.615   559   581 V WindowManager: Sent Transition (#38) createdAt=11-06 05:39:24.528 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=9 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.zdmgold.orlumen/.MainActivity } baseActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity} topActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity} origActivity=null realActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity} numActivities=1 lastActiveTime=325309 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{45252e1 Task{bab6f88 #9 type=standard A=10209:com.zdmgold.orlumen}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{7540806 com.zdmgold.orlumen.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 38 }
+11-06 05:39:24.615   559   581 V WindowManager:         {WCT{RemoteToken{45252e1 Task{bab6f88 #9 type=standard A=10209:com.zdmgold.orlumen}}} m=TO_FRONT f=MOVE_TO_TOP leash=Surface(name=Task=9)/@0x322ceeb sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+11-06 05:39:24.615   559   581 V WindowManager:         {WCT{RemoteToken{b4b9582 Task{50d2e04 #12 type=standard I=com.zdmgold.orlumen/.platform.aod.AodActivity}}} m=TO_BACK f=NONE leash=Surface(name=Task=12)/@0x6b17d1b sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}
+11-06 05:39:24.794   559  1699 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:39:24.800   559  2135 W InputManager-JNI: Input channel object '7964819 Splash Screen com.zdmgold.orlumen (client)' was disposed without first being removed with the input manager!
+11-06 05:39:25.236   559   682 I ImeTracker: com.zdmgold.orlumen:1ebd12fb: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-06 05:39:25.236   559   682 I ImeTracker: com.zdmgold.orlumen:1ebd12fb: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-06 05:39:25.238  1385  1385 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.zdmgold.orlumen, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-06 05:39:25.239   559  2135 W PackageConfigPersister: App-specific configuration not found for packageName: com.zdmgold.orlumen and userId: 0
+11-06 05:39:28.332  6355  6355 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:39:28.341  6355  6355 I AndroidRuntime: Using default boot image
+11-06 05:39:28.341  6355  6355 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:39:28.464  6355  6355 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:39:30.385  6355  6355 D AndroidRuntime: Shutting down VM
+11-06 05:39:31.631  6381  6381 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:39:31.661  6381  6381 I AndroidRuntime: Using default boot image
+11-06 05:39:31.661  6381  6381 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:39:31.880  6381  6381 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:39:31.923  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 4(80KB) LOS objects, 49% free, 11MB/23MB, paused 388us,27.627ms total 397.185ms
+11-06 05:39:33.414  6381  6381 D AndroidRuntime: Shutting down VM
+11-06 05:39:35.402  6400  6400 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:39:35.406  6400  6400 I AndroidRuntime: Using default boot image
+11-06 05:39:35.406  6400  6400 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:39:35.610  6400  6400 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:39:37.183  6400  6400 D AndroidRuntime: Shutting down VM
+11-06 05:39:39.178  6426  6426 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:39:39.183  6426  6426 I AndroidRuntime: Using default boot image
+11-06 05:39:39.183  6426  6426 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:39:39.317  6426  6426 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:39:40.806  6426  6426 D AndroidRuntime: Shutting down VM
+11-06 05:39:43.366  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 4(80KB) LOS objects, 49% free, 10MB/21MB, paused 308us,5.216ms total 87.513ms
+11-06 05:39:45.876  6472  6472 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:39:45.882  6472  6472 I AndroidRuntime: Using default boot image
+11-06 05:39:45.882  6472  6472 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:39:45.991  6472  6472 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:39:47.438  6472  6472 D AndroidRuntime: Shutting down VM
+11-06 05:39:50.888  6504  6504 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:39:50.893  6504  6504 I AndroidRuntime: Using default boot image
+11-06 05:39:50.894  6504  6504 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:39:51.075  6504  6504 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:39:52.569  6504  6504 D AndroidRuntime: Shutting down VM
+11-06 05:39:54.099  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 10MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 11MB/22MB, paused 303us,38.438ms total 151.352ms
+11-06 05:39:56.042  6538  6538 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:39:56.050  6538  6538 I AndroidRuntime: Using default boot image
+11-06 05:39:56.050  6538  6538 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:39:56.234  6538  6538 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:39:57.692  6538  6538 D AndroidRuntime: Shutting down VM
+11-06 05:40:00.577  6574  6574 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:40:00.585  6574  6574 I AndroidRuntime: Using default boot image
+11-06 05:40:00.586  6574  6574 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:40:00.738  6574  6574 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:40:02.202  6574  6574 D AndroidRuntime: Shutting down VM
+11-06 05:40:04.502  6603  6603 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:40:04.539  6603  6603 I AndroidRuntime: Using default boot image
+11-06 05:40:04.539  6603  6603 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:40:04.712  6603  6603 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:40:06.247  6603  6603 D AndroidRuntime: Shutting down VM
+11-06 05:40:08.291  6630  6630 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:40:08.301  6630  6630 I AndroidRuntime: Using default boot image
+11-06 05:40:08.301  6630  6630 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:40:08.389  6630  6630 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:40:10.049  6630  6630 D AndroidRuntime: Shutting down VM
+11-06 05:40:12.461  6660  6660 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:40:12.464  6660  6660 I AndroidRuntime: Using default boot image
+11-06 05:40:12.464  6660  6660 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:40:12.587  6660  6660 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:40:14.353  6660  6660 D AndroidRuntime: Shutting down VM
+11-06 05:40:15.552  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 11MB/22MB, paused 427us,4.747ms total 218.332ms
+11-06 05:40:16.584  6688  6688 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:40:16.587  6688  6688 I AndroidRuntime: Using default boot image
+11-06 05:40:16.588  6688  6688 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:40:16.771  6688  6688 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:40:18.286  6688  6688 D AndroidRuntime: Shutting down VM
+11-06 05:40:20.557  6716  6716 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:40:20.565  6716  6716 I AndroidRuntime: Using default boot image
+11-06 05:40:20.565  6716  6716 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:40:20.684  6716  6716 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:40:21.877   559   577 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:40:21.964  5216  6737 W GooglePlayServicesUtil: Google Play services out of date for com.zdmgold.orlumen.  Requires 254730000 but found 242335041
+11-06 05:40:22.039  6716  6716 D AndroidRuntime: Shutting down VM
+11-06 05:40:24.235  6756  6756 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:40:24.236   559  1041 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:40:24.239  6756  6756 I AndroidRuntime: Using default boot image
+11-06 05:40:24.239  6756  6756 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:40:24.416  6756  6756 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:40:26.151  6756  6756 D AndroidRuntime: Shutting down VM
+11-06 05:40:28.267  6779  6779 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:40:28.271  6779  6779 I AndroidRuntime: Using default boot image
+11-06 05:40:28.271  6779  6779 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:40:28.431  6779  6779 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:40:29.317  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 9776KB AllocSpace bytes, 40(4536KB) LOS objects, 49% free, 11MB/22MB, paused 391us,5.917ms total 170.151ms
+11-06 05:40:29.909  6779  6779 D AndroidRuntime: Shutting down VM
+11-06 05:40:32.046  6806  6806 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:40:32.050  6806  6806 I AndroidRuntime: Using default boot image
+11-06 05:40:32.050  6806  6806 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:40:32.245  6806  6806 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:40:33.735  6806  6806 D AndroidRuntime: Shutting down VM
+11-06 05:40:35.930  6835  6835 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:40:35.934  6835  6835 I AndroidRuntime: Using default boot image
+11-06 05:40:35.934  6835  6835 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:40:36.040  6835  6835 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:40:37.461  6835  6835 D AndroidRuntime: Shutting down VM
+11-06 05:40:39.562  6862  6862 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:40:39.566  6862  6862 I AndroidRuntime: Using default boot image
+11-06 05:40:39.566  6862  6862 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:40:39.681  6862  6862 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:40:40.477  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 11MB/22MB, paused 4.300ms,4.922ms total 153.076ms
+11-06 05:40:41.148  6862  6862 D AndroidRuntime: Shutting down VM
+11-06 05:40:43.486  6892  6892 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:40:43.495  6892  6892 I AndroidRuntime: Using default boot image
+11-06 05:40:43.495  6892  6892 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:40:43.616  6892  6892 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:40:45.294  6892  6892 D AndroidRuntime: Shutting down VM
+11-06 05:40:47.497  6920  6920 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:40:47.500  6920  6920 I AndroidRuntime: Using default boot image
+11-06 05:40:47.500  6920  6920 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:40:47.618  6920  6920 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:40:49.019  6920  6920 D AndroidRuntime: Shutting down VM
+11-06 05:40:51.144  6952  6952 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:40:51.147  6952  6952 I AndroidRuntime: Using default boot image
+11-06 05:40:51.148  6952  6952 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:40:51.341  6952  6952 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:40:51.774  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 11MB/22MB, paused 1.270ms,7.166ms total 295.010ms
+11-06 05:40:52.768  6952  6952 D AndroidRuntime: Shutting down VM
+11-06 05:40:55.031  6984  6984 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:40:55.044  6984  6984 I AndroidRuntime: Using default boot image
+11-06 05:40:55.045  6984  6984 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:40:55.192  6984  6984 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:40:56.645  6984  6984 D AndroidRuntime: Shutting down VM
+11-06 05:40:58.810  7012  7012 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:40:58.819  7012  7012 I AndroidRuntime: Using default boot image
+11-06 05:40:58.830  7012  7012 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:40:59.019  7012  7012 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:41:00.392  7012  7012 D AndroidRuntime: Shutting down VM
+11-06 05:41:02.759  7042  7042 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:41:02.763  7042  7042 I AndroidRuntime: Using default boot image
+11-06 05:41:02.763  7042  7042 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:41:02.767  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 11MB/22MB, paused 275us,5.067ms total 218.244ms
+11-06 05:41:02.910  7042  7042 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:41:04.455  7042  7042 D AndroidRuntime: Shutting down VM
+11-06 05:41:06.586  7073  7073 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:41:06.591  7073  7073 I AndroidRuntime: Using default boot image
+11-06 05:41:06.591  7073  7073 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:41:06.723  7073  7073 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:41:08.212  7073  7073 D AndroidRuntime: Shutting down VM
+11-06 05:41:10.358  7104  7104 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:41:10.361  7104  7104 I AndroidRuntime: Using default boot image
+11-06 05:41:10.362  7104  7104 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:41:10.652  7104  7104 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:41:12.273  7104  7104 D AndroidRuntime: Shutting down VM
+11-06 05:41:14.325  7133  7133 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:41:14.331  7133  7133 I AndroidRuntime: Using default boot image
+11-06 05:41:14.331  7133  7133 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:41:14.623  7133  7133 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:41:16.053  7133  7133 D AndroidRuntime: Shutting down VM
+11-06 05:41:18.308  7161  7161 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:41:18.313  7161  7161 I AndroidRuntime: Using default boot image
+11-06 05:41:18.313  7161  7161 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:41:18.547  7161  7161 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:41:20.111  7161  7161 D AndroidRuntime: Shutting down VM
+11-06 05:41:25.626  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 11MB/22MB, paused 390us,4.466ms total 420.599ms
+11-06 05:41:26.232  7194  7194 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:41:26.262  7194  7194 I AndroidRuntime: Using default boot image
+11-06 05:41:26.263  7194  7194 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:41:26.447  7194  7194 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:41:27.962  7194  7194 D AndroidRuntime: Shutting down VM
+11-06 05:41:31.747  7230  7230 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:41:31.759  7230  7230 I AndroidRuntime: Using default boot image
+11-06 05:41:31.759  7230  7230 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:41:31.940  7230  7230 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:41:33.338  7230  7230 D AndroidRuntime: Shutting down VM
+11-06 05:41:34.148   559  1810 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:41:34.243  5216  7258 W GooglePlayServicesUtil: Google Play services out of date for com.zdmgold.orlumen.  Requires 254730000 but found 242335041
+11-06 05:41:36.485   559  1699 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:41:36.844  7285  7285 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:41:36.847  7285  7285 I AndroidRuntime: Using default boot image
+11-06 05:41:36.847  7285  7285 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:41:36.914  7285  7285 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:41:39.560  7285  7285 D AndroidRuntime: Shutting down VM
+11-06 05:41:40.763  7310  7310 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:41:40.769  7310  7310 I AndroidRuntime: Using default boot image
+11-06 05:41:40.770  7310  7310 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:41:40.880  7310  7310 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:41:42.297  7310  7310 D AndroidRuntime: Shutting down VM
+11-06 05:41:44.481  7334  7334 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:41:44.491  7334  7334 I AndroidRuntime: Using default boot image
+11-06 05:41:44.491  7334  7334 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:41:44.672  7334  7334 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:41:46.117  7334  7334 D AndroidRuntime: Shutting down VM
+11-06 05:41:48.329  7361  7361 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:41:48.333  7361  7361 I AndroidRuntime: Using default boot image
+11-06 05:41:48.333  7361  7361 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:41:48.579  7361  7361 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:41:50.150  7361  7361 D AndroidRuntime: Shutting down VM
+11-06 05:41:52.280  7388  7388 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:41:52.299  7388  7388 I AndroidRuntime: Using default boot image
+11-06 05:41:52.299  7388  7388 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:41:52.451  7388  7388 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:41:53.983  7388  7388 D AndroidRuntime: Shutting down VM
+11-06 05:41:54.014  1329  1340 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~J49bBFsOxNiU6do_SqTsHw==/com.zdmgold.orlumen-a4Jk2UmAgY0cRJFNOKe2Ug==/base.apk' with 1 weak references
+11-06 05:41:56.199  7418  7418 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:41:56.203  7418  7418 I AndroidRuntime: Using default boot image
+11-06 05:41:56.203  7418  7418 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:41:56.334  7418  7418 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:41:57.859  7418  7418 D AndroidRuntime: Shutting down VM
+11-06 05:41:59.941  7446  7446 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:41:59.947  7446  7446 I AndroidRuntime: Using default boot image
+11-06 05:41:59.948  7446  7446 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:42:00.079  7446  7446 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:42:00.203  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 11MB/22MB, paused 306us,4.405ms total 190.832ms
+11-06 05:42:01.685  7446  7446 D AndroidRuntime: Shutting down VM
+11-06 05:42:03.867  7476  7476 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:42:03.871  7476  7476 I AndroidRuntime: Using default boot image
+11-06 05:42:03.871  7476  7476 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:42:04.008  7476  7476 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:42:05.402  7476  7476 D AndroidRuntime: Shutting down VM
+11-06 05:42:07.670  7507  7507 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:42:07.674  7507  7507 I AndroidRuntime: Using default boot image
+11-06 05:42:07.674  7507  7507 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:42:07.803  7507  7507 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:42:09.173  7507  7507 D AndroidRuntime: Shutting down VM
+11-06 05:42:11.095  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 11MB/23MB, paused 508us,14.630ms total 245.851ms
+11-06 05:42:11.443  7535  7535 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:42:11.451  7535  7535 I AndroidRuntime: Using default boot image
+11-06 05:42:11.452  7535  7535 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:42:11.587  7535  7535 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:42:13.032  7535  7535 D AndroidRuntime: Shutting down VM
+11-06 05:42:15.322  7565  7565 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:42:15.327  7565  7565 I AndroidRuntime: Using default boot image
+11-06 05:42:15.327  7565  7565 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:42:15.530  7565  7565 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:42:17.017  7565  7565 D AndroidRuntime: Shutting down VM
+11-06 05:42:19.223  7595  7595 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:42:19.227  7595  7595 I AndroidRuntime: Using default boot image
+11-06 05:42:19.227  7595  7595 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:42:19.319  7595  7595 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:42:20.834  7595  7595 D AndroidRuntime: Shutting down VM
+11-06 05:42:22.494  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 11MB/22MB, paused 213us,13.105ms total 82.021ms
+11-06 05:42:23.102  7623  7623 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:42:23.132  7623  7623 I AndroidRuntime: Using default boot image
+11-06 05:42:23.132  7623  7623 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:42:23.361  7623  7623 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:42:24.810  7623  7623 D AndroidRuntime: Shutting down VM
+11-06 05:42:26.925  7650  7650 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:42:26.931  7650  7650 I AndroidRuntime: Using default boot image
+11-06 05:42:26.931  7650  7650 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:42:27.111  7650  7650 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:42:29.457  7650  7650 D AndroidRuntime: Shutting down VM
+11-06 05:42:31.594  7684  7684 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:42:31.598  7684  7684 I AndroidRuntime: Using default boot image
+11-06 05:42:31.598  7684  7684 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:42:31.831  7684  7684 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:42:33.334  7684  7684 D AndroidRuntime: Shutting down VM
+11-06 05:42:34.152  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 11MB/22MB, paused 261us,43.177ms total 145.605ms
+11-06 05:42:35.381  7714  7714 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:42:35.386  7714  7714 I AndroidRuntime: Using default boot image
+11-06 05:42:35.386  7714  7714 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:42:35.492  7714  7714 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:42:36.911  7714  7714 D AndroidRuntime: Shutting down VM
+11-06 05:42:39.099  7742  7742 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:42:39.103  7742  7742 I AndroidRuntime: Using default boot image
+11-06 05:42:39.104  7742  7742 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:42:39.221  7742  7742 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:42:40.850  7742  7742 D AndroidRuntime: Shutting down VM
+11-06 05:42:43.051  7770  7770 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:42:43.056  7770  7770 I AndroidRuntime: Using default boot image
+11-06 05:42:43.056  7770  7770 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:42:43.216  7770  7770 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:42:44.681  7770  7770 D AndroidRuntime: Shutting down VM
+11-06 05:42:45.431  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 11MB/23MB, paused 38.165ms,4.690ms total 240.968ms
+11-06 05:42:46.473   559  1810 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:42:46.495  5216  7801 W GooglePlayServicesUtil: Google Play services out of date for com.zdmgold.orlumen.  Requires 254730000 but found 242335041
+11-06 05:42:46.699  7804  7804 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:42:46.703  7804  7804 I AndroidRuntime: Using default boot image
+11-06 05:42:46.703  7804  7804 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:42:46.850  7804  7804 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:42:48.300  7804  7804 D AndroidRuntime: Shutting down VM
+11-06 05:42:48.307  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 7526KB AllocSpace bytes, 41(4452KB) LOS objects, 49% free, 13MB/26MB, paused 328us,4.154ms total 147.096ms
+11-06 05:42:48.773   559  2134 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:42:50.445  7839  7839 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:42:50.454  7839  7839 I AndroidRuntime: Using default boot image
+11-06 05:42:50.454  7839  7839 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:42:50.583  7839  7839 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:42:52.059  7839  7839 D AndroidRuntime: Shutting down VM
+11-06 05:42:54.184  7863  7863 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:42:54.202  7863  7863 I AndroidRuntime: Using default boot image
+11-06 05:42:54.202  7863  7863 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:42:54.334  7863  7863 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:42:55.866  7863  7863 D AndroidRuntime: Shutting down VM
+11-06 05:42:57.990  7888  7888 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:42:57.995  7888  7888 I AndroidRuntime: Using default boot image
+11-06 05:42:57.995  7888  7888 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:42:58.138  7888  7888 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:42:59.617  7888  7888 D AndroidRuntime: Shutting down VM
+11-06 05:43:00.151  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 13MB AllocSpace bytes, 15(1284KB) LOS objects, 49% free, 11MB/23MB, paused 214us,2.561ms total 129.406ms
+11-06 05:43:02.930  1385  1385 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.zdmgold.orlumen, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-06 05:43:02.930   559  1812 W PackageConfigPersister: App-specific configuration not found for packageName: com.zdmgold.orlumen and userId: 0
+11-06 05:43:05.922  7932  7932 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:43:05.928  7932  7932 I AndroidRuntime: Using default boot image
+11-06 05:43:05.928  7932  7932 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:43:06.053  7932  7932 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:43:07.518  7932  7932 D AndroidRuntime: Shutting down VM
+11-06 05:43:09.529  7960  7960 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:43:09.534  7960  7960 I AndroidRuntime: Using default boot image
+11-06 05:43:09.534  7960  7960 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:43:09.667  7960  7960 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:43:11.097  7960  7960 D AndroidRuntime: Shutting down VM
+11-06 05:43:11.845  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 11MB/23MB, paused 260us,5.114ms total 101.728ms
+11-06 05:43:13.407  7988  7988 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:43:13.415  7988  7988 I AndroidRuntime: Using default boot image
+11-06 05:43:13.415  7988  7988 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:43:13.556  7988  7988 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:43:15.078  7988  7988 D AndroidRuntime: Shutting down VM
+11-06 05:43:17.291  8018  8018 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:43:17.298  8018  8018 I AndroidRuntime: Using default boot image
+11-06 05:43:17.298  8018  8018 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:43:17.426  8018  8018 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:43:18.859  8018  8018 D AndroidRuntime: Shutting down VM
+11-06 05:43:20.981  8048  8048 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:43:20.987  8048  8048 I AndroidRuntime: Using default boot image
+11-06 05:43:20.987  8048  8048 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:43:21.116  8048  8048 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:43:22.741  8048  8048 D AndroidRuntime: Shutting down VM
+11-06 05:43:24.917  8076  8076 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:43:24.921  8076  8076 I AndroidRuntime: Using default boot image
+11-06 05:43:24.921  8076  8076 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:43:25.035  8076  8076 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:43:26.866  8076  8076 D AndroidRuntime: Shutting down VM
+11-06 05:43:28.985  8104  8104 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:43:28.991  8104  8104 I AndroidRuntime: Using default boot image
+11-06 05:43:28.991  8104  8104 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:43:29.085  8104  8104 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:43:30.634  8104  8104 D AndroidRuntime: Shutting down VM
+11-06 05:43:32.841  8132  8132 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:43:32.845  8132  8132 I AndroidRuntime: Using default boot image
+11-06 05:43:32.845  8132  8132 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:43:33.044  8132  8132 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:43:34.410  8132  8132 D AndroidRuntime: Shutting down VM
+11-06 05:43:34.475  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 11MB/23MB, paused 257us,3.979ms total 235.433ms
+11-06 05:43:36.640  8161  8161 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:43:36.647  8161  8161 I AndroidRuntime: Using default boot image
+11-06 05:43:36.647  8161  8161 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:43:36.829  8161  8161 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:43:38.371  8161  8161 D AndroidRuntime: Shutting down VM
+11-06 05:43:40.514  8189  8189 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:43:40.517  8189  8189 I AndroidRuntime: Using default boot image
+11-06 05:43:40.517  8189  8189 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:43:40.659  8189  8189 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:43:42.344  8189  8189 D AndroidRuntime: Shutting down VM
+11-06 05:43:44.635  8215  8215 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:43:44.639  8215  8215 I AndroidRuntime: Using default boot image
+11-06 05:43:44.639  8215  8215 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:43:44.737  8215  8215 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:43:46.132  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 11MB/23MB, paused 8.278ms,5.411ms total 120.284ms
+11-06 05:43:46.180  8215  8215 D AndroidRuntime: Shutting down VM
+11-06 05:43:48.352  8243  8243 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:43:48.363  8243  8243 I AndroidRuntime: Using default boot image
+11-06 05:43:48.363  8243  8243 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:43:48.464  8243  8243 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:43:49.962  8243  8243 D AndroidRuntime: Shutting down VM
+11-06 05:43:52.246  8277  8277 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:43:52.253  8277  8277 I AndroidRuntime: Using default boot image
+11-06 05:43:52.256  8277  8277 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:43:52.392  8277  8277 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:43:53.925  8277  8277 D AndroidRuntime: Shutting down VM
+11-06 05:43:56.045  8305  8305 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:43:56.050  8305  8305 I AndroidRuntime: Using default boot image
+11-06 05:43:56.050  8305  8305 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:43:56.212  8305  8305 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:43:57.657  8305  8305 D AndroidRuntime: Shutting down VM
+11-06 05:43:57.660  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 11MB/23MB, paused 345us,15.603ms total 159.948ms
+11-06 05:43:58.791   559  1174 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:43:58.835  5216  8336 W GooglePlayServicesUtil: Google Play services out of date for com.zdmgold.orlumen.  Requires 254730000 but found 242335041
+11-06 05:43:59.921  8342  8342 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:43:59.926  8342  8342 I AndroidRuntime: Using default boot image
+11-06 05:43:59.926  8342  8342 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:44:00.052  8342  8342 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:44:00.598  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 7310KB AllocSpace bytes, 42(4560KB) LOS objects, 49% free, 13MB/26MB, paused 286us,6.752ms total 95.930ms
+11-06 05:44:00.939   559  1551 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:44:03.199  8342  8342 D AndroidRuntime: Shutting down VM
+11-06 05:44:10.336  8376  8376 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:44:10.343  8376  8376 I AndroidRuntime: Using default boot image
+11-06 05:44:10.343  8376  8376 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:44:10.496  8376  8376 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:44:12.115  8376  8376 D AndroidRuntime: Shutting down VM
+11-06 05:44:13.076  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 13MB AllocSpace bytes, 14(1176KB) LOS objects, 49% free, 12MB/24MB, paused 242us,9.639ms total 176.628ms
+11-06 05:44:14.229  8406  8406 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:44:14.234  8406  8406 I AndroidRuntime: Using default boot image
+11-06 05:44:14.234  8406  8406 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:44:14.471  8406  8406 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:44:15.985  8406  8406 D AndroidRuntime: Shutting down VM
+11-06 05:44:18.105  8437  8437 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:44:18.109  8437  8437 I AndroidRuntime: Using default boot image
+11-06 05:44:18.109  8437  8437 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:44:18.387  8437  8437 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:44:19.758  8437  8437 D AndroidRuntime: Shutting down VM
+11-06 05:44:22.030  8467  8467 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:44:22.038  8467  8467 I AndroidRuntime: Using default boot image
+11-06 05:44:22.043  8467  8467 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:44:22.208  8467  8467 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:44:23.649  8467  8467 D AndroidRuntime: Shutting down VM
+11-06 05:44:25.013  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 12MB AllocSpace bytes, 4(80KB) LOS objects, 49% free, 11MB/23MB, paused 270us,7.735ms total 61.886ms
+11-06 05:44:25.887  8495  8495 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:44:25.893  8495  8495 I AndroidRuntime: Using default boot image
+11-06 05:44:25.893  8495  8495 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:44:26.036  8495  8495 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:44:27.481  8495  8495 D AndroidRuntime: Shutting down VM
+11-06 05:44:29.602  8522  8522 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:44:29.607  8522  8522 I AndroidRuntime: Using default boot image
+11-06 05:44:29.607  8522  8522 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:44:29.813  8522  8522 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:44:31.342  8522  8522 D AndroidRuntime: Shutting down VM
+11-06 05:44:36.332  8558  8558 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:44:36.371  8558  8558 I AndroidRuntime: Using default boot image
+11-06 05:44:36.371  8558  8558 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:44:36.520  8558  8558 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:44:37.079  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 11MB/23MB, paused 344us,5.394ms total 58.608ms
+11-06 05:44:37.896  8558  8558 D AndroidRuntime: Shutting down VM
+11-06 05:44:39.071  8584  8584 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:44:39.074  8584  8584 I AndroidRuntime: Using default boot image
+11-06 05:44:39.074  8584  8584 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:44:39.311  8584  8584 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:44:40.718  8584  8584 D AndroidRuntime: Shutting down VM
+11-06 05:44:43.065  8614  8614 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:44:43.097  8614  8614 I AndroidRuntime: Using default boot image
+11-06 05:44:43.097  8614  8614 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:44:43.292  8614  8614 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:44:44.634  8614  8614 D AndroidRuntime: Shutting down VM
+11-06 05:44:46.731  8642  8642 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:44:46.779  8642  8642 I AndroidRuntime: Using default boot image
+11-06 05:44:46.779  8642  8642 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:44:46.909  8642  8642 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:44:48.378  8642  8642 D AndroidRuntime: Shutting down VM
+11-06 05:44:48.799  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 11MB/23MB, paused 136us,7.342ms total 114.965ms
+11-06 05:44:50.571  8670  8670 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:44:50.580  8670  8670 I AndroidRuntime: Using default boot image
+11-06 05:44:50.580  8670  8670 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:44:50.796  8670  8670 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:44:52.225  8670  8670 D AndroidRuntime: Shutting down VM
+11-06 05:44:54.330  8699  8699 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:44:54.338  8699  8699 I AndroidRuntime: Using default boot image
+11-06 05:44:54.338  8699  8699 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:44:54.566  8699  8699 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:44:56.081  8699  8699 D AndroidRuntime: Shutting down VM
+11-06 05:44:58.217  8728  8728 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:44:58.225  8728  8728 I AndroidRuntime: Using default boot image
+11-06 05:44:58.225  8728  8728 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:44:58.349  8728  8728 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:44:59.817  8728  8728 D AndroidRuntime: Shutting down VM
+11-06 05:45:00.222  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 11MB/23MB, paused 289us,5.344ms total 88.193ms
+11-06 05:45:02.009  8756  8756 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:45:02.012  8756  8756 I AndroidRuntime: Using default boot image
+11-06 05:45:02.012  8756  8756 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:45:02.112  8756  8756 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:45:03.606  8756  8756 D AndroidRuntime: Shutting down VM
+11-06 05:45:05.868  8784  8784 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:45:05.872  8784  8784 I AndroidRuntime: Using default boot image
+11-06 05:45:05.872  8784  8784 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:45:05.998  8784  8784 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:45:07.360  8784  8784 D AndroidRuntime: Shutting down VM
+11-06 05:45:09.683  8813  8813 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:45:09.687  8813  8813 I AndroidRuntime: Using default boot image
+11-06 05:45:09.687  8813  8813 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:45:09.795  8813  8813 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:45:10.944   559  1576 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:45:10.953  5216  8835 W GooglePlayServicesUtil: Google Play services out of date for com.zdmgold.orlumen.  Requires 254730000 but found 242335041
+11-06 05:45:11.240  8813  8813 D AndroidRuntime: Shutting down VM
+11-06 05:45:11.306  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 12MB/24MB, paused 147us,2.114ms total 161.333ms
+11-06 05:45:13.182  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 6196KB AllocSpace bytes, 52(5656KB) LOS objects, 49% free, 12MB/25MB, paused 318us,4.956ms total 122.696ms
+11-06 05:45:13.300   559  1010 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:45:13.317  8857  8857 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:45:13.320  8857  8857 I AndroidRuntime: Using default boot image
+11-06 05:45:13.320  8857  8857 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:45:13.439  8857  8857 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:45:15.049  8857  8857 D AndroidRuntime: Shutting down VM
+11-06 05:45:17.244  8881  8881 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:45:17.248  8881  8881 I AndroidRuntime: Using default boot image
+11-06 05:45:17.250  8881  8881 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:45:17.429  8881  8881 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:45:19.875  8881  8881 D AndroidRuntime: Shutting down VM
+11-06 05:45:22.056  8906  8906 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:45:22.064  8906  8906 I AndroidRuntime: Using default boot image
+11-06 05:45:22.068  8906  8906 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:45:22.268  8906  8906 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:45:23.678  8906  8906 D AndroidRuntime: Shutting down VM
+11-06 05:45:25.861  8931  8931 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:45:25.875  8931  8931 I AndroidRuntime: Using default boot image
+11-06 05:45:25.875  8931  8931 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:45:25.971  8931  8931 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:45:27.496  8931  8931 D AndroidRuntime: Shutting down VM
+11-06 05:45:29.557  8959  8959 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:45:29.561  8959  8959 I AndroidRuntime: Using default boot image
+11-06 05:45:29.562  8959  8959 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:45:29.695  8959  8959 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:45:31.284  8959  8959 D AndroidRuntime: Shutting down VM
+11-06 05:45:33.438  8987  8987 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:45:33.441  8987  8987 I AndroidRuntime: Using default boot image
+11-06 05:45:33.441  8987  8987 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:45:33.560  8987  8987 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:45:35.115  8987  8987 D AndroidRuntime: Shutting down VM
+11-06 05:45:37.029  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 12MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 12MB/24MB, paused 332us,3.888ms total 104.695ms
+11-06 05:45:37.182  9015  9015 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:45:37.184  9015  9015 I AndroidRuntime: Using default boot image
+11-06 05:45:37.184  9015  9015 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:45:37.336  9015  9015 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:45:38.773  9015  9015 D AndroidRuntime: Shutting down VM
+11-06 05:45:40.998  9040  9040 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:45:41.004  9040  9040 I AndroidRuntime: Using default boot image
+11-06 05:45:41.005  9040  9040 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:45:41.130  9040  9040 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:45:42.633  9040  9040 D AndroidRuntime: Shutting down VM
+11-06 05:45:44.916  9072  9072 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:45:44.921  9072  9072 I AndroidRuntime: Using default boot image
+11-06 05:45:44.921  9072  9072 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:45:45.176  9072  9072 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:45:46.664  9072  9072 D AndroidRuntime: Shutting down VM
+11-06 05:45:48.702  9100  9100 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:45:48.708  9100  9100 I AndroidRuntime: Using default boot image
+11-06 05:45:48.708  9100  9100 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:45:48.882  9100  9100 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:45:50.266  9100  9100 D AndroidRuntime: Shutting down VM
+11-06 05:45:52.424  9129  9129 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:45:52.427  9129  9129 I AndroidRuntime: Using default boot image
+11-06 05:45:52.428  9129  9129 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:45:52.557  9129  9129 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:45:53.975  9129  9129 D AndroidRuntime: Shutting down VM
+11-06 05:45:56.005  9175  9175 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:45:56.009  9175  9175 I AndroidRuntime: Using default boot image
+11-06 05:45:56.012  9175  9175 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:45:56.200  9175  9175 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:45:57.817  9175  9175 D AndroidRuntime: Shutting down VM
+11-06 05:46:08.523  9209  9209 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:46:08.528  9209  9209 I AndroidRuntime: Using default boot image
+11-06 05:46:08.528  9209  9209 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:46:08.754  9209  9209 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:46:10.231  9209  9209 D AndroidRuntime: Shutting down VM
+11-06 05:46:11.342   909   971 V WindowManagerShell: Transition requested (#42): android.os.BinderProxy@8a2b138 TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=9 displayId=0 isRunning=false baseIntent=Intent { flg=0x10000000 cmp=com.zdmgold.orlumen/.MainActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity} numActivities=0 lastActiveTime=338122 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@894b511} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 42 }
+11-06 05:46:11.353  1188  1188 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=12, baseIntent=Intent { flg=0x14810000 cmp=com.zdmgold.orlumen/.platform.aod.AodActivity }
+11-06 05:46:11.594   559   581 V WindowManager: Sent Transition (#42) createdAt=11-06 05:46:11.341 via request=TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=9 displayId=0 isRunning=false baseIntent=Intent { flg=0x10000000 cmp=com.zdmgold.orlumen/.MainActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity} numActivities=0 lastActiveTime=338122 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{45252e1 Task{bab6f88 #9 type=standard A=10209:com.zdmgold.orlumen}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 42 }
+11-06 05:46:11.594   559   581 V WindowManager:         {WCT{RemoteToken{b4b9582 Task{50d2e04 #12 type=standard I=com.zdmgold.orlumen/.platform.aod.AodActivity}}} m=TO_FRONT f=NONE leash=Surface(name=Task=12)/@0x6b17d1b sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+11-06 05:46:11.594   559   581 V WindowManager:         {WCT{RemoteToken{45252e1 Task{bab6f88 #9 type=standard A=10209:com.zdmgold.orlumen}}} m=CLOSE f=NONE leash=Surface(name=Task=9)/@0x322ceeb sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}
+11-06 05:46:11.844   559  1010 D CoreBackPreview: Window{955e852 u0 com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity}: Setting back callback null
+11-06 05:46:11.846   559  1010 W InputManager-JNI: Input channel object '955e852 com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity (client)' was disposed without first being removed with the input manager!
+11-06 05:46:11.876   559   682 I ImeTracker: com.zdmgold.orlumen:f8657241: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-06 05:46:11.876   559   682 I ImeTracker: com.zdmgold.orlumen:f8657241: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-06 05:46:11.905  1385  1385 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.zdmgold.orlumen, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-06 05:46:11.910   559  1010 W PackageConfigPersister: App-specific configuration not found for packageName: com.zdmgold.orlumen and userId: 0
+11-06 05:46:13.586  9257  9257 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:46:13.589  9257  9257 I AndroidRuntime: Using default boot image
+11-06 05:46:13.589  9257  9257 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:46:13.658  9257  9257 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:46:14.675  9257  9257 D AndroidRuntime: Shutting down VM
+11-06 05:46:15.532   909   971 V WindowManagerShell: Transition requested (#43): android.os.BinderProxy@be476fe TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=12 displayId=0 isRunning=false baseIntent=Intent { flg=0x14810000 cmp=com.zdmgold.orlumen/.platform.aod.AodActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.platform.aod.AodActivity} numActivities=0 lastActiveTime=744996 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@2fc3e5f} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 43 }
+11-06 05:46:15.712   559   581 V WindowManager: Sent Transition (#43) createdAt=11-06 05:46:15.530 via request=TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=12 displayId=0 isRunning=false baseIntent=Intent { flg=0x14810000 cmp=com.zdmgold.orlumen/.platform.aod.AodActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.platform.aod.AodActivity} numActivities=0 lastActiveTime=744996 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{b4b9582 Task{50d2e04 #12 type=standard I=com.zdmgold.orlumen/.platform.aod.AodActivity}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 43 }
+11-06 05:46:15.712   559   581 V WindowManager:         {WCT{RemoteToken{b4b9582 Task{50d2e04 #12 type=standard I=com.zdmgold.orlumen/.platform.aod.AodActivity}}} m=CLOSE f=NONE leash=Surface(name=Task=12)/@0x6b17d1b sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+11-06 05:46:16.257   559  1576 D CoreBackPreview: Window{67a3121 u0 com.zdmgold.orlumen/com.zdmgold.orlumen.platform.aod.AodActivity}: Setting back callback null
+11-06 05:46:16.290   559  1576 W InputManager-JNI: Input channel object '67a3121 com.zdmgold.orlumen/com.zdmgold.orlumen.platform.aod.AodActivity (client)' was disposed without first being removed with the input manager!
+11-06 05:46:19.151  9296  9296 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:46:19.155  9296  9296 I AndroidRuntime: Using default boot image
+11-06 05:46:19.155  9296  9296 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:46:19.446  9296  9296 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:46:20.740  9296  9296 D AndroidRuntime: Shutting down VM
+11-06 05:46:23.808  9324  9324 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:46:23.811  9324  9324 I AndroidRuntime: Using default boot image
+11-06 05:46:23.811  9324  9324 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:46:23.965  9324  9324 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:46:25.098  9324  9324 D AndroidRuntime: Shutting down VM
+11-06 05:46:28.572  9350  9350 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:46:28.583  9350  9350 I AndroidRuntime: Using default boot image
+11-06 05:46:28.584  9350  9350 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:46:28.785  9350  9350 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:46:29.872  9350  9350 D AndroidRuntime: Shutting down VM
+11-06 05:46:32.160  9374  9374 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:46:32.168  9374  9374 I AndroidRuntime: Using default boot image
+11-06 05:46:32.168  9374  9374 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:46:32.391  9374  9374 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:46:33.433  9374  9374 D AndroidRuntime: Shutting down VM
+11-06 05:46:35.596  9400  9400 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:46:35.599  9400  9400 I AndroidRuntime: Using default boot image
+11-06 05:46:35.599  9400  9400 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:46:35.777  9400  9400 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:46:36.821  9400  9400 D AndroidRuntime: Shutting down VM
+11-06 05:46:39.221  9425  9425 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:46:39.224  9425  9425 I AndroidRuntime: Using default boot image
+11-06 05:46:39.224  9425  9425 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:46:39.329  9425  9425 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:46:40.407  9425  9425 D AndroidRuntime: Shutting down VM
+11-06 05:46:42.634  9449  9449 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:46:42.639  9449  9449 I AndroidRuntime: Using default boot image
+11-06 05:46:42.639  9449  9449 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:46:42.773  9449  9449 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:46:43.813  9449  9449 D AndroidRuntime: Shutting down VM
+11-06 05:46:45.151  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 2(104KB) LOS objects, 49% free, 11MB/23MB, paused 220us,48.788ms total 295.356ms
+11-06 05:46:46.065  9474  9474 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:46:46.073  9474  9474 I AndroidRuntime: Using default boot image
+11-06 05:46:46.073  9474  9474 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:46:46.220  9474  9474 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:46:47.261  9474  9474 D AndroidRuntime: Shutting down VM
+11-06 05:46:49.662  9498  9498 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:46:49.681  9498  9498 I AndroidRuntime: Using default boot image
+11-06 05:46:49.681  9498  9498 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:46:49.820  9498  9498 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:46:50.850  9498  9498 D AndroidRuntime: Shutting down VM
+11-06 05:46:53.296  9523  9523 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:46:53.303  9523  9523 I AndroidRuntime: Using default boot image
+11-06 05:46:53.303  9523  9523 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:46:53.554  9523  9523 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:46:54.796  9523  9523 D AndroidRuntime: Shutting down VM
+11-06 05:46:57.513  9549  9549 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:46:57.516  9549  9549 I AndroidRuntime: Using default boot image
+11-06 05:46:57.517  9549  9549 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:46:57.670  9549  9549 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:46:58.752  9549  9549 D AndroidRuntime: Shutting down VM
+11-06 05:47:00.921  9573  9573 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:47:00.927  9573  9573 I AndroidRuntime: Using default boot image
+11-06 05:47:00.927  9573  9573 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:47:01.012  9573  9573 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:47:02.089  9573  9573 D AndroidRuntime: Shutting down VM
+11-06 05:47:04.040  9597  9597 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:47:04.045  9597  9597 I AndroidRuntime: Using default boot image
+11-06 05:47:04.045  9597  9597 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:47:04.126  9597  9597 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:47:05.248  9597  9597 D AndroidRuntime: Shutting down VM
+11-06 05:47:07.258  9621  9621 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:47:07.261  9621  9621 I AndroidRuntime: Using default boot image
+11-06 05:47:07.261  9621  9621 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:47:07.345  9621  9621 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:47:08.425  9621  9621 D AndroidRuntime: Shutting down VM
+11-06 05:47:10.389  9646  9646 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:47:10.392  9646  9646 I AndroidRuntime: Using default boot image
+11-06 05:47:10.392  9646  9646 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:47:10.477  9646  9646 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:47:11.560  9646  9646 D AndroidRuntime: Shutting down VM
+11-06 05:47:13.538  9670  9670 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:47:13.542  9670  9670 I AndroidRuntime: Using default boot image
+11-06 05:47:13.542  9670  9670 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:47:13.637  9670  9670 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:47:14.762  9670  9670 D AndroidRuntime: Shutting down VM
+11-06 05:47:16.787  9697  9697 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:47:16.790  9697  9697 I AndroidRuntime: Using default boot image
+11-06 05:47:16.790  9697  9697 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:47:16.891  9697  9697 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:47:17.963  9697  9697 D AndroidRuntime: Shutting down VM
+11-06 05:47:20.061  9721  9721 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:47:20.064  9721  9721 I AndroidRuntime: Using default boot image
+11-06 05:47:20.064  9721  9721 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:47:20.163  9721  9721 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:47:21.237  9721  9721 D AndroidRuntime: Shutting down VM
+11-06 05:47:23.245  9746  9746 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:47:23.250  9746  9746 I AndroidRuntime: Using default boot image
+11-06 05:47:23.250  9746  9746 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:47:23.328  9746  9746 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:47:24.406  9746  9746 D AndroidRuntime: Shutting down VM
+11-06 05:47:26.341  9771  9771 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:47:26.344  9771  9771 I AndroidRuntime: Using default boot image
+11-06 05:47:26.344  9771  9771 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:47:26.432  9771  9771 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:47:27.510  9771  9771 D AndroidRuntime: Shutting down VM
+11-06 05:47:29.553  9796  9796 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:47:29.556  9796  9796 I AndroidRuntime: Using default boot image
+11-06 05:47:29.556  9796  9796 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:47:29.641  9796  9796 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:47:30.697  9796  9796 D AndroidRuntime: Shutting down VM
+11-06 05:47:36.102  9824  9824 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:47:36.105  9824  9824 I AndroidRuntime: Using default boot image
+11-06 05:47:36.105  9824  9824 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:47:36.204  9824  9824 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:47:37.251  9824  9824 D AndroidRuntime: Shutting down VM
+11-06 05:47:38.289  9848  9848 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:47:38.291  9848  9848 I AndroidRuntime: Using default boot image
+11-06 05:47:38.291  9848  9848 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:47:38.381  9848  9848 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:47:39.458  9848  9848 D AndroidRuntime: Shutting down VM
+11-06 05:47:41.466  9873  9873 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:47:41.473  9873  9873 I AndroidRuntime: Using default boot image
+11-06 05:47:41.474  9873  9873 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:47:41.563  9873  9873 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:47:42.636  9873  9873 D AndroidRuntime: Shutting down VM
+11-06 05:47:45.080  9897  9897 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:47:45.117  9897  9897 I AndroidRuntime: Using default boot image
+11-06 05:47:45.117  9897  9897 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:47:45.302  9897  9897 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:47:46.384  9897  9897 D AndroidRuntime: Shutting down VM
+11-06 05:47:49.096  9928  9928 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:47:49.104  9928  9928 I AndroidRuntime: Using default boot image
+11-06 05:47:49.104  9928  9928 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:47:49.229  9928  9928 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:47:50.311  9928  9928 D AndroidRuntime: Shutting down VM
+11-06 05:47:52.556  9961  9961 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:47:52.576  9961  9961 I AndroidRuntime: Using default boot image
+11-06 05:47:52.586  9961  9961 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:47:52.765  9961  9961 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:47:53.834  9961  9961 D AndroidRuntime: Shutting down VM
+11-06 05:47:56.079  9986  9986 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:47:56.086  9986  9986 I AndroidRuntime: Using default boot image
+11-06 05:47:56.086  9986  9986 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:47:56.242  9986  9986 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:47:57.327  9986  9986 D AndroidRuntime: Shutting down VM
+11-06 05:47:59.769 10011 10011 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:47:59.786 10011 10011 I AndroidRuntime: Using default boot image
+11-06 05:47:59.786 10011 10011 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:47:59.958 10011 10011 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:48:01.036 10011 10011 D AndroidRuntime: Shutting down VM
+11-06 05:48:03.281 10035 10035 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:48:03.286 10035 10035 I AndroidRuntime: Using default boot image
+11-06 05:48:03.286 10035 10035 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:48:03.427 10035 10035 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:48:04.517 10035 10035 D AndroidRuntime: Shutting down VM
+11-06 05:48:06.683 10059 10059 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:48:06.689 10059 10059 I AndroidRuntime: Using default boot image
+11-06 05:48:06.689 10059 10059 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:48:06.868 10059 10059 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:48:08.029 10059 10059 D AndroidRuntime: Shutting down VM
+11-06 05:48:10.367 10085 10085 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:48:10.404 10085 10085 I AndroidRuntime: Using default boot image
+11-06 05:48:10.404 10085 10085 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:48:10.527 10085 10085 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:48:11.782 10085 10085 D AndroidRuntime: Shutting down VM
+11-06 05:48:14.688 10110 10110 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:48:14.699 10110 10110 I AndroidRuntime: Using default boot image
+11-06 05:48:14.699 10110 10110 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:48:14.890 10110 10110 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:48:15.959 10110 10110 D AndroidRuntime: Shutting down VM
+11-06 05:48:18.033 10136 10136 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:48:18.037 10136 10136 I AndroidRuntime: Using default boot image
+11-06 05:48:18.037 10136 10136 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:48:18.125 10136 10136 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:48:19.183 10136 10136 D AndroidRuntime: Shutting down VM
+11-06 05:48:21.119 10160 10160 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:48:21.128 10160 10160 I AndroidRuntime: Using default boot image
+11-06 05:48:21.128 10160 10160 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:48:21.249 10160 10160 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:48:22.294 10160 10160 D AndroidRuntime: Shutting down VM
+11-06 05:48:24.312 10184 10184 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:48:24.316 10184 10184 I AndroidRuntime: Using default boot image
+11-06 05:48:24.316 10184 10184 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:48:24.400 10184 10184 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:48:25.518 10184 10184 D AndroidRuntime: Shutting down VM
+11-06 05:48:27.553 10209 10209 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:48:27.555 10209 10209 I AndroidRuntime: Using default boot image
+11-06 05:48:27.555 10209 10209 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:48:27.647 10209 10209 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:48:27.831  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 11MB/23MB, paused 149us,7.460ms total 61.157ms
+11-06 05:48:28.731 10209 10209 D AndroidRuntime: Shutting down VM
+11-06 05:48:30.634 10233 10233 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:48:30.638 10233 10233 I AndroidRuntime: Using default boot image
+11-06 05:48:30.638 10233 10233 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:48:30.720 10233 10233 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:48:31.793 10233 10233 D AndroidRuntime: Shutting down VM
+11-06 05:48:33.789 10257 10257 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:48:33.793 10257 10257 I AndroidRuntime: Using default boot image
+11-06 05:48:33.793 10257 10257 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:48:33.876 10257 10257 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:48:34.941 10257 10257 D AndroidRuntime: Shutting down VM
+11-06 05:48:36.948 10281 10281 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:48:36.952 10281 10281 I AndroidRuntime: Using default boot image
+11-06 05:48:36.952 10281 10281 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:48:37.032 10281 10281 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:48:38.095 10281 10281 D AndroidRuntime: Shutting down VM
+11-06 05:48:40.155 10305 10305 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:48:40.158 10305 10305 I AndroidRuntime: Using default boot image
+11-06 05:48:40.158 10305 10305 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:48:40.249 10305 10305 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:48:41.342 10305 10305 D AndroidRuntime: Shutting down VM
+11-06 05:48:43.315 10329 10329 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:48:43.322 10329 10329 I AndroidRuntime: Using default boot image
+11-06 05:48:43.322 10329 10329 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:48:43.413 10329 10329 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:48:45.521 10329 10329 D AndroidRuntime: Shutting down VM
+11-06 05:48:47.439 10355 10355 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:48:47.449 10355 10355 I AndroidRuntime: Using default boot image
+11-06 05:48:47.449 10355 10355 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:48:47.534 10355 10355 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:48:48.644 10355 10355 D AndroidRuntime: Shutting down VM
+11-06 05:48:54.105 10383 10383 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:48:54.110 10383 10383 I AndroidRuntime: Using default boot image
+11-06 05:48:54.111 10383 10383 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:48:54.199 10383 10383 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:48:55.282 10383 10383 D AndroidRuntime: Shutting down VM
+11-06 05:49:01.469 10412 10412 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:49:01.481 10412 10412 I AndroidRuntime: Using default boot image
+11-06 05:49:01.481 10412 10412 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:49:01.707 10412 10412 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:49:02.787 10412 10412 D AndroidRuntime: Shutting down VM
+11-06 05:49:06.749 10447 10447 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:49:06.754 10447 10447 I AndroidRuntime: Using default boot image
+11-06 05:49:06.756 10447 10447 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:49:06.853 10447 10447 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:49:07.913 10447 10447 D AndroidRuntime: Shutting down VM
+11-06 05:49:12.542 10483 10483 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:49:12.547 10483 10483 I AndroidRuntime: Using default boot image
+11-06 05:49:12.547 10483 10483 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:49:12.746 10483 10483 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:49:13.820 10483 10483 D AndroidRuntime: Shutting down VM
+11-06 05:49:16.643 10512 10512 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:49:16.652 10512 10512 I AndroidRuntime: Using default boot image
+11-06 05:49:16.652 10512 10512 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:49:16.843 10512 10512 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:49:17.913 10512 10512 D AndroidRuntime: Shutting down VM
+11-06 05:49:20.124 10539 10539 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:49:20.129 10539 10539 I AndroidRuntime: Using default boot image
+11-06 05:49:20.129 10539 10539 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:49:20.292 10539 10539 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:49:20.767  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 11MB/23MB, paused 325us,6.932ms total 110.620ms
+11-06 05:49:21.387 10539 10539 D AndroidRuntime: Shutting down VM
+11-06 05:49:23.621 10563 10563 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:49:23.626 10563 10563 I AndroidRuntime: Using default boot image
+11-06 05:49:23.626 10563 10563 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:49:23.837 10563 10563 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:49:25.066 10563 10563 D AndroidRuntime: Shutting down VM
+11-06 05:49:27.421 10588 10588 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:49:27.427 10588 10588 I AndroidRuntime: Using default boot image
+11-06 05:49:27.427 10588 10588 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:49:27.623 10588 10588 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:49:28.739 10588 10588 D AndroidRuntime: Shutting down VM
+11-06 05:49:30.930 10612 10612 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:49:30.938 10612 10612 I AndroidRuntime: Using default boot image
+11-06 05:49:30.948 10612 10612 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:49:31.096 10612 10612 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:49:32.142 10612 10612 D AndroidRuntime: Shutting down VM
+11-06 05:49:34.656 10636 10636 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:49:34.668 10636 10636 I AndroidRuntime: Using default boot image
+11-06 05:49:34.668 10636 10636 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:49:34.949 10636 10636 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:49:36.000 10636 10636 D AndroidRuntime: Shutting down VM
+11-06 05:49:38.474 10661 10661 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:49:38.495 10661 10661 I AndroidRuntime: Using default boot image
+11-06 05:49:38.495 10661 10661 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:49:38.707 10661 10661 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:49:39.769 10661 10661 D AndroidRuntime: Shutting down VM
+11-06 05:49:41.883 10685 10685 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:49:41.888 10685 10685 I AndroidRuntime: Using default boot image
+11-06 05:49:41.888 10685 10685 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:49:42.049 10685 10685 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:49:43.096 10685 10685 D AndroidRuntime: Shutting down VM
+11-06 05:49:45.593 10709 10709 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:49:45.597 10709 10709 I AndroidRuntime: Using default boot image
+11-06 05:49:45.597 10709 10709 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:49:45.764 10709 10709 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:49:46.841 10709 10709 D AndroidRuntime: Shutting down VM
+11-06 05:49:48.927  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 11MB/23MB, paused 430us,11.730ms total 825.898ms
+11-06 05:49:49.853 10735 10735 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:49:49.859 10735 10735 I AndroidRuntime: Using default boot image
+11-06 05:49:49.859 10735 10735 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:49:49.955 10735 10735 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:49:51.033 10735 10735 D AndroidRuntime: Shutting down VM
+11-06 05:49:52.935 10759 10759 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:49:52.939 10759 10759 I AndroidRuntime: Using default boot image
+11-06 05:49:52.939 10759 10759 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:49:53.019 10759 10759 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:49:54.099 10759 10759 D AndroidRuntime: Shutting down VM
+11-06 05:49:56.098 10785 10785 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:49:56.101 10785 10785 I AndroidRuntime: Using default boot image
+11-06 05:49:56.101 10785 10785 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:49:56.184 10785 10785 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:49:57.249 10785 10785 D AndroidRuntime: Shutting down VM
+11-06 05:49:59.180 10811 10811 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:49:59.183 10811 10811 I AndroidRuntime: Using default boot image
+11-06 05:49:59.183 10811 10811 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:49:59.276 10811 10811 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:50:01.204 10811 10811 D AndroidRuntime: Shutting down VM
+11-06 05:50:03.245 10835 10835 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:50:03.249 10835 10835 I AndroidRuntime: Using default boot image
+11-06 05:50:03.250 10835 10835 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:50:03.336 10835 10835 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:50:04.397 10835 10835 D AndroidRuntime: Shutting down VM
+11-06 05:50:06.349 10861 10861 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:50:06.352 10861 10861 I AndroidRuntime: Using default boot image
+11-06 05:50:06.352 10861 10861 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:50:06.435 10861 10861 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:50:07.500 10861 10861 D AndroidRuntime: Shutting down VM
+11-06 05:50:09.503 10886 10886 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:50:09.513 10886 10886 I AndroidRuntime: Using default boot image
+11-06 05:50:09.513 10886 10886 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:50:09.598 10886 10886 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:50:10.711 10886 10886 D AndroidRuntime: Shutting down VM
+11-06 05:50:12.721 10911 10911 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:50:12.727 10911 10911 I AndroidRuntime: Using default boot image
+11-06 05:50:12.727 10911 10911 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:50:12.823 10911 10911 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:50:13.915 10911 10911 D AndroidRuntime: Shutting down VM
+11-06 05:50:15.931 10935 10935 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:50:15.934 10935 10935 I AndroidRuntime: Using default boot image
+11-06 05:50:15.934 10935 10935 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:50:16.020 10935 10935 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:50:17.077 10935 10935 D AndroidRuntime: Shutting down VM
+11-06 05:50:19.058 10959 10959 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:50:19.062 10959 10959 I AndroidRuntime: Using default boot image
+11-06 05:50:19.062 10959 10959 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:50:19.146 10959 10959 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:50:20.203 10959 10959 D AndroidRuntime: Shutting down VM
+11-06 05:50:22.182 10985 10985 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:50:22.185 10985 10985 I AndroidRuntime: Using default boot image
+11-06 05:50:22.185 10985 10985 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:50:22.279 10985 10985 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:50:23.349 10985 10985 D AndroidRuntime: Shutting down VM
+11-06 05:50:28.763 11014 11014 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:50:28.770 11014 11014 I AndroidRuntime: Using default boot image
+11-06 05:50:28.771 11014 11014 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:50:28.888 11014 11014 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:50:29.976 11014 11014 D AndroidRuntime: Shutting down VM
+11-06 05:50:30.960 11040 11040 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:50:30.963 11040 11040 I AndroidRuntime: Using default boot image
+11-06 05:50:30.963 11040 11040 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:50:31.041 11040 11040 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:50:32.089 11040 11040 D AndroidRuntime: Shutting down VM
+11-06 05:50:35.399 11063 11063 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:50:35.403 11063 11063 I AndroidRuntime: Using default boot image
+11-06 05:50:35.403 11063 11063 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:50:35.481 11063 11063 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:50:36.557 11063 11063 D AndroidRuntime: Shutting down VM
+11-06 05:50:37.555 11083 11083 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:50:37.558 11083 11083 I AndroidRuntime: Using default boot image
+11-06 05:50:37.558 11083 11083 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:50:37.640 11083 11083 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:50:38.707 11083 11083 D AndroidRuntime: Shutting down VM
+11-06 05:50:42.010 11106 11106 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:50:42.013 11106 11106 I AndroidRuntime: Using default boot image
+11-06 05:50:42.013 11106 11106 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:50:42.098 11106 11106 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:50:43.173 11106 11106 D AndroidRuntime: Shutting down VM
+11-06 05:50:44.175 11126 11126 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:50:44.179 11126 11126 I AndroidRuntime: Using default boot image
+11-06 05:50:44.179 11126 11126 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:50:44.267 11126 11126 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:50:45.358 11126 11126 D AndroidRuntime: Shutting down VM
+11-06 05:50:48.722 11150 11150 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:50:48.726 11150 11150 I AndroidRuntime: Using default boot image
+11-06 05:50:48.726 11150 11150 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:50:48.826 11150 11150 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:50:49.902 11150 11150 D AndroidRuntime: Shutting down VM
+11-06 05:50:51.909   559  2132 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.zdmgold.orlumen/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+11-06 05:50:51.918   909   971 V WindowManagerShell: Transition requested (#44): android.os.BinderProxy@455b2f2 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=13 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.zdmgold.orlumen/.MainActivity } baseActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity} topActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity} origActivity=null realActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity} numActivities=1 lastActiveTime=1025493 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@e2f1d43} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{9cc0fc0 com.zdmgold.orlumen.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 44 }
+11-06 05:50:51.921  1188  1188 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=13, baseIntent=Intent { flg=0x10000000 cmp=com.zdmgold.orlumen/.MainActivity }
+11-06 05:50:52.112   559   581 V WindowManager: Sent Transition (#44) createdAt=11-06 05:50:51.882 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=13 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.zdmgold.orlumen/.MainActivity } baseActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity} topActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity} origActivity=null realActivity=ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity} numActivities=1 lastActiveTime=1025493 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{df89dd6 Task{1af5280 #13 type=standard A=10209:com.zdmgold.orlumen}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{c769857 com.zdmgold.orlumen.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 44 }
+11-06 05:50:52.122   559   581 V WindowManager:         {WCT{RemoteToken{df89dd6 Task{1af5280 #13 type=standard A=10209:com.zdmgold.orlumen}}} m=OPEN f=NONE leash=Surface(name=Task=13)/@0x614f198 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+11-06 05:50:52.163   559  1041 D CoreBackPreview: Window{d32e82d u0 com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@3e262f3, mPriority=-1, mIsAnimationCallback=false}
+11-06 05:50:52.380   559   581 W ziparchive: Unable to open '/data/app/~~J49bBFsOxNiU6do_SqTsHw==/com.zdmgold.orlumen-a4Jk2UmAgY0cRJFNOKe2Ug==/base.dm': No such file or directory
+11-06 05:50:52.381   559   581 I ActivityTaskManager: Displayed com.zdmgold.orlumen/.MainActivity for user 0: +500ms
+11-06 05:50:52.407   559  2132 W InputManager-JNI: Input channel object '6253f75 Splash Screen com.zdmgold.orlumen (client)' was disposed without first being removed with the input manager!
+11-06 05:50:52.512   559   682 I ImeTracker: com.zdmgold.orlumen:7ce00e23: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-06 05:50:52.512   559   682 I ImeTracker: com.zdmgold.orlumen:7ce00e23: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-06 05:50:52.517  1385  1385 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.zdmgold.orlumen, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-06 05:50:52.520   559  1041 W PackageConfigPersister: App-specific configuration not found for packageName: com.zdmgold.orlumen and userId: 0
+11-06 05:50:52.901   559  1041 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:50:53.267  5216 11211 W GooglePlayServicesUtil: Google Play services out of date for com.zdmgold.orlumen.  Requires 254730000 but found 242335041
+11-06 05:50:53.731  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 10MB AllocSpace bytes, 9(180KB) LOS objects, 49% free, 12MB/24MB, paused 458us,7.914ms total 116.289ms
+11-06 05:50:55.426 11222 11222 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:50:55.438 11222 11222 I AndroidRuntime: Using default boot image
+11-06 05:50:55.438 11222 11222 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:50:55.575 11222 11222 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:50:56.554  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 7265KB AllocSpace bytes, 53(5716KB) LOS objects, 49% free, 11MB/23MB, paused 368us,9.434ms total 95.668ms
+11-06 05:50:56.707   559  1809 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:50:58.903 11222 11222 D AndroidRuntime: Shutting down VM
+11-06 05:51:00.912 11251 11251 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:51:00.919 11251 11251 I AndroidRuntime: Using default boot image
+11-06 05:51:00.920 11251 11251 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:51:01.114 11251 11251 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:51:03.548 11251 11251 D AndroidRuntime: Shutting down VM
+11-06 05:51:04.846   559  1529 D CoreBackPreview: Window{d32e82d u0 com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@bdd2492, mPriority=0, mIsAnimationCallback=true}
+11-06 05:51:08.286 11282 11282 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:51:08.289 11282 11282 I AndroidRuntime: Using default boot image
+11-06 05:51:08.292 11282 11282 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:51:08.408 11282 11282 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:51:09.491 11282 11282 D AndroidRuntime: Shutting down VM
+11-06 05:51:10.954  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 3(72KB) LOS objects, 49% free, 12MB/24MB, paused 312us,5.701ms total 220.634ms
+11-06 05:51:12.898 11314 11314 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:51:12.902 11314 11314 I AndroidRuntime: Using default boot image
+11-06 05:51:12.902 11314 11314 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:51:13.032 11314 11314 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:51:14.090 11314 11314 D AndroidRuntime: Shutting down VM
+11-06 05:51:17.558 11349 11349 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:51:17.561 11349 11349 I AndroidRuntime: Using default boot image
+11-06 05:51:17.561 11349 11349 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:51:17.697 11349 11349 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:51:18.735 11349 11349 D AndroidRuntime: Shutting down VM
+11-06 05:51:19.842 11372 11372 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:51:19.846 11372 11372 I AndroidRuntime: Using default boot image
+11-06 05:51:19.846 11372 11372 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:51:19.978 11372 11372 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:51:21.058 11372 11372 D AndroidRuntime: Shutting down VM
+11-06 05:51:22.917 11390 11390 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:51:22.928 11390 11390 I AndroidRuntime: Using default boot image
+11-06 05:51:22.928 11390 11390 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:51:23.067 11390 11390 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:51:24.098 11390 11390 D AndroidRuntime: Shutting down VM
+11-06 05:51:29.665 11424 11424 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:51:29.670 11424 11424 I AndroidRuntime: Using default boot image
+11-06 05:51:29.670 11424 11424 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:51:29.767 11424 11424 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:51:30.045  5216  5226 W zdmgold.orlumen: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Camera2/Camera2.apk' with 1 weak references
+11-06 05:51:30.045  5216  5226 W zdmgold.orlumen: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~aAOpWLJfsgEbvS8Ob2VNcA==/com.android.chrome-d34WSH3QN6LSvme2eglBBQ==/Chrome.apk' with 1 weak references
+11-06 05:51:30.045  5216  5226 W zdmgold.orlumen: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/SettingsGoogle/SettingsGoogle.apk' with 1 weak references
+11-06 05:51:30.048  5216  5226 W zdmgold.orlumen: ApkAssets: Deleting an ApkAssets object '/product/overlay/SettingsGoogle__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+11-06 05:51:30.048  5216  5226 W zdmgold.orlumen: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Drive/Drive.apk' with 1 weak references
+11-06 05:51:30.048  5216  5226 W zdmgold.orlumen: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Maps/Maps.apk' with 1 weak references
+11-06 05:51:30.048  5216  5226 W zdmgold.orlumen: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/PrebuiltBugle/PrebuiltBugle.apk' with 1 weak references
+11-06 05:51:30.049  5216  5226 W zdmgold.orlumen: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Photos/Photos.apk' with 1 weak references
+11-06 05:51:30.049  5216  5226 W zdmgold.orlumen: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/YouTubeMusicPrebuilt/YouTubeMusicPrebuilt.apk' with 1 weak references
+11-06 05:51:30.049  5216  5226 W zdmgold.orlumen: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk' with 1 weak references
+11-06 05:51:30.049  5216  5226 W zdmgold.orlumen: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleContacts/GoogleContacts.apk' with 1 weak references
+11-06 05:51:30.050  5216  5226 W zdmgold.orlumen: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/PrebuiltDeskClockGoogle/PrebuiltDeskClockGoogle.apk' with 1 weak references
+11-06 05:51:30.050  5216  5226 W zdmgold.orlumen: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/GoogleDialer/GoogleDialer.apk' with 1 weak references
+11-06 05:51:30.050  5216  5226 W zdmgold.orlumen: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/PrebuiltGmail/PrebuiltGmail.apk' with 1 weak references
+11-06 05:51:30.051  5216  5226 W zdmgold.orlumen: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/YouTube/YouTube.apk' with 1 weak references
+11-06 05:51:30.051  5216  5226 W zdmgold.orlumen: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/SafetyHubPrebuilt/SafetyHubPrebuilt.apk' with 1 weak references
+11-06 05:51:30.051  5216  5226 W zdmgold.orlumen: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk' with 1 weak references
+11-06 05:51:30.052  5216  5226 W zdmgold.orlumen: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/Velvet/Velvet.apk' with 1 weak references
+11-06 05:51:30.052  5216  5226 W zdmgold.orlumen: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.btservices/app/BluetoothGoogle@342010060/BluetoothGoogle.apk' with 1 weak references
+11-06 05:51:30.860 11424 11424 D AndroidRuntime: Shutting down VM
+11-06 05:51:33.055 11454 11454 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:51:33.060 11454 11454 I AndroidRuntime: Using default boot image
+11-06 05:51:33.060 11454 11454 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:51:33.219 11454 11454 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:51:34.367 11454 11454 D AndroidRuntime: Shutting down VM
+11-06 05:51:36.212 11473 11473 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:51:36.216 11473 11473 I AndroidRuntime: Using default boot image
+11-06 05:51:36.216 11473 11473 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:51:36.324 11473 11473 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:51:37.363 11473 11473 D AndroidRuntime: Shutting down VM
+11-06 05:51:42.902 11502 11502 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:51:42.906 11502 11502 I AndroidRuntime: Using default boot image
+11-06 05:51:42.906 11502 11502 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:51:42.994 11502 11502 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:51:44.047 11502 11502 D AndroidRuntime: Shutting down VM
+11-06 05:51:46.212 11530 11530 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:51:46.216 11530 11530 I AndroidRuntime: Using default boot image
+11-06 05:51:46.216 11530 11530 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:51:46.330 11530 11530 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:51:46.465  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 12MB AllocSpace bytes, 2(48KB) LOS objects, 49% free, 12MB/25MB, paused 256us,11.088ms total 68.514ms
+11-06 05:51:47.439 11530 11530 D AndroidRuntime: Shutting down VM
+11-06 05:51:49.254 11549 11549 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:51:49.259 11549 11549 I AndroidRuntime: Using default boot image
+11-06 05:51:49.259 11549 11549 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:51:49.376 11549 11549 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:51:50.447 11549 11549 D AndroidRuntime: Shutting down VM
+11-06 05:51:54.954 11582 11582 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:51:54.960 11582 11582 I AndroidRuntime: Using default boot image
+11-06 05:51:54.960 11582 11582 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:51:55.074 11582 11582 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:51:56.129 11582 11582 D AndroidRuntime: Shutting down VM
+11-06 05:51:58.100   559  1529 D CoreBackPreview: Window{d32e82d u0 com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@2adeabd, mPriority=-1, mIsAnimationCallback=false}
+11-06 05:51:58.153   559  1529 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:51:58.186  5216 11630 W GooglePlayServicesUtil: Google Play services out of date for com.zdmgold.orlumen.  Requires 254730000 but found 242335041
+11-06 05:52:00.336  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 13(908KB) LOS objects, 50% free, 14MB/29MB, paused 321us,71.952ms total 302.633ms
+11-06 05:52:00.415 11643 11643 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:52:00.419 11643 11643 I AndroidRuntime: Using default boot image
+11-06 05:52:00.419 11643 11643 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:52:00.490 11643 11643 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:52:01.523   559  1529 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:52:03.634 11643 11643 D AndroidRuntime: Shutting down VM
+11-06 05:52:05.555 11670 11670 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:52:05.562 11670 11670 I AndroidRuntime: Using default boot image
+11-06 05:52:05.562 11670 11670 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:52:05.702 11670 11670 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:52:07.551 11670 11670 D AndroidRuntime: Shutting down VM
+11-06 05:52:08.889   559  1529 D CoreBackPreview: Window{d32e82d u0 com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@a716def, mPriority=0, mIsAnimationCallback=true}
+11-06 05:52:09.190  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 41(4792KB) LOS objects, 49% free, 12MB/24MB, paused 341us,9.434ms total 142.882ms
+11-06 05:52:12.378 11700 11700 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:52:12.383 11700 11700 I AndroidRuntime: Using default boot image
+11-06 05:52:12.383 11700 11700 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:52:12.483 11700 11700 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:52:13.525 11700 11700 D AndroidRuntime: Shutting down VM
+11-06 05:52:14.446   559  1529 D CoreBackPreview: Window{d32e82d u0 com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@2f464d5, mPriority=-1, mIsAnimationCallback=false}
+11-06 05:52:14.489   559  1529 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:52:14.528  5216 11734 W GooglePlayServicesUtil: Google Play services out of date for com.zdmgold.orlumen.  Requires 254730000 but found 242335041
+11-06 05:52:15.483   559  1529 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.zdmgold.orlumen/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=3
+11-06 05:52:15.484   909   971 D WindowManagerShell: onActivityRestartAttempt: ComponentInfo{com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity}
+11-06 05:52:17.497   559  1041 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:52:18.800 11750 11750 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:52:18.812 11750 11750 I AndroidRuntime: Using default boot image
+11-06 05:52:18.819 11750 11750 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:52:19.088 11750 11750 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:52:21.386 11750 11750 D AndroidRuntime: Shutting down VM
+11-06 05:52:23.688 11776 11776 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:52:23.692 11776 11776 I AndroidRuntime: Using default boot image
+11-06 05:52:23.692 11776 11776 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:52:23.863 11776 11776 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:52:25.754 11776 11776 D AndroidRuntime: Shutting down VM
+11-06 05:52:27.687 11796 11796 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:52:27.695 11796 11796 I AndroidRuntime: Using default boot image
+11-06 05:52:27.697 11796 11796 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:52:27.882 11796 11796 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:52:29.946 11796 11796 D AndroidRuntime: Shutting down VM
+11-06 05:52:31.172   559  1578 D CoreBackPreview: Window{d32e82d u0 com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@262486e, mPriority=0, mIsAnimationCallback=true}
+11-06 05:52:34.203  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 14MB AllocSpace bytes, 32(3420KB) LOS objects, 49% free, 12MB/25MB, paused 191us,11.318ms total 73.226ms
+11-06 05:52:34.843 11835 11835 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:52:34.847 11835 11835 I AndroidRuntime: Using default boot image
+11-06 05:52:34.847 11835 11835 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:52:35.006 11835 11835 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:52:36.047 11835 11835 D AndroidRuntime: Shutting down VM
+11-06 05:52:37.153 11858 11858 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:52:37.162 11858 11858 I AndroidRuntime: Using default boot image
+11-06 05:52:37.169 11858 11858 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:52:37.269 11858 11858 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:52:38.311 11858 11858 D AndroidRuntime: Shutting down VM
+11-06 05:52:40.132 11878 11878 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:52:40.140 11878 11878 I AndroidRuntime: Using default boot image
+11-06 05:52:40.140 11878 11878 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:52:40.264 11878 11878 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:52:41.315 11878 11878 D AndroidRuntime: Shutting down VM
+11-06 05:52:45.880 11907 11907 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:52:45.887 11907 11907 I AndroidRuntime: Using default boot image
+11-06 05:52:45.887 11907 11907 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:52:46.066 11907 11907 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:52:47.121 11907 11907 D AndroidRuntime: Shutting down VM
+11-06 05:52:49.123   559  1010 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:52:49.143  5216 11950 W GooglePlayServicesUtil: Google Play services out of date for com.zdmgold.orlumen.  Requires 254730000 but found 242335041
+11-06 05:52:49.160   559  1576 D CoreBackPreview: Window{d32e82d u0 com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@75ce8ae, mPriority=-1, mIsAnimationCallback=false}
+11-06 05:52:50.831  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 12MB AllocSpace bytes, 6(296KB) LOS objects, 49% free, 13MB/27MB, paused 817us,23.072ms total 231.830ms
+11-06 05:52:51.347 11962 11962 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:52:51.350 11962 11962 I AndroidRuntime: Using default boot image
+11-06 05:52:51.350 11962 11962 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:52:51.615 11962 11962 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:52:52.239   559   577 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:52:54.782 11962 11962 D AndroidRuntime: Shutting down VM
+11-06 05:52:56.604  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 9484KB AllocSpace bytes, 51(5460KB) LOS objects, 49% free, 12MB/25MB, paused 434us,6.389ms total 179.656ms
+11-06 05:52:57.040 11987 11987 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:52:57.044 11987 11987 I AndroidRuntime: Using default boot image
+11-06 05:52:57.044 11987 11987 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:52:57.169 11987 11987 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:52:58.917 11987 11987 D AndroidRuntime: Shutting down VM
+11-06 05:53:01.227 12014 12014 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:53:01.244 12014 12014 I AndroidRuntime: Using default boot image
+11-06 05:53:01.245 12014 12014 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:53:01.533 12014 12014 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:53:03.436 12014 12014 D AndroidRuntime: Shutting down VM
+11-06 05:53:05.664 12043 12043 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:53:05.668 12043 12043 I AndroidRuntime: Using default boot image
+11-06 05:53:05.668 12043 12043 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:53:05.783 12043 12043 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:53:07.754 12043 12043 D AndroidRuntime: Shutting down VM
+11-06 05:53:09.903 12072 12072 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:53:09.908 12072 12072 I AndroidRuntime: Using default boot image
+11-06 05:53:09.908 12072 12072 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:53:10.061 12072 12072 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:53:11.855 12072 12072 D AndroidRuntime: Shutting down VM
+11-06 05:53:13.718  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 12MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 12MB/25MB, paused 252us,20.568ms total 176.773ms
+11-06 05:53:14.116 12101 12101 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:53:14.136 12101 12101 I AndroidRuntime: Using default boot image
+11-06 05:53:14.136 12101 12101 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:53:14.343 12101 12101 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:53:16.255 12101 12101 D AndroidRuntime: Shutting down VM
+11-06 05:53:18.690 12128 12128 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:53:18.706 12128 12128 I AndroidRuntime: Using default boot image
+11-06 05:53:18.706 12128 12128 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:53:18.859 12128 12128 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:53:20.914 12128 12128 D AndroidRuntime: Shutting down VM
+11-06 05:53:23.319 12158 12158 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:53:23.324 12158 12158 I AndroidRuntime: Using default boot image
+11-06 05:53:23.324 12158 12158 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:53:23.703 12158 12158 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:53:25.393 12158 12158 D AndroidRuntime: Shutting down VM
+11-06 05:53:27.826 12186 12186 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:53:27.831 12186 12186 I AndroidRuntime: Using default boot image
+11-06 05:53:27.831 12186 12186 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:53:27.969 12186 12186 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:53:30.125 12186 12186 D AndroidRuntime: Shutting down VM
+11-06 05:53:30.865  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 12MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 12MB/25MB, paused 497us,5.656ms total 231.854ms
+11-06 05:53:32.428 12206 12206 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:53:32.431 12206 12206 I AndroidRuntime: Using default boot image
+11-06 05:53:32.431 12206 12206 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:53:32.630 12206 12206 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:53:34.372 12206 12206 D AndroidRuntime: Shutting down VM
+11-06 05:53:35.513   559  1041 D CoreBackPreview: Window{d32e82d u0 com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@603b780, mPriority=0, mIsAnimationCallback=true}
+11-06 05:53:39.062 12246 12246 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:53:39.065 12246 12246 I AndroidRuntime: Using default boot image
+11-06 05:53:39.065 12246 12246 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:53:39.173 12246 12246 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:53:40.267 12246 12246 D AndroidRuntime: Shutting down VM
+11-06 05:53:41.387 12270 12270 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:53:41.392 12270 12270 I AndroidRuntime: Using default boot image
+11-06 05:53:41.392 12270 12270 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:53:41.514 12270 12270 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:53:42.607 12270 12270 D AndroidRuntime: Shutting down VM
+11-06 05:53:44.404 12291 12291 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:53:44.407 12291 12291 I AndroidRuntime: Using default boot image
+11-06 05:53:44.407 12291 12291 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:53:44.519 12291 12291 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:53:45.578 12291 12291 D AndroidRuntime: Shutting down VM
+11-06 05:53:49.167 12321 12321 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:53:49.170 12321 12321 I AndroidRuntime: Using default boot image
+11-06 05:53:49.170 12321 12321 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:53:49.281 12321 12321 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:53:50.371 12321 12321 D AndroidRuntime: Shutting down VM
+11-06 05:53:51.312   559  1528 D CoreBackPreview: Window{d32e82d u0 com.zdmgold.orlumen/com.zdmgold.orlumen.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@405dbfd, mPriority=-1, mIsAnimationCallback=false}
+11-06 05:53:51.334   559  1528 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:53:51.412  5216 12364 W GooglePlayServicesUtil: Google Play services out of date for com.zdmgold.orlumen.  Requires 254730000 but found 242335041
+11-06 05:53:53.590 12370 12370 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:53:53.593 12370 12370 I AndroidRuntime: Using default boot image
+11-06 05:53:53.593 12370 12370 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:53:53.659 12370 12370 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:53:53.854  5216  5224 I zdmgold.orlumen: Background concurrent mark compact GC freed 7819KB AllocSpace bytes, 44(4772KB) LOS objects, 49% free, 13MB/26MB, paused 264us,3.620ms total 135.024ms
+11-06 05:53:54.500   559   577 I AppsFilter: interaction: PackageSetting{615499b com.zdmgold.orlumen/10209} -> PackageSetting{73b9963 com.google.android.apps.nexuslauncher/10177} BLOCKED
+11-06 05:53:56.525 12370 12370 D AndroidRuntime: Shutting down VM
+11-06 05:54:01.977   559   581 V WindowManager:         {WCT{RemoteToken{df89dd6 Task{1af5280 #13 type=standard A=10209:com.zdmgold.orlumen}}} m=TO_BACK f=NONE leash=Surface(name=Task=13)/@0x614f198 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+11-06 05:54:09.771 12422 12422 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-06 05:54:09.781 12422 12422 I AndroidRuntime: Using default boot image
+11-06 05:54:09.781 12422 12422 I AndroidRuntime: Leaving lock profiling enabled
+11-06 05:54:09.995 12422 12422 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-06 05:54:11.060 12422 12422 D AndroidRuntime: Shutting down VM

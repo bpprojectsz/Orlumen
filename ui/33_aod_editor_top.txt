@@ -1,0 +1,31 @@
+Internet, AndroidWifi
+Internet
+Bluetooth, On
+Bluetooth
+Flashlight, Camera in use
+Flashlight
+Do Not Disturb, Off
+Do Not Disturb
+Silent
+Orlumen
+•
+11 minutes ago
+Collapse
+Edge visualizer is active
+Stop
+Android System
+Expand
+2
+AT Translated Set 2 keyboard configured
+Keyboard layout set to English (US). Tap to change.
+Serial console enabled
+Performance is impacted. To disable, check bootloader.
+Orlumen is displaying over other apps
+Expand
+Manage
+5:48
+Fri, Nov 6
+Wifi signal full.
+Phone signal full.
+Battery charging, 100 percent.
+100%

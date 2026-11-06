@@ -1,0 +1,9 @@
+Back
+Quick setup
+Step 2 of 2
+Draw over other apps
+Orlumen draws the edge lights on top of other apps. Android asks you to allow this in Settings.
+On the next screen, switch on “Allow display over other apps” for Orlumen. If Android shows a list of apps instead, find Orlumen in it (tip: tap the search icon).
+Android can grey out this switch for apps installed outside the Play Store. If it says “App was denied access”, tap Open app info, press the three-dot menu, choose “Allow restricted settings”, then try again.
+Open app info
+Allow

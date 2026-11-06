@@ -1,0 +1,29 @@
+Back
+Settings
+APPEARANCE
+System
+Dark
+Light
+System follows your phone’s light or dark setting.
+Language
+Choose a language for Orlumen
+EDGE LIGHTS
+Hide over full-screen apps
+Needs usage access. Hides the lights in games and videos.
+Dim the screen behind the lights
+Makes the lights easier to see on bright screens.
+Keep clear of the status bar
+Starts the lights below the status bar so the clock stays readable.
+Keep the screen on while lights run
+Show only over chosen apps
+Needs usage access. Leave empty to show over every app.
+AUDIO SOURCE
+Automatic
+Global mix
+App audio capture
+Automatic tries the global mix first and switches to app audio capture if it fails. App audio capture asks for screen-capture permission each time.
+ALWAYS-ON DISPLAY
+Lock-screen clock
+Screensaver
+The lock-screen clock opens when the screen turns off. After pressing the power button, tap the screen to return to the lock screen. The screensaver needs Orlumen chosen in Android screen saver settings and usually runs only while charging.
+MUSIC

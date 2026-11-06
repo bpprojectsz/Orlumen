@@ -1,0 +1,136 @@
+ACTIVITY MANAGER SERVICES (dumpsys activity services)
+  User 0 active services:
+  * ServiceRecord{88512d4 u0 com.zdmgold.orlumen/.platform.overlay.OrlumenRuntimeService c:com.zdmgold.orlumen}
+    intent={cmp=com.zdmgold.orlumen/.platform.overlay.OrlumenRuntimeService}
+    packageName=com.zdmgold.orlumen
+    processName=com.zdmgold.orlumen
+    targetSdkVersion=36
+    baseDir=/data/app/~~J49bBFsOxNiU6do_SqTsHw==/com.zdmgold.orlumen-a4Jk2UmAgY0cRJFNOKe2Ug==/base.apk
+    dataDir=/data/user/0/com.zdmgold.orlumen
+    app=ProcessRecord{41d7f50 5216:com.zdmgold.orlumen/u0a209}
+    useNewWiuLogic_forCapabilities()=true
+    useNewWiuLogic_forStart()=true
+    useNewBfslLogic()=true
+    mAllowWiu_noBinding=PROC_STATE_TOP
+    mAllowWiu_inBindService=DENIED
+    mAllowWiu_byBindings=PROC_STATE_TOP
+    getFgsAllowWiu_legacy=PROC_STATE_TOP
+    getFgsAllowWiu_new=PROC_STATE_TOP
+    getFgsAllowWiu_forStart=PROC_STATE_TOP
+    getFgsAllowWiu_forCapabilities=PROC_STATE_TOP
+    allowUiJobScheduling=true
+    recentCallingPackage=com.zdmgold.orlumen
+    recentCallingUid=10209
+    mAllowStart_noBinding=PROC_STATE_TOP
+    mAllowStart_inBindService=DENIED
+    mAllowStart_byBindings=PROC_STATE_TOP
+    getFgsAllowStart_legacy=PROC_STATE_TOP
+    getFgsAllowStart_new=PROC_STATE_TOP
+    getFgsAllowStart=PROC_STATE_TOP
+    startForegroundCount=1
+    infoAllowStartForeground=[callingPackage: com.zdmgold.orlumen; callingUid: 10209; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { cmp=com.zdmgold.orlumen/.platform.overlay.OrlumenRuntimeService (has extras) }; code:PROC_STATE_TOP; tempAllowListReason:<null>; targetSdkVersion:36; callerTargetSdkVersion:36; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+    isForeground=true foregroundId=1001 types=0x00000080 foregroundNoti=Notification(channel=orlumen_runtime shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|NO_CLEAR|FOREGROUND_SERVICE color=0x00000000 actions=1 vis=PRIVATE)
+    createTime=-9s642ms startingBgTimeout=--
+    lastActivity=-9s638ms restartTime=-9s638ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+ startCommandResult=2
+
+  * ServiceRecord{a383d7e u0 com.zdmgold.orlumen/org.chromium.content.app.SandboxedProcessService0:0 c:com.zdmgold.orlumen}
+    intent={cmp=com.zdmgold.orlumen/org.chromium.content.app.SandboxedProcessService0:0}
+    packageName=com.zdmgold.orlumen
+    processName=com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0
+    targetSdkVersion=34
+    baseDir=/data/app/~~UQ8cHnyJLIUBA1fFc-RYHQ==/com.google.android.webview-b4ytAUG4Ou2BpzQc5s1mdg==/WebViewGoogle.apk
+    dataDir=/data/user/0/com.google.android.webview
+    app=ProcessRecord{47629f5 5302:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0a209i2}
+    isolationHostProc=ProcessRecord{47629f5 5302:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0a209i2}
+    useNewWiuLogic_forCapabilities()=true
+    useNewWiuLogic_forStart()=true
+    useNewBfslLogic()=true
+    mAllowWiu_noBinding=DENIED
+    mAllowWiu_inBindService=PROC_STATE_TOP
+    mAllowWiu_byBindings=DENIED
+    getFgsAllowWiu_legacy=PROC_STATE_TOP
+    getFgsAllowWiu_new=DENIED
+    getFgsAllowWiu_forStart=DENIED
+    getFgsAllowWiu_forCapabilities=DENIED
+    allowUiJobScheduling=false
+    recentCallingPackage=com.zdmgold.orlumen
+    recentCallingUid=10209
+    mAllowStart_noBinding=DENIED
+    mAllowStart_inBindService=PROC_STATE_TOP
+    mAllowStart_byBindings=DENIED
+    getFgsAllowStart_legacy=PROC_STATE_TOP
+    getFgsAllowStart_new=DENIED
+    getFgsAllowStart=DENIED
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.zdmgold.orlumen; callingUid: 10209; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { cmp=com.zdmgold.orlumen/org.chromium.content.app.SandboxedProcessService0:0 (has extras) }; code:PROC_STATE_TOP; tempAllowListReason:<null>; targetSdkVersion:34; callerTargetSdkVersion:36; startForegroundCount:0; bindFromPackage:null: isBindService:true]
+    createTime=-24s987ms startingBgTimeout=--
+    lastActivity=-23s839ms restartTime=-24s937ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{d0c3abf CREATE}:
+      intent={cmp=com.zdmgold.orlumen/org.chromium.content.app.SandboxedProcessService0:0}
+      binder=android.os.BinderProxy@6d5658c
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{41514d5 ProcessRecord{41d7f50 5216:com.zdmgold.orlumen/u0a209}}
+        Per-process Connections:
+          ConnectionRecord{200be18 u0 CR WPRI com.zdmgold.orlumen/org.chromium.content.app.SandboxedProcessService0:0:@49aadfb flags=0x80000021}
+          ConnectionRecord{c642880 u0 CR IMP com.zdmgold.orlumen/org.chromium.content.app.SandboxedProcessService0:0:@5a92103 flags=0x80000041}
+    All Connections:
+      ConnectionRecord{200be18 u0 CR WPRI com.zdmgold.orlumen/org.chromium.content.app.SandboxedProcessService0:0:@49aadfb flags=0x80000021}
+      ConnectionRecord{c642880 u0 CR IMP com.zdmgold.orlumen/org.chromium.content.app.SandboxedProcessService0:0:@5a92103 flags=0x80000041}
+
+  * ServiceRecord{871f9aa u0 com.zdmgold.orlumen/.platform.media.OrlumenNotificationListener c:android}
+    intent={act=android.service.notification.NotificationListenerService cmp=com.zdmgold.orlumen/.platform.media.OrlumenNotificationListener}
+    packageName=com.zdmgold.orlumen
+    processName=com.zdmgold.orlumen
+    targetSdkVersion=36
+    permission=android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+    baseDir=/data/app/~~J49bBFsOxNiU6do_SqTsHw==/com.zdmgold.orlumen-a4Jk2UmAgY0cRJFNOKe2Ug==/base.apk
+    dataDir=/data/user/0/com.zdmgold.orlumen
+    app=ProcessRecord{41d7f50 5216:com.zdmgold.orlumen/u0a209}
+    allowlistManager=true
+    useNewWiuLogic_forCapabilities()=true
+    useNewWiuLogic_forStart()=true
+    useNewBfslLogic()=true
+    mAllowWiu_noBinding=DENIED
+    mAllowWiu_inBindService=PROC_STATE_PERSISTENT
+    mAllowWiu_byBindings=DENIED
+    getFgsAllowWiu_legacy=PROC_STATE_PERSISTENT
+    getFgsAllowWiu_new=DENIED
+    getFgsAllowWiu_forStart=DENIED
+    getFgsAllowWiu_forCapabilities=DENIED
+    allowUiJobScheduling=false
+    recentCallingPackage=android
+    recentCallingUid=1000
+    mAllowStart_noBinding=DENIED
+    mAllowStart_inBindService=PROC_STATE_PERSISTENT
+    mAllowStart_byBindings=DENIED
+    getFgsAllowStart_legacy=PROC_STATE_PERSISTENT
+    getFgsAllowStart_new=DENIED
+    getFgsAllowStart=DENIED
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: android; callingUid: 1000; uidState: PER ; uidBFSL: [BFSL]; intent: Intent { act=android.service.notification.NotificationListenerService cmp=com.zdmgold.orlumen/.platform.media.OrlumenNotificationListener }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<null>; targetSdkVersion:36; callerTargetSdkVersion:35; startForegroundCount:0; bindFromPackage:null: isBindService:true]
+    createTime=-28s988ms startingBgTimeout=--
+    lastActivity=-26s622ms restartTime=-26s622ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{b10f4ea CREATE}:
+      intent={act=android.service.notification.NotificationListenerService cmp=com.zdmgold.orlumen/.platform.media.OrlumenNotificationListener}
+      binder=android.os.BinderProxy@7d3c3db
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{1394e78 ProcessRecord{10576d0 559:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{9783495 u0 CR FGS !PRCP com.zdmgold.orlumen/.platform.media.OrlumenNotificationListener:@6d62c4c flags=0x5000101}
+    All Connections:
+      ConnectionRecord{9783495 u0 CR FGS !PRCP com.zdmgold.orlumen/.platform.media.OrlumenNotificationListener:@6d62c4c flags=0x5000101}
+
+  Connection bindings to services:
+  * ConnectionRecord{200be18 u0 CR WPRI com.zdmgold.orlumen/org.chromium.content.app.SandboxedProcessService0:0:@49aadfb flags=0x80000021}
+    binding=AppBindRecord{41514d5 com.zdmgold.orlumen/org.chromium.content.app.SandboxedProcessService0:0:com.zdmgold.orlumen}
+    conn=android.os.BinderProxy@49aadfb flags=0x80000021
+  * ConnectionRecord{c642880 u0 CR IMP com.zdmgold.orlumen/org.chromium.content.app.SandboxedProcessService0:0:@5a92103 flags=0x80000041}
+    binding=AppBindRecord{41514d5 com.zdmgold.orlumen/org.chromium.content.app.SandboxedProcessService0:0:com.zdmgold.orlumen}
+    conn=android.os.BinderProxy@5a92103 flags=0x80000041
+  * ConnectionRecord{9783495 u0 CR FGS !PRCP com.zdmgold.orlumen/.platform.media.OrlumenNotificationListener:@6d62c4c flags=0x5000101}
+    binding=AppBindRecord{1394e78 com.zdmgold.orlumen/.platform.media.OrlumenNotificationListener:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@6d62c4c flags=0x5000101
