@@ -81,4 +81,4 @@ jobs:
           git add -A
           git commit -q -m "emulator run ${{ github.run_id }} at ${{ github.sha }}"
           git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
-          git push -f origin out:${{ inputs.flow == 'emulator_locales.sh' && 'ci-screenshots-locales' || 'ci-screenshots' }}
+          git push -f origin out:${{ inputs.flow == 'emulator_locales.sh' && 'ci-screenshots-locales' || inputs.flow == 'emulator_designs.sh' && 'ci-screenshots-designs' || 'ci-screenshots' }}

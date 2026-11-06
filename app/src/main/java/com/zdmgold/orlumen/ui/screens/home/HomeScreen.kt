@@ -59,7 +59,7 @@ import com.zdmgold.orlumen.ui.components.paletteColorsArgb
 import com.zdmgold.orlumen.ui.screens.permissions.PermissionRequesterDialogs
 import com.zdmgold.orlumen.ui.screens.permissions.rememberPermissionRequester
 
-private const val HERO_PREVIEW_DP = 96
+private const val HERO_PREVIEW_DP = 72
 private const val TILE_PREVIEW_DP = 150
 private const val TILE_PREVIEW_FRACTION = 0.62f
 
