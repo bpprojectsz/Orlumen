@@ -1,0 +1,17 @@
+Back
+Binary
+05:25
+LOOK
+Clock weight
+300
+DESIGN OPTIONS
+Dot size
+18
+SYMBOL
+None
+✦ Diamond
+♥︎ Heart
+★ Star
+☾ Moon
+SHOW
+Show the playing track

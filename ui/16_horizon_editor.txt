@@ -1,0 +1,18 @@
+Back
+Horizon
+05:26
+AM
+LOOK
+Clock weight
+300
+DESIGN OPTIONS
+Arc height
+120
+SYMBOL
+None
+✦ Diamond
+♥︎ Heart
+★ Star
+☾ Moon
+SHOW
+Show the playing track
