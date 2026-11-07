@@ -161,6 +161,18 @@ def cmd_scroll_tap(needle, exact=False):
     return 1
 
 
+def cmd_tap_near(needle, dx, dy):
+    """Tap a point offset from the exact-match node, used to reach a neighbouring tile."""
+    point = find(dump_xml(), needle, True)
+    if point is None:
+        print(f"NOT FOUND: {needle}")
+        return 1
+    target = (point[0] + dx, point[1] + dy)
+    tap_point(target)
+    print(f"tapped near {needle} at {target}")
+    return 0
+
+
 def cmd_has(needle):
     found = find(dump_xml(), needle) is not None
     print("yes" if found else "no")
@@ -196,6 +208,8 @@ def main():
     }
     if action == "texts":
         return cmd_texts()
+    if action == "tap-near":
+        return cmd_tap_near(arg, int(sys.argv[3]), int(sys.argv[4]))
     if action in handlers:
         return handlers[action](arg)
     print(f"unknown action: {action}")

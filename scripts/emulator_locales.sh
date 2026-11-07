@@ -39,7 +39,7 @@ for L in ar he de ja; do
   shot "${L}_settings_top"; swipe_up; shot "${L}_settings_middle"; swipe_up; shot "${L}_settings_bottom"
 
   setlocale en; fresh
-  ui scroll-tap-exact "Edge lights"; sleep 3
+  ui tap-near "Always-on clock" -339 -120; sleep 3
   ui scroll-tap "Strand"; sleep 3
   setlocale "$L"
   shot "${L}_editor_top"; swipe_up; swipe_up; shot "${L}_editor_bottom"

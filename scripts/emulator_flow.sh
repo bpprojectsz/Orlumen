@@ -127,7 +127,7 @@ adb shell input keyevent KEYCODE_WAKEUP
 adb shell cmd statusbar collapse; sleep 1
 launch; sleep 3
 shot home_final
-ui scroll-tap-exact "Edge lights"; sleep 3
+ui tap-near "Always-on clock" -339 -120; sleep 3
 shot visualizer_gallery
 adb shell input swipe 540 1800 540 300 500; sleep 1
 shot visualizer_gallery_more
@@ -161,7 +161,7 @@ adb shell input swipe 540 1800 540 300 500; sleep 1
 shot aod_editor_bottom
 adb shell input keyevent KEYCODE_BACK; sleep 1
 adb shell input keyevent KEYCODE_BACK; sleep 2
-ui scroll-tap-exact "Colors"; sleep 3
+ui tap-near "Always-on clock" 339 -120; sleep 3
 shot palettes_stock
 ui tap "Mine"; sleep 2
 shot palettes_mine

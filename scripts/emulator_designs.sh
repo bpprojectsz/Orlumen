@@ -30,7 +30,7 @@ ui tap "Skip"; sleep 2
 
 fresh
 shot home
-ui scroll-tap-exact "Edge lights"; sleep 3
+ui tap-near "Always-on clock" -339 -120; sleep 3
 shot visualizer_gallery_1
 for n in 2 3 4 5; do swipe_up; shot "visualizer_gallery_$n"; done
 
@@ -40,15 +40,15 @@ shot aod_gallery_1
 for n in 2 3 4 5; do swipe_up; shot "aod_gallery_$n"; done
 
 fresh
-ui scroll-tap-exact "Edge lights"; sleep 3
+ui tap-near "Always-on clock" -339 -120; sleep 3
 ui scroll-tap-exact "Comet"; sleep 3
 shot comet_editor
 fresh
-ui scroll-tap-exact "Edge lights"; sleep 3
+ui tap-near "Always-on clock" -339 -120; sleep 3
 ui scroll-tap-exact "Prism"; sleep 3
 shot prism_editor
 fresh
-ui scroll-tap-exact "Edge lights"; sleep 3
+ui tap-near "Always-on clock" -339 -120; sleep 3
 ui scroll-tap-exact "Spark"; sleep 3
 shot spark_editor
 fresh
