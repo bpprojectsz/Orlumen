@@ -44,7 +44,7 @@ Privacy policy URL: https://orlumen.bpprojectsz.workers.dev/privacy
 Terms URL: https://orlumen.bpprojectsz.workers.dev/terms
 Support URL: https://orlumen.bpprojectsz.workers.dev/support
 
-## Graphics to create (not text)
-- 512 x 512 icon (Pulse ring)
-- 1024 x 500 feature graphic
-- Phone screenshots from Orlumen's own screens only, without any third-party album art or other apps visible
+## Graphics (generated, in `store_submission/graphics/`)
+- `icon-512.png`: 512 x 512 icon (Pulse ring)
+- `feature-graphic-1024x500.png`: feature graphic
+- `screenshots/`: 7 phone screenshots cropped to 1080 x 2160 from Orlumen's own screens (no third-party art, ad banner or other apps visible)

@@ -15,7 +15,7 @@ Android app that turns music into edge lights and an always-on clock. Applicatio
 - `.../designs`: edge-light and always-on design renderers
 - `.../ui`: components and screens
 - `website/`: static site for Cloudflare Pages (landing, privacy, terms, support)
-- `store_submission/`: Play listing copy, Data safety draft, foreground-service declarations
+- `store_submission/`: Play listing copy, Data safety draft, foreground-service declarations, and `graphics/` (512 icon, feature graphic, phone screenshots)
 - `scripts/`: emulator test helpers
 
 ## Workflows
