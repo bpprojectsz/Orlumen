@@ -1,0 +1,14 @@
+Back
+Comet
+LOOK
+Thickness
+4
+Height
+32
+Sensitivity
+0.50
+Smoothing
+0.50
+DIRECTION
+Clockwise
+Anti-clockwise

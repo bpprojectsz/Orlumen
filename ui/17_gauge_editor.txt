@@ -1,0 +1,18 @@
+Back
+Gauge
+10
+09
+LOOK
+Clock weight
+300
+DESIGN OPTIONS
+Bar width
+28
+SYMBOL
+None
+✦ Diamond
+♥︎ Heart
+★ Star
+☾ Moon
+SHOW
+Show the playing track

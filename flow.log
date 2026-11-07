@@ -1,0 +1,35 @@
+Performing Streamed Install
+Success
+tapped: Skip at (941, 255)
+[22:04:06] shot 01_home
+tapped near Always-on clock at (201, 1620)
+[22:04:17] shot 02_visualizer_gallery_1
+[22:04:23] shot 03_visualizer_gallery_2
+[22:04:29] shot 04_visualizer_gallery_3
+[22:04:35] shot 05_visualizer_gallery_4
+[22:04:41] shot 06_visualizer_gallery_5
+tapped: Always-on clock at (540, 1740)
+[22:05:01] shot 07_aod_gallery_1
+[22:05:05] shot 08_aod_gallery_2
+[22:05:10] shot 09_aod_gallery_3
+[22:05:14] shot 10_aod_gallery_4
+[22:05:18] shot 11_aod_gallery_5
+tapped near Always-on clock at (201, 1620)
+tapped: Comet at (283, 2163)
+[22:06:01] shot 12_comet_editor
+tapped near Always-on clock at (201, 1620)
+tapped: Prism at (797, 2070)
+[22:06:41] shot 13_prism_editor
+tapped near Always-on clock at (201, 1620)
+tapped: Spark at (283, 2117)
+[22:07:29] shot 14_spark_editor
+tapped: Always-on clock at (540, 1740)
+tapped: Binary at (283, 1628)
+[22:08:08] shot 15_binary_editor
+tapped: Always-on clock at (540, 1740)
+tapped: Horizon at (797, 1829)
+[22:08:54] shot 16_horizon_editor
+tapped: Always-on clock at (540, 1740)
+tapped: Gauge at (283, 2117)
+[22:09:41] shot 17_gauge_editor
+[22:09:41] done: 17 screenshots
