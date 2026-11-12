@@ -240,7 +240,7 @@
     <string name="picker_all_apps">All apps</string>
     <string name="picker_clear">Clear</string>
     <string name="picker_loading">Loading apps…</string>
-    <string name="paywall_title">Orlumen Pro</string>
+    <string name="paywall_title">Premium</string>
     <string name="paywall_headline">Remove ads for good</string>
     <string name="paywall_body">One purchase removes every banner and pop-up ad. All designs and features stay free for everyone.</string>
     <string name="paywall_one_time">One-time purchase. No subscription.</string>
@@ -307,6 +307,10 @@
     <string name="param_dot_size">Dot size</string>
     <string name="param_arch">Arc height</string>
     <string name="param_bar_width">Bar width</string>
+        <string name="home_theme">Theme</string>
+    <string name="home_premium">Premium</string>
+    <string name="home_premium_sub">Go ad-free</string>
+    <string name="home_premium_owned">Ad-free ✓</string>
     <plurals name="picker_selected">
         <item quantity="one">%d app selected</item>
         <item quantity="other">%d apps selected</item>

@@ -165,7 +165,8 @@ private fun NavGraphBuilder.settingsDestinations(navController: NavHostControlle
                 onOpenMusicSources = {
                     navController.navigate(NavRoutes.appPicker(AppPickerTarget.MUSIC_SOURCES.name))
                 },
-                onOpenConsent = { navController.navigate(NavRoutes.CONSENT) }
+                onOpenConsent = { navController.navigate(NavRoutes.CONSENT) },
+                onOpenPaywall = { navController.navigate(NavRoutes.PAYWALL) }
             )
         )
     }

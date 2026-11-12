@@ -26,7 +26,8 @@ private val LIBRARIES = listOf(
     "AndroidX Room and DataStore" to APACHE,
     "AndroidX Palette and SplashScreen" to APACHE,
     "Kotlin and kotlinx.coroutines" to APACHE,
-    "Dagger and Hilt" to APACHE
+    "Dagger and Hilt" to APACHE,
+    "Poppins typeface" to "SIL Open Font License 1.1"
 )
 
 @Composable
