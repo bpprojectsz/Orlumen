@@ -204,7 +204,7 @@
     <string name="picker_all_apps">सभी ऐप्स</string>
     <string name="picker_clear">साफ़ करें</string>
     <string name="picker_loading">ऐप्स लोड हो रहे हैं…</string>
-    <string name="paywall_title">Orlumen Pro</string>
+    <string name="paywall_title">प्रीमियम</string>
     <string name="paywall_headline">विज्ञापन हमेशा के लिए हटाएँ</string>
     <string name="paywall_body">एक खरीद सभी बैनर और पॉप-अप विज्ञापन हटा देती है। सभी डिज़ाइन और सुविधाएँ सबके लिए मुफ़्त रहती हैं।</string>
     <string name="paywall_one_time">एक बार की खरीद। कोई सब्सक्रिप्शन नहीं।</string>
@@ -265,6 +265,10 @@
     <string name="param_dot_size">बिंदु का आकार</string>
     <string name="param_arch">चाप की ऊँचाई</string>
     <string name="param_bar_width">पट्टी की चौड़ाई</string>
+    <string name="home_theme">थीम</string>
+    <string name="home_premium">प्रीमियम</string>
+    <string name="home_premium_sub">विज्ञापन-मुक्त हों</string>
+    <string name="home_premium_owned">विज्ञापन-मुक्त ✓</string>
     <plurals name="picker_selected">
         <item quantity="one">%d ऐप चुना गया</item>
         <item quantity="other">%d ऐप्स चुने गए</item>

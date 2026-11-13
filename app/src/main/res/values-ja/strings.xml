@@ -204,7 +204,7 @@
     <string name="picker_all_apps">すべてのアプリ</string>
     <string name="picker_clear">クリア</string>
     <string name="picker_loading">アプリを読み込み中…</string>
-    <string name="paywall_title">Orlumen Pro</string>
+    <string name="paywall_title">プレミアム</string>
     <string name="paywall_headline">広告をずっと非表示に</string>
     <string name="paywall_body">1回の購入で、すべてのバナー広告とポップアップ広告がなくなります。すべてのデザインと機能は、これまでどおり誰でも無料で使えます。</string>
     <string name="paywall_one_time">買い切り。サブスクリプションはありません。</string>
@@ -265,6 +265,10 @@
     <string name="param_dot_size">ドットの大きさ</string>
     <string name="param_arch">アーチの高さ</string>
     <string name="param_bar_width">バーの幅</string>
+    <string name="home_theme">テーマ</string>
+    <string name="home_premium">プレミアム</string>
+    <string name="home_premium_sub">広告なしにする</string>
+    <string name="home_premium_owned">広告なし ✓</string>
     <plurals name="picker_selected">
         <item quantity="other">%d 個のアプリを選択中</item>
     </plurals>

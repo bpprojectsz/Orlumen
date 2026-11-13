@@ -204,7 +204,7 @@
     <string name="picker_all_apps">모든 앱</string>
     <string name="picker_clear">지우기</string>
     <string name="picker_loading">앱 불러오는 중…</string>
-    <string name="paywall_title">Orlumen Pro</string>
+    <string name="paywall_title">프리미엄</string>
     <string name="paywall_headline">광고를 영구히 제거하세요</string>
     <string name="paywall_body">한 번의 구매로 모든 배너와 팝업 광고가 사라집니다. 모든 디자인과 기능은 누구에게나 계속 무료입니다.</string>
     <string name="paywall_one_time">1회 구매. 구독 없음.</string>
@@ -265,6 +265,10 @@
     <string name="param_dot_size">점 크기</string>
     <string name="param_arch">아치 높이</string>
     <string name="param_bar_width">막대 너비</string>
+    <string name="home_theme">테마</string>
+    <string name="home_premium">프리미엄</string>
+    <string name="home_premium_sub">광고 없애기</string>
+    <string name="home_premium_owned">광고 없음 ✓</string>
     <plurals name="picker_selected">
         <item quantity="other">앱 %d개 선택됨</item>
     </plurals>

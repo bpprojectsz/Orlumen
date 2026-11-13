@@ -56,7 +56,10 @@ fun PremiumCard(
     }
     Column(
         modifier = modifier
-            .graphicsLayer { scaleX = scale; scaleY = scale }
+            .graphicsLayer {
+                scaleX = scale
+                scaleY = scale
+            }
             .shadow(
                 elevation = if (strong) 10.dp else 4.dp,
                 shape = shape,

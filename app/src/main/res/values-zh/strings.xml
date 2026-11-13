@@ -204,7 +204,7 @@
     <string name="picker_all_apps">所有应用</string>
     <string name="picker_clear">清除</string>
     <string name="picker_loading">正在加载应用…</string>
-    <string name="paywall_title">Orlumen Pro</string>
+    <string name="paywall_title">高级版</string>
     <string name="paywall_headline">永久移除广告</string>
     <string name="paywall_body">一次购买即可移除所有横幅和弹出广告。所有设计和功能对所有人依然免费。</string>
     <string name="paywall_one_time">一次性购买，无需订阅。</string>
@@ -265,6 +265,10 @@
     <string name="param_dot_size">圆点大小</string>
     <string name="param_arch">弧线高度</string>
     <string name="param_bar_width">条形宽度</string>
+    <string name="home_theme">主题</string>
+    <string name="home_premium">高级版</string>
+    <string name="home_premium_sub">去除广告</string>
+    <string name="home_premium_owned">已无广告 ✓</string>
     <plurals name="picker_selected">
         <item quantity="other">已选择 %d 个应用</item>
     </plurals>

@@ -204,7 +204,7 @@
     <string name="picker_all_apps">كل التطبيقات</string>
     <string name="picker_clear">مسح</string>
     <string name="picker_loading">جارٍ تحميل التطبيقات…</string>
-    <string name="paywall_title">Orlumen Pro</string>
+    <string name="paywall_title">بريميوم</string>
     <string name="paywall_headline">أزل الإعلانات نهائيًا</string>
     <string name="paywall_body">عملية شراء واحدة تزيل كل اللافتات والإعلانات المنبثقة. تبقى جميع التصاميم والميزات مجانية للجميع.</string>
     <string name="paywall_one_time">شراء لمرة واحدة. بدون اشتراك.</string>
@@ -265,6 +265,10 @@
     <string name="param_dot_size">حجم النقطة</string>
     <string name="param_arch">ارتفاع القوس</string>
     <string name="param_bar_width">عرض الشريط</string>
+    <string name="home_theme">المظهر</string>
+    <string name="home_premium">بريميوم</string>
+    <string name="home_premium_sub">بدون إعلانات</string>
+    <string name="home_premium_owned">بلا إعلانات ✓</string>
     <plurals name="picker_selected">
         <item quantity="zero">لم يتم اختيار أي تطبيق</item>
         <item quantity="one">تم اختيار تطبيق واحد</item>

@@ -204,7 +204,7 @@
     <string name="picker_all_apps">Todos os apps</string>
     <string name="picker_clear">Limpar</string>
     <string name="picker_loading">A carregar apps…</string>
-    <string name="paywall_title">Orlumen Pro</string>
+    <string name="paywall_title">Premium</string>
     <string name="paywall_headline">Remova os anúncios para sempre</string>
     <string name="paywall_body">Uma única compra remove todos os banners e anúncios em ecrã inteiro. Todos os designs e funções continuam gratuitos para todos.</string>
     <string name="paywall_one_time">Compra única. Sem subscrição.</string>
@@ -265,6 +265,10 @@
     <string name="param_dot_size">Tamanho do ponto</string>
     <string name="param_arch">Altura do arco</string>
     <string name="param_bar_width">Largura da barra</string>
+    <string name="home_theme">Tema</string>
+    <string name="home_premium">Premium</string>
+    <string name="home_premium_sub">Sem anúncios</string>
+    <string name="home_premium_owned">Sem anúncios ✓</string>
     <plurals name="picker_selected">
         <item quantity="one">%d app selecionado</item>
         <item quantity="many">%d de apps selecionados</item>

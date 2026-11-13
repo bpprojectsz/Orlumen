@@ -204,7 +204,7 @@
     <string name="picker_all_apps">כל האפליקציות</string>
     <string name="picker_clear">ניקוי</string>
     <string name="picker_loading">טוען אפליקציות…</string>
-    <string name="paywall_title">Orlumen Pro</string>
+    <string name="paywall_title">פרימיום</string>
     <string name="paywall_headline">הסירו פרסומות לתמיד</string>
     <string name="paywall_body">רכישה אחת מסירה את כל הבאנרים והפרסומות הקופצות. כל העיצובים והתכונות נשארים בחינם לכולם.</string>
     <string name="paywall_one_time">רכישה חד-פעמית. ללא מנוי.</string>
@@ -265,6 +265,10 @@
     <string name="param_dot_size">גודל נקודה</string>
     <string name="param_arch">גובה הקשת</string>
     <string name="param_bar_width">רוחב פס</string>
+    <string name="home_theme">עיצוב</string>
+    <string name="home_premium">פרימיום</string>
+    <string name="home_premium_sub">ללא פרסומות</string>
+    <string name="home_premium_owned">ללא פרסומות ✓</string>
     <plurals name="picker_selected">
         <item quantity="one">אפליקציה אחת נבחרה</item>
         <item quantity="two">נבחרו שתי אפליקציות</item>
