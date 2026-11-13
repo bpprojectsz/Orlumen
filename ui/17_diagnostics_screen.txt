@@ -1,0 +1,23 @@
+Diagnostics
+STATUS
+Running · Global audio mix
+Stop
+AUDIO SIGNAL
+Level 0%
+NOW PLAYING
+Nothing is playing
+ALWAYS-ON DISPLAY
+Always-on display
+Turn the always-on display on, then lock your phone with the power button.
+The always-on screen is not showing
+The screen-off launch has not fired yet
+Open the always-on screen now
+PERMISSIONS
+Draw over other apps
+Allowed
+Listen to your music
+Allowed
+See what is playing
+Allowed
+Know which app is open
+Allowed

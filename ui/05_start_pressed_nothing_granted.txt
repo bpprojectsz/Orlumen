@@ -1,0 +1,6 @@
+Back
+Quick setup
+Step 1 of 2
+Listen to your music
+Orlumen analyzes the audio your phone is playing to animate the lights. The audio is processed on your device in real time and is never recorded, stored or sent anywhere.
+Allow

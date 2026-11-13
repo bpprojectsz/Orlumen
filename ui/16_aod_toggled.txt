@@ -1,0 +1,33 @@
+Orlumen
+Theme
+Language
+Settings
+Edge lights are on
+FILAMENT
+Stop
+Nothing is playing
+Always-on display
+Show a clock when the screen turns off
+CUSTOMIZE
+Edge lights
+06:09
+PM
+Always-on clock
+Colors
+Settings
+Premium
+Go ad-free
+Diagnostics
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+Test Ad

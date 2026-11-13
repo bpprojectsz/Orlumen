@@ -1,0 +1,19 @@
+Back
+Open-source licenses
+Orlumen is built with these open-source libraries, each used under its license.
+Jetpack Compose and Material 3
+Apache License 2.0
+AndroidX Lifecycle, Navigation, Activity, Core
+Apache License 2.0
+AndroidX Room and DataStore
+Apache License 2.0
+AndroidX Palette and SplashScreen
+Apache License 2.0
+Kotlin and kotlinx.coroutines
+Apache License 2.0
+Dagger and Hilt
+Apache License 2.0
+Poppins typeface
+SIL Open Font License 1.1
+Full license text: apache.org/licenses/LICENSE-2.0
+The Google Mobile Ads SDK, User Messaging Platform and Play Billing Library are provided by Google under their own terms.

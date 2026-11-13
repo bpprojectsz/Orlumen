@@ -1,0 +1,24 @@
+LOOK
+Thickness
+4
+Height
+32
+Sensitivity
+0.50
+Smoothing
+0.50
+DIRECTION
+Clockwise
+Anti-clockwise
+DESIGN OPTIONS
+Opacity
+0.80
+COLORS
+Obsidian violet
+Deep space
+PRESETS
+No saved presets yet
+Preset name
+Save preset
+Apply
+Reset changes
