@@ -1,0 +1,21 @@
+Diagnose
+STATUS
+Gestoppt
+Erlaube zuerst die erforderlichen Berechtigungen.
+Randlichter starten
+Mit App-Audioaufnahme starten
+AUDIOSIGNAL
+Pegel 0%
+WIEDERGABE
+Es läuft nichts
+Erlaube den Benachrichtigungszugriff, um den aktuellen Titel zu sehen.
+ALWAYS-ON-ANZEIGE
+Always-on-Anzeige
+Schalte die Always-on-Anzeige ein und sperre dann dein Telefon mit der Ein-/Aus-Taste.
+Der Always-on-Bildschirm wird nicht angezeigt
+Der Start beim Ausschalten des Bildschirms ist noch nicht erfolgt
+Always-on-Bildschirm jetzt öffnen
+BERECHTIGUNGEN
+Über anderen Apps anzeigen
+Tippen, dann Orlumen in der Liste suchen und einschalten
+Deine Musik hören

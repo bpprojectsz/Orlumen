@@ -1,0 +1,29 @@
+FILAMENT
+エッジライトを開始
+再生中の曲はありません
+常時表示
+画面が消えたときに時計を表示します
+カスタマイズ
+エッジライト
+18:18
+常時表示の時計
+カラー
+設定
+プレミアム
+広告なしにする
+診断
+音声、権限、常時表示の起動を確認
+アプリについてと法的情報
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+テスト広告

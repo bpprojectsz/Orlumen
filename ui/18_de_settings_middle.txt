@@ -1,0 +1,24 @@
+Benötigt Nutzungszugriff. Blendet die Lichter in Spielen und Videos aus.
+Bildschirm hinter den Lichtern abdunkeln
+Macht die Lichter auf hellen Bildschirmen besser sichtbar.
+Statusleiste freihalten
+Startet die Lichter unterhalb der Statusleiste, damit die Uhrzeit lesbar bleibt.
+Bildschirm an lassen, solange die Lichter laufen
+Nur über ausgewählten Apps anzeigen
+Benötigt Nutzungszugriff. Leer lassen, um über jeder App anzuzeigen.
+AUDIOQUELLE
+Automatisch
+Globaler Mix
+App-Audioaufnahme
+Automatisch versucht zuerst den globalen Mix und wechselt bei einem Fehler zur App-Audioaufnahme. Die App-Audioaufnahme fragt jedes Mal nach der Bildschirmaufnahme-Berechtigung.
+ALWAYS-ON-ANZEIGE
+Sperrbildschirm-Uhr
+Bildschirmschoner
+Die Sperrbildschirm-Uhr öffnet sich, wenn sich der Bildschirm ausschaltet. Tippe nach dem Drücken der Ein-/Aus-Taste auf den Bildschirm, um zum Sperrbildschirm zurückzukehren. Für den Bildschirmschoner muss Orlumen in den Android-Bildschirmschoner-Einstellungen gewählt sein; er läuft meist nur beim Laden.
+MUSIK
+Albumfarben übernehmen
+Verwendet die Farben des laufenden Titels
+Musik-Apps
+Wähle, welchen Musik-Apps Orlumen folgt. Leer lassen für alle.
+DATENSCHUTZ
+Werbe- und Datenschutzoptionen

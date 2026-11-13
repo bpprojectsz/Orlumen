@@ -1,0 +1,14 @@
+Zurück
+Strand
+AUSSEHEN
+Dicke
+4
+Höhe
+32
+Empfindlichkeit
+0,50
+Glättung
+0,50
+RICHTUNG
+Im Uhrzeigersinn
+Gegen den Uhrzeigersinn

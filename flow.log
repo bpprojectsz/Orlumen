@@ -1,0 +1,56 @@
+Performing Streamed Install
+Success
+tapped: Skip at (941, 255)
+[18:07:57] LANGUAGE ar
+tapped: Settings at (988, 216)
+[18:08:27] shot 01_ar_settings_top
+[18:08:31] shot 02_ar_settings_middle
+[18:08:34] shot 03_ar_settings_bottom
+tapped near Always-on clock at (201, 1662)
+tapped: Strand at (283, 1623)
+[18:09:17] shot 04_ar_editor_top
+[18:09:25] shot 05_ar_editor_bottom
+tapped: Check audio, permissions at (558, 1828)
+[18:10:06] shot 06_ar_diagnostics
+[18:10:33] shot 07_ar_home
+[18:10:41] shot 08_ar_home_bottom
+[18:10:41] LANGUAGE he
+tapped: Settings at (988, 216)
+[18:11:13] shot 09_he_settings_top
+[18:11:17] shot 10_he_settings_middle
+[18:11:21] shot 11_he_settings_bottom
+tapped near Always-on clock at (201, 1662)
+tapped: Strand at (283, 1616)
+[18:12:00] shot 12_he_editor_top
+[18:12:07] shot 13_he_editor_bottom
+tapped: Check audio, permissions at (558, 1828)
+[18:12:44] shot 14_he_diagnostics
+[18:13:05] shot 15_he_home
+[18:13:13] shot 16_he_home_bottom
+[18:13:13] LANGUAGE de
+tapped: Settings at (988, 216)
+[18:13:42] shot 17_de_settings_top
+[18:13:46] shot 18_de_settings_middle
+[18:13:50] shot 19_de_settings_bottom
+tapped near Always-on clock at (201, 1662)
+tapped: Strand at (283, 1490)
+[18:14:29] shot 20_de_editor_top
+[18:14:37] shot 21_de_editor_bottom
+tapped: Check audio, permissions at (558, 1828)
+[18:15:18] shot 22_de_diagnostics
+[18:15:45] shot 23_de_home
+[18:15:52] shot 24_de_home_bottom
+[18:15:52] LANGUAGE ja
+tapped: Settings at (988, 216)
+[18:16:27] shot 25_ja_settings_top
+[18:16:31] shot 26_ja_settings_middle
+[18:16:35] shot 27_ja_settings_bottom
+tapped near Always-on clock at (201, 1662)
+tapped: Strand at (283, 1515)
+[18:17:15] shot 28_ja_editor_top
+[18:17:22] shot 29_ja_editor_bottom
+tapped: Check audio, permissions at (558, 2255)
+[18:18:13] shot 30_ja_diagnostics
+[18:18:37] shot 31_ja_home
+[18:18:45] shot 32_ja_home_bottom
+[18:18:47] done: 32 screenshots
