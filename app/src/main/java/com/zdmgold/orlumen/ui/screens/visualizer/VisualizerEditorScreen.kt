@@ -150,7 +150,7 @@ fun VisualizerEditorScreen(
                 presets = current.presets.map { it.id to it.name },
                 onLoad = { id -> current.presets.firstOrNull { it.id == id }?.let(viewModel::loadPreset) },
                 onDelete = viewModel::deletePreset,
-                onSave = viewModel::savePreset
+                onSave = { name -> if (viewModel.savePreset(name)) activity?.let(main::showInterstitial) }
             )
             Spacer(modifier = Modifier.height(Spacing.lg))
             AppPrimaryButton(

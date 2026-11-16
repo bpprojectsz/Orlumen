@@ -6,6 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.zdmgold.orlumen.core.datastore.PreferencesRepository
 import com.zdmgold.orlumen.core.model.NowPlaying
+import com.zdmgold.orlumen.core.model.canShowInterstitial
 import com.zdmgold.orlumen.core.repository.ConsentRepository
 import com.zdmgold.orlumen.core.repository.EntitlementRepository
 import com.zdmgold.orlumen.core.repository.NowPlayingRepository
@@ -19,6 +20,7 @@ import javax.inject.Inject
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 
@@ -82,7 +84,15 @@ class MainViewModel @Inject constructor(
 
     /** Shows an interstitial after an in-app save when ads are allowed. Never call it from the overlay or AOD. */
     fun showInterstitial(activity: Activity) {
-        if (uiState.value?.adsAllowed == true) adAdapter.showInterstitial(activity, isPro = false) {}
+        val state = uiState.value ?: return
+        if (!state.adsAllowed) return
+        viewModelScope.launch {
+            val now = System.currentTimeMillis()
+            val history = preferencesRepository.interstitialHistory.first()
+            if (canShowInterstitial(now, history, isPro = state.isPro) && adAdapter.showInterstitial(activity)) {
+                preferencesRepository.recordInterstitialShown(now)
+            }
+        }
     }
 
     fun setAodEnabled(enabled: Boolean) {

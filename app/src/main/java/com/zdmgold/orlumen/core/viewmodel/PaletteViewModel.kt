@@ -103,9 +103,11 @@ class PaletteViewModel @Inject constructor(
         viewModelScope.launch { preferencesRepository.update { it.copy(autoApplyAlbumColors = enabled) } }
     }
 
-    fun saveCustomPalette(name: String, colorsArgb: List<Int>) {
-        if (name.isBlank() || colorsArgb.size !in ColorPalette.MIN_COLORS..ColorPalette.MAX_COLORS) return
+    /** Saves a custom palette. Returns false when the name or the color count is not valid. */
+    fun saveCustomPalette(name: String, colorsArgb: List<Int>): Boolean {
+        if (name.isBlank() || colorsArgb.size !in ColorPalette.MIN_COLORS..ColorPalette.MAX_COLORS) return false
         viewModelScope.launch { paletteRepository.saveCustomPalette(name.trim(), colorsArgb) }
+        return true
     }
 
     fun deleteCustomPalette(id: String) {

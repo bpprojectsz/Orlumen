@@ -60,4 +60,21 @@ class PreferencesRepositoryTest {
         assertTrue(saved.dimBackground)
         assertEquals(emptySet<String>(), saved.musicSourcePackages)
     }
+
+    @Test
+    fun adHistorySurvivesAndKeepsOtherSettings() = runTest(UnconfinedTestDispatcher()) {
+        val repo = repository(this)
+        val now = 5_000_000_000L
+        repo.setThemeMode(ThemeMode.LIGHT)
+        repo.recordInterstitialShown(now - 120_000L)
+        repo.recordInterstitialShown(now)
+        repo.setAodEnabled(true)
+        assertEquals(listOf(now - 120_000L, now), repo.interstitialHistory.first())
+        assertEquals(ThemeMode.LIGHT, repo.preferences.first().themeMode)
+    }
+
+    @Test
+    fun emptyAdHistoryIsEmpty() = runTest(UnconfinedTestDispatcher()) {
+        assertEquals(emptyList<Long>(), repository(this).interstitialHistory.first())
+    }
 }

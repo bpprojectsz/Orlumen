@@ -55,8 +55,13 @@ fun AppNavHost(startDestination: String, onOnboardingFinished: () -> Unit, modif
 private val AD_ROUTES = setOf(
     NavRoutes.HOME,
     NavRoutes.VISUALIZER_GALLERY,
+    NavRoutes.VISUALIZER_EDITOR,
     NavRoutes.AOD_GALLERY,
-    NavRoutes.PALETTES
+    NavRoutes.AOD_EDITOR,
+    NavRoutes.PALETTES,
+    NavRoutes.SETTINGS,
+    NavRoutes.DIAGNOSTICS,
+    NavRoutes.ABOUT
 )
 
 @Composable

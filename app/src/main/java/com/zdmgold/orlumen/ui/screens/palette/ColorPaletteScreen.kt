@@ -1,5 +1,6 @@
 package com.zdmgold.orlumen.ui.screens.palette
 
+import androidx.activity.ComponentActivity
 import androidx.annotation.StringRes
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -33,6 +34,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -42,6 +44,7 @@ import com.zdmgold.orlumen.core.model.ColorPalette
 import com.zdmgold.orlumen.core.theme.OrlumenTheme
 import com.zdmgold.orlumen.core.theme.Spacing
 import com.zdmgold.orlumen.core.theme.Stroke
+import com.zdmgold.orlumen.core.viewmodel.MainViewModel
 import com.zdmgold.orlumen.core.viewmodel.PaletteUiState
 import com.zdmgold.orlumen.core.viewmodel.PaletteViewModel
 import com.zdmgold.orlumen.ui.components.AppCard
@@ -55,6 +58,7 @@ import com.zdmgold.orlumen.ui.components.IconWrapper
 import com.zdmgold.orlumen.ui.components.PaletteSwatch
 import com.zdmgold.orlumen.ui.components.ScreenHeader
 import com.zdmgold.orlumen.ui.components.SectionHeader
+import com.zdmgold.orlumen.ui.components.findActivity
 import com.zdmgold.orlumen.ui.components.iconDelete
 import com.zdmgold.orlumen.ui.components.iconEdit
 
@@ -75,6 +79,8 @@ fun ColorPaletteScreen(
     modifier: Modifier = Modifier,
     viewModel: PaletteViewModel = hiltViewModel()
 ) {
+    val activity = LocalContext.current.findActivity()
+    val main: MainViewModel = hiltViewModel(viewModelStoreOwner = activity as ComponentActivity)
     val state by viewModel.uiState.collectAsStateWithLifecycle()
     var tabIndex by remember { mutableIntStateOf(0) }
     val tabs = PaletteTab.entries
@@ -96,7 +102,7 @@ fun ColorPaletteScreen(
             Spacer(modifier = Modifier.height(Spacing.md))
             when (tabs[tabIndex]) {
                 PaletteTab.STOCK -> PaletteList(current.stock, current, viewModel)
-                PaletteTab.CUSTOM -> CustomTab(current, viewModel)
+                PaletteTab.CUSTOM -> CustomTab(current, viewModel) { activity?.let(main::showInterstitial) }
                 PaletteTab.ALBUM -> AlbumTab(current, viewModel)
                 PaletteTab.WALLPAPER -> WallpaperTab(current, viewModel)
             }
@@ -211,7 +217,7 @@ private fun WallpaperTab(state: PaletteUiState, viewModel: PaletteViewModel) {
 }
 
 @Composable
-private fun CustomTab(state: PaletteUiState, viewModel: PaletteViewModel) {
+private fun CustomTab(state: PaletteUiState, viewModel: PaletteViewModel, onPaletteSaved: () -> Unit) {
     if (state.custom.isNotEmpty()) {
         PaletteList(
             palettes = state.custom,
@@ -221,7 +227,7 @@ private fun CustomTab(state: PaletteUiState, viewModel: PaletteViewModel) {
         )
     }
     SectionHeader(text = stringResource(R.string.palette_new_title))
-    NewPaletteEditor(onSave = viewModel::saveCustomPalette)
+    NewPaletteEditor(onSave = { name, colors -> if (viewModel.saveCustomPalette(name, colors)) onPaletteSaved() })
 }
 
 @Composable

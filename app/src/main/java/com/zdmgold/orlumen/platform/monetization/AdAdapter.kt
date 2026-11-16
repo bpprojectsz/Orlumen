@@ -31,15 +31,6 @@ data class AdStatus(
     val banner: String = "Not requested",
     val interstitial: String = "Not requested"
 )
-private const val INTERSTITIAL_MIN_INTERVAL_MS = 3 * 60 * 1000L
-
-internal fun shouldShowInterstitial(
-    nowMillis: Long,
-    lastShownMillis: Long,
-    minIntervalMillis: Long,
-    isPro: Boolean
-): Boolean = !isPro && (lastShownMillis == 0L || nowMillis - lastShownMillis >= minIntervalMillis)
-
 /**
  * Thin wrapper over the Google Mobile Ads SDK. Nothing here loads until consent allows ads, and a
  * failed banner is reported to the caller so the slot can collapse to zero height.
@@ -48,7 +39,6 @@ internal fun shouldShowInterstitial(
 class AdAdapter @Inject constructor(@ApplicationContext private val context: Context) {
     private val initialized = AtomicBoolean(false)
     private var interstitial: InterstitialAd? = null
-    private var lastInterstitialMillis = 0L
     private val statusFlow = MutableStateFlow(AdStatus())
     val status: StateFlow<AdStatus> = statusFlow.asStateFlow()
 
@@ -80,28 +70,22 @@ class AdAdapter @Inject constructor(@ApplicationContext private val context: Con
             loadAd(AdRequest.Builder().build())
         }
 
-    /** Shows a preloaded interstitial when the frequency cap allows it. Always calls [onFinished]. */
-    fun showInterstitial(activity: Activity, isPro: Boolean, onFinished: () -> Unit): Boolean {
-        val ad = interstitial
-        val now = System.currentTimeMillis()
-        if (ad == null || !shouldShowInterstitial(now, lastInterstitialMillis, INTERSTITIAL_MIN_INTERVAL_MS, isPro)) {
-            onFinished()
-            return false
-        }
+    /**
+     * Shows the preloaded interstitial if one is ready and returns whether it was shown. The frequency rules live in
+     * [com.zdmgold.orlumen.core.model.canShowInterstitial], and the caller records every ad that was shown.
+     */
+    fun showInterstitial(activity: Activity): Boolean {
+        val ad = interstitial ?: return false
         ad.fullScreenContentCallback = object : FullScreenContentCallback() {
             override fun onAdDismissedFullScreenContent() {
-                interstitial = null
                 loadInterstitial()
-                onFinished()
             }
 
             override fun onAdFailedToShowFullScreenContent(error: AdError) {
-                interstitial = null
                 loadInterstitial()
-                onFinished()
             }
         }
-        lastInterstitialMillis = now
+        interstitial = null
         ad.show(activity)
         return true
     }

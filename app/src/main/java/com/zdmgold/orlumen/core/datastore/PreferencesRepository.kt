@@ -12,6 +12,7 @@ import com.zdmgold.orlumen.core.model.AodHostMode
 import com.zdmgold.orlumen.core.model.AudioSourceMode
 import com.zdmgold.orlumen.core.model.ThemeMode
 import com.zdmgold.orlumen.core.model.UserPreferences
+import com.zdmgold.orlumen.core.model.withInterstitialShown
 import java.io.IOException
 import javax.inject.Inject
 import javax.inject.Singleton
@@ -37,6 +38,7 @@ private object Keys {
     val onboardingCompleted = booleanPreferencesKey("onboarding_completed")
     val visualizerAppPackages = stringSetPreferencesKey("visualizer_app_packages")
     val musicSourcePackages = stringSetPreferencesKey("music_source_packages")
+    val interstitialHistory = stringPreferencesKey("interstitial_history")
 }
 
 @Singleton
@@ -46,6 +48,20 @@ class PreferencesRepository @Inject constructor(private val dataStore: DataStore
             if (failure is IOException) emit(emptyPreferences()) else throw failure
         }
         .map { it.toUserPreferences() }
+
+    /** When full-screen ads were recently shown, newest last. Unreadable stored values count as no history. */
+    val interstitialHistory: Flow<List<Long>> = dataStore.data
+        .catch { failure ->
+            if (failure is IOException) emit(emptyPreferences()) else throw failure
+        }
+        .map { parseTimes(it[Keys.interstitialHistory]) }
+
+    suspend fun recordInterstitialShown(nowMillis: Long) {
+        dataStore.edit { stored ->
+            val updated = withInterstitialShown(nowMillis, parseTimes(stored[Keys.interstitialHistory]))
+            stored[Keys.interstitialHistory] = updated.joinToString(",")
+        }
+    }
 
     suspend fun update(transform: (UserPreferences) -> UserPreferences) {
         dataStore.edit { stored -> stored.write(transform(stored.toUserPreferences())) }
@@ -63,6 +79,9 @@ class PreferencesRepository @Inject constructor(private val dataStore: DataStore
 
     suspend fun setOnboardingCompleted(completed: Boolean) = update { it.copy(onboardingCompleted = completed) }
 }
+
+private fun parseTimes(stored: String?): List<Long> =
+    stored?.split(",")?.mapNotNull { it.trim().toLongOrNull() }.orEmpty()
 
 private fun Preferences.toUserPreferences(): UserPreferences {
     val defaults = UserPreferences()

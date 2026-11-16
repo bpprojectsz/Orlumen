@@ -104,10 +104,13 @@ class AodViewModel @Inject constructor(
         viewModelScope.launch { draft.value = configRepository.activeAodConfig.first() }
     }
 
-    fun savePreset(name: String) {
+    /** Saves the current draft as a named preset. Returns false when nothing was saved. */
+    fun savePreset(name: String): Boolean {
         val trimmed = name.trim()
-        if (trimmed.isEmpty()) return
-        viewModelScope.launch { draft.value?.let { configRepository.saveAodPreset(trimmed, it) } }
+        val config = draft.value
+        if (trimmed.isEmpty() || config == null) return false
+        viewModelScope.launch { configRepository.saveAodPreset(trimmed, config) }
+        return true
     }
 
     fun loadPreset(preset: Preset<AodConfig>) {
