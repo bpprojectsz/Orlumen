@@ -31,6 +31,7 @@ data class AdStatus(
     val banner: String = "Not requested",
     val interstitial: String = "Not requested"
 )
+
 /**
  * Thin wrapper over the Google Mobile Ads SDK. Nothing here loads until consent allows ads, and a
  * failed banner is reported to the caller so the slot can collapse to zero height.
