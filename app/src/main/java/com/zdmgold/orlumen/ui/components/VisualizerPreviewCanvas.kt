@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableLongStateOf
@@ -23,6 +24,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.TransformOrigin
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.platform.LocalLayoutDirection
+import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import com.zdmgold.orlumen.core.model.SpectrumFrame
 import com.zdmgold.orlumen.core.model.VisualizerConfig
@@ -55,25 +58,28 @@ internal fun PhoneFrame(modifier: Modifier = Modifier, content: @Composable () -
     BoxWithConstraints(modifier = modifier) {
         val scale = maxWidth.value / REFERENCE_WIDTH_DP
         val shape = RoundedCornerShape((PREVIEW_CORNER_DP * scale).dp)
-        Box(
-            modifier = Modifier
-                .width(maxWidth)
-                .height((REFERENCE_HEIGHT_DP * scale).dp)
-                .clip(shape)
-                .background(Color.Black)
-                .border(Stroke.hairline, colors.border, shape)
-        ) {
+        // A preview stands in for a physical screen, so it is always laid out left to right.
+        CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Ltr) {
             Box(
                 modifier = Modifier
-                    .wrapContentSize(Alignment.TopStart, unbounded = true)
-                    .size(REFERENCE_WIDTH_DP.dp, REFERENCE_HEIGHT_DP.dp)
-                    .graphicsLayer {
-                        scaleX = scale
-                        scaleY = scale
-                        transformOrigin = TransformOrigin(0f, 0f)
-                    }
+                    .width(maxWidth)
+                    .height((REFERENCE_HEIGHT_DP * scale).dp)
+                    .clip(shape)
+                    .background(Color.Black)
+                    .border(Stroke.hairline, colors.border, shape)
             ) {
-                content()
+                Box(
+                    modifier = Modifier
+                        .wrapContentSize(Alignment.TopStart, unbounded = true)
+                        .size(REFERENCE_WIDTH_DP.dp, REFERENCE_HEIGHT_DP.dp)
+                        .graphicsLayer {
+                            scaleX = scale
+                            scaleY = scale
+                            transformOrigin = TransformOrigin(0f, 0f)
+                        }
+                ) {
+                    content()
+                }
             }
         }
     }
