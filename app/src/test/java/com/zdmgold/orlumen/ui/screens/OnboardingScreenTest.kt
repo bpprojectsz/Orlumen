@@ -6,8 +6,8 @@ import org.junit.Test
 
 class OnboardingScreenTest {
     @Test
-    fun introducesTheAppInThreeSteps() {
-        assertEquals(3, onboardingPages.size)
+    fun introducesTheAppInFourSteps() {
+        assertEquals(4, onboardingPages.size)
     }
 
     @Test
