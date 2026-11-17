@@ -47,6 +47,7 @@ sleep 5
 shot onboarding_1
 ui tap "Next"; sleep 1; shot onboarding_2
 ui tap "Next"; sleep 1; shot onboarding_3
+ui tap "Next"; sleep 1; shot onboarding_4
 ui tap "Get started"; sleep 2; shot home_first_open
 
 ui scroll-tap "Start edge lights"; sleep 3
@@ -181,6 +182,14 @@ adb shell input swipe 540 1800 540 500 500; sleep 1
 shot settings_middle
 adb shell input swipe 540 1800 540 300 500; sleep 1
 shot settings_bottom
+ui scroll-tap "Replay intro"; sleep 3
+shot replay_intro_1
+ui tap "Next"; sleep 1
+ui tap "Next"; sleep 1
+ui tap "Next"; sleep 1
+shot replay_intro_last
+ui tap "Done"; sleep 2
+shot after_replay_in_settings
 ui scroll-tap "Show only over chosen apps"; sleep 4
 shot app_picker
 adb shell input keyevent KEYCODE_BACK; sleep 1
