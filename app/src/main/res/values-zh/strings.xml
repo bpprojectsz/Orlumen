@@ -274,6 +274,9 @@
     <string name="onboarding_done">完成</string>
     <string name="settings_replay_intro">重看介绍</string>
     <string name="settings_replay_intro_sub">再次查看欢迎引导</string>
+    <string name="diag_consent_not_run">同意检查：尚未运行</string>
+    <string name="diag_consent_ok">同意检查：正常</string>
+    <string name="diag_consent_failed">同意检查失败：%1$s</string>
     <plurals name="picker_selected">
         <item quantity="other">已选择 %d 个应用</item>
     </plurals>

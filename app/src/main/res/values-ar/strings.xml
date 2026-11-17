@@ -274,6 +274,9 @@
     <string name="onboarding_done">تم</string>
     <string name="settings_replay_intro">إعادة المقدمة</string>
     <string name="settings_replay_intro_sub">شاهد جولة الترحيب مرة أخرى</string>
+    <string name="diag_consent_not_run">فحص الموافقة: لم يُجرَ بعد</string>
+    <string name="diag_consent_ok">فحص الموافقة: ناجح</string>
+    <string name="diag_consent_failed">فشل فحص الموافقة: %1$s</string>
     <plurals name="picker_selected">
         <item quantity="zero">لم يتم اختيار أي تطبيق</item>
         <item quantity="one">تم اختيار تطبيق واحد</item>

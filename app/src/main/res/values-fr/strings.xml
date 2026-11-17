@@ -274,6 +274,9 @@
     <string name="onboarding_done">Terminé</string>
     <string name="settings_replay_intro">Revoir l’introduction</string>
     <string name="settings_replay_intro_sub">Revoir la visite de bienvenue</string>
+    <string name="diag_consent_not_run">Vérification du consentement : pas encore effectuée</string>
+    <string name="diag_consent_ok">Vérification du consentement : OK</string>
+    <string name="diag_consent_failed">Échec de la vérification du consentement : %1$s</string>
     <plurals name="picker_selected">
         <item quantity="one">%d appli sélectionnée</item>
         <item quantity="many">%d d’applis sélectionnées</item>

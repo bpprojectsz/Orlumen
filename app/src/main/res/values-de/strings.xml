@@ -274,6 +274,9 @@
     <string name="onboarding_done">Fertig</string>
     <string name="settings_replay_intro">Intro wiederholen</string>
     <string name="settings_replay_intro_sub">Die Willkommenstour noch einmal ansehen</string>
+    <string name="diag_consent_not_run">Einwilligungsprüfung: noch nicht ausgeführt</string>
+    <string name="diag_consent_ok">Einwilligungsprüfung: OK</string>
+    <string name="diag_consent_failed">Einwilligungsprüfung fehlgeschlagen: %1$s</string>
     <plurals name="picker_selected">
         <item quantity="one">%d App ausgewählt</item>
         <item quantity="other">%d Apps ausgewählt</item>

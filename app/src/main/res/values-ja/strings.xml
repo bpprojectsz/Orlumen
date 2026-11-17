@@ -274,6 +274,9 @@
     <string name="onboarding_done">完了</string>
     <string name="settings_replay_intro">イントロをもう一度見る</string>
     <string name="settings_replay_intro_sub">ウェルカムツアーをもう一度表示します</string>
+    <string name="diag_consent_not_run">同意の確認: まだ実行されていません</string>
+    <string name="diag_consent_ok">同意の確認: 正常</string>
+    <string name="diag_consent_failed">同意の確認に失敗しました: %1$s</string>
     <plurals name="picker_selected">
         <item quantity="other">%d 個のアプリを選択中</item>
     </plurals>

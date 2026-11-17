@@ -19,6 +19,20 @@ enum class ConsentStatus {
     OBTAINED
 }
 
+/** The result of the most recent consent check, shown on the Diagnostics screen. */
+sealed interface ConsentCheck {
+    data object NotRun : ConsentCheck
+
+    data object Succeeded : ConsentCheck
+
+    data class Failed(val message: String) : ConsentCheck
+}
+
+internal fun consentCheckOf(failed: Boolean, message: String?): ConsentCheck = when {
+    !failed -> ConsentCheck.Succeeded
+    else -> ConsentCheck.Failed(message?.takeIf { it.isNotBlank() } ?: "unknown error")
+}
+
 data class ConsentSnapshot(val status: ConsentStatus, val canRequestAds: Boolean, val privacyOptionsRequired: Boolean) {
     companion object {
         val initial = ConsentSnapshot(ConsentStatus.UNKNOWN, false, false)
@@ -37,6 +51,8 @@ class ConsentManager @Inject constructor(@ApplicationContext context: Context) {
     private val consentInformation = UserMessagingPlatform.getConsentInformation(context)
     private val _snapshot = MutableStateFlow(readSnapshot())
     val snapshot: StateFlow<ConsentSnapshot> = _snapshot.asStateFlow()
+    private val _lastCheck = MutableStateFlow<ConsentCheck>(ConsentCheck.NotRun)
+    val lastCheck: StateFlow<ConsentCheck> = _lastCheck.asStateFlow()
 
     /** Refreshes consent info and shows the form when the user's region requires it. */
     fun gatherConsent(activity: Activity, onFinished: (errorMessage: String?) -> Unit) {
@@ -46,11 +62,13 @@ class ConsentManager @Inject constructor(@ApplicationContext context: Context) {
             {
                 UserMessagingPlatform.loadAndShowConsentFormIfRequired(activity) { formError ->
                     refresh()
+                    _lastCheck.value = consentCheckOf(formError != null, formError?.message)
                     onFinished(formError?.message)
                 }
             },
             { requestError ->
                 refresh()
+                _lastCheck.value = consentCheckOf(true, requestError.message)
                 onFinished(requestError.message)
             }
         )

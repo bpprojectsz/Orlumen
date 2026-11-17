@@ -274,6 +274,9 @@
     <string name="onboarding_done">סיום</string>
     <string name="settings_replay_intro">הצגת ההקדמה שוב</string>
     <string name="settings_replay_intro_sub">לצפות שוב בסיור הפתיחה</string>
+    <string name="diag_consent_not_run">בדיקת הסכמה: טרם בוצעה</string>
+    <string name="diag_consent_ok">בדיקת הסכמה: תקינה</string>
+    <string name="diag_consent_failed">בדיקת ההסכמה נכשלה: %1$s</string>
     <plurals name="picker_selected">
         <item quantity="one">אפליקציה אחת נבחרה</item>
         <item quantity="two">נבחרו שתי אפליקציות</item>

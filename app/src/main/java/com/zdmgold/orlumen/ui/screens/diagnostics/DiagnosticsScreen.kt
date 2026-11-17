@@ -39,6 +39,7 @@ import com.zdmgold.orlumen.core.model.PermissionKind
 import com.zdmgold.orlumen.core.theme.OrlumenTheme
 import com.zdmgold.orlumen.core.theme.Radius
 import com.zdmgold.orlumen.core.theme.Spacing
+import com.zdmgold.orlumen.core.viewmodel.ConsentViewModel
 import com.zdmgold.orlumen.core.viewmodel.DiagnosticHint
 import com.zdmgold.orlumen.core.viewmodel.DiagnosticsUiState
 import com.zdmgold.orlumen.core.viewmodel.DiagnosticsViewModel
@@ -47,6 +48,7 @@ import com.zdmgold.orlumen.core.viewmodel.isGranted
 import com.zdmgold.orlumen.core.viewmodel.requiredMissing
 import com.zdmgold.orlumen.platform.aod.AodActivity
 import com.zdmgold.orlumen.platform.audio.SpectrumSourceKind
+import com.zdmgold.orlumen.platform.compliance.ConsentCheck
 import com.zdmgold.orlumen.platform.overlay.RuntimeFailure
 import com.zdmgold.orlumen.platform.overlay.RuntimeState
 import com.zdmgold.orlumen.ui.components.AppCard
@@ -312,8 +314,9 @@ private fun permissionSubtitle(kind: PermissionKind, granted: Boolean): String {
 }
 
 @Composable
-private fun AdsDiagnostics(main: MainViewModel) {
+private fun AdsDiagnostics(main: MainViewModel, consent: ConsentViewModel = hiltViewModel()) {
     val mainState by main.uiState.collectAsStateWithLifecycle()
+    val consentCheck by consent.lastCheck.collectAsStateWithLifecycle()
     val ads by main.adAdapter.status.collectAsStateWithLifecycle()
     SectionHeader(text = stringResource(R.string.diag_section_ads))
     AppCard {
@@ -324,6 +327,15 @@ private fun AdsDiagnostics(main: MainViewModel) {
                 ),
                 style = OrlumenTheme.typography.body,
                 color = OrlumenTheme.colors.textPrimary
+            )
+            Text(
+                text = when (val check = consentCheck) {
+                    ConsentCheck.NotRun -> stringResource(R.string.diag_consent_not_run)
+                    ConsentCheck.Succeeded -> stringResource(R.string.diag_consent_ok)
+                    is ConsentCheck.Failed -> stringResource(R.string.diag_consent_failed, check.message)
+                },
+                style = OrlumenTheme.typography.caption,
+                color = OrlumenTheme.colors.textSecondary
             )
             Text(
                 text = stringResource(R.string.diag_ads_banner, ads.banner),

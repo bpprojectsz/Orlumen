@@ -1,6 +1,7 @@
 package com.zdmgold.orlumen.core.repository
 
 import android.app.Activity
+import com.zdmgold.orlumen.platform.compliance.ConsentCheck
 import com.zdmgold.orlumen.platform.compliance.ConsentManager
 import com.zdmgold.orlumen.platform.compliance.ConsentSnapshot
 import javax.inject.Inject
@@ -12,6 +13,7 @@ fun adsAllowed(isPro: Boolean, consent: ConsentSnapshot): Boolean = !isPro && co
 @Singleton
 class ConsentRepository @Inject constructor(private val manager: ConsentManager) {
     val consent: StateFlow<ConsentSnapshot> = manager.snapshot
+    val lastCheck: StateFlow<ConsentCheck> = manager.lastCheck
 
     fun gatherConsent(activity: Activity, onFinished: (errorMessage: String?) -> Unit) {
         manager.gatherConsent(activity, onFinished)

@@ -274,6 +274,9 @@
     <string name="onboarding_done">Concluir</string>
     <string name="settings_replay_intro">Repetir introdução</string>
     <string name="settings_replay_intro_sub">Ver o tour de boas-vindas de novo</string>
+    <string name="diag_consent_not_run">Verificação de consentimento: ainda não executada</string>
+    <string name="diag_consent_ok">Verificação de consentimento: OK</string>
+    <string name="diag_consent_failed">A verificação de consentimento falhou: %1$s</string>
     <plurals name="picker_selected">
         <item quantity="one">%d app selecionado</item>
         <item quantity="many">%d de apps selecionados</item>

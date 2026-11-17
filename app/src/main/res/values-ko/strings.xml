@@ -274,6 +274,9 @@
     <string name="onboarding_done">완료</string>
     <string name="settings_replay_intro">소개 다시 보기</string>
     <string name="settings_replay_intro_sub">시작 안내를 다시 봅니다</string>
+    <string name="diag_consent_not_run">동의 확인: 아직 실행되지 않음</string>
+    <string name="diag_consent_ok">동의 확인: 정상</string>
+    <string name="diag_consent_failed">동의 확인 실패: %1$s</string>
     <plurals name="picker_selected">
         <item quantity="other">앱 %d개 선택됨</item>
     </plurals>

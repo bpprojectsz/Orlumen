@@ -274,6 +274,9 @@
     <string name="onboarding_done">हो गया</string>
     <string name="settings_replay_intro">परिचय फिर देखें</string>
     <string name="settings_replay_intro_sub">स्वागत टूर दोबारा देखें</string>
+    <string name="diag_consent_not_run">सहमति जाँच: अभी नहीं हुई</string>
+    <string name="diag_consent_ok">सहमति जाँच: ठीक</string>
+    <string name="diag_consent_failed">सहमति जाँच विफल: %1$s</string>
     <plurals name="picker_selected">
         <item quantity="one">%d ऐप चुना गया</item>
         <item quantity="other">%d ऐप्स चुने गए</item>

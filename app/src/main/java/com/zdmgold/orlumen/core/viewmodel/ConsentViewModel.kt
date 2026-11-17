@@ -6,6 +6,7 @@ import androidx.lifecycle.viewModelScope
 import com.zdmgold.orlumen.core.repository.ConsentRepository
 import com.zdmgold.orlumen.core.repository.EntitlementRepository
 import com.zdmgold.orlumen.core.repository.adsAllowed
+import com.zdmgold.orlumen.platform.compliance.ConsentCheck
 import com.zdmgold.orlumen.platform.compliance.ConsentSnapshot
 import com.zdmgold.orlumen.platform.monetization.AdAdapter
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -24,6 +25,7 @@ class ConsentViewModel @Inject constructor(
     private val adAdapter: AdAdapter
 ) : ViewModel() {
     val consent: StateFlow<ConsentSnapshot> = consentRepository.consent
+    val lastCheck: StateFlow<ConsentCheck> = consentRepository.lastCheck
 
     /** True when ads may be shown: consent allows requests and the user has not bought Pro. */
     val showAds: StateFlow<Boolean> = combine(entitlementRepository.isPro, consentRepository.consent) {
