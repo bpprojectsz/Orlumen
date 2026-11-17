@@ -269,6 +269,11 @@
     <string name="home_premium">प्रीमियम</string>
     <string name="home_premium_sub">विज्ञापन-मुक्त हों</string>
     <string name="home_premium_owned">विज्ञापन-मुक्त ✓</string>
+    <string name="onboarding_title_clock">हर मूड के लिए एक घड़ी</string>
+    <string name="onboarding_body_clock">अपनी ऑलवेज़-ऑन स्क्रीन के लिए घड़ी चुनें, एनालॉग से फ्लिप कार्ड और लाइव चाँद तक।</string>
+    <string name="onboarding_done">हो गया</string>
+    <string name="settings_replay_intro">परिचय फिर देखें</string>
+    <string name="settings_replay_intro_sub">स्वागत टूर दोबारा देखें</string>
     <plurals name="picker_selected">
         <item quantity="one">%d ऐप चुना गया</item>
         <item quantity="other">%d ऐप्स चुने गए</item>

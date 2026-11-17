@@ -269,6 +269,11 @@
     <string name="home_premium">Premium</string>
     <string name="home_premium_sub">Sans publicités</string>
     <string name="home_premium_owned">Sans pub ✓</string>
+    <string name="onboarding_title_clock">Une horloge pour chaque humeur</string>
+    <string name="onboarding_body_clock">Choisissez un cadran pour votre écran toujours allumé, de l’analogique aux cartes à retourner et à la lune en direct.</string>
+    <string name="onboarding_done">Terminé</string>
+    <string name="settings_replay_intro">Revoir l’introduction</string>
+    <string name="settings_replay_intro_sub">Revoir la visite de bienvenue</string>
     <plurals name="picker_selected">
         <item quantity="one">%d appli sélectionnée</item>
         <item quantity="many">%d d’applis sélectionnées</item>

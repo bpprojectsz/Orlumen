@@ -311,6 +311,11 @@
     <string name="home_premium">Premium</string>
     <string name="home_premium_sub">Go ad-free</string>
     <string name="home_premium_owned">Ad-free ✓</string>
+    <string name="onboarding_title_clock">A clock for every mood</string>
+    <string name="onboarding_body_clock">Choose a clock face for your always-on screen, from analog to flip cards to the live moon.</string>
+    <string name="onboarding_done">Done</string>
+    <string name="settings_replay_intro">Replay intro</string>
+    <string name="settings_replay_intro_sub">See the welcome tour again</string>
     <plurals name="picker_selected">
         <item quantity="one">%d app selected</item>
         <item quantity="other">%d apps selected</item>

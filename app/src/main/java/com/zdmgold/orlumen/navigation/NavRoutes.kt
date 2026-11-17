@@ -3,6 +3,7 @@ package com.zdmgold.orlumen.navigation
 object NavRoutes {
     const val ARG_DESIGN_ID = "designId"
     const val ONBOARDING = "onboarding"
+    const val ONBOARDING_REPLAY = "onboarding_replay"
     const val PERMISSIONS = "permissions"
     const val HOME = "home"
     const val DIAGNOSTICS = "diagnostics"

@@ -17,6 +17,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.remember
@@ -30,17 +31,25 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.zdmgold.orlumen.R
 import com.zdmgold.orlumen.core.model.AodConfig
+import com.zdmgold.orlumen.core.model.ColorPalette
 import com.zdmgold.orlumen.core.model.StockPalettes
 import com.zdmgold.orlumen.core.model.VisualizerConfig
 import com.zdmgold.orlumen.core.theme.OrlumenTheme
 import com.zdmgold.orlumen.core.theme.Spacing
+import com.zdmgold.orlumen.designs.aod.AodRegistry
+import com.zdmgold.orlumen.designs.visualizer.VisualizerRegistry
 import com.zdmgold.orlumen.ui.components.AodPreviewCanvas
 import com.zdmgold.orlumen.ui.components.AppPrimaryButton
 import com.zdmgold.orlumen.ui.components.IconWrapper
+import com.zdmgold.orlumen.ui.components.PaletteSwatch
 import com.zdmgold.orlumen.ui.components.VisualizerPreviewCanvas
 import com.zdmgold.orlumen.ui.components.iconLock
+import kotlinx.coroutines.delay
 
+private const val CYCLE_MS = 2200L
+private const val COLORS_PREVIEW_SCALE = 0.7f
 private val previewWidth = 180.dp
+private val swatchDot = 22.dp
 private val dotSize = 8.dp
 
 internal class OnboardingPage(
@@ -50,38 +59,98 @@ internal class OnboardingPage(
 )
 
 internal val onboardingPages = listOf(
-    OnboardingPage(R.string.onboarding_title_1, R.string.onboarding_body_1) {
-        val palette = StockPalettes.all.first()
-        VisualizerPreviewCanvas(
-            config = VisualizerConfig.defaults(),
-            colors = palette.colorsArgb.map { Color(it) },
-            modifier = Modifier.width(previewWidth)
-        )
-    },
-    OnboardingPage(R.string.onboarding_title_2, R.string.onboarding_body_2) {
-        AodPreviewCanvas(
-            config = AodConfig.defaults(),
-            colors = StockPalettes.all.first().colorsArgb,
-            use24Hour = true,
-            modifier = Modifier.width(previewWidth)
-        )
-    },
-    OnboardingPage(R.string.onboarding_title_3, R.string.onboarding_body_3) {
-        IconWrapper(
-            imageVector = iconLock,
-            contentDescription = null,
-            size = previewWidth / 2,
-            tint = StockPalettes.all.first().colorsArgb.first().let { Color(it) }
-        )
-    }
+    OnboardingPage(R.string.onboarding_title_1, R.string.onboarding_body_1) { EdgeLightsVisual() },
+    OnboardingPage(R.string.onboarding_title_clock, R.string.onboarding_body_clock) { ClocksVisual() },
+    OnboardingPage(R.string.onboarding_title_2, R.string.onboarding_body_2) { ColorsVisual() },
+    OnboardingPage(R.string.onboarding_title_3, R.string.onboarding_body_3) { PrivacyVisual() }
 )
 
 @Composable
-fun OnboardingScreen(onFinished: () -> Unit, modifier: Modifier = Modifier) {
+private fun <T> rememberCycling(items: List<T>): T {
+    var index by remember { mutableIntStateOf(0) }
+    LaunchedEffect(items.size) {
+        while (true) {
+            delay(CYCLE_MS)
+            index = (index + 1) % items.size
+        }
+    }
+    return items[index]
+}
+
+@Composable
+private fun CaptionedPreview(label: String, preview: @Composable () -> Unit) {
+    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+        preview()
+        Spacer(modifier = Modifier.height(Spacing.sm))
+        Text(text = label.uppercase(), style = OrlumenTheme.typography.caption, color = OrlumenTheme.colors.accent)
+    }
+}
+
+@Composable
+private fun EdgeLightsVisual() {
+    val design = rememberCycling(VisualizerRegistry.descriptors)
+    val palette = StockPalettes.all.first()
+    CaptionedPreview(label = stringResource(design.nameRes)) {
+        VisualizerPreviewCanvas(
+            config = VisualizerConfig(designId = design.id, paletteId = palette.id),
+            colors = palette.colorsArgb.map { Color(it) },
+            modifier = Modifier.width(previewWidth)
+        )
+    }
+}
+
+@Composable
+private fun ClocksVisual() {
+    val design = rememberCycling(AodRegistry.descriptors)
+    val palette = StockPalettes.all.first()
+    CaptionedPreview(label = stringResource(design.nameRes)) {
+        AodPreviewCanvas(
+            config = AodConfig(designId = design.id, paletteId = palette.id),
+            colors = palette.colorsArgb,
+            use24Hour = true,
+            modifier = Modifier.width(previewWidth)
+        )
+    }
+}
+
+@Composable
+private fun paletteLabel(palette: ColorPalette): String = palette.nameRes?.let { stringResource(it) } ?: palette.name
+
+@Composable
+private fun ColorsVisual() {
+    val palette = rememberCycling(StockPalettes.all)
+    CaptionedPreview(label = paletteLabel(palette)) {
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.spacedBy(Spacing.md)
+        ) {
+            VisualizerPreviewCanvas(
+                config = VisualizerConfig(designId = VisualizerConfig.defaults().designId, paletteId = palette.id),
+                colors = palette.colorsArgb.map { Color(it) },
+                modifier = Modifier.width(previewWidth * COLORS_PREVIEW_SCALE)
+            )
+            PaletteSwatch(colors = palette.colorsArgb, dotSize = swatchDot)
+        }
+    }
+}
+
+@Composable
+private fun PrivacyVisual() {
+    IconWrapper(
+        imageVector = iconLock,
+        contentDescription = null,
+        size = previewWidth / 2,
+        tint = StockPalettes.all.first().colorsArgb.first().let { Color(it) }
+    )
+}
+
+@Composable
+fun OnboardingScreen(onFinished: () -> Unit, modifier: Modifier = Modifier, replay: Boolean = false) {
     val colors = OrlumenTheme.colors
     var index by remember { mutableIntStateOf(0) }
     val page = onboardingPages[index]
     val isLast = index == onboardingPages.lastIndex
+    val lastLabel = if (replay) R.string.onboarding_done else R.string.onboarding_setup
     Column(
         modifier = modifier
             .fillMaxSize()
@@ -127,7 +196,7 @@ fun OnboardingScreen(onFinished: () -> Unit, modifier: Modifier = Modifier) {
             }
         }
         AppPrimaryButton(
-            text = stringResource(if (isLast) R.string.onboarding_setup else R.string.onboarding_next),
+            text = stringResource(if (isLast) lastLabel else R.string.onboarding_next),
             onClick = { if (isLast) onFinished() else index++ }
         )
     }

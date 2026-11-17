@@ -112,7 +112,7 @@ fun AboutAndLegalScreen(actions: AboutActions, modifier: Modifier = Modifier, on
 
 private fun storeUrl() = PLAY_WEB_URL + BuildConfig.APPLICATION_ID
 
-private fun openStoreListing(context: Context) {
+internal fun openStoreListing(context: Context) {
     val market = Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=${BuildConfig.APPLICATION_ID}"))
     try {
         context.startActivity(market)

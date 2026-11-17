@@ -269,6 +269,11 @@
     <string name="home_premium">高级版</string>
     <string name="home_premium_sub">去除广告</string>
     <string name="home_premium_owned">已无广告 ✓</string>
+    <string name="onboarding_title_clock">适合每种心情的时钟</string>
+    <string name="onboarding_body_clock">为息屏常亮屏幕选择表盘，从指针式到翻页卡片，再到实时月相。</string>
+    <string name="onboarding_done">完成</string>
+    <string name="settings_replay_intro">重看介绍</string>
+    <string name="settings_replay_intro_sub">再次查看欢迎引导</string>
     <plurals name="picker_selected">
         <item quantity="other">已选择 %d 个应用</item>
     </plurals>

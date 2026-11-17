@@ -269,6 +269,11 @@
     <string name="home_premium">프리미엄</string>
     <string name="home_premium_sub">광고 없애기</string>
     <string name="home_premium_owned">광고 없음 ✓</string>
+    <string name="onboarding_title_clock">기분에 맞는 시계</string>
+    <string name="onboarding_body_clock">상시 표시 화면에 쓸 시계 디자인을 고르세요. 아날로그부터 플립 카드, 실시간 달까지.</string>
+    <string name="onboarding_done">완료</string>
+    <string name="settings_replay_intro">소개 다시 보기</string>
+    <string name="settings_replay_intro_sub">시작 안내를 다시 봅니다</string>
     <plurals name="picker_selected">
         <item quantity="other">앱 %d개 선택됨</item>
     </plurals>

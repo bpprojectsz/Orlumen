@@ -38,8 +38,10 @@ import com.zdmgold.orlumen.ui.components.findActivity
 import com.zdmgold.orlumen.ui.components.iconInfo
 import com.zdmgold.orlumen.ui.components.iconLock
 import com.zdmgold.orlumen.ui.components.iconNotifications
+import com.zdmgold.orlumen.ui.components.iconPlay
 import com.zdmgold.orlumen.ui.components.iconStar
 import com.zdmgold.orlumen.ui.components.openLanguageSettings
+import com.zdmgold.orlumen.ui.screens.about.openStoreListing
 
 @Composable
 fun SettingsScreen(
@@ -180,6 +182,21 @@ fun SettingsScreen(
                 subtitle = stringResource(R.string.settings_audio_privacy_sub),
                 leadingIcon = iconInfo,
                 showChevron = false
+            )
+        }
+        SectionHeader(text = stringResource(R.string.app_name))
+        AppCard {
+            AppRow(
+                title = stringResource(R.string.settings_replay_intro),
+                subtitle = stringResource(R.string.settings_replay_intro_sub),
+                leadingIcon = iconPlay,
+                onClick = actions.onReplayIntro
+            )
+            AppRow(
+                title = stringResource(R.string.about_rate),
+                subtitle = stringResource(R.string.about_rate_sub),
+                leadingIcon = iconStar,
+                onClick = { openStoreListing(context) }
             )
         }
         Spacer(modifier = Modifier.height(Spacing.xl))

@@ -269,6 +269,11 @@
     <string name="home_premium">פרימיום</string>
     <string name="home_premium_sub">ללא פרסומות</string>
     <string name="home_premium_owned">ללא פרסומות ✓</string>
+    <string name="onboarding_title_clock">שעון לכל מצב רוח</string>
+    <string name="onboarding_body_clock">בחרו לוח שעון למסך התצוגה התמידית, מאנלוגי ועד כרטיסים מתהפכים וירח חי.</string>
+    <string name="onboarding_done">סיום</string>
+    <string name="settings_replay_intro">הצגת ההקדמה שוב</string>
+    <string name="settings_replay_intro_sub">לצפות שוב בסיור הפתיחה</string>
     <plurals name="picker_selected">
         <item quantity="one">אפליקציה אחת נבחרה</item>
         <item quantity="two">נבחרו שתי אפליקציות</item>

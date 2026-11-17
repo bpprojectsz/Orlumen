@@ -269,6 +269,11 @@
     <string name="home_premium">Premium</string>
     <string name="home_premium_sub">Werbefrei werden</string>
     <string name="home_premium_owned">Werbefrei ✓</string>
+    <string name="onboarding_title_clock">Eine Uhr für jede Stimmung</string>
+    <string name="onboarding_body_clock">Zifferblatt für das Always-on-Display wählen, von analog über Flip-Karten bis zum Live-Mond.</string>
+    <string name="onboarding_done">Fertig</string>
+    <string name="settings_replay_intro">Intro wiederholen</string>
+    <string name="settings_replay_intro_sub">Die Willkommenstour noch einmal ansehen</string>
     <plurals name="picker_selected">
         <item quantity="one">%d App ausgewählt</item>
         <item quantity="other">%d Apps ausgewählt</item>

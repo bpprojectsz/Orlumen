@@ -269,6 +269,11 @@
     <string name="home_premium">プレミアム</string>
     <string name="home_premium_sub">広告なしにする</string>
     <string name="home_premium_owned">広告なし ✓</string>
+    <string name="onboarding_title_clock">気分に合わせた時計</string>
+    <string name="onboarding_body_clock">常時表示の画面に合う文字盤を選べます。アナログからフリップカード、リアルタイムの月まで。</string>
+    <string name="onboarding_done">完了</string>
+    <string name="settings_replay_intro">イントロをもう一度見る</string>
+    <string name="settings_replay_intro_sub">ウェルカムツアーをもう一度表示します</string>
     <plurals name="picker_selected">
         <item quantity="other">%d 個のアプリを選択中</item>
     </plurals>

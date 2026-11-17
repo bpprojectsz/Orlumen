@@ -4,5 +4,6 @@ class SettingsActions(
     val onOpenVisualizerApps: () -> Unit,
     val onOpenMusicSources: () -> Unit,
     val onOpenConsent: () -> Unit,
-    val onOpenPaywall: () -> Unit
+    val onOpenPaywall: () -> Unit,
+    val onReplayIntro: () -> Unit
 )

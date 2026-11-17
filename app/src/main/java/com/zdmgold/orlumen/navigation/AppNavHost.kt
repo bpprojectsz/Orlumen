@@ -160,6 +160,9 @@ private fun NavGraphBuilder.designDestinations(navController: NavHostController)
 }
 
 private fun NavGraphBuilder.settingsDestinations(navController: NavHostController) {
+    composable(NavRoutes.ONBOARDING_REPLAY) {
+        OnboardingScreen(onFinished = { navController.popBackStack() }, replay = true)
+    }
     composable(NavRoutes.SETTINGS) {
         SettingsScreen(
             onBack = { navController.popBackStack() },
@@ -171,7 +174,8 @@ private fun NavGraphBuilder.settingsDestinations(navController: NavHostControlle
                     navController.navigate(NavRoutes.appPicker(AppPickerTarget.MUSIC_SOURCES.name))
                 },
                 onOpenConsent = { navController.navigate(NavRoutes.CONSENT) },
-                onOpenPaywall = { navController.navigate(NavRoutes.PAYWALL) }
+                onOpenPaywall = { navController.navigate(NavRoutes.PAYWALL) },
+                onReplayIntro = { navController.navigate(NavRoutes.ONBOARDING_REPLAY) }
             )
         )
     }

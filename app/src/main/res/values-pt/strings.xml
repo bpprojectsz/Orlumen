@@ -269,6 +269,11 @@
     <string name="home_premium">Premium</string>
     <string name="home_premium_sub">Sem anúncios</string>
     <string name="home_premium_owned">Sem anúncios ✓</string>
+    <string name="onboarding_title_clock">Um relógio para cada humor</string>
+    <string name="onboarding_body_clock">Escolha um mostrador para a tela sempre ativa, do analógico aos cartões giratórios e à lua em tempo real.</string>
+    <string name="onboarding_done">Concluir</string>
+    <string name="settings_replay_intro">Repetir introdução</string>
+    <string name="settings_replay_intro_sub">Ver o tour de boas-vindas de novo</string>
     <plurals name="picker_selected">
         <item quantity="one">%d app selecionado</item>
         <item quantity="many">%d de apps selecionados</item>

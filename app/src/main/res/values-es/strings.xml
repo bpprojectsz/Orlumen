@@ -269,6 +269,11 @@
     <string name="home_premium">Premium</string>
     <string name="home_premium_sub">Sin anuncios</string>
     <string name="home_premium_owned">Sin anuncios ✓</string>
+    <string name="onboarding_title_clock">Un reloj para cada ánimo</string>
+    <string name="onboarding_body_clock">Elige una esfera para tu pantalla siempre activa, desde analógica hasta tarjetas giratorias y la luna en vivo.</string>
+    <string name="onboarding_done">Listo</string>
+    <string name="settings_replay_intro">Repetir introducción</string>
+    <string name="settings_replay_intro_sub">Ver de nuevo el recorrido de bienvenida</string>
     <plurals name="picker_selected">
         <item quantity="one">%d app seleccionada</item>
         <item quantity="other">%d apps seleccionadas</item>

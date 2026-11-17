@@ -269,6 +269,11 @@
     <string name="home_premium">بريميوم</string>
     <string name="home_premium_sub">بدون إعلانات</string>
     <string name="home_premium_owned">بلا إعلانات ✓</string>
+    <string name="onboarding_title_clock">ساعة لكل مزاج</string>
+    <string name="onboarding_body_clock">اختر وجه ساعة لشاشة العرض الدائم، من التناظرية إلى البطاقات القلابة والقمر المباشر.</string>
+    <string name="onboarding_done">تم</string>
+    <string name="settings_replay_intro">إعادة المقدمة</string>
+    <string name="settings_replay_intro_sub">شاهد جولة الترحيب مرة أخرى</string>
     <plurals name="picker_selected">
         <item quantity="zero">لم يتم اختيار أي تطبيق</item>
         <item quantity="one">تم اختيار تطبيق واحد</item>
