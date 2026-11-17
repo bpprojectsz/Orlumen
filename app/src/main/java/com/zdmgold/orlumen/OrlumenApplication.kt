@@ -4,12 +4,17 @@ import android.app.Application
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import com.zdmgold.orlumen.core.error.GlobalExceptionHandler
+import com.zdmgold.orlumen.platform.overlay.SessionTracker
 import dagger.hilt.android.HiltAndroidApp
+import javax.inject.Inject
 
 @HiltAndroidApp
 class OrlumenApplication : Application() {
+    @Inject lateinit var sessionTracker: SessionTracker
+
     override fun onCreate() {
         super.onCreate()
+        sessionTracker.start()
         GlobalExceptionHandler.install(this)
         createNotificationChannels()
     }

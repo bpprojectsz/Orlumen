@@ -56,6 +56,7 @@ import com.zdmgold.orlumen.core.viewmodel.AodViewModel
 import com.zdmgold.orlumen.core.viewmodel.ConsentViewModel
 import com.zdmgold.orlumen.core.viewmodel.DiagnosticsViewModel
 import com.zdmgold.orlumen.core.viewmodel.MainViewModel
+import com.zdmgold.orlumen.core.viewmodel.ReviewViewModel
 import com.zdmgold.orlumen.core.viewmodel.SettingsViewModel
 import com.zdmgold.orlumen.core.viewmodel.VisualizerViewModel
 import com.zdmgold.orlumen.core.viewmodel.requiredMissing
@@ -104,6 +105,8 @@ fun HomeScreen(
     val main: MainViewModel = hiltViewModel(viewModelStoreOwner = activity)
     val consent: ConsentViewModel = hiltViewModel(viewModelStoreOwner = activity)
     LaunchedEffect(Unit) { consent.gatherConsent(activity) }
+    val review: ReviewViewModel = hiltViewModel(viewModelStoreOwner = activity)
+    LaunchedEffect(Unit) { review.checkOnHomeOpen(activity) }
     val state by viewModel.uiState.collectAsStateWithLifecycle()
     val mainState by main.uiState.collectAsStateWithLifecycle()
     val settings: SettingsViewModel = hiltViewModel()

@@ -77,4 +77,24 @@ class PreferencesRepositoryTest {
     fun emptyAdHistoryIsEmpty() = runTest(UnconfinedTestDispatcher()) {
         assertEquals(emptyList<Long>(), repository(this).interstitialHistory.first())
     }
+
+    @Test
+    fun reviewProgressIsStoredAndKeepsOtherSettings() = runTest(UnconfinedTestDispatcher()) {
+        val repo = repository(this)
+        repo.setThemeMode(ThemeMode.DARK)
+        repo.recordQualifyingSession(20_000L)
+        repo.recordQualifyingSession(20_001L)
+        repo.recordReviewAttempt(1_700_000_000_000L)
+        val progress = repo.reviewProgress.first()
+        assertEquals(2, progress.sessions)
+        assertEquals(setOf(20_000L, 20_001L), progress.sessionDays)
+        assertEquals(1, progress.attempts)
+        assertEquals(1_700_000_000_000L, progress.lastAttemptMillis)
+        assertEquals(ThemeMode.DARK, repo.preferences.first().themeMode)
+    }
+
+    @Test
+    fun noReviewProgressToStartWith() = runTest(UnconfinedTestDispatcher()) {
+        assertEquals(com.zdmgold.orlumen.core.model.ReviewProgress(), repository(this).reviewProgress.first())
+    }
 }

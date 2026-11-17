@@ -89,6 +89,7 @@ android {
 
 dependencies {
     implementation(libs.android.billing)
+    implementation(libs.google.play.review)
     implementation(libs.android.ump)
     implementation(libs.google.play.services.ads)
     implementation(libs.androidx.activity.compose)

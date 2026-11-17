@@ -10,9 +10,14 @@ import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.datastore.preferences.core.stringSetPreferencesKey
 import com.zdmgold.orlumen.core.model.AodHostMode
 import com.zdmgold.orlumen.core.model.AudioSourceMode
+import com.zdmgold.orlumen.core.model.ReviewProgress
 import com.zdmgold.orlumen.core.model.ThemeMode
 import com.zdmgold.orlumen.core.model.UserPreferences
 import com.zdmgold.orlumen.core.model.withInterstitialShown
+import import androidx.datastore.preferences.core.intPreferencesKey
+import import androidx.datastore.preferences.core.longPreferencesKey
+import import com.zdmgold.orlumen.core.model.withQualifyingSession
+import import com.zdmgold.orlumen.core.model.withReviewAttempt
 import java.io.IOException
 import javax.inject.Inject
 import javax.inject.Singleton
@@ -39,6 +44,10 @@ private object Keys {
     val visualizerAppPackages = stringSetPreferencesKey("visualizer_app_packages")
     val musicSourcePackages = stringSetPreferencesKey("music_source_packages")
     val interstitialHistory = stringPreferencesKey("interstitial_history")
+    val reviewSessions = intPreferencesKey("review_sessions")
+    val reviewDays = stringPreferencesKey("review_days")
+    val reviewAttempts = intPreferencesKey("review_attempts")
+    val reviewLastAttempt = longPreferencesKey("review_last_attempt")
 }
 
 @Singleton
@@ -63,6 +72,25 @@ class PreferencesRepository @Inject constructor(private val dataStore: DataStore
         }
     }
 
+    /** How far along the review prompt rules are. Unreadable stored values count as no progress. */
+    val reviewProgress: Flow<ReviewProgress> = dataStore.data
+        .catch { failure ->
+            if (failure is IOException) emit(emptyPreferences()) else throw failure
+        }
+        .map { it.toReviewProgress() }
+
+    suspend fun recordQualifyingSession(epochDay: Long) {
+        dataStore.edit { stored ->
+            stored.writeReviewProgress(withQualifyingSession(stored.toReviewProgress(), epochDay))
+        }
+    }
+
+    suspend fun recordReviewAttempt(nowMillis: Long) {
+        dataStore.edit { stored ->
+            stored.writeReviewProgress(withReviewAttempt(stored.toReviewProgress(), nowMillis))
+        }
+    }
+
     suspend fun update(transform: (UserPreferences) -> UserPreferences) {
         dataStore.edit { stored -> stored.write(transform(stored.toUserPreferences())) }
     }
@@ -82,6 +110,20 @@ class PreferencesRepository @Inject constructor(private val dataStore: DataStore
 
 private fun parseTimes(stored: String?): List<Long> =
     stored?.split(",")?.mapNotNull { it.trim().toLongOrNull() }.orEmpty()
+
+private fun Preferences.toReviewProgress() = ReviewProgress(
+    sessions = this[Keys.reviewSessions] ?: 0,
+    sessionDays = parseTimes(this[Keys.reviewDays]).toSet(),
+    attempts = this[Keys.reviewAttempts] ?: 0,
+    lastAttemptMillis = this[Keys.reviewLastAttempt] ?: 0L
+)
+
+private fun MutablePreferences.writeReviewProgress(progress: ReviewProgress) {
+    this[Keys.reviewSessions] = progress.sessions
+    this[Keys.reviewDays] = progress.sessionDays.sorted().joinToString(",")
+    this[Keys.reviewAttempts] = progress.attempts
+    this[Keys.reviewLastAttempt] = progress.lastAttemptMillis
+}
 
 private fun Preferences.toUserPreferences(): UserPreferences {
     val defaults = UserPreferences()
