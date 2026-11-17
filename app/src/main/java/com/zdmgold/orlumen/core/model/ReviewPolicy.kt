@@ -33,9 +33,10 @@ fun shouldRequestReview(progress: ReviewProgress, installedAtMillis: Long, nowMi
         nowMillis - installedAtMillis >= REVIEW_MIN_INSTALL_DAYS * MILLIS_PER_DAY
     val usedEnough = progress.sessions >= REVIEW_MIN_SESSIONS && progress.sessionDays.size >= REVIEW_MIN_DAYS
     val attemptsLeft = progress.attempts < REVIEW_MAX_ATTEMPTS
-    val spacedOut = progress.attempts == 0 ||
-        (progress.lastAttemptMillis in 1..nowMillis &&
-            nowMillis - progress.lastAttemptMillis >= REVIEW_RETRY_GAP_DAYS * MILLIS_PER_DAY)
+    val sinceLastAttempt = nowMillis - progress.lastAttemptMillis
+    val retryAllowed = progress.lastAttemptMillis in 1..nowMillis &&
+        sinceLastAttempt >= REVIEW_RETRY_GAP_DAYS * MILLIS_PER_DAY
+    val spacedOut = progress.attempts == 0 || retryAllowed
     return installedLongEnough && usedEnough && attemptsLeft && spacedOut
 }
 
