@@ -7,6 +7,9 @@ import sys
 import time
 import xml.etree.ElementTree as ET
 
+# Nodes centred above this line are in the status bar or scrolled almost off the screen, so they are not tapped.
+MIN_TAP_Y = 130
+
 BOUNDS = re.compile(r"\[(\d+),(\d+)\]\[(\d+),(\d+)\]")
 
 
@@ -48,7 +51,7 @@ def find(xml, needle, exact=False):
         if not matches:
             continue
         point = center(node)
-        if point is None:
+        if point is None or point[1] < MIN_TAP_Y:
             continue
         if node.get("clickable") == "true":
             return point
