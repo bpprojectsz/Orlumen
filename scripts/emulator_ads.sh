@@ -19,10 +19,11 @@ shot() {
 }
 fresh() { adb shell am start -S -n "$PKG/.MainActivity" > /dev/null; sleep 4; }
 on_home() { python3 scripts/emu_ui.py has "Show a clock when the screen turns off" > /dev/null; }
+# Back out of screens and ads; if Back cannot reach Home, restart the app (the ad history is stored on disk).
 to_home() {
-  for _ in 1 2 3 4 5 6; do
+  for i in 1 2 3 4 5 6; do
     on_home && return 0
-    adb shell input keyevent KEYCODE_BACK; sleep 2
+    if [ "$i" -le 3 ]; then adb shell input keyevent KEYCODE_BACK; sleep 2; else fresh; fi
   done
   log "could not get back to Home"
 }
@@ -35,6 +36,7 @@ adb shell settings put global hide_error_dialogs 1
 adb shell settings put global window_animation_scale 0
 adb shell settings put global transition_animation_scale 0
 adb shell settings put global animator_duration_scale 0
+adb shell settings put secure immersive_mode_confirmations confirmed
 sleep 45
 adb install -r "$APK" | tee -a "$OUT/flow.log"
 adb shell pm grant "$PKG" android.permission.POST_NOTIFICATIONS
