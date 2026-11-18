@@ -1,0 +1,31 @@
+Performing Streamed Install
+Success
+tapped: Skip at (941, 255)
+[07:09:44] shot 01_home
+[07:09:44] STEP 1: Apply in the edge-light editor (first ad of the run, expected to show)
+tapped near Always-on clock at (201, 1662)
+tapped: Strand at (283, 1324)
+[07:10:10] shot 02_editor_top
+tapped: Apply at (540, 1917)
+[07:10:34] shot 03_apply_ad
+[07:10:41] shot 04_after_apply_ad_back
+[07:11:37] shot 05_home_again
+[07:11:37] STEP 2: save a preset within five minutes of the first ad (expected: no ad)
+tapped near Always-on clock at (201, 1662)
+tapped: Strand at (283, 1634)
+tapped: Preset name at (244, 2147)
+tapped: Save preset at (199, 1740)
+[07:12:37] shot 06_preset_within_five_minutes
+[07:12:37] seconds since the first ad: 123
+[07:13:03] STEP 3: wait until five minutes have passed since the first ad
+[07:15:53] seconds since the first ad: 319
+[07:15:53] STEP 4: save a palette after the wait (expected to show an ad)
+tapped: Colors at (879, 1782)
+tapped: Mine at (318, 321)
+[07:16:18] shot 07_palette_creator
+tapped: Palette name at (249, 612)
+tapped: Save palette at (540, 1772)
+[07:16:43] shot 08_palette_after_wait
+[07:16:48] shot 09_after_palette_ad_back
+[07:17:36] shot 10_home_end
+[07:17:37] done: 10 screenshots
