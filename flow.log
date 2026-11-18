@@ -1,0 +1,22 @@
+Performing Streamed Install
+Success
+tapped: Skip at (941, 255)
+[20:33:34] shot 01_home
+[20:33:34] A: start the lights with the option off, then look at the launcher
+tapped: Start edge lights at (651, 639)
+[20:33:57] shot 02_home_running
+[20:33:58] service A: 3 mentions, foreground: 1
+[20:34:07] shot 03_A_launcher_option_off
+[20:34:07] B: switch the option on while the lights run, then look at the launcher
+tapped: Settings at (988, 216)
+tapped: Keep clear of the status bar at (340, 1446)
+[20:34:45] shot 04_setting_on
+[20:34:45] service B: 3 mentions, foreground: 1
+[20:34:54] shot 05_B_launcher_option_on_live
+[20:34:54] C: restart the lights with the option on
+[20:35:03] shot 06_app_before_restart
+NOT FOUND after scrolling: Stop
+NOT FOUND after scrolling: Start edge lights
+[20:37:37] service C: 3 mentions, foreground: 1
+[20:37:46] shot 07_C_launcher_option_on_restarted
+[20:37:47] done: 7 screenshots
