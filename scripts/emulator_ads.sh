@@ -17,11 +17,19 @@ shot() {
   python3 scripts/emu_ui.py texts > "$OUT/ui/$name.txt" 2>&1
   log "shot $name"
 }
-fresh() { adb shell am start -S -n "$PKG/.MainActivity" > /dev/null; sleep 4; }
+# The slow emulator sometimes shows a "not responding" dialog over everything; dismiss it with Wait.
+clear_anr() {
+  for _ in 1 2 3; do
+    python3 scripts/emu_ui.py has "responding" > /dev/null || return 0
+    python3 scripts/emu_ui.py tap "Wait" > /dev/null; sleep 2
+  done
+}
+fresh() { adb shell am start -S -n "$PKG/.MainActivity" > /dev/null; sleep 4; clear_anr; }
 on_home() { python3 scripts/emu_ui.py has "Show a clock when the screen turns off" > /dev/null; }
 # Back out of screens and ads; if Back cannot reach Home, restart the app (the ad history is stored on disk).
 to_home() {
   for i in 1 2 3 4 5 6; do
+    clear_anr
     on_home && return 0
     if [ "$i" -le 3 ]; then adb shell input keyevent KEYCODE_BACK; sleep 2; else fresh; fi
   done
@@ -41,7 +49,9 @@ sleep 45
 adb install -r "$APK" | tee -a "$OUT/flow.log"
 adb shell pm grant "$PKG" android.permission.POST_NOTIFICATIONS
 fresh
+clear_anr
 ui tap "Skip"; sleep 3
+clear_anr
 shot home
 
 log "STEP 1: Apply in the edge-light editor (first ad of the run, expected to show)"
