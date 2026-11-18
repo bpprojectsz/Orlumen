@@ -34,8 +34,19 @@ class AodActivity : ComponentActivity() {
         window.attributes = window.attributes.apply { screenBrightness = AOD_BRIGHTNESS }
         hideSystemBars()
         screenReceiver.register(this)
-        aodController.setActivityActive(true)
         setContent { AodHostScreen(controller = aodController, onTap = { finish() }) }
+    }
+
+    // The always-on screen counts as active only while it is on screen. Leaving it with Home keeps the activity alive
+    // but stopped, and the edge lights must come back then.
+    override fun onStart() {
+        super.onStart()
+        aodController.setActivityActive(true)
+    }
+
+    override fun onStop() {
+        aodController.setActivityActive(false)
+        super.onStop()
     }
 
     override fun onDestroy() {
