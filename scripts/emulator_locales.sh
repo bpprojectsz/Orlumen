@@ -30,13 +30,13 @@ adb shell pm grant "$PKG" android.permission.POST_NOTIFICATIONS
 fresh
 ui tap "Skip"; sleep 2
 
-for L in ar he de ja; do
+for L in ar he de ja es fr pt hi ko zh; do
   log "LANGUAGE $L"
 
   setlocale en; fresh
   ui scroll-tap-exact "Settings"; sleep 3
   setlocale "$L"
-  shot "${L}_settings_top"; swipe_up; shot "${L}_settings_middle"; swipe_up; shot "${L}_settings_bottom"
+  shot "${L}_settings_top"; swipe_up; swipe_up; shot "${L}_settings_middle"; swipe_up; swipe_up; swipe_up; shot "${L}_settings_bottom"
 
   setlocale en; fresh
   ui tap-near "Always-on clock" -339 -120; sleep 3
@@ -47,12 +47,18 @@ for L in ar he de ja; do
   setlocale en; fresh
   ui scroll-tap "Check audio, permissions"; sleep 3
   setlocale "$L"
-  shot "${L}_diagnostics"
+  shot "${L}_diagnostics"; swipe_up; swipe_up; swipe_up; shot "${L}_diagnostics_ads"
 
   setlocale en; fresh
   setlocale "$L"; sleep 2
   shot "${L}_home"
   swipe_up; shot "${L}_home_bottom"
+
+  # Onboarding in this language: clear the app data so the intro shows again, tap Next at the button's position.
+  setlocale "$L"; adb shell pm clear "$PKG" > /dev/null; fresh
+  shot "${L}_onboarding_1"
+  for page in 2 3 4; do adb shell input tap 540 2206; sleep 2; shot "${L}_onboarding_$page"; done
+  setlocale en; fresh; ui tap "Skip"; sleep 2
 done
 adb logcat -d -v threadtime | grep -a -E 'AndroidRuntime|FATAL EXCEPTION' | tail -n 200 > "$OUT/logcat_app.txt"
 log "done: $count screenshots"

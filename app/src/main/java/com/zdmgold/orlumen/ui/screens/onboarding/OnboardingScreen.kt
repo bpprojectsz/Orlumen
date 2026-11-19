@@ -20,7 +20,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -147,7 +149,7 @@ private fun PrivacyVisual() {
 @Composable
 fun OnboardingScreen(onFinished: () -> Unit, modifier: Modifier = Modifier, replay: Boolean = false) {
     val colors = OrlumenTheme.colors
-    var index by remember { mutableIntStateOf(0) }
+    var index by rememberSaveable { mutableStateOf(0) }
     val page = onboardingPages[index]
     val isLast = index == onboardingPages.lastIndex
     val lastLabel = if (replay) R.string.onboarding_done else R.string.onboarding_setup
