@@ -55,7 +55,8 @@ for L in ar he de ja es fr pt hi ko zh; do
   swipe_up; shot "${L}_home_bottom"
 
   # Onboarding in this language: clear the app data so the intro shows again, tap Next at the button's position.
-  setlocale "$L"; adb shell pm clear "$PKG" > /dev/null; fresh
+  # Clearing the app data also resets the app language, so the language is set afterwards.
+  adb shell pm clear "$PKG" > /dev/null; setlocale "$L"; fresh
   shot "${L}_onboarding_1"
   for page in 2 3 4; do adb shell input tap 540 2206; sleep 2; shot "${L}_onboarding_$page"; done
   setlocale en; fresh; ui tap "Skip"; sleep 2
