@@ -1,0 +1,33 @@
+Diagnóstico
+ESTADO
+Parado
+Permita primeiro as permissões obrigatórias.
+Iniciar luzes de borda
+Iniciar com captura de áudio de apps
+SINAL DE ÁUDIO
+Nível 0%
+A TOCAR
+Nada a tocar
+Permita o acesso às notificações para ver a faixa atual.
+ECRÃ SEMPRE LIGADO
+Ecrã sempre ligado
+Ative o ecrã sempre ligado e depois bloqueie o telemóvel com o botão de ligar.
+O ecrã sempre ligado não está a ser mostrado
+O arranque ao desligar o ecrã ainda não foi acionado
+Abrir já o ecrã sempre ligado
+PERMISSÕES
+Sobrepor a outros apps
+Toque, encontre o Orlumen na lista e ative-o
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+Anúncio de teste

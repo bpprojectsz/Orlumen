@@ -1,0 +1,35 @@
+גובה
+32
+רגישות
+0.50
+החלקה
+0.50
+כיוון
+עם כיוון השעון
+נגד כיוון השעון
+אפשרויות עיצוב
+פיתול
+3.0
+צבעים
+Obsidian violet
+Deep space
+הגדרות שמורות
+אין עדיין הגדרות שמורות
+שם ההגדרה
+שמירת הגדרה
+החלה
+איפוס שינויים
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+OPEN
+מודעת בדיקה

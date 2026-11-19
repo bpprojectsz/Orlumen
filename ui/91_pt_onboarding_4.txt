@@ -1,0 +1,3 @@
+Asked only when needed
+Orlumen only asks for a permission at the moment a feature needs it, and always tells you why first.
+Get started

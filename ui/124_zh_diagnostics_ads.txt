@@ -1,0 +1,35 @@
+常亮屏幕未在显示
+熄屏启动尚未触发
+立即打开常亮屏幕
+权限
+显示在其他应用上层
+点按，然后在列表中找到 Orlumen 并将其打开
+聆听您的音乐
+尚未允许
+查看正在播放的内容
+点按，然后在列表中找到 Orlumen 并将其打开
+了解当前打开的应用
+点按，然后在列表中找到 Orlumen 并将其打开
+显示状态通知
+尚未允许
+保持运行
+点按，然后在列表中找到 Orlumen 并将其打开
+关于 Orlumen
+广告
+此设备允许显示广告
+同意检查：正常
+横幅：Loaded
+插页广告：Ready
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+测试广告

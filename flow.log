@@ -1,0 +1,195 @@
+Performing Streamed Install
+Success
+tapped: Skip at (941, 255)
+[07:45:18] LANGUAGE ar
+dump attempt 1 failed: 
+tapped: Settings at (988, 216)
+[07:46:04] shot 01_ar_settings_top
+[07:46:10] shot 02_ar_settings_middle
+[07:46:17] shot 03_ar_settings_bottom
+tapped near Always-on clock at (201, 1662)
+tapped: Strand at (283, 1515)
+[07:46:59] shot 04_ar_editor_top
+[07:47:07] shot 05_ar_editor_bottom
+tapped: Check audio, permissions at (558, 1828)
+[07:47:45] shot 06_ar_diagnostics
+[07:47:52] shot 07_ar_diagnostics_ads
+[07:48:12] shot 08_ar_home
+[07:48:21] shot 09_ar_home_bottom
+[07:48:35] shot 10_ar_onboarding_1
+[07:48:39] shot 11_ar_onboarding_2
+[07:48:45] shot 12_ar_onboarding_3
+[07:48:49] shot 13_ar_onboarding_4
+tapped: Skip at (941, 255)
+[07:49:07] LANGUAGE he
+tapped: Settings at (988, 216)
+[07:49:38] shot 14_he_settings_top
+[07:49:43] shot 15_he_settings_middle
+[07:49:51] shot 16_he_settings_bottom
+tapped near Always-on clock at (201, 1662)
+tapped: Strand at (283, 1425)
+[07:50:33] shot 17_he_editor_top
+[07:50:41] shot 18_he_editor_bottom
+tapped: Check audio, permissions at (558, 1828)
+[07:51:18] shot 19_he_diagnostics
+[07:51:25] shot 20_he_diagnostics_ads
+[07:51:50] shot 21_he_home
+[07:51:58] shot 22_he_home_bottom
+[07:52:10] shot 23_he_onboarding_1
+[07:52:15] shot 24_he_onboarding_2
+[07:52:20] shot 25_he_onboarding_3
+[07:52:24] shot 26_he_onboarding_4
+tapped: Skip at (941, 255)
+[07:52:42] LANGUAGE de
+tapped: Settings at (988, 216)
+[07:53:15] shot 27_de_settings_top
+[07:53:20] shot 28_de_settings_middle
+[07:53:28] shot 29_de_settings_bottom
+tapped near Always-on clock at (201, 1662)
+tapped: Strand at (283, 1501)
+[07:54:11] shot 30_de_editor_top
+[07:54:19] shot 31_de_editor_bottom
+tapped: Check audio, permissions at (558, 1828)
+[07:55:02] shot 32_de_diagnostics
+[07:55:09] shot 33_de_diagnostics_ads
+[07:55:34] shot 34_de_home
+[07:55:44] shot 35_de_home_bottom
+[07:55:57] shot 36_de_onboarding_1
+[07:56:02] shot 37_de_onboarding_2
+[07:56:08] shot 38_de_onboarding_3
+[07:56:12] shot 39_de_onboarding_4
+tapped: Skip at (941, 255)
+[07:56:30] LANGUAGE ja
+tapped: Settings at (988, 216)
+[07:57:08] shot 40_ja_settings_top
+[07:57:14] shot 41_ja_settings_middle
+[07:57:21] shot 42_ja_settings_bottom
+tapped near Always-on clock at (201, 1662)
+tapped: Strand at (283, 1321)
+[07:58:03] shot 43_ja_editor_top
+[07:58:11] shot 44_ja_editor_bottom
+tapped: Check audio, permissions at (558, 2255)
+[07:58:57] shot 45_ja_diagnostics
+[07:59:04] shot 46_ja_diagnostics_ads
+[07:59:31] shot 47_ja_home
+[07:59:42] shot 48_ja_home_bottom
+[07:59:55] shot 49_ja_onboarding_1
+[07:59:59] shot 50_ja_onboarding_2
+[08:00:05] shot 51_ja_onboarding_3
+[08:00:09] shot 52_ja_onboarding_4
+tapped: Skip at (941, 255)
+[08:00:28] LANGUAGE es
+tapped: Settings at (988, 216)
+[08:01:02] shot 53_es_settings_top
+[08:01:08] shot 54_es_settings_middle
+[08:01:15] shot 55_es_settings_bottom
+tapped near Always-on clock at (201, 1662)
+tapped: Strand at (283, 1439)
+[08:01:57] shot 56_es_editor_top
+[08:02:04] shot 57_es_editor_bottom
+tapped: Check audio, permissions at (558, 2255)
+[08:02:50] shot 58_es_diagnostics
+[08:02:57] shot 59_es_diagnostics_ads
+[08:03:18] shot 60_es_home
+[08:03:27] shot 61_es_home_bottom
+[08:03:40] shot 62_es_onboarding_1
+[08:03:44] shot 63_es_onboarding_2
+[08:03:50] shot 64_es_onboarding_3
+[08:03:54] shot 65_es_onboarding_4
+tapped: Skip at (941, 255)
+[08:04:11] LANGUAGE fr
+tapped: Settings at (988, 216)
+[08:04:43] shot 66_fr_settings_top
+[08:04:49] shot 67_fr_settings_middle
+[08:04:56] shot 68_fr_settings_bottom
+tapped near Always-on clock at (201, 1662)
+tapped: Strand at (283, 1421)
+[08:05:38] shot 69_fr_editor_top
+[08:05:46] shot 70_fr_editor_bottom
+tapped: Check audio, permissions at (558, 1828)
+[08:06:24] shot 71_fr_diagnostics
+[08:06:31] shot 72_fr_diagnostics_ads
+[08:06:51] shot 73_fr_home
+[08:06:59] shot 74_fr_home_bottom
+[08:07:12] shot 75_fr_onboarding_1
+[08:07:16] shot 76_fr_onboarding_2
+[08:07:22] shot 77_fr_onboarding_3
+[08:07:26] shot 78_fr_onboarding_4
+tapped: Skip at (941, 255)
+[08:07:43] LANGUAGE pt
+tapped: Settings at (988, 216)
+[08:08:19] shot 79_pt_settings_top
+[08:08:25] shot 80_pt_settings_middle
+[08:08:32] shot 81_pt_settings_bottom
+tapped near Always-on clock at (201, 1662)
+tapped: Strand at (283, 1375)
+[08:09:14] shot 82_pt_editor_top
+[08:09:22] shot 83_pt_editor_bottom
+tapped: Check audio, permissions at (558, 1828)
+[08:09:59] shot 84_pt_diagnostics
+[08:10:06] shot 85_pt_diagnostics_ads
+[08:10:32] shot 86_pt_home
+[08:10:43] shot 87_pt_home_bottom
+[08:10:56] shot 88_pt_onboarding_1
+[08:11:00] shot 89_pt_onboarding_2
+[08:11:06] shot 90_pt_onboarding_3
+[08:11:10] shot 91_pt_onboarding_4
+tapped: Skip at (941, 255)
+[08:11:28] LANGUAGE hi
+tapped: Settings at (988, 216)
+[08:12:04] shot 92_hi_settings_top
+[08:12:10] shot 93_hi_settings_middle
+[08:12:17] shot 94_hi_settings_bottom
+tapped near Always-on clock at (201, 1662)
+tapped: Strand at (283, 1468)
+[08:13:03] shot 95_hi_editor_top
+[08:13:10] shot 96_hi_editor_bottom
+tapped: Check audio, permissions at (558, 1828)
+[08:13:52] shot 97_hi_diagnostics
+[08:13:59] shot 98_hi_diagnostics_ads
+[08:14:20] shot 99_hi_home
+[08:14:28] shot 100_hi_home_bottom
+[08:14:41] shot 101_hi_onboarding_1
+[08:14:45] shot 102_hi_onboarding_2
+[08:14:50] shot 103_hi_onboarding_3
+[08:14:55] shot 104_hi_onboarding_4
+tapped: Skip at (941, 255)
+[08:15:11] LANGUAGE ko
+tapped: Settings at (988, 216)
+[08:15:41] shot 105_ko_settings_top
+[08:15:46] shot 106_ko_settings_middle
+[08:15:53] shot 107_ko_settings_bottom
+tapped near Always-on clock at (201, 1662)
+tapped: Strand at (283, 1598)
+[08:16:38] shot 108_ko_editor_top
+[08:16:46] shot 109_ko_editor_bottom
+tapped: Check audio, permissions at (558, 1828)
+[08:17:25] shot 110_ko_diagnostics
+[08:17:32] shot 111_ko_diagnostics_ads
+[08:17:59] shot 112_ko_home
+[08:18:08] shot 113_ko_home_bottom
+[08:18:21] shot 114_ko_onboarding_1
+[08:18:25] shot 115_ko_onboarding_2
+[08:18:31] shot 116_ko_onboarding_3
+[08:18:35] shot 117_ko_onboarding_4
+tapped: Skip at (941, 255)
+[08:18:52] LANGUAGE zh
+tapped: Settings at (988, 216)
+[08:19:29] shot 118_zh_settings_top
+[08:19:34] shot 119_zh_settings_middle
+[08:19:41] shot 120_zh_settings_bottom
+tapped near Always-on clock at (201, 1662)
+tapped: Strand at (283, 1504)
+[08:20:28] shot 121_zh_editor_top
+[08:20:35] shot 122_zh_editor_bottom
+tapped: Check audio, permissions at (558, 1828)
+[08:21:17] shot 123_zh_diagnostics
+[08:21:23] shot 124_zh_diagnostics_ads
+[08:21:51] shot 125_zh_home
+[08:21:59] shot 126_zh_home_bottom
+[08:22:12] shot 127_zh_onboarding_1
+[08:22:17] shot 128_zh_onboarding_2
+[08:22:22] shot 129_zh_onboarding_3
+[08:22:27] shot 130_zh_onboarding_4
+tapped: Skip at (941, 255)
+[08:22:45] done: 130 screenshots

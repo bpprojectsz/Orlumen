@@ -1,0 +1,20 @@
+Orlumen
+Thème
+Langue
+Paramètres
+Les lumières de bord sont éteintes
+FILAMENT
+Démarrer les lumières de bord
+Rien n’est lu
+Affichage permanent
+Affiche une horloge quand l’écran s’éteint
+PERSONNALISER
+Lumières de bord
+08:06
+Horloge permanente
+Couleurs
+Paramètres
+Premium
+Sans publicités
+Diagnostic
+Annonce test

@@ -1,0 +1,39 @@
+Voltar
+Definições
+Premium
+Sem anúncios
+APARÊNCIA
+Sistema
+Escuro
+Claro
+Sistema segue a definição clara ou escura do seu telemóvel.
+Idioma
+Escolha um idioma para o Orlumen
+LUZES DE BORDA
+Ocultar sobre apps em ecrã inteiro
+Requer acesso de utilização. Oculta as luzes em jogos e vídeos.
+Escurecer o ecrã por trás das luzes
+Torna as luzes mais fáceis de ver em ecrãs brilhantes.
+Manter a barra de estado livre
+Inicia as luzes por baixo da barra de estado para que o relógio continue legível.
+Manter o ecrã ligado enquanto as luzes funcionam
+Mostrar só sobre apps escolhidos
+Requer acesso de utilização. Deixe vazio para mostrar sobre todos os apps.
+FONTE DE ÁUDIO
+Automática
+Mistura global
+Captura de áudio de apps
+Automática tenta primeiro a mistura global e passa à captura de áudio de apps se falhar. A captura de áudio de apps pede a permissão de captura de ecrã de cada vez.
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+Anúncio de teste

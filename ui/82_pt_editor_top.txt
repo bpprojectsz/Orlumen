@@ -1,0 +1,24 @@
+Voltar
+Strand
+ASPETO
+Espessura
+4
+Altura
+32
+Sensibilidade
+0,50
+Suavização
+0,50
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+Anúncio de teste

@@ -1,0 +1,35 @@
+뒤로
+설정
+프리미엄
+광고 없애기
+모양
+시스템
+다크
+라이트
+시스템은 휴대전화의 라이트/다크 설정을 따릅니다.
+언어
+Orlumen 언어 선택
+엣지 라이트
+전체 화면 앱에서 숨기기
+사용 기록 접근이 필요합니다. 게임과 동영상에서 조명을 숨깁니다.
+조명 뒤의 화면 어둡게
+밝은 화면에서도 조명이 더 잘 보입니다.
+상태 표시줄 비우기
+시계가 잘 보이도록 조명을 상태 표시줄 아래에서 시작합니다.
+조명이 켜진 동안 화면 켜 두기
+선택한 앱 위에서만 표시
+사용 기록 접근이 필요합니다. 비워 두면 모든 앱 위에 표시합니다.
+오디오 소스
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+테스트 광고

@@ -1,0 +1,35 @@
+L’écran permanent n’est pas affiché
+Le lancement à l’extinction de l’écran ne s’est pas encore déclenché
+Ouvrir l’écran permanent maintenant
+AUTORISATIONS
+Afficher par-dessus les autres applis
+Touchez, puis trouvez Orlumen dans la liste et activez-le
+Écouter votre musique
+Pas encore autorisé
+Voir ce qui est lu
+Touchez, puis trouvez Orlumen dans la liste et activez-le
+Savoir quelle appli est ouverte
+Touchez, puis trouvez Orlumen dans la liste et activez-le
+Afficher la notification d’état
+Pas encore autorisé
+Le garder actif
+Touchez, puis trouvez Orlumen dans la liste et activez-le
+À propos d’Orlumen
+PUBLICITÉS
+Les publicités sont autorisées sur cet appareil
+Vérification du consentement : OK
+Bannière : Loaded
+Interstitiel : Ready
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+Annonce test

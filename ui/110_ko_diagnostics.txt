@@ -1,0 +1,32 @@
+진단
+상태
+중지됨
+먼저 필수 권한을 허용하세요.
+엣지 라이트 시작
+앱 오디오 캡처로 시작
+오디오 신호
+레벨 0%
+재생 중
+재생 중인 곡이 없습니다
+현재 곡을 보려면 알림 접근을 허용하세요.
+상시 표시 디스플레이
+상시 표시 디스플레이
+상시 표시 디스플레이를 켠 다음 전원 버튼으로 휴대전화를 잠그세요.
+상시 표시 화면이 표시되지 않고 있습니다
+화면 꺼짐 시 실행이 아직 발생하지 않았습니다
+상시 표시 화면 지금 열기
+권한
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+OPEN
+테스트 광고

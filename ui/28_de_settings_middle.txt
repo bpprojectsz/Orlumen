@@ -1,0 +1,32 @@
+Automatisch versucht zuerst den globalen Mix und wechselt bei einem Fehler zur App-Audioaufnahme. Die App-Audioaufnahme fragt jedes Mal nach der Bildschirmaufnahme-Berechtigung.
+ALWAYS-ON-ANZEIGE
+Sperrbildschirm-Uhr
+Bildschirmschoner
+Die Sperrbildschirm-Uhr öffnet sich, wenn sich der Bildschirm ausschaltet. Tippe nach dem Drücken der Ein-/Aus-Taste auf den Bildschirm, um zum Sperrbildschirm zurückzukehren. Für den Bildschirmschoner muss Orlumen in den Android-Bildschirmschoner-Einstellungen gewählt sein; er läuft meist nur beim Laden.
+MUSIK
+Albumfarben übernehmen
+Verwendet die Farben des laufenden Titels
+Musik-Apps
+Wähle, welchen Musik-Apps Orlumen folgt. Leer lassen für alle.
+DATENSCHUTZ
+Werbe- und Datenschutzoptionen
+Audio bleibt auf deinem Telefon
+Der Ton wird live analysiert und nie aufgezeichnet, gespeichert oder irgendwohin gesendet.
+ORLUMEN
+Intro wiederholen
+Die Willkommenstour noch einmal ansehen
+Orlumen bewerten
+Hinterlasse eine Bewertung bei Google Play
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+Testanzeige

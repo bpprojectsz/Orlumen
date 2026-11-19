@@ -1,0 +1,36 @@
+Dicke
+4
+Höhe
+32
+Empfindlichkeit
+0,50
+Glättung
+0,50
+RICHTUNG
+Im Uhrzeigersinn
+Gegen den Uhrzeigersinn
+DESIGN-OPTIONEN
+Verdrehung
+3,0
+FARBEN
+Obsidian violet
+Deep space
+VOREINSTELLUNGEN
+Noch keine gespeicherten Voreinstellungen
+Name der Voreinstellung
+Voreinstellung speichern
+Anwenden
+Änderungen zurücksetzen
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+Testanzeige

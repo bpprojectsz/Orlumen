@@ -1,0 +1,35 @@
+Automatique
+Mixage global
+Capture audio des applis
+Automatique essaie d’abord le mixage global et passe à la capture audio des applis en cas d’échec. La capture audio des applis demande l’autorisation de capture d’écran à chaque fois.
+AFFICHAGE PERMANENT
+Horloge de l’écran de verrouillage
+Économiseur d’écran
+L’horloge de l’écran de verrouillage s’ouvre quand l’écran s’éteint. Après avoir appuyé sur le bouton d’alimentation, touchez l’écran pour revenir à l’écran de verrouillage. L’économiseur d’écran nécessite de choisir Orlumen dans les paramètres d’économiseur d’écran d’Android et ne fonctionne généralement qu’en charge.
+MUSIQUE
+Assortir à la pochette
+Utilise les couleurs du titre en cours de lecture
+Applis de musique
+Choisissez les applis de musique qu’Orlumen suit. Laissez vide pour toutes.
+CONFIDENTIALITÉ
+Choix de publicité et de confidentialité
+L’audio reste sur votre téléphone
+Le son est analysé en direct et n’est jamais enregistré, stocké ni envoyé nulle part.
+ORLUMEN
+Revoir l’introduction
+Revoir la visite de bienvenue
+Noter Orlumen
+Laissez un avis sur Google Play
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+Annonce test

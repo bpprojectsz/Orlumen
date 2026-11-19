@@ -1,0 +1,19 @@
+Orlumen
+Tema
+Idioma
+Definições
+As luzes de borda estão desligadas
+FILAMENT
+Iniciar luzes de borda
+Nada a tocar
+Ecrã sempre ligado
+Mostra um relógio quando o ecrã se desliga
+PERSONALIZAR
+Luzes de borda
+08:10
+Relógio sempre ligado
+Cores
+Definições
+Premium
+Sem anúncios
+Anúncio de teste

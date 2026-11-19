@@ -1,0 +1,24 @@
+Retour
+Strand
+ASPECT
+Épaisseur
+4
+Hauteur
+32
+Sensibilité
+0,50
+Lissage
+0,50
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+Annonce test

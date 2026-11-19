@@ -1,0 +1,36 @@
+Grosor
+4
+Altura
+32
+Sensibilidad
+0,50
+Suavizado
+0,50
+DIRECCIÓN
+Sentido horario
+Sentido antihorario
+OPCIONES DEL DISEÑO
+Trenzado
+3,0
+COLORES
+Obsidian violet
+Deep space
+AJUSTES GUARDADOS
+Aún no hay ajustes guardados
+Nombre del ajuste
+Guardar ajuste
+Aplicar
+Restablecer cambios
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+Anuncio de prueba

@@ -1,0 +1,31 @@
+التشخيص
+الحالة
+متوقف
+اسمح بالأذونات المطلوبة أولًا.
+بدء أضواء الحواف
+البدء بالتقاط صوت التطبيقات
+الإشارة الصوتية
+المستوى ٠%
+قيد التشغيل الآن
+لا شيء قيد التشغيل
+اسمح بالوصول إلى الإشعارات لرؤية المقطع الحالي.
+العرض الدائم
+العرض الدائم
+شغّل العرض الدائم ثم اقفل هاتفك بزر التشغيل.
+شاشة العرض الدائم غير معروضة
+لم يحدث التشغيل عند إطفاء الشاشة بعد
+افتح شاشة العرض الدائم الآن
+الأذونات
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+إعلان تجريبي

@@ -1,0 +1,35 @@
+自动
+全局混音
+应用音频捕获
+自动模式会先尝试全局混音，失败时切换到应用音频捕获。应用音频捕获每次都会请求屏幕捕获权限。
+常亮显示
+锁屏时钟
+屏保
+熄屏时会打开锁屏时钟。按下电源键后，轻触屏幕即可返回锁屏界面。屏保需要在 Android 屏保设置中选择 Orlumen，并且通常只在充电时运行。
+音乐
+匹配专辑颜色
+使用正在播放曲目的颜色
+音乐应用
+选择 Orlumen 跟随的音乐应用。留空表示全部。
+隐私
+广告和隐私选择
+音频只留在您的手机上
+声音经实时分析，绝不会被录制、存储或发送到任何地方。
+ORLUMEN
+重看介绍
+再次查看欢迎引导
+为 Orlumen 评分
+在 Google Play 上留下评价
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+测试广告

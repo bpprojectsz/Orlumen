@@ -1,0 +1,24 @@
+返回
+Strand
+外观
+粗细
+4
+高度
+32
+灵敏度
+0.50
+平滑度
+0.50
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+测试广告

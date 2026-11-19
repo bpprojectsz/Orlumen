@@ -1,0 +1,37 @@
+ऑलवेज़-ऑन डिस्प्ले
+ऑलवेज़-ऑन डिस्प्ले चालू करें, फिर पावर बटन से फ़ोन लॉक करें।
+ऑलवेज़-ऑन स्क्रीन नहीं दिख रही
+स्क्रीन बंद होने पर शुरुआत अभी तक नहीं हुई
+ऑलवेज़-ऑन स्क्रीन अभी खोलें
+अनुमतियाँ
+अन्य ऐप्स के ऊपर दिखाएँ
+टैप करें, फिर सूची में Orlumen खोजकर उसे चालू करें
+आपका संगीत सुनना
+अभी अनुमति नहीं
+देखें क्या चल रहा है
+टैप करें, फिर सूची में Orlumen खोजकर उसे चालू करें
+जानें कौन-सा ऐप खुला है
+टैप करें, फिर सूची में Orlumen खोजकर उसे चालू करें
+स्थिति नोटिफ़िकेशन दिखाएँ
+अभी अनुमति नहीं
+इसे चालू रखें
+टैप करें, फिर सूची में Orlumen खोजकर उसे चालू करें
+Orlumen के बारे में
+विज्ञापन
+इस डिवाइस पर विज्ञापनों की अनुमति है
+सहमति जाँच: ठीक
+बैनर: Loaded
+इंटरस्टिशियल: Ready
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+जाँच विज्ञापन

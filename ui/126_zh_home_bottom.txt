@@ -1,0 +1,29 @@
+FILAMENT
+启动边缘灯光
+没有正在播放的内容
+常亮显示
+熄屏时显示时钟
+自定义
+边缘灯光
+08:21
+常亮时钟
+颜色
+设置
+高级版
+去除广告
+诊断
+检查音频、权限和常亮显示的启动
+关于和法律信息
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+测试广告

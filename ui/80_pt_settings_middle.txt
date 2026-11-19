@@ -1,0 +1,35 @@
+Automática
+Mistura global
+Captura de áudio de apps
+Automática tenta primeiro a mistura global e passa à captura de áudio de apps se falhar. A captura de áudio de apps pede a permissão de captura de ecrã de cada vez.
+ECRÃ SEMPRE LIGADO
+Relógio do ecrã de bloqueio
+Proteção de ecrã
+O relógio do ecrã de bloqueio abre quando o ecrã se desliga. Depois de premir o botão de ligar, toque no ecrã para voltar ao ecrã de bloqueio. A proteção de ecrã requer que o Orlumen seja escolhido nas definições de proteção de ecrã do Android e normalmente só funciona durante o carregamento.
+MÚSICA
+Combinar com o álbum
+Usa as cores da faixa que está a tocar
+Apps de música
+Escolha que apps de música o Orlumen acompanha. Deixe vazio para todos.
+PRIVACIDADE
+Opções de anúncios e privacidade
+O áudio fica no seu telemóvel
+O som é analisado em direto e nunca é gravado, guardado nem enviado para lado nenhum.
+ORLUMEN
+Repetir introdução
+Ver o tour de boas-vindas de novo
+Avaliar o Orlumen
+Deixe uma avaliação no Google Play
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+Anúncio de teste

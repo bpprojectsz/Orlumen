@@ -1,0 +1,38 @@
+Retour
+Paramètres
+Premium
+Sans publicités
+APPARENCE
+Système
+Sombre
+Clair
+Système suit le réglage clair ou sombre de votre téléphone.
+Langue
+Choisissez une langue pour Orlumen
+LUMIÈRES DE BORD
+Masquer sur les applis en plein écran
+Nécessite l’accès aux données d’utilisation. Masque les lumières dans les jeux et les vidéos.
+Assombrir l’écran derrière les lumières
+Rend les lumières plus visibles sur les écrans lumineux.
+Dégager la barre d’état
+Démarre les lumières sous la barre d’état pour que l’heure reste lisible.
+Garder l’écran allumé pendant les lumières
+Afficher uniquement sur les applis choisies
+Nécessite l’accès aux données d’utilisation. Laissez vide pour afficher sur toutes les applis.
+SOURCE AUDIO
+Automatique
+Mixage global
+Capture audio des applis
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+Annonce test

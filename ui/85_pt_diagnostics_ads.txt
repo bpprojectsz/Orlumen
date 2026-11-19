@@ -1,0 +1,37 @@
+Ecrã sempre ligado
+Ative o ecrã sempre ligado e depois bloqueie o telemóvel com o botão de ligar.
+O ecrã sempre ligado não está a ser mostrado
+O arranque ao desligar o ecrã ainda não foi acionado
+Abrir já o ecrã sempre ligado
+PERMISSÕES
+Sobrepor a outros apps
+Toque, encontre o Orlumen na lista e ative-o
+Ouvir a sua música
+Ainda não permitido
+Ver o que está a tocar
+Toque, encontre o Orlumen na lista e ative-o
+Saber que app está aberto
+Toque, encontre o Orlumen na lista e ative-o
+Mostrar a notificação de estado
+Ainda não permitido
+Manter em execução
+Toque, encontre o Orlumen na lista e ative-o
+Sobre o Orlumen
+ANÚNCIOS
+Os anúncios são permitidos neste dispositivo
+Verificação de consentimento: OK
+Banner: Loaded
+Intersticial: Ready
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+Anúncio de teste

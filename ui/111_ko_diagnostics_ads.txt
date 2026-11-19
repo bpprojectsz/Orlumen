@@ -1,0 +1,36 @@
+상시 표시 화면이 표시되지 않고 있습니다
+화면 꺼짐 시 실행이 아직 발생하지 않았습니다
+상시 표시 화면 지금 열기
+권한
+다른 앱 위에 표시
+누른 다음 목록에서 Orlumen을 찾아 켜세요
+음악 듣기
+아직 허용되지 않음
+재생 중인 곡 확인
+누른 다음 목록에서 Orlumen을 찾아 켜세요
+열려 있는 앱 확인
+누른 다음 목록에서 Orlumen을 찾아 켜세요
+상태 알림 표시
+아직 허용되지 않음
+계속 실행 유지
+누른 다음 목록에서 Orlumen을 찾아 켜세요
+Orlumen 정보
+광고
+이 기기에서 광고가 허용됩니다
+동의 확인: 정상
+배너: Loaded
+전면 광고: Ready
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+OPEN
+테스트 광고

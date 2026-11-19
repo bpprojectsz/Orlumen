@@ -1,0 +1,35 @@
+戻る
+設定
+プレミアム
+広告なしにする
+外観
+システム
+ダーク
+ライト
+システムは端末のライト／ダーク設定に従います。
+言語
+Orlumen の言語を選択
+エッジライト
+全画面アプリでは隠す
+使用状況へのアクセスが必要です。ゲームや動画ではライトを隠します。
+ライトの背後の画面を暗くする
+明るい画面でもライトが見やすくなります。
+ステータスバーを避ける
+時刻が読みやすいよう、ライトをステータスバーの下から表示します。
+ライト動作中は画面をオンにしておく
+選んだアプリの上にだけ表示
+使用状況へのアクセスが必要です。空のままにするとすべてのアプリの上に表示します。
+音声ソース
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+テスト広告

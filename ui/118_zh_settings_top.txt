@@ -1,0 +1,39 @@
+返回
+设置
+高级版
+去除广告
+外观
+跟随系统
+深色
+浅色
+跟随系统会遵循手机的浅色或深色设置。
+语言
+为 Orlumen 选择语言
+边缘灯光
+在全屏应用上隐藏
+需要使用情况访问权限。在游戏和视频中隐藏灯光。
+调暗灯光后方的屏幕
+让灯光在明亮的屏幕上更容易看清。
+避开状态栏
+灯光从状态栏下方开始，让时间保持清晰可读。
+灯光运行时保持屏幕常亮
+仅在所选应用上显示
+需要使用情况访问权限。留空则在所有应用上显示。
+音频源
+自动
+全局混音
+应用音频捕获
+自动模式会先尝试全局混音，失败时切换到应用音频捕获。应用音频捕获每次都会请求屏幕捕获权限。
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+测试广告

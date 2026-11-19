@@ -1,0 +1,19 @@
+Orlumen
+Tema
+Idioma
+Ajustes
+Las luces de borde están apagadas
+FILAMENT
+Iniciar luces de borde
+No suena nada
+Pantalla siempre activa
+Muestra un reloj cuando la pantalla se apaga
+PERSONALIZAR
+Luces de borde
+08:03
+Reloj siempre activo
+Colores
+Ajustes
+Premium
+Sin anuncios
+Anuncio de prueba

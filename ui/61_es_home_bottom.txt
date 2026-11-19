@@ -1,0 +1,28 @@
+Iniciar luces de borde
+No suena nada
+Pantalla siempre activa
+Muestra un reloj cuando la pantalla se apaga
+PERSONALIZAR
+Luces de borde
+08:03
+Reloj siempre activo
+Colores
+Ajustes
+Premium
+Sin anuncios
+Diagnóstico
+Comprueba el audio, los permisos y el inicio de la pantalla siempre activa
+Acerca de y legal
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+Anuncio de prueba

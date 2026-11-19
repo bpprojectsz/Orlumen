@@ -1,0 +1,32 @@
+자동은 먼저 전체 믹스를 시도하고 실패하면 앱 오디오 캡처로 전환합니다. 앱 오디오 캡처는 매번 화면 캡처 권한을 요청합니다.
+상시 표시 디스플레이
+잠금 화면 시계
+화면 보호기
+화면이 꺼지면 잠금 화면 시계가 열립니다. 전원 버튼을 누른 뒤 화면을 터치하면 잠금 화면으로 돌아갑니다. 화면 보호기는 Android 화면 보호기 설정에서 Orlumen을 선택해야 하며 보통 충전 중에만 작동합니다.
+음악
+앨범 색상 맞추기
+재생 중인 곡의 색상을 사용합니다
+음악 앱
+Orlumen이 따라갈 음악 앱을 고르세요. 비워 두면 모두 해당됩니다.
+개인정보 보호
+광고 및 개인정보 선택
+오디오는 휴대전화에만 남습니다
+소리는 실시간으로 분석되며 녹음, 저장 또는 어디로도 전송되지 않습니다.
+ORLUMEN
+소개 다시 보기
+시작 안내를 다시 봅니다
+Orlumen 평가하기
+Google Play에 리뷰 남기기
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+테스트 광고

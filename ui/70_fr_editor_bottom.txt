@@ -1,0 +1,36 @@
+Épaisseur
+4
+Hauteur
+32
+Sensibilité
+0,50
+Lissage
+0,50
+DIRECTION
+Sens horaire
+Sens antihoraire
+OPTIONS DU DESIGN
+Torsion
+3,0
+COULEURS
+Obsidian violet
+Deep space
+PRÉRÉGLAGES
+Aucun préréglage enregistré
+Nom du préréglage
+Enregistrer le préréglage
+Appliquer
+Annuler les modifications
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+Annonce test

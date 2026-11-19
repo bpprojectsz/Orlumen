@@ -1,0 +1,24 @@
+戻る
+Strand
+見た目
+太さ
+4
+高さ
+32
+感度
+0.50
+なめらかさ
+0.50
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+テスト広告

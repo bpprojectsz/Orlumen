@@ -1,0 +1,29 @@
+FILAMENT
+Démarrer les lumières de bord
+Rien n’est lu
+Affichage permanent
+Affiche une horloge quand l’écran s’éteint
+PERSONNALISER
+Lumières de bord
+08:06
+Horloge permanente
+Couleurs
+Paramètres
+Premium
+Sans publicités
+Diagnostic
+Vérifiez l’audio, les autorisations et le lancement de l’affichage permanent
+À propos et mentions légales
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+Annonce test

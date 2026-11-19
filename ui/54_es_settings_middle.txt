@@ -1,0 +1,37 @@
+Automática
+Mezcla global
+Captura de audio de apps
+Automática prueba primero la mezcla global y cambia a la captura de audio de apps si falla. La captura de audio de apps pide permiso de captura de pantalla cada vez.
+PANTALLA SIEMPRE ACTIVA
+Reloj en pantalla de bloqueo
+Salvapantallas
+El reloj de pantalla de bloqueo se abre al apagarse la pantalla. Tras pulsar el botón de encendido, toca la pantalla para volver a la pantalla de bloqueo. El salvapantallas requiere elegir Orlumen en los ajustes de salvapantallas de Android y normalmente solo funciona mientras carga.
+MÚSICA
+Combinar con la carátula
+Usa los colores de la canción que suena
+Apps de música
+Elige qué apps de música sigue Orlumen. Déjalo vacío para todas.
+PRIVACIDAD
+Opciones de anuncios y privacidad
+El audio se queda en tu teléfono
+El sonido se analiza en vivo y nunca se graba, almacena ni envía a ningún sitio.
+ORLUMEN
+Repetir introducción
+Ver de nuevo el recorrido de bienvenida
+Valorar Orlumen
+Deja una reseña en Google Play
+Shiny Little Blessings
+Shiny Little Blessings
+Shiny Little Blessings
+Shiny Little Blessings
+Shiny Little Blessings
+Shiny Little Blessings
+18k Gold & Silver Finished
+18k Gold & Silver Finished
+Shiny Little Blessings
+Create unique & personalized jewelry with our supplies.
+Create unique & personalized
+jewelry with our supplies.
+OPEN
+OPEN
+Anuncio de prueba
