@@ -1,0 +1,112 @@
+[07:44:34] device: sdk_gphone64_x86_64 api 35 Physical size: 1080x2400 
+[07:44:34] letting the fresh emulator settle
+[07:45:21] install
+Performing Streamed Install
+Success
+[07:45:22] PHASE 1: cold start, nothing granted
+[07:45:30] shot 01_onboarding_1
+tapped: Next at (540, 2211)
+[07:45:40] shot 02_onboarding_2
+tapped: Next at (540, 2211)
+[07:45:49] shot 03_onboarding_3
+tapped: Next at (540, 2211)
+[07:45:58] shot 04_onboarding_4
+tapped: Get started at (540, 2211)
+[07:46:11] shot 05_home_first_open
+tapped: Start edge lights at (651, 574)
+[07:46:27] shot 06_start_pressed_nothing_granted
+[07:46:27] top:     topResumedActivity=ActivityRecord{89224ca u0 com.zdmgold.orlumen/.MainActivity t8}   ResumedActivity: ActivityRecord{89224ca u0 com.zdmgold.orlumen/.MainActivity t8} 
+tapped: Allow at (540, 2211)
+[07:46:36] shot 07_audio_system_dialog
+tapped: While using at (540, 1202)
+[07:46:45] shot 08_setup_step_2_overlay
+tapped: Allow at (540, 996)
+[07:46:55] shot 09_overlay_settings_page
+[07:46:55] top:     topResumedActivity=ActivityRecord{89224ca u0 com.zdmgold.orlumen/.MainActivity t8}   ResumedActivity: ActivityRecord{89224ca u0 com.zdmgold.orlumen/.MainActivity t8} 
+[07:47:04] shot 10_back_from_overlay_settings
+[07:47:04] PHASE 2: permissions granted, run the engine
+[07:47:15] shot 11_home_granted
+tapped: Start edge lights at (651, 574)
+[07:47:43] shot 12_home_running
+[07:47:50] shot 13_home_screen_with_lights
+[07:47:56] shot 14_settings_app_with_lights
+[07:48:07] shot 15_notification_shade
+[07:48:12] shot 16_quick_settings_expanded
+[07:48:15] PHASE 3: always-on display
+checkable at (540, 1042) checked=false; tapping
+checkable checked after tap=true
+[07:48:48] shot 17_aod_toggled
+tapped: Check audio, permissions at (558, 2160)
+[07:49:06] shot 18_diagnostics_screen
+[07:49:14] shot 19_diagnostics_ads
+tapped: Open the always-on screen now at (474, 448)
+[07:49:25] shot 20_aod_open_now
+[07:49:25] top:     topResumedActivity=ActivityRecord{a3ba179 u0 com.zdmgold.orlumen/.platform.aod.AodActivity t11}   ResumedActivity: ActivityRecord{a3ba179 u0 com.zdmgold.orlumen/.platform.aod.AodActivity t11} 
+[07:49:29] screen off
+[07:49:35] power:   mWakefulness=Awake
+[07:49:35] top:     topResumedActivity=ActivityRecord{2195a3a u0 com.zdmgold.orlumen/.platform.aod.AodActivity t12}   ResumedActivity: ActivityRecord{2195a3a u0 com.zdmgold.orlumen/.platform.aod.AodActivity t12} 
+[07:49:37] shot 21_screen_off_state
+[07:49:42] shot 22_after_wake
+[07:49:42] top:     topResumedActivity=ActivityRecord{2195a3a u0 com.zdmgold.orlumen/.platform.aod.AodActivity t12}   ResumedActivity: ActivityRecord{2195a3a u0 com.zdmgold.orlumen/.platform.aod.AodActivity t12} 
+[07:49:42] PHASE 5: design screens
+[07:49:54] shot 23_home_final
+tapped near Always-on clock at (201, 1597)
+[07:50:06] shot 24_visualizer_gallery
+[07:50:12] shot 25_visualizer_gallery_more
+[07:50:18] shot 26_visualizer_gallery_end
+tapped: Tide at (797, 430)
+[07:50:34] shot 27_visualizer_editor_top
+[07:50:43] shot 28_visualizer_editor_middle
+[07:50:50] shot 29_visualizer_editor_bottom
+tapped: Preset name at (244, 1616)
+tapped: Save preset at (199, 1740)
+[07:51:29] shot 30_preset_saved
+NOT FOUND after scrolling: Apply
+[07:53:18] shot 31_after_apply_interstitial
+[07:53:27] shot 32_after_interstitial_back
+tapped: Always-on clock at (540, 1717)
+[07:53:49] shot 33_aod_gallery
+tapped: Lunar at (797, 1393)
+[07:54:07] shot 34_aod_editor_top
+[07:54:12] shot 35_aod_editor_middle
+[07:54:17] shot 36_aod_editor_bottom
+tapped near Always-on clock at (879, 1597)
+[07:54:32] shot 37_palettes_stock
+tapped: Mine at (318, 256)
+[07:54:43] shot 38_palettes_mine
+tapped: Album art at (546, 256)
+[07:54:53] shot 39_palettes_album
+tapped: Wallpaper at (836, 256)
+[07:55:04] shot 40_palettes_wallpaper
+[07:55:05] PHASE 6: settings and commerce
+tapped: Settings at (988, 151)
+[07:55:27] shot 41_settings_top
+[07:55:31] shot 42_settings_middle
+[07:55:36] shot 43_settings_bottom
+tapped: Replay intro at (289, 1820)
+[07:55:49] shot 44_replay_intro_1
+tapped: Next at (540, 2211)
+tapped: Next at (540, 2211)
+tapped: Next at (540, 2211)
+[07:56:14] shot 45_replay_intro_last
+tapped: Done at (540, 2211)
+[07:56:24] shot 46_after_replay_in_settings
+tapped: Show only over chosen apps at (444, 676)
+[07:57:05] shot 47_app_picker
+tapped: Music apps at (287, 1770)
+[07:57:18] shot 48_music_sources
+tapped: Ad and privacy choices at (393, 2135)
+[07:57:31] shot 49_consent_screen
+NOT FOUND after scrolling: One-time purchase
+[08:00:21] shot 50_paywall
+tapped: About and legal at (361, 2021)
+[08:00:52] shot 51_about_top
+tapped: Open-source licenses at (379, 1588)
+[08:01:03] shot 52_licenses
+tapped: Settings at (260, 1740)
+[08:01:26] shot 53_settings_light_theme
+tapped: Keep clear of the status bar at (340, 1381)
+[08:01:36] shot 54_status_bar_option_on
+NOT FOUND: Start edge lights
+[08:01:57] shot 55_lights_clear_of_status_bar
+[08:01:58] done: 55 screenshots

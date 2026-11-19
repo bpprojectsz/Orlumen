@@ -1,0 +1,34 @@
+Diagnostics
+STATUS
+Running · Global audio mix
+Stop
+AUDIO SIGNAL
+Level 0%
+NOW PLAYING
+Nothing is playing
+ALWAYS-ON DISPLAY
+Always-on display
+Turn the always-on display on, then lock your phone with the power button.
+The always-on screen is not showing
+The screen-off launch has not fired yet
+Open the always-on screen now
+PERMISSIONS
+Draw over other apps
+Allowed
+Listen to your music
+Allowed
+See what is playing
+Allowed
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+Test Ad

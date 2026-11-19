@@ -1,0 +1,37 @@
+LOOK
+Clock weight
+300
+DESIGN OPTIONS
+Stars
+60
+SYMBOL
+None
+✦ Diamond
+♥︎ Heart
+★ Star
+☾ Moon
+SHOW
+Show the playing track
+Show date and battery
+COLORS
+Obsidian violet
+Deep space
+PRESETS
+No saved presets yet
+Preset name
+Save preset
+Apply
+Reset changes
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+Test Ad

@@ -1,0 +1,38 @@
+Show only over chosen apps
+Needs usage access. Leave empty to show over every app.
+AUDIO SOURCE
+Automatic
+Global mix
+App audio capture
+Automatic tries the global mix first and switches to app audio capture if it fails. App audio capture asks for screen-capture permission each time.
+ALWAYS-ON DISPLAY
+Lock-screen clock
+Screensaver
+The lock-screen clock opens when the screen turns off. After pressing the power button, tap the screen to return to the lock screen. The screensaver needs Orlumen chosen in Android screen saver settings and usually runs only while charging.
+MUSIC
+Match album colors
+Use the colors of the track that is playing
+Music apps
+Choose which music apps Orlumen follows. Leave empty for all.
+PRIVACY
+Ad and privacy choices
+Audio stays on your phone
+Sound is analyzed live and is never recorded, stored or sent anywhere.
+ORLUMEN
+Replay intro
+See the welcome tour again
+Rate Orlumen
+Leave a review on Google Play
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+Test Ad
