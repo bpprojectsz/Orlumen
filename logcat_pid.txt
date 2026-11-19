@@ -1,0 +1,373 @@
+--------- beginning of main
+11-19 07:23:33.959  4140  4140 I zdmgold.orlumen: Late-enabling -Xcheck:jni
+11-19 07:23:34.035  4140  4140 I zdmgold.orlumen: Using CollectorTypeCMC GC.
+11-19 07:23:34.036  4140  4140 W zdmgold.orlumen: Unexpected CPU variant for x86: x86_64.
+11-19 07:23:34.036  4140  4140 W zdmgold.orlumen: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+11-19 07:23:34.106  4140  4140 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-19 07:23:34.577  4140  4140 W ziparchive: Unable to open '/data/app/~~sn5E8hWe3rnO0eJiyva4Ow==/com.zdmgold.orlumen-3mgCf74Qi3zJ_QtDjZGDmA==/base.dm': No such file or directory
+11-19 07:23:34.577  4140  4140 W ziparchive: Unable to open '/data/app/~~sn5E8hWe3rnO0eJiyva4Ow==/com.zdmgold.orlumen-3mgCf74Qi3zJ_QtDjZGDmA==/base.dm': No such file or directory
+11-19 07:23:34.968  4140  4140 D nativeloader: Configuring clns-7 for other apk /data/app/~~sn5E8hWe3rnO0eJiyva4Ow==/com.zdmgold.orlumen-3mgCf74Qi3zJ_QtDjZGDmA==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~sn5E8hWe3rnO0eJiyva4Ow==/com.zdmgold.orlumen-3mgCf74Qi3zJ_QtDjZGDmA==/lib/x86_64:/data/app/~~sn5E8hWe3rnO0eJiyva4Ow==/com.zdmgold.orlumen-3mgCf74Qi3zJ_QtDjZGDmA==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.zdmgold.orlumen
+11-19 07:23:34.975  4140  4140 V GraphicsEnvironment: Currently set values for:
+11-19 07:23:34.976  4140  4140 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-19 07:23:34.976  4140  4140 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-19 07:23:34.976  4140  4140 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+11-19 07:23:34.976  4140  4140 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-19 07:23:34.994  4140  4140 D WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+11-19 07:23:35.224  4140  4140 W HWUI    : Unknown dataspace 0
+11-19 07:23:35.553  4140  4140 W zdmgold.orlumen: Accessing hidden method Landroid/os/SystemProperties;->addChangeCallback(Ljava/lang/Runnable;)V (unsupported, reflection, allowed)
+11-19 07:23:35.789  4140  4147 I zdmgold.orlumen: Compiler allocated 5174KB to compile void android.view.ViewRootImpl.performTraversals()
+11-19 07:23:35.873  4140  4171 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-19 07:23:35.873  4140  4171 I EGL_emulation: Opening libGLESv2_emulation.so
+11-19 07:23:35.952  4140  4171 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-19 07:23:36.006  4140  4171 I Gralloc4: mapper 4.x is not supported
+11-19 07:23:36.151  4140  4155 I HWUI    : Davey! duration=883ms; Flags=1, FrameTimelineVsyncId=5304, IntendedVsync=84799638546, Vsync=84799638546, InputEventId=0, HandleInputStart=84813580058, AnimationStart=84813583694, PerformTraversalsStart=84813597574, DrawStart=85579685867, FrameDeadline=84816305212, FrameInterval=84813566198, FrameStartTime=16666666, SyncQueued=85592381019, SyncStart=85592567216, IssueDrawCommandsStart=85595105100, SwapBuffers=85596420722, FrameCompleted=85683719226, DequeueBufferDuration=2403, QueueBufferDuration=1394058, GpuCompleted=85683719226, SwapBuffersCompleted=85675756964, DisplayPresentTime=0, CommandSubmissionCompleted=85596420722, 
+11-19 07:23:36.174  4140  4140 I Choreographer: Skipped 49 frames!  The application may be doing too much work on its main thread.
+11-19 07:23:37.716  4140  4140 I Choreographer: Skipped 40 frames!  The application may be doing too much work on its main thread.
+11-19 07:23:37.790  4140  4187 I HWUI    : Davey! duration=1499ms; Flags=0, FrameTimelineVsyncId=5427, IntendedVsync=85766305174, Vsync=85782971840, InputEventId=0, HandleInputStart=85785600873, AnimationStart=85785601955, PerformTraversalsStart=86225197919, DrawStart=86454062280, FrameDeadline=85782971840, FrameInterval=85785592020, FrameStartTime=16666666, SyncQueued=86526498506, SyncStart=86529538676, IssueDrawCommandsStart=86532414543, SwapBuffers=87209427806, FrameCompleted=87268628858, DequeueBufferDuration=2213, QueueBufferDuration=1883103, GpuCompleted=87268628858, SwapBuffersCompleted=87263722199, DisplayPresentTime=0, CommandSubmissionCompleted=87209427806, 
+11-19 07:23:37.849  4140  4155 I HWUI    : Davey! duration=799ms; Flags=0, FrameTimelineVsyncId=5650, IntendedVsync=86582971808, Vsync=87249638448, InputEventId=0, HandleInputStart=87267639591, AnimationStart=87267640382, PerformTraversalsStart=87273076616, DrawStart=87273124898, FrameDeadline=87332971778, FrameInterval=87266237250, FrameStartTime=16666666, SyncQueued=87353733357, SyncStart=87354189144, IssueDrawCommandsStart=87354216124, SwapBuffers=87355150880, FrameCompleted=87383103517, DequeueBufferDuration=1903, QueueBufferDuration=137263, GpuCompleted=87383103517, SwapBuffersCompleted=87376298242, DisplayPresentTime=0, CommandSubmissionCompleted=87355150880, 
+11-19 07:23:38.761  4140  4171 D EGL_emulation: app_time_stats: avg=100.54ms min=18.22ms max=1587.95ms count=25
+11-19 07:23:39.773  4140  4171 D EGL_emulation: app_time_stats: avg=43.21ms min=16.16ms max=193.00ms count=22
+11-19 07:23:40.796  4140  4171 D EGL_emulation: app_time_stats: avg=34.37ms min=17.34ms max=66.26ms count=29
+11-19 07:23:41.154  4140  4223 D ProfileInstaller: Installing profile for com.zdmgold.orlumen
+11-19 07:23:41.815  4140  4171 D EGL_emulation: app_time_stats: avg=42.96ms min=17.17ms max=188.20ms count=22
+11-19 07:23:42.825  4140  4171 D EGL_emulation: app_time_stats: avg=44.12ms min=20.97ms max=74.37ms count=22
+11-19 07:23:43.842  4140  4171 D EGL_emulation: app_time_stats: avg=43.21ms min=16.65ms max=69.66ms count=22
+11-19 07:23:44.441  4140  4148 I zdmgold.orlumen: Background concurrent mark compact GC freed 4966KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 5166KB/10MB, paused 80us,1.036ms total 160.827ms
+11-19 07:23:44.857  4140  4171 D EGL_emulation: app_time_stats: avg=34.55ms min=20.37ms max=57.21ms count=26
+11-19 07:23:45.888  4140  4171 D EGL_emulation: app_time_stats: avg=36.16ms min=12.95ms max=63.81ms count=27
+11-19 07:23:46.896  4140  4171 D EGL_emulation: app_time_stats: avg=86.29ms min=21.06ms max=466.74ms count=11
+11-19 07:23:47.908  4140  4171 D EGL_emulation: app_time_stats: avg=43.04ms min=24.17ms max=68.64ms count=22
+11-19 07:23:48.924  4140  4171 D EGL_emulation: app_time_stats: avg=44.62ms min=18.56ms max=224.77ms count=22
+11-19 07:23:49.929  4140  4171 D EGL_emulation: app_time_stats: avg=33.08ms min=13.98ms max=55.53ms count=28
+11-19 07:23:50.544  4140  4277 I UserMessagingPlatform: Use new ConsentDebugSettings.Builder().addTestDeviceHashedId("B3EEABB8EE11C2BE770B684D95219ECB") to set this as a debug device.
+11-19 07:23:50.597  4140  4277 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-19 07:23:50.597  4140  4277 D UserMessagingPlatform: Stored info not exists: IABGPP_HDR_GppString
+11-19 07:23:50.600  4140  4277 D UserMessagingPlatform: Stored info not exists: IABGPP_GppSID
+11-19 07:23:50.600  4140  4277 D UserMessagingPlatform: Stored info not exists: IABUSPrivacy_String
+11-19 07:23:50.710  4140  4277 I WebViewFactory: Loading com.google.android.webview version 124.0.6367.219 (code 636771938)
+--------- beginning of system
+11-19 07:23:50.780  4140  4277 V ResourcesManager: The following library key has been added: ResourcesKey{ mHash=84c6b6e5 mResDir=null mSplitDirs=[] mOverlayDirs=[/product/overlay/EmulationPixel6/EmulationPixel6Overlay.apk,/product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk] mLibDirs=[/data/app/~~9qSis5fTPF5EoFfzw8f-jQ==/com.google.android.webview-iabXXumN8hKbZxYbtWbV7Q==/WebViewGoogle.apk,/data/app/~~UldRu5bXBkHYbYnotjG65A==/com.google.android.trichromelibrary_636771938-PV5it0XghV2pDQFWvFZoiA==/TrichromeLibrary.apk,/system_ext/framework/androidx.window.extensions.jar] mDisplayId=0 mOverrideConfig=v35 mCompatInfo={420dpi always-compat} mLoaders=[]}
+11-19 07:23:50.797  4140  4277 W ziparchive: Unable to open '/data/app/~~UldRu5bXBkHYbYnotjG65A==/com.google.android.trichromelibrary_636771938-PV5it0XghV2pDQFWvFZoiA==/TrichromeLibrary.dm': No such file or directory
+11-19 07:23:50.797  4140  4277 W ziparchive: Unable to open '/data/app/~~UldRu5bXBkHYbYnotjG65A==/com.google.android.trichromelibrary_636771938-PV5it0XghV2pDQFWvFZoiA==/TrichromeLibrary.dm': No such file or directory
+11-19 07:23:50.797  4140  4277 W zdmgold.orlumen: Entry not found
+11-19 07:23:50.800  4140  4277 D nativeloader: Configuring clns-8 for other apk /data/app/~~UldRu5bXBkHYbYnotjG65A==/com.google.android.trichromelibrary_636771938-PV5it0XghV2pDQFWvFZoiA==/TrichromeLibrary.apk. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~9qSis5fTPF5EoFfzw8f-jQ==/com.google.android.webview-iabXXumN8hKbZxYbtWbV7Q==/lib/x86_64:/data/app/~~9qSis5fTPF5EoFfzw8f-jQ==/com.google.android.webview-iabXXumN8hKbZxYbtWbV7Q==/WebViewGoogle.apk!/lib/x86_64:/data/app/~~UldRu5bXBkHYbYnotjG65A==/com.google.android.trichromelibrary_636771938-PV5it0XghV2pDQFWvFZoiA==/TrichromeLibrary.apk!/lib/x86_64, permitted_path=/data:/mnt/expand
+11-19 07:23:50.801  4140  4277 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+11-19 07:23:50.816  4140  4277 D nativeloader: Configuring clns-9 for other apk /data/app/~~9qSis5fTPF5EoFfzw8f-jQ==/com.google.android.webview-iabXXumN8hKbZxYbtWbV7Q==/WebViewGoogle.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~9qSis5fTPF5EoFfzw8f-jQ==/com.google.android.webview-iabXXumN8hKbZxYbtWbV7Q==/lib/x86_64:/data/app/~~9qSis5fTPF5EoFfzw8f-jQ==/com.google.android.webview-iabXXumN8hKbZxYbtWbV7Q==/WebViewGoogle.apk!/lib/x86_64:/data/app/~~UldRu5bXBkHYbYnotjG65A==/com.google.android.trichromelibrary_636771938-PV5it0XghV2pDQFWvFZoiA==/TrichromeLibrary.apk!/lib/x86_64, permitted_path=/data:/mnt/expand
+11-19 07:23:50.863  4140  4277 I zdmgold.orlumen: Waiting for a blocking GC ClassLinker
+11-19 07:23:51.026  4140  4148 I zdmgold.orlumen: Background concurrent mark compact GC freed 4009KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 6609KB/12MB, paused 1.189ms,4.753ms total 238.522ms
+11-19 07:23:51.026  4140  4277 I zdmgold.orlumen: WaitForGcToComplete blocked ClassLinker on Background for 162.948ms
+11-19 07:23:51.035  4140  4277 I cr_WVCFactoryProvider: Loaded version=124.0.6367.219 minSdkVersion=29 isBundle=false multiprocess=true packageId=2
+11-19 07:23:51.127  4140  4277 D nativeloader: Load /data/app/~~UldRu5bXBkHYbYnotjG65A==/com.google.android.trichromelibrary_636771938-PV5it0XghV2pDQFWvFZoiA==/TrichromeLibrary.apk!/lib/x86_64/libmonochrome_64.so using ns clns-9 from class loader (caller=/data/app/~~9qSis5fTPF5EoFfzw8f-jQ==/com.google.android.webview-iabXXumN8hKbZxYbtWbV7Q==/WebViewGoogle.apk): ok
+11-19 07:23:51.165  4140  4277 D nativeloader: Load /system/lib64/libwebviewchromium_plat_support.so using ns clns-9 from class loader (caller=/data/app/~~9qSis5fTPF5EoFfzw8f-jQ==/com.google.android.webview-iabXXumN8hKbZxYbtWbV7Q==/WebViewGoogle.apk): ok
+11-19 07:23:51.282  4140  4300 I chromium: [1119/072351.235771:INFO:variations_seed_loader.cc(66)] Failed to open file for reading.: No such file or directory (2)
+11-19 07:23:51.291  4140  4300 I cr_VariationsUtils: Failed reading seed file "/data/user/0/com.zdmgold.orlumen/app_webview/variations_seed_new"
+11-19 07:23:51.291  4140  4300 I chromium: [1119/072351.291418:INFO:variations_seed_loader.cc(66)] Failed to open file for reading.: No such file or directory (2)
+11-19 07:23:51.291  4140  4300 I cr_VariationsUtils: Failed reading seed file "/data/user/0/com.zdmgold.orlumen/app_webview/variations_seed"
+11-19 07:23:51.304  4140  4300 I cr_VariationsUtils: Requesting new seed from IVariationsSeedServer
+11-19 07:23:51.366  4140  4171 D EGL_emulation: app_time_stats: avg=127.90ms min=22.80ms max=823.94ms count=11
+11-19 07:23:51.380  4140  4140 I Choreographer: Skipped 38 frames!  The application may be doing too much work on its main thread.
+11-19 07:23:51.388  4140  4155 I HWUI    : Davey! duration=1100ms; Flags=0, FrameTimelineVsyncId=8152, IntendedVsync=99816304612, Vsync=100099637934, InputEventId=0, HandleInputStart=100108325472, AnimationStart=100108326844, PerformTraversalsStart=100129219287, DrawStart=100129255561, FrameDeadline=100116304600, FrameInterval=100107373489, FrameStartTime=16666666, SyncQueued=100130629429, SyncStart=100130660465, IssueDrawCommandsStart=100132152648, SwapBuffers=100792924549, FrameCompleted=100916809908, DequeueBufferDuration=2904, QueueBufferDuration=155851, GpuCompleted=100916679224, SwapBuffersCompleted=100916809908, DisplayPresentTime=0, CommandSubmissionCompleted=100792924549, 
+11-19 07:23:51.928  4140  4158 I HWUI    : Davey! duration=921ms; Flags=0, FrameTimelineVsyncId=8168, IntendedVsync=100116304600, Vsync=100149637932, InputEventId=0, HandleInputStart=100159968943, AnimationStart=100159969744, PerformTraversalsStart=100303594416, DrawStart=100303632322, FrameDeadline=100949637900, FrameInterval=100159962764, FrameStartTime=16666666, SyncQueued=100529743329, SyncStart=100924567796, IssueDrawCommandsStart=100924638951, SwapBuffers=101319034002, FrameCompleted=101433101175, DequeueBufferDuration=2323, QueueBufferDuration=116133, GpuCompleted=101433101175, SwapBuffersCompleted=101419827695, DisplayPresentTime=0, CommandSubmissionCompleted=101319034002, 
+11-19 07:23:51.938  4140  4158 I HWUI    : Davey! duration=715ms; Flags=0, FrameTimelineVsyncId=8175, IntendedVsync=100282971260, Vsync=100916304568, InputEventId=0, HandleInputStart=100934181096, AnimationStart=100934182318, PerformTraversalsStart=100935584168, DrawStart=100935629886, FrameDeadline=101466304546, FrameInterval=100930681976, FrameStartTime=16666666, SyncQueued=100935709143, SyncStart=101419913012, IssueDrawCommandsStart=101419987793, SwapBuffers=101428285081, FrameCompleted=101483128038, DequeueBufferDuration=3378882, QueueBufferDuration=322479, GpuCompleted=101483128038, SwapBuffersCompleted=101478853707, DisplayPresentTime=0, CommandSubmissionCompleted=101428285081, 
+11-19 07:23:51.959  4140  4140 I cr_LibraryLoader: Successfully loaded native library
+11-19 07:23:51.959  4140  4140 I cr_CachingUmaRecorder: Flushed 6 samples from 6 histograms, 0 samples were dropped.
+11-19 07:23:51.977  4140  4140 I cr_CombinedPProvider: #registerProvider() provider:WV.V7@6071855 isPolicyCacheEnabled:false policyProvidersSize:0
+11-19 07:23:51.979  4140  4140 I cr_PolicyProvider: #setManagerAndSource() 0
+11-19 07:23:52.016  4140  4140 I cr_CombinedPProvider: #linkNativeInternal() 1
+11-19 07:23:52.016  4140  4140 I cr_AppResProvider: #getApplicationRestrictionsFromUserManager() Bundle[EMPTY_PARCEL]
+11-19 07:23:52.016  4140  4140 I cr_PolicyProvider: #notifySettingsAvailable() 0
+11-19 07:23:52.016  4140  4140 I cr_CombinedPProvider: #onSettingsAvailable() 0
+11-19 07:23:52.016  4140  4140 I cr_CombinedPProvider: #flushPolicies()
+11-19 07:23:52.115  4140  4140 I Choreographer: Skipped 42 frames!  The application may be doing too much work on its main thread.
+11-19 07:23:52.145  4140  4277 D TrafficStats: tagSocket(160) with statsTag=0xffffffff, statsUid=-1
+11-19 07:23:52.409  4140  4171 D EGL_emulation: app_time_stats: avg=346.44ms min=55.63ms max=503.02ms count=3
+11-19 07:23:52.429  4140  4158 I HWUI    : Davey! duration=1009ms; Flags=0, FrameTimelineVsyncId=8204, IntendedVsync=100949637900, Vsync=101649637872, InputEventId=0, HandleInputStart=101667064701, AnimationStart=101667065472, PerformTraversalsStart=101706897571, DrawStart=101706927326, FrameDeadline=101516304544, FrameInterval=101666030437, FrameStartTime=16666666, SyncQueued=101743264300, SyncStart=101743430276, IssueDrawCommandsStart=101743590524, SwapBuffers=101890732254, FrameCompleted=101959738902, DequeueBufferDuration=3766, QueueBufferDuration=3693019, GpuCompleted=101959470263, SwapBuffersCompleted=101959738902, DisplayPresentTime=0, CommandSubmissionCompleted=101890732254, 
+11-19 07:23:53.035  4140  4277 D UserMessagingPlatform: Action[clear]: {"keys":["UMP_eids"]}
+11-19 07:23:53.093  4140  4277 D UserMessagingPlatform: Action[write]: {"UMP_consentModeValues":"4444","IABTCF_CmpSdkID":300,"IABTCF_gdprApplies":0}
+11-19 07:23:53.093  4140  4277 D UserMessagingPlatform: Writing to storage: [UMP_consentModeValues] 4444
+11-19 07:23:53.094  4140  4277 D UserMessagingPlatform: Writing to storage: [IABTCF_CmpSdkID] 300
+11-19 07:23:53.094  4140  4277 D UserMessagingPlatform: Writing to storage: [IABTCF_gdprApplies] 0
+11-19 07:23:53.276  4140  4277 D UserMessagingPlatform: Action[write]: {"IABGPP_GppSID":"7"}
+11-19 07:23:53.276  4140  4277 D UserMessagingPlatform: Writing to storage: [IABGPP_GppSID] 7
+11-19 07:23:53.381  4140  4277 D UserMessagingPlatform: Action[write]: {"IABGPP_HDR_GppString":"DBABL~BAAAAAAAAg","GppMetadata":"[[[7,[1795073032,283029000]]]]"}
+11-19 07:23:53.381  4140  4277 D UserMessagingPlatform: Writing to storage: [IABGPP_HDR_GppString] DBABL~BAAAAAAAAg
+11-19 07:23:53.381  4140  4277 D UserMessagingPlatform: Writing to storage: [GppMetadata] [[[7,[1795073032,283029000]]]]
+11-19 07:23:53.449  4140  4171 D EGL_emulation: app_time_stats: avg=94.39ms min=60.82ms max=106.73ms count=11
+11-19 07:23:53.478  4140  4277 D UserMessagingPlatform: Action[write]: {"UMP_cdd":"ChQtMjUyMjkwMDcxMjY0NDc4NTk2MBIMCIjI-tcGEIjc-oYB"}
+11-19 07:23:53.478  4140  4277 D UserMessagingPlatform: Writing to storage: [UMP_cdd] ChQtMjUyMjkwMDcxMjY0NDc4NTk2MBIMCIjI-tcGEIjc-oYB
+11-19 07:23:54.200  4140  4140 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.uncompressed.dm': No such file or directory
+11-19 07:23:54.200  4140  4140 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.uncompressed.dm': No such file or directory
+11-19 07:23:54.393  4140  4373 I Ads     : This request is sent from a test device.
+11-19 07:23:54.393  4140  4374 D GASS    : Clearcut logging disabled
+11-19 07:23:54.428  4140  4148 I zdmgold.orlumen: Background concurrent mark compact GC freed 3956KB AllocSpace bytes, 37(1888KB) LOS objects, 49% free, 8313KB/16MB, paused 5.073ms,3.523ms total 102.522ms
+11-19 07:23:54.440  4140  4150 W zdmgold.orlumen: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~9qSis5fTPF5EoFfzw8f-jQ==/com.google.android.webview-iabXXumN8hKbZxYbtWbV7Q==/WebViewGoogle.apk' with 1 weak references
+11-19 07:23:54.452  4140  4150 W zdmgold.orlumen: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk' with 1 weak references
+11-19 07:23:54.486  4140  4375 W ziparchive: Unable to open '/data/user/0/com.zdmgold.orlumen/cache/1782164920746.dm': No such file or directory
+11-19 07:23:54.486  4140  4375 D zzbcr   : File /data/user/0/com.zdmgold.orlumen/cache/1782164920746.dex not found. No need for deletion
+11-19 07:23:54.533  4140  4416 D GASS    : Clearcut logging disabled
+11-19 07:23:54.537  4140  4140 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+11-19 07:23:54.557  4140  4422 W Ads     : Invoke Firebase method getInstance error.
+11-19 07:23:54.557  4140  4422 W Ads     : The Google Mobile Ads SDK will not integrate with Firebase. Admob/Firebase integration requires the latest Firebase SDK jar, but Firebase SDK is either missing or out of date
+11-19 07:23:54.633  4140  4140 I Choreographer: Skipped 39 frames!  The application may be doing too much work on its main thread.
+11-19 07:23:54.652  4140  4323 W cr_media: BLUETOOTH_CONNECT permission is missing.
+11-19 07:23:54.655  4140  4323 W cr_media: registerBluetoothIntentsIfNeeded: Requires BLUETOOTH permission
+11-19 07:23:54.756  4140  4171 D EGL_emulation: app_time_stats: avg=156.96ms min=69.23ms max=613.75ms count=8
+11-19 07:23:54.769  4140  4247 I HWUI    : Davey! duration=771ms; Flags=0, FrameTimelineVsyncId=8428, IntendedVsync=103532971130, Vsync=104182971104, InputEventId=0, HandleInputStart=104184077212, AnimationStart=104184078073, PerformTraversalsStart=104195141105, DrawStart=104195175716, FrameDeadline=103732971122, FrameInterval=104183891977, FrameStartTime=16666666, SyncQueued=104210053406, SyncStart=104211592149, IssueDrawCommandsStart=104216413131, SwapBuffers=104246958904, FrameCompleted=104306400694, DequeueBufferDuration=4257, QueueBufferDuration=6036535, GpuCompleted=104306272784, SwapBuffersCompleted=104306400694, DisplayPresentTime=0, CommandSubmissionCompleted=104246958904, 
+11-19 07:23:54.812  4140  4373 I Ads     : This request is sent from a test device.
+11-19 07:23:55.174  4140  4434 W ziparchive: Unable to open '/data/user/0/com.zdmgold.orlumen/app_pccache/6/1FECF17D179A896CE8C02AACE0C580FE8C2F25DD/pcam.dm': No such file or directory
+11-19 07:23:55.212  4140  4434 I zdmgold.orlumen: Waiting for a blocking GC ClassLinker
+11-19 07:23:55.600  4140  4148 I zdmgold.orlumen: Background concurrent mark compact GC freed 4289KB AllocSpace bytes, 21(3328KB) LOS objects, 49% free, 9753KB/19MB, paused 379us,66.264ms total 593.254ms
+11-19 07:23:55.604  4140  4434 I zdmgold.orlumen: WaitForGcToComplete blocked ClassLinker on Background for 391.979ms
+11-19 07:23:55.629  4140  4370 W Ads     : Not retrying to fetch app settings
+11-19 07:23:55.631  4140  4361 W Ads     : Not retrying to fetch app settings
+11-19 07:23:55.639  4140  4456 W GooglePlayServicesUtil: Google Play services out of date for com.zdmgold.orlumen.  Requires 254730000 but found 242335041
+11-19 07:23:55.730  4140  4457 W GooglePlayServicesUtil: Google Play services out of date for com.zdmgold.orlumen.  Requires 254730000 but found 242335041
+11-19 07:23:55.821  4140  4171 D EGL_emulation: app_time_stats: avg=93.17ms min=61.65ms max=148.64ms count=11
+11-19 07:23:55.824  4140  4434 D nativeloader: Configuring clns-10 for other apk . target_sdk_version=36, uses_libraries=ALL, library_path=, permitted_path=/data:/mnt/expand
+11-19 07:23:55.820  4140  4140 W pool-11-thread-: type=1400 audit(0.0:54): avc:  granted  { execute } for  path="/data/data/com.zdmgold.orlumen/app_pccache/6/1FECF17D179A896CE8C02AACE0C580FE8C2F25DD/pcam.jar" dev="dm-46" ino=369047 scontext=u:r:untrusted_app:s0:c209,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c209,c256,c512,c768 tclass=file app=com.zdmgold.orlumen
+11-19 07:23:55.874  4140  4418 W zdmgold.orlumen: Verification of com.google.common.util.concurrent.ListenableFuture com.google.android.gms.internal.ads.zzejt.zzd(com.google.android.gms.internal.ads.zzcch, int) took 133.142ms (1276.83 bytecodes/s) (8760B approximate peak alloc)
+11-19 07:23:55.925  4140  4434 D nativeloader: Load /data/user/0/com.zdmgold.orlumen/app_pccache/6/1FECF17D179A896CE8C02AACE0C580FE8C2F25DD/pcam.jar!/libd1833C2984CCD.so using isolated ns clns-10 (caller=/data/user/0/com.zdmgold.orlumen/app_pccache/6/1FECF17D179A896CE8C02AACE0C580FE8C2F25DD/pcam.jar): ok
+11-19 07:23:56.466  4140  4140 D UserMessagingPlatform: Receive consent action: consent://consent/?action=configure_app_assets
+11-19 07:23:56.524  4140  4277 D UserMessagingPlatform: Action[configure_app_assets]: {}
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: IDFA_freqCapNumViews
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdStoragePurposeConsentStatus
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAnalyticsStoragePurposeConsentStatus
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdPersonalizationPurposeConsentStatus
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdUserDataPurposeConsentStatus
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: IABTCF_AddtlConsent
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: IABTCF_idfaFlowControl
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: IDFA_freqCapNumViews
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdStoragePurposeConsentStatus
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAnalyticsStoragePurposeConsentStatus
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdPersonalizationPurposeConsentStatus
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdUserDataPurposeConsentStatus
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: IABTCF_AddtlConsent
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: IABTCF_idfaFlowControl
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: IDFA_freqCapNumViews
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdStoragePurposeConsentStatus
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAnalyticsStoragePurposeConsentStatus
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdPersonalizationPurposeConsentStatus
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdUserDataPurposeConsentStatus
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: IABTCF_AddtlConsent
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: IABTCF_idfaFlowControl
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: IDFA_freqCapNumViews
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdStoragePurposeConsentStatus
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAnalyticsStoragePurposeConsentStatus
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdPersonalizationPurposeConsentStatus
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdUserDataPurposeConsentStatus
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: IABTCF_AddtlConsent
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: IABTCF_idfaFlowControl
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: IDFA_freqCapNumViews
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdStoragePurposeConsentStatus
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAnalyticsStoragePurposeConsentStatus
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdPersonalizationPurposeConsentStatus
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdUserDataPurposeConsentStatus
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: IABTCF_AddtlConsent
+11-19 07:23:56.669  4140  4277 D UserMessagingPlatform: Stored info not exists: IABTCF_idfaFlowControl
+11-19 07:23:56.827  4140  4171 D EGL_emulation: app_time_stats: avg=100.57ms min=67.76ms max=128.31ms count=10
+11-19 07:23:56.966  4140  4140 D UserMessagingPlatform: Wall html loaded.
+11-19 07:23:57.088  4140  4140 D UserMessagingPlatform: Receive consent action: consent://consent/?action=load_complete&args=%7B%22status%22%3A%22ok%22%7D
+11-19 07:23:57.091  4140  4140 I Ads     : JS: The jsLoaded GMSG has been sent (https://googleads.g.doubleclick.net/mads/static/sdk/native/sdk-core-v40.html:1117)
+11-19 07:23:57.092  4140  4140 I chromium: [INFO:CONSOLE(1117)] "The jsLoaded GMSG has been sent", source: https://googleads.g.doubleclick.net/mads/static/sdk/native/sdk-core-v40.html (1117)
+11-19 07:23:57.096  4140  4277 D UserMessagingPlatform: Action[load_complete]: {"status":"ok"}
+11-19 07:23:57.875  4140  4171 D EGL_emulation: app_time_stats: avg=94.00ms min=64.45ms max=150.56ms count=11
+11-19 07:23:58.436  4140  4140 I Ads     : JS: The jsLoaded GMSG has been sent (https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js?n=true&lv=sdk_20190107_RC02:1110)
+11-19 07:23:58.436  4140  4140 I chromium: [INFO:CONSOLE(1110)] "The jsLoaded GMSG has been sent", source: https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js?n=true&lv=sdk_20190107_RC02 (1110)
+11-19 07:23:58.908  4140  4171 D EGL_emulation: app_time_stats: avg=101.38ms min=65.99ms max=157.73ms count=10
+11-19 07:23:59.041  4140  4365 I Ads     : SDK version: afma-sdk-a-v263305000.263305000.0
+11-19 07:23:59.041  4140  4365 I Ads     : HTTP timeout: 60000 milliseconds.
+11-19 07:23:59.045  4140  4365 D TrafficStats: tagSocket(221) with statsTag=0xffffffff, statsUid=-1
+11-19 07:23:59.298  4140  4363 I Ads     : SDK version: afma-sdk-a-v263305000.263305000.0
+11-19 07:23:59.298  4140  4363 I Ads     : HTTP timeout: 60000 milliseconds.
+11-19 07:23:59.302  4140  4363 D TrafficStats: tagSocket(290) with statsTag=0xffffffff, statsUid=-1
+11-19 07:23:59.978  4140  4171 D EGL_emulation: app_time_stats: avg=88.65ms min=59.79ms max=132.89ms count=12
+11-19 07:24:01.116  4140  4140 I Choreographer: Skipped 33 frames!  The application may be doing too much work on its main thread.
+11-19 07:24:01.207  4140  4171 D EGL_emulation: app_time_stats: avg=134.10ms min=68.90ms max=460.32ms count=9
+11-19 07:24:01.389  4140  4148 I zdmgold.orlumen: Background concurrent mark compact GC freed 8352KB AllocSpace bytes, 43(2984KB) LOS objects, 49% free, 17MB/34MB, paused 880us,6.329ms total 671.686ms
+11-19 07:24:01.397  4140  4421 W zdmgold.orlumen: Verification of void com.google.android.gms.internal.ads.zzflq.<init>(android.util.JsonReader) took 271.621ms (13091.75 bytecodes/s) (96672B approximate peak alloc)
+11-19 07:24:02.256  4140  4171 D EGL_emulation: app_time_stats: avg=174.83ms min=74.22ms max=498.09ms count=6
+11-19 07:24:02.667  4140  4140 I Ads     : JS: The jsLoaded GMSG has been sent (https://googleads.g.doubleclick.net/mads/static/sdk/native/sdk-core-v40.html:1117)
+11-19 07:24:02.667  4140  4140 I chromium: [INFO:CONSOLE(1117)] "The jsLoaded GMSG has been sent", source: https://googleads.g.doubleclick.net/mads/static/sdk/native/sdk-core-v40.html (1117)
+11-19 07:24:03.307  4140  4171 D EGL_emulation: app_time_stats: avg=94.64ms min=79.63ms max=107.27ms count=11
+11-19 07:24:04.326  4140  4171 D EGL_emulation: app_time_stats: avg=92.40ms min=68.37ms max=118.41ms count=11
+11-19 07:24:04.662  4140  4147 I zdmgold.orlumen: Compiler allocated 4219KB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+11-19 07:24:05.150  4140  4478 D TrafficStats: tagSocket(259) with statsTag=0xffffffff, statsUid=-1
+11-19 07:24:06.097  4140  4171 D EGL_emulation: app_time_stats: avg=252.93ms min=89.97ms max=1004.46ms count=7
+11-19 07:24:06.121  4140  4246 I HWUI    : Davey! duration=1194ms; Flags=0, FrameTimelineVsyncId=9500, IntendedVsync=114432970694, Vsync=114516304024, InputEventId=0, HandleInputStart=114532601298, AnimationStart=114532601849, PerformTraversalsStart=114615445473, DrawStart=114615505963, FrameDeadline=114666304018, FrameInterval=114532597712, FrameStartTime=16666666, SyncQueued=114623126097, SyncStart=114643290461, IssueDrawCommandsStart=114643435276, SwapBuffers=115643178626, FrameCompleted=115647683388, DequeueBufferDuration=2794, QueueBufferDuration=2986631, GpuCompleted=115647597100, SwapBuffersCompleted=115647683388, DisplayPresentTime=0, CommandSubmissionCompleted=115643178626, 
+11-19 07:24:06.133  4140  4140 I Choreographer: Skipped 62 frames!  The application may be doing too much work on its main thread.
+11-19 07:24:06.298  4140  4187 I HWUI    : Davey! duration=1132ms; Flags=0, FrameTimelineVsyncId=9523, IntendedVsync=114649637352, Vsync=115682970644, InputEventId=0, HandleInputStart=115685189928, AnimationStart=115685191370, PerformTraversalsStart=115691698893, DrawStart=115691738102, FrameDeadline=115782970640, FrameInterval=115684002777, FrameStartTime=16666666, SyncQueued=115695761841, SyncStart=115739545792, IssueDrawCommandsStart=115739629597, SwapBuffers=115813491728, FrameCompleted=115825710975, DequeueBufferDuration=2735, QueueBufferDuration=869760, GpuCompleted=115825659559, SwapBuffersCompleted=115825710975, DisplayPresentTime=0, CommandSubmissionCompleted=115813491728, 
+11-19 07:24:07.121  4140  4171 D EGL_emulation: app_time_stats: avg=102.40ms min=83.31ms max=121.84ms count=10
+11-19 07:24:08.319  4140  4171 D EGL_emulation: app_time_stats: avg=99.81ms min=76.63ms max=217.06ms count=12
+11-19 07:24:09.374  4140  4171 D EGL_emulation: app_time_stats: avg=105.50ms min=70.38ms max=173.40ms count=10
+11-19 07:24:10.450  4140  4171 D EGL_emulation: app_time_stats: avg=89.46ms min=75.34ms max=107.44ms count=12
+11-19 07:24:11.500  4140  4171 D EGL_emulation: app_time_stats: avg=87.48ms min=76.36ms max=120.07ms count=12
+11-19 07:24:12.562  4140  4171 D EGL_emulation: app_time_stats: avg=88.47ms min=65.83ms max=114.88ms count=12
+11-19 07:24:13.225  4140  4140 I cr_A11yState: Enabled accessibility services list updated.
+11-19 07:24:13.225  4140  4140 I cr_A11yState: Informing listeners of changes.
+11-19 07:24:13.225  4140  4140 I cr_A11yState: New AccessibilityState: State{isScreenReaderEnabled=false, isTouchExplorationEnabled=false, isPerformGesturesEnabled=false, isAnyAccessibilityServiceEnabled=false, isAccessibilityToolPresent=false, isSpokenFeedbackServicePresent=false, isTextShowPasswordEnabled=true, isOnlyPasswordManagersEnabled=false}
+11-19 07:24:13.586  4140  4171 D EGL_emulation: app_time_stats: avg=85.23ms min=67.34ms max=122.99ms count=12
+11-19 07:24:14.590  4140  4171 D EGL_emulation: app_time_stats: avg=76.62ms min=64.72ms max=92.54ms count=13
+11-19 07:24:15.611  4140  4171 D EGL_emulation: app_time_stats: avg=91.39ms min=74.90ms max=114.17ms count=11
+11-19 07:24:16.647  4140  4171 D EGL_emulation: app_time_stats: avg=79.47ms min=65.27ms max=115.35ms count=13
+11-19 07:24:17.700  4140  4171 D EGL_emulation: app_time_stats: avg=87.68ms min=75.42ms max=100.11ms count=12
+11-19 07:24:18.727  4140  4171 D EGL_emulation: app_time_stats: avg=78.97ms min=65.00ms max=108.07ms count=13
+11-19 07:24:19.791  4140  4171 D EGL_emulation: app_time_stats: avg=81.42ms min=67.71ms max=112.53ms count=13
+11-19 07:24:19.892  4140  4148 I zdmgold.orlumen: Background concurrent mark compact GC freed 15MB AllocSpace bytes, 82(9204KB) LOS objects, 49% free, 10MB/20MB, paused 352us,4.892ms total 166.647ms
+11-19 07:24:20.816  4140  4171 D EGL_emulation: app_time_stats: avg=85.11ms min=71.62ms max=126.40ms count=12
+11-19 07:24:21.818  4140  4171 D EGL_emulation: app_time_stats: avg=83.52ms min=64.09ms max=119.92ms count=12
+11-19 07:24:22.572  4140  4140 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+11-19 07:24:22.854  4140  4171 D EGL_emulation: app_time_stats: avg=103.55ms min=74.90ms max=179.93ms count=10
+11-19 07:24:23.889  4140  4171 D EGL_emulation: app_time_stats: avg=129.37ms min=72.66ms max=158.34ms count=8
+11-19 07:24:23.902  4140  4171 D EGL_emulation: app_time_stats: avg=181.27ms min=124.48ms max=259.50ms count=7
+11-19 07:24:24.951  4140  4171 D EGL_emulation: app_time_stats: avg=132.78ms min=110.85ms max=151.07ms count=8
+11-19 07:24:24.971  4140  4171 D EGL_emulation: app_time_stats: avg=133.54ms min=117.07ms max=150.90ms count=8
+11-19 07:24:26.025  4140  4171 D EGL_emulation: app_time_stats: avg=134.18ms min=106.47ms max=154.02ms count=8
+11-19 07:24:26.039  4140  4171 D EGL_emulation: app_time_stats: avg=133.55ms min=108.33ms max=153.68ms count=8
+11-19 07:24:27.112  4140  4171 D EGL_emulation: app_time_stats: avg=135.91ms min=118.23ms max=152.58ms count=8
+11-19 07:24:27.168  4140  4171 D EGL_emulation: app_time_stats: avg=140.43ms min=121.57ms max=181.13ms count=8
+11-19 07:24:28.423  4140  4171 D EGL_emulation: app_time_stats: avg=187.22ms min=128.08ms max=425.79ms count=7
+11-19 07:24:28.456  4140  4171 D EGL_emulation: app_time_stats: avg=183.94ms min=117.15ms max=391.05ms count=7
+11-19 07:24:28.632  4140  4140 I Choreographer: Skipped 34 frames!  The application may be doing too much work on its main thread.
+11-19 07:24:29.244  4140  4187 I HWUI    : Davey! duration=1088ms; Flags=0, FrameTimelineVsyncId=12127, IntendedVsync=137599636434, Vsync=138166303078, InputEventId=0, HandleInputStart=138182443594, AnimationStart=138182444665, PerformTraversalsStart=138189402907, DrawStart=138189436738, FrameDeadline=137999636418, FrameInterval=138182285098, FrameStartTime=16666666, SyncQueued=138199053283, SyncStart=138232875828, IssueDrawCommandsStart=138232979522, SwapBuffers=138586592853, FrameCompleted=138721700460, DequeueBufferDuration=2283, QueueBufferDuration=242790, GpuCompleted=138721700460, SwapBuffersCompleted=138693383383, DisplayPresentTime=0, CommandSubmissionCompleted=138586592853, 
+11-19 07:24:29.363  4140  4140 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-19 07:24:29.403  4140  4140 I Choreographer: Skipped 46 frames!  The application may be doing too much work on its main thread.
+11-19 07:24:29.499  4140  4140 D InsetsController: hide(ime(), fromIme=true)
+11-19 07:24:29.500  4140  4140 I ImeTracker: com.google.android.apps.nexuslauncher:cf0599eb: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+11-19 07:24:29.516  4140  4567 I HWUI    : Davey! duration=755ms; Flags=0, FrameTimelineVsyncId=12127, IntendedVsync=137599636434, Vsync=138166303078, InputEventId=0, HandleInputStart=138182443594, AnimationStart=138182444665, PerformTraversalsStart=138189402907, DrawStart=138248947890, FrameDeadline=138049636416, FrameInterval=138182285098, FrameStartTime=16666666, SyncQueued=138253434486, SyncStart=138795018925, IssueDrawCommandsStart=138795037653, SwapBuffers=138869910244, FrameCompleted=138896337948, DequeueBufferDuration=2254, QueueBufferDuration=333324, GpuCompleted=138896337948, SwapBuffersCompleted=138891855869, DisplayPresentTime=4575657290127900675, CommandSubmissionCompleted=138869910244, 
+11-19 07:24:29.575  4140  4171 D EGL_emulation: app_time_stats: avg=559.42ms min=233.79ms max=885.06ms count=2
+11-19 07:24:29.596  4140  4187 I HWUI    : Davey! duration=950ms; Flags=0, FrameTimelineVsyncId=12258, IntendedVsync=138182969744, Vsync=138949636380, InputEventId=0, HandleInputStart=138953718680, AnimationStart=138953719852, PerformTraversalsStart=138968103189, DrawStart=138974039055, FrameDeadline=138916303048, FrameInterval=138953193181, FrameStartTime=16666666, SyncQueued=138990892406, SyncStart=138990918885, IssueDrawCommandsStart=138990947718, SwapBuffers=139091186929, FrameCompleted=139133100366, DequeueBufferDuration=4036, QueueBufferDuration=199496, GpuCompleted=139133100366, SwapBuffersCompleted=139125835639, DisplayPresentTime=126702719904496, CommandSubmissionCompleted=139091186929, 
+11-19 07:24:30.588  4140  4171 D EGL_emulation: app_time_stats: avg=62.82ms min=26.18ms max=112.00ms count=15
+11-19 07:24:31.653  4140  4171 D EGL_emulation: app_time_stats: avg=69.17ms min=53.80ms max=91.68ms count=15
+11-19 07:24:32.674  4140  4171 D EGL_emulation: app_time_stats: avg=67.40ms min=9.93ms max=107.45ms count=14
+11-19 07:24:33.750  4140  4171 D EGL_emulation: app_time_stats: avg=62.62ms min=15.09ms max=109.85ms count=15
+11-19 07:24:34.760  4140  4171 D EGL_emulation: app_time_stats: avg=63.33ms min=36.08ms max=81.50ms count=15
+11-19 07:24:35.808  4140  4171 D EGL_emulation: app_time_stats: avg=71.93ms min=47.18ms max=89.50ms count=14
+11-19 07:24:36.854  4140  4171 D EGL_emulation: app_time_stats: avg=79.27ms min=33.98ms max=152.38ms count=12
+11-19 07:24:37.976  4140  4171 D EGL_emulation: app_time_stats: avg=62.27ms min=26.31ms max=95.59ms count=15
+11-19 07:24:39.010  4140  4171 D EGL_emulation: app_time_stats: avg=68.53ms min=42.87ms max=91.86ms count=14
+11-19 07:24:39.576  4140  4148 I zdmgold.orlumen: Background concurrent mark compact GC freed 10MB AllocSpace bytes, 2(104KB) LOS objects, 49% free, 10MB/20MB, paused 367us,6.152ms total 286.840ms
+11-19 07:24:39.692  4140  4140 I Choreographer: Skipped 30 frames!  The application may be doing too much work on its main thread.
+11-19 07:24:39.727  4140  4499 I HWUI    : Davey! duration=710ms; Flags=1, FrameTimelineVsyncId=14197, IntendedVsync=148516302664, Vsync=148716302656, InputEventId=0, HandleInputStart=148717247459, AnimationStart=148717248320, PerformTraversalsStart=148717829852, DrawStart=149181900103, FrameDeadline=148682969324, FrameInterval=148717132448, FrameStartTime=16666666, SyncQueued=149198540147, SyncStart=149207288374, IssueDrawCommandsStart=149209724759, SwapBuffers=149213056832, FrameCompleted=149235208053, DequeueBufferDuration=2414, QueueBufferDuration=223421, GpuCompleted=149235208053, SwapBuffersCompleted=149225254937, DisplayPresentTime=0, CommandSubmissionCompleted=149213056832, 
+11-19 07:24:40.055  4140  4246 I HWUI    : Davey! duration=835ms; Flags=0, FrameTimelineVsyncId=14278, IntendedVsync=148732969322, Vsync=149232969302, InputEventId=0, HandleInputStart=149243868720, AnimationStart=149243869972, PerformTraversalsStart=149246386135, DrawStart=149246419334, FrameDeadline=149216302636, FrameInterval=149243064587, FrameStartTime=16666666, SyncQueued=149253260442, SyncStart=149279341523, IssueDrawCommandsStart=149285700847, SwapBuffers=149579826250, FrameCompleted=149594221405, DequeueBufferDuration=2454, QueueBufferDuration=1629217, GpuCompleted=149594175406, SwapBuffersCompleted=149594221405, DisplayPresentTime=0, CommandSubmissionCompleted=149579826250, 
+11-19 07:24:40.077  4140  4171 D EGL_emulation: app_time_stats: avg=340.47ms min=60.11ms max=558.81ms count=3
+11-19 07:24:41.149  4140  4171 D EGL_emulation: app_time_stats: avg=189.73ms min=136.65ms max=412.72ms count=8
+11-19 07:24:41.165  4140  4171 D EGL_emulation: app_time_stats: avg=155.43ms min=120.66ms max=230.61ms count=7
+11-19 07:24:42.238  4140  4171 D EGL_emulation: app_time_stats: avg=136.09ms min=99.58ms max=163.08ms count=8
+11-19 07:24:42.267  4140  4171 D EGL_emulation: app_time_stats: avg=137.76ms min=116.33ms max=157.72ms count=8
+11-19 07:24:43.343  4140  4171 D EGL_emulation: app_time_stats: avg=122.81ms min=102.90ms max=136.30ms count=9
+11-19 07:24:43.371  4140  4171 D EGL_emulation: app_time_stats: avg=122.61ms min=100.02ms max=132.71ms count=9
+11-19 07:24:44.379  4140  4171 D EGL_emulation: app_time_stats: avg=129.40ms min=107.43ms max=156.74ms count=8
+11-19 07:24:44.406  4140  4171 D EGL_emulation: app_time_stats: avg=129.39ms min=97.35ms max=162.75ms count=8
+11-19 07:24:45.427  4140  4171 D EGL_emulation: app_time_stats: avg=130.97ms min=108.50ms max=155.50ms count=8
+11-19 07:24:45.462  4140  4171 D EGL_emulation: app_time_stats: avg=132.03ms min=124.95ms max=147.01ms count=8
+11-19 07:24:46.492  4140  4171 D EGL_emulation: app_time_stats: avg=133.08ms min=109.54ms max=152.94ms count=8
+11-19 07:24:46.523  4140  4171 D EGL_emulation: app_time_stats: avg=132.45ms min=112.26ms max=150.20ms count=8
+11-19 07:24:47.623  4140  4171 D EGL_emulation: app_time_stats: avg=141.37ms min=111.13ms max=188.20ms count=8
+11-19 07:24:47.652  4140  4171 D EGL_emulation: app_time_stats: avg=141.18ms min=119.13ms max=180.67ms count=8
+11-19 07:24:48.699  4140  4171 D EGL_emulation: app_time_stats: avg=134.50ms min=107.71ms max=160.85ms count=8
+11-19 07:24:48.719  4140  4171 D EGL_emulation: app_time_stats: avg=133.35ms min=109.17ms max=151.36ms count=8
+11-19 07:24:49.703  4140  4171 D EGL_emulation: app_time_stats: avg=143.37ms min=116.60ms max=168.01ms count=7
+11-19 07:24:49.720  4140  4171 D EGL_emulation: app_time_stats: avg=142.93ms min=124.58ms max=168.22ms count=7
+11-19 07:24:50.771  4140  4171 D EGL_emulation: app_time_stats: avg=133.17ms min=120.70ms max=151.29ms count=8
+11-19 07:24:50.800  4140  4171 D EGL_emulation: app_time_stats: avg=134.95ms min=127.33ms max=139.94ms count=8
+11-19 07:24:51.792  4140  4171 D EGL_emulation: app_time_stats: avg=126.77ms min=97.58ms max=151.92ms count=8
+11-19 07:24:51.805  4140  4171 D EGL_emulation: app_time_stats: avg=125.63ms min=99.23ms max=143.66ms count=8
+11-19 07:24:52.890  4140  4171 D EGL_emulation: app_time_stats: avg=122.04ms min=86.10ms max=138.21ms count=9
+11-19 07:24:52.905  4140  4171 D EGL_emulation: app_time_stats: avg=137.50ms min=104.94ms max=211.87ms count=8
+11-19 07:24:53.901  4140  4171 D EGL_emulation: app_time_stats: avg=126.24ms min=109.28ms max=155.84ms count=8
+11-19 07:24:53.913  4140  4171 D EGL_emulation: app_time_stats: avg=125.93ms min=111.27ms max=137.29ms count=8
+11-19 07:24:54.933  4140  4171 D EGL_emulation: app_time_stats: avg=129.00ms min=100.06ms max=187.71ms count=8
+11-19 07:24:54.947  4140  4171 D EGL_emulation: app_time_stats: avg=129.29ms min=102.95ms max=192.72ms count=8
+11-19 07:24:55.956  4140  4171 D EGL_emulation: app_time_stats: avg=126.11ms min=105.79ms max=143.05ms count=8
+11-19 07:24:56.066  4140  4171 D EGL_emulation: app_time_stats: avg=125.93ms min=80.86ms max=152.47ms count=9
+11-19 07:24:56.438  4140  4148 I zdmgold.orlumen: Background concurrent mark compact GC freed 10MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 10MB/21MB, paused 428us,10.668ms total 355.908ms
+11-19 07:24:56.996  4140  4171 D EGL_emulation: app_time_stats: avg=148.53ms min=122.05ms max=199.35ms count=7
+11-19 07:24:57.084  4140  4171 D EGL_emulation: app_time_stats: avg=145.35ms min=101.39ms max=182.86ms count=7
+11-19 07:24:58.105  4140  4171 D EGL_emulation: app_time_stats: avg=127.63ms min=100.38ms max=144.57ms count=8
+11-19 07:24:58.129  4140  4171 D EGL_emulation: app_time_stats: avg=125.82ms min=100.16ms max=143.42ms count=9
+11-19 07:24:59.187  4140  4171 D EGL_emulation: app_time_stats: avg=154.49ms min=121.28ms max=236.37ms count=7
+11-19 07:24:59.206  4140  4171 D EGL_emulation: app_time_stats: avg=153.79ms min=117.12ms max=235.31ms count=7
+11-19 07:25:00.211  4140  4171 D EGL_emulation: app_time_stats: avg=146.16ms min=123.56ms max=167.23ms count=7
+11-19 07:25:00.258  4140  4171 D EGL_emulation: app_time_stats: avg=150.37ms min=122.41ms max=176.06ms count=7
+11-19 07:25:01.295  4140  4171 D EGL_emulation: app_time_stats: avg=135.50ms min=124.48ms max=151.24ms count=8
+11-19 07:25:01.325  4140  4171 D EGL_emulation: app_time_stats: avg=133.32ms min=105.41ms max=158.14ms count=8
+11-19 07:25:02.320  4140  4171 D EGL_emulation: app_time_stats: avg=128.07ms min=92.71ms max=188.45ms count=8
+11-19 07:25:02.336  4140  4171 D EGL_emulation: app_time_stats: avg=126.29ms min=98.80ms max=197.38ms count=8
+11-19 07:25:03.363  4140  4171 D EGL_emulation: app_time_stats: avg=130.36ms min=107.00ms max=141.04ms count=8
+11-19 07:25:03.392  4140  4171 D EGL_emulation: app_time_stats: avg=132.06ms min=110.41ms max=148.03ms count=8
+11-19 07:25:04.394  4140  4171 D EGL_emulation: app_time_stats: avg=61.99ms min=27.77ms max=137.43ms count=16
+11-19 07:25:05.408  4140  4171 D EGL_emulation: app_time_stats: avg=50.46ms min=40.10ms max=61.81ms count=20
+11-19 07:25:06.440  4140  4171 D EGL_emulation: app_time_stats: avg=51.60ms min=44.42ms max=66.41ms count=20
+11-19 07:25:07.474  4140  4171 D EGL_emulation: app_time_stats: avg=51.67ms min=28.06ms max=71.38ms count=20
+11-19 07:25:07.935  4140  4171 D EGL_emulation: app_time_stats: avg=762.00ms min=59.36ms max=4090.30ms count=6
+11-19 07:25:08.560  4140  4171 D EGL_emulation: app_time_stats: avg=83.56ms min=49.52ms max=142.01ms count=13
+11-19 07:25:09.575  4140  4171 D EGL_emulation: app_time_stats: avg=55.36ms min=23.07ms max=103.74ms count=18
+11-19 07:25:10.606  4140  4171 D EGL_emulation: app_time_stats: avg=51.55ms min=35.98ms max=80.50ms count=20
+11-19 07:25:11.641  4140  4171 D EGL_emulation: app_time_stats: avg=51.73ms min=34.78ms max=86.38ms count=20
+11-19 07:25:11.972  4140  4148 I zdmgold.orlumen: Background concurrent mark compact GC freed 10MB AllocSpace bytes, 1(24KB) LOS objects, 49% free, 10MB/20MB, paused 213us,11.806ms total 118.515ms
+11-19 07:25:11.992  4140  4140 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+11-19 07:25:12.518  4140  4171 D EGL_emulation: app_time_stats: avg=414.87ms min=18.89ms max=3814.64ms count=11
+11-19 07:25:12.563  4140  4246 I HWUI    : Davey! duration=716ms; Flags=1, FrameTimelineVsyncId=20382, IntendedVsync=181349634684, Vsync=181516301344, InputEventId=-779665468, HandleInputStart=181528851104, AnimationStart=181528852235, PerformTraversalsStart=181534417722, DrawStart=181752191451, FrameDeadline=181366301350, FrameInterval=181528766779, FrameStartTime=16666666, SyncQueued=181842182248, SyncStart=181845082720, IssueDrawCommandsStart=181849709264, SwapBuffers=181997942021, FrameCompleted=182069259338, DequeueBufferDuration=2424, QueueBufferDuration=203321, GpuCompleted=182069259338, SwapBuffersCompleted=182068784303, DisplayPresentTime=0, CommandSubmissionCompleted=181997942021, 
+11-19 07:25:12.606  4140  4140 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-19 07:25:12.606  4140  4140 I Choreographer: Skipped 37 frames!  The application may be doing too much work on its main thread.
+11-19 07:25:12.644  4140  4171 D EGL_emulation: app_time_stats: avg=250.74ms min=48.17ms max=806.11ms count=4
+11-19 07:25:12.688  4140  4140 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=androidx.activity.OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1@193c6f2
+11-19 07:25:12.941  4140  4140 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=true, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.zdmgold.orlumen
+11-19 07:25:18.206  4140  4171 D EGL_emulation: app_time_stats: avg=2017.30ms min=123.29ms max=5240.85ms count=3
+11-19 07:25:19.298  4140  4140 D VRI[AodActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-19 07:25:19.733  4140  4921 W zdmgold.orlumen: Long monitor contention with owner AdWorker(Default) #55 (4926) at void com.google.android.gms.internal.ads.zzcvl.zzl()(com.google.android.gms:play-services-ads@@25.5.0:9) waiters=0 in void com.google.android.gms.internal.ads.zzcvl.zzdk(com.google.android.gms.internal.ads.zzbfq) for 248ms
+11-19 07:25:21.027  4140  4171 D EGL_emulation: app_time_stats: avg=63.07ms min=43.24ms max=96.21ms count=17
+11-19 07:25:22.063  4140  4171 D EGL_emulation: app_time_stats: avg=63.79ms min=29.90ms max=87.91ms count=15
+11-19 07:25:23.093  4140  4171 D EGL_emulation: app_time_stats: avg=62.03ms min=28.99ms max=79.58ms count=16
+11-19 07:25:24.130  4140  4171 D EGL_emulation: app_time_stats: avg=60.48ms min=23.82ms max=99.26ms count=15
+11-19 07:25:25.154  4140  4171 D EGL_emulation: app_time_stats: avg=70.06ms min=35.57ms max=89.99ms count=14
+11-19 07:25:26.172  4140  4171 D EGL_emulation: app_time_stats: avg=60.95ms min=26.11ms max=88.83ms count=15
+11-19 07:25:27.203  4140  4171 D EGL_emulation: app_time_stats: avg=66.37ms min=44.69ms max=83.16ms count=15
+11-19 07:25:28.246  4140  4171 D EGL_emulation: app_time_stats: avg=65.97ms min=36.05ms max=94.45ms count=15
+11-19 07:25:29.283  4140  4171 D EGL_emulation: app_time_stats: avg=64.05ms min=42.27ms max=87.44ms count=15
+11-19 07:25:30.336  4140  4171 D EGL_emulation: app_time_stats: avg=64.13ms min=29.63ms max=106.21ms count=15
+11-19 07:25:31.354  4140  4171 D EGL_emulation: app_time_stats: avg=72.43ms min=40.90ms max=150.11ms count=13
+11-19 07:25:32.428  4140  4171 D EGL_emulation: app_time_stats: avg=65.39ms min=39.97ms max=120.83ms count=15
+11-19 07:25:33.535  4140  4171 D EGL_emulation: app_time_stats: avg=271.84ms min=56.12ms max=485.02ms count=4
+11-19 07:25:34.192  4140  4148 I zdmgold.orlumen: Background concurrent mark compact GC freed 10090KB AllocSpace bytes, 2(104KB) LOS objects, 49% free, 10MB/20MB, paused 206us,2.025ms total 123.297ms
+11-19 07:25:34.234  4140  4171 D EGL_emulation: app_time_stats: avg=164.16ms min=38.66ms max=437.13ms count=9
+11-19 07:25:34.590  4140  4171 D EGL_emulation: app_time_stats: avg=94.08ms min=19.76ms max=189.99ms count=11
+11-19 07:25:35.634  4140  4171 D EGL_emulation: app_time_stats: avg=48.85ms min=22.58ms max=64.98ms count=21
+11-19 07:25:36.642  4140  4171 D EGL_emulation: app_time_stats: avg=49.81ms min=25.24ms max=67.46ms count=20
+11-19 07:25:37.678  4140  4171 D EGL_emulation: app_time_stats: avg=51.78ms min=43.81ms max=67.05ms count=20
+11-19 07:25:37.933  4140  4171 D EGL_emulation: app_time_stats: avg=739.77ms min=48.77ms max=3377.31ms count=5
+11-19 07:25:38.719  4140  4171 D EGL_emulation: app_time_stats: avg=104.06ms min=46.51ms max=162.42ms count=10
+11-19 07:25:39.743  4140  4171 D EGL_emulation: app_time_stats: avg=50.65ms min=16.45ms max=73.66ms count=20
+11-19 07:25:40.775  4140  4171 D EGL_emulation: app_time_stats: avg=51.57ms min=29.28ms max=91.23ms count=20
+11-19 07:25:41.802  4140  4171 D EGL_emulation: app_time_stats: avg=51.31ms min=38.52ms max=62.29ms count=20
+11-19 07:25:42.847  4140  4171 D EGL_emulation: app_time_stats: avg=52.25ms min=36.81ms max=88.19ms count=20
+11-19 07:25:42.895  4140  4171 D EGL_emulation: app_time_stats: avg=450.72ms min=32.23ms max=4209.96ms count=11
+11-19 07:25:43.854  4140  4171 D EGL_emulation: app_time_stats: avg=90.76ms min=36.07ms max=137.78ms count=11
+11-19 07:25:44.915  4140  4171 D EGL_emulation: app_time_stats: avg=49.06ms min=13.96ms max=83.09ms count=21
+11-19 07:25:45.920  4140  4171 D EGL_emulation: app_time_stats: avg=50.23ms min=39.63ms max=66.75ms count=20
+11-19 07:25:46.939  4140  4171 D EGL_emulation: app_time_stats: avg=50.93ms min=29.39ms max=63.48ms count=20
+11-19 07:25:47.890  4140  4171 D EGL_emulation: app_time_stats: avg=499.46ms min=34.63ms max=4221.12ms count=10
+11-19 07:25:48.039  4140  4171 D EGL_emulation: app_time_stats: avg=57.89ms min=43.88ms max=173.28ms count=19
+11-19 07:25:49.065  4140  4171 D EGL_emulation: app_time_stats: avg=84.52ms min=34.45ms max=173.10ms count=12
+11-19 07:25:50.098  4140  4171 D EGL_emulation: app_time_stats: avg=51.48ms min=36.42ms max=73.69ms count=20
+11-19 07:25:51.120  4140  4171 D EGL_emulation: app_time_stats: avg=51.06ms min=38.97ms max=69.21ms count=20
+11-19 07:25:51.593  4140  4148 I zdmgold.orlumen: Background concurrent mark compact GC freed 10MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 10MB/21MB, paused 156us,10.933ms total 83.223ms
+11-19 07:25:52.156  4140  4171 D EGL_emulation: app_time_stats: avg=51.82ms min=36.37ms max=97.36ms count=20
+11-19 07:25:52.815  4140  4171 D EGL_emulation: app_time_stats: avg=410.44ms min=37.03ms max=4090.42ms count=12
+11-19 07:25:52.966  4140  4140 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-19 07:25:52.970  4140  4140 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=androidx.activity.OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1@193c6f2
+11-19 07:25:53.473  4140  4171 D EGL_emulation: app_time_stats: avg=131.61ms min=48.17ms max=501.37ms count=10
+11-19 07:25:54.537  4140  4171 D EGL_emulation: app_time_stats: avg=57.06ms min=22.09ms max=89.96ms count=16
+11-19 07:25:55.548  4140  4171 D EGL_emulation: app_time_stats: avg=61.87ms min=37.80ms max=93.35ms count=15
+11-19 07:25:56.628  4140  4171 D EGL_emulation: app_time_stats: avg=63.78ms min=41.05ms max=89.19ms count=16
+11-19 07:25:57.642  4140  4171 D EGL_emulation: app_time_stats: avg=68.71ms min=23.33ms max=105.37ms count=14
+11-19 07:25:58.687  4140  4171 D EGL_emulation: app_time_stats: avg=61.55ms min=36.29ms max=93.58ms count=15
+11-19 07:25:59.696  4140  4171 D EGL_emulation: app_time_stats: avg=63.97ms min=30.62ms max=89.00ms count=15
+11-19 07:26:00.698  4140  4171 D EGL_emulation: app_time_stats: avg=72.64ms min=18.57ms max=133.85ms count=13
+11-19 07:26:01.725  4140  4171 D EGL_emulation: app_time_stats: avg=63.75ms min=49.35ms max=94.10ms count=15
+11-19 07:26:02.761  4140  4171 D EGL_emulation: app_time_stats: avg=69.93ms min=21.59ms max=117.86ms count=14

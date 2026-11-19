@@ -1,0 +1,35 @@
+Performing Streamed Install
+Success
+tapped: Skip at (941, 255)
+[07:24:08] shot 01_home
+[07:24:08] 1: start the lights, look at the launcher
+tapped: Start edge lights at (651, 639)
+[07:24:27] service 1: 3 mentions, foreground: 1
+[07:24:38] shot 02_launcher_before_aod
+[07:24:38] 2: open the always-on screen from Diagnostics
+tapped: Diagnostics at (321, 2161)
+tapped: Open the always-on screen now at (474, 1587)
+[07:25:19] shot 03_aod_showing
+[07:25:19] activities 2: AodActivity mentions=29
+  * Task{9b6a8 #9 type=standard I=com.zdmgold.orlumen/.platform.aod.AodActivity U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+    topResumedActivity=ActivityRecord{a60eecb u0 com.zdmgold.orlumen/.platform.aod.AodActivity t9}
+    * Hist  #0: ActivityRecord{a60eecb u0 com.zdmgold.orlumen/.platform.aod.AodActivity t9}
+      Intent { flg=0x10800000 cmp=com.zdmgold.orlumen/.platform.aod.AodActivity }
+      rootOfTask=true task=Task{9b6a8 #9 type=standard I=com.zdmgold.orlumen/.platform.aod.AodActivity}
+      mActivityComponent=com.zdmgold.orlumen/.platform.aod.AodActivity
+[07:25:19] 3: leave the always-on screen with Home (not by tapping it)
+[07:25:31] shot 04_launcher_after_aod
+[07:25:31] service 3: 3 mentions, foreground: 1
+[07:25:32] activities 3: AodActivity mentions=10
+      topResumedActivity=ActivityRecord{1727b70 u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t7}
+  * Task{9b6a8 #9 type=standard I=com.zdmgold.orlumen/.platform.aod.AodActivity U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}
+    mLastPausedActivity: ActivityRecord{a60eecb u0 com.zdmgold.orlumen/.platform.aod.AodActivity t9}
+    * Hist  #0: ActivityRecord{a60eecb u0 com.zdmgold.orlumen/.platform.aod.AodActivity t9}
+      Intent { flg=0x10800000 cmp=com.zdmgold.orlumen/.platform.aod.AodActivity }
+      rootOfTask=true task=Task{9b6a8 #9 type=standard I=com.zdmgold.orlumen/.platform.aod.AodActivity}
+[07:25:32] 4: open the app again and read the Diagnostics status
+[07:25:41] shot 05_app_after_aod
+tapped: Diagnostics at (192, 204)
+[07:25:52] shot 06_diagnostics_after_aod
+[07:26:02] shot 07_launcher_end
+[07:26:04] done: 7 screenshots
