@@ -1,0 +1,37 @@
+Pantalla siempre activa
+Activa la pantalla siempre activa y bloquea el teléfono con el botón de encendido.
+La pantalla siempre activa no se está mostrando
+El inicio al apagar la pantalla aún no se ha activado
+Abrir ahora la pantalla siempre activa
+PERMISOS
+Mostrar sobre otras apps
+Toca, busca Orlumen en la lista y actívalo
+Escuchar tu música
+Aún no permitido
+Ver qué suena
+Toca, busca Orlumen en la lista y actívalo
+Saber qué app está abierta
+Toca, busca Orlumen en la lista y actívalo
+Mostrar la notificación de estado
+Aún no permitido
+Mantenerlo activo
+Toca, busca Orlumen en la lista y actívalo
+Acerca de Orlumen
+ANUNCIOS
+Los anuncios están permitidos en este dispositivo
+Comprobación de consentimiento: correcta
+Banner: Loaded
+Intersticial: Ready
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+Anuncio de prueba

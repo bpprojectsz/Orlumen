@@ -1,0 +1,33 @@
+常時表示画面を今すぐ開く
+権限
+他のアプリの上に重ねて表示
+タップして、一覧から Orlumen を探してオンにしてください
+音楽を聴き取る
+未許可
+再生中の曲を確認
+タップして、一覧から Orlumen を探してオンにしてください
+開いているアプリを確認
+タップして、一覧から Orlumen を探してオンにしてください
+ステータス通知を表示
+未許可
+動作を維持
+タップして、一覧から Orlumen を探してオンにしてください
+Orlumen について
+広告
+この端末では広告が許可されています
+同意の確認: 正常
+バナー: Loaded
+インタースティシャル: Ready
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+テスト広告

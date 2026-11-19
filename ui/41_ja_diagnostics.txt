@@ -1,0 +1,31 @@
+診断
+状態
+停止中
+まず必須の権限を許可してください。
+エッジライトを開始
+アプリ音声キャプチャで開始
+音声信号
+レベル 0%
+再生中
+再生中の曲はありません
+現在の曲を表示するには通知へのアクセスを許可してください。
+常時表示
+常時表示
+常時表示をオンにして、電源ボタンで端末をロックしてください。
+常時表示画面は表示されていません
+画面消灯時の起動はまだ行われていません
+常時表示画面を今すぐ開く
+権限
+developers.google.com
+developers.google.com
+developers.google.com
+developers.google.com/admob
+AdMob Adaptive Banner
+AdMob Adaptive Banner
+developers.google.com/admob
+You've loaded a test ad from AdMob. Way to go!
+You've loaded a test ad from
+AdMob. Way to go!
+OPEN
+OPEN
+テスト広告

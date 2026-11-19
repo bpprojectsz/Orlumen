@@ -1,0 +1,62 @@
+Performing Streamed Install
+Success
+[21:33:05] ONBOARDING ar
+[21:33:34] shot 01_ar_onboarding_1
+[21:33:46] shot 02_ar_onboarding_2
+[21:33:59] shot 03_ar_onboarding_3
+[21:34:09] shot 04_ar_onboarding_4
+[21:34:09] ONBOARDING he
+[21:34:30] shot 05_he_onboarding_1
+[21:34:40] shot 06_he_onboarding_2
+[21:34:51] shot 07_he_onboarding_3
+[21:35:01] shot 08_he_onboarding_4
+[21:35:01] ONBOARDING de
+[21:35:20] shot 09_de_onboarding_1
+[21:35:30] shot 10_de_onboarding_2
+[21:35:41] shot 11_de_onboarding_3
+[21:35:51] shot 12_de_onboarding_4
+[21:35:51] ONBOARDING ja
+[21:36:11] shot 13_ja_onboarding_1
+[21:36:22] shot 14_ja_onboarding_2
+[21:36:32] shot 15_ja_onboarding_3
+[21:36:42] shot 16_ja_onboarding_4
+[21:36:42] ONBOARDING es
+[21:37:02] shot 17_es_onboarding_1
+[21:37:12] shot 18_es_onboarding_2
+[21:37:22] shot 19_es_onboarding_3
+[21:37:32] shot 20_es_onboarding_4
+[21:37:32] ONBOARDING fr
+[21:37:52] shot 21_fr_onboarding_1
+[21:38:02] shot 22_fr_onboarding_2
+[21:38:13] shot 23_fr_onboarding_3
+[21:38:23] shot 24_fr_onboarding_4
+[21:38:23] ONBOARDING pt
+[21:38:43] shot 25_pt_onboarding_1
+[21:38:52] shot 26_pt_onboarding_2
+[21:39:03] shot 27_pt_onboarding_3
+[21:39:12] shot 28_pt_onboarding_4
+[21:39:12] ONBOARDING hi
+[21:39:32] shot 29_hi_onboarding_1
+[21:39:42] shot 30_hi_onboarding_2
+[21:39:53] shot 31_hi_onboarding_3
+[21:40:02] shot 32_hi_onboarding_4
+[21:40:02] ONBOARDING ko
+[21:40:21] shot 33_ko_onboarding_1
+[21:40:31] shot 34_ko_onboarding_2
+[21:40:42] shot 35_ko_onboarding_3
+[21:40:52] shot 36_ko_onboarding_4
+[21:40:52] ONBOARDING zh
+[21:41:11] shot 37_zh_onboarding_1
+[21:41:21] shot 38_zh_onboarding_2
+[21:41:32] shot 39_zh_onboarding_3
+[21:41:41] shot 40_zh_onboarding_4
+tapped: Skip at (941, 255)
+[21:42:14] DIAGNOSTICS ja
+tapped: Check audio, permissions at (558, 1828)
+[21:43:05] shot 41_ja_diagnostics
+[21:43:12] shot 42_ja_diagnostics_ads
+[21:43:12] DIAGNOSTICS es
+tapped: Check audio, permissions at (558, 1828)
+[21:43:57] shot 43_es_diagnostics
+[21:44:05] shot 44_es_diagnostics_ads
+[21:44:05] done: 44 screenshots

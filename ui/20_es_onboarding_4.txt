@@ -1,0 +1,3 @@
+Solo se pide cuando hace falta
+Orlumen solo pide un permiso en el momento en que una función lo necesita, y siempre te explica antes por qué.
+Empezar

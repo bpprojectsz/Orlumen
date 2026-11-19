@@ -1,0 +1,3 @@
+Pedido só quando necessário
+O Orlumen só pede uma permissão no momento em que uma função precisa dela e explica sempre o motivo primeiro.
+Começar

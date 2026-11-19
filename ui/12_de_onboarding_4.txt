@@ -1,0 +1,3 @@
+Nur gefragt, wenn nötig
+Orlumen fragt nur dann nach einer Berechtigung, wenn eine Funktion sie braucht, und erklärt dir vorher immer warum.
+Los geht’s
