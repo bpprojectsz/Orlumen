@@ -1,0 +1,11 @@
+Performing Streamed Install
+Success
+[04:54:17] start onboarding on page 3
+[04:54:45] shot 01_page3_before
+[04:54:45] change the language to Arabic while on page 3
+[04:55:06] shot 02_page3_after_language_change
+[04:55:06] rotate to landscape while on page 3
+[04:55:20] shot 03_page3_landscape
+[04:55:32] shot 04_page3_back_to_portrait
+[04:55:46] shot 05_page3_english_again
+[04:55:48] done: 5 screenshots
