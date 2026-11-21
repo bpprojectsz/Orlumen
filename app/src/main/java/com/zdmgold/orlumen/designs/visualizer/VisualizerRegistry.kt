@@ -21,6 +21,5 @@ object VisualizerRegistry {
 
     fun byId(id: String): VisualizerDesign? = designs.firstOrNull { it.descriptor.id == id }
 
-    fun resolve(id: String): VisualizerDesign =
-        byId(id) ?: byId(VisualizerConfig.DEFAULT_DESIGN_ID) ?: designs.first()
+    fun resolve(id: String): VisualizerDesign = byId(id) ?: byId(VisualizerConfig.DEFAULT_DESIGN_ID) ?: designs.first()
 }
