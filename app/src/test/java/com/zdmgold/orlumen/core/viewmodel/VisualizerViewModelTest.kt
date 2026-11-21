@@ -70,6 +70,7 @@ class VisualizerViewModelTest {
     @Test
     fun switchingDesignKeepsCommonSettingsAndDropsDesignSettings() = runTest(UnconfinedTestDispatcher()) {
         val model = viewModel()
+        model.selectDesign("filament")
         model.setThickness(8f)
         model.setExtra("spacing", 9f)
         model.selectDesign("filament")
