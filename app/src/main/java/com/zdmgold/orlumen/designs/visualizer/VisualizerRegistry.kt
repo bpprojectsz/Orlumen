@@ -1,6 +1,7 @@
 package com.zdmgold.orlumen.designs.visualizer
 
 import com.zdmgold.orlumen.core.model.DesignDescriptor
+import com.zdmgold.orlumen.core.model.VisualizerConfig
 
 object VisualizerRegistry {
     val designs: List<VisualizerDesign> = listOf(
@@ -20,5 +21,6 @@ object VisualizerRegistry {
 
     fun byId(id: String): VisualizerDesign? = designs.firstOrNull { it.descriptor.id == id }
 
-    fun resolve(id: String): VisualizerDesign = byId(id) ?: designs.first()
+    fun resolve(id: String): VisualizerDesign =
+        byId(id) ?: byId(VisualizerConfig.DEFAULT_DESIGN_ID) ?: designs.first()
 }

@@ -27,7 +27,7 @@ data class VisualizerConfig(
     fun withExtra(key: String, value: Float): VisualizerConfig = copy(extras = extras + (key to value))
 
     companion object {
-        const val DEFAULT_DESIGN_ID = "filament"
+        const val DEFAULT_DESIGN_ID = "comet"
         const val DEFAULT_PALETTE_ID = "obsidian_violet"
         const val MIN_THICKNESS = 1f
         const val MAX_THICKNESS = 16f

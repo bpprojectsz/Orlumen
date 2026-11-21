@@ -25,13 +25,13 @@ class VisualizerRegistryTest {
     @Test
     fun defaultDesignExists() {
         assertNotNull(VisualizerRegistry.byId(VisualizerConfig.DEFAULT_DESIGN_ID))
-        assertEquals(VisualizerConfig.DEFAULT_DESIGN_ID, VisualizerRegistry.designs.first().descriptor.id)
+        assertEquals("comet", VisualizerConfig.DEFAULT_DESIGN_ID)
     }
 
     @Test
-    fun unknownIdsFallBackToTheFirstDesign() {
+    fun unknownIdsFallBackToTheDefaultDesign() {
         assertNull(VisualizerRegistry.byId("missing"))
-        assertSame(VisualizerRegistry.designs.first(), VisualizerRegistry.resolve("missing"))
+        assertSame(VisualizerRegistry.byId(VisualizerConfig.DEFAULT_DESIGN_ID), VisualizerRegistry.resolve("missing"))
     }
 
     @Test
