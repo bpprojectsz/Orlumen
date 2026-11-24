@@ -1,0 +1,33 @@
+Performing Streamed Install
+Success
+[11:25:04] SYSTEM LANGUAGE ar-SA
+[11:25:59] system locale property: ar-SA
+config: mcc310-mnc260-ar-rSA-ldrtl-sw411dp-w411dp-h914dp-normal-long-notround-nowidecg-lowdr-port-notnight-420dpi-finger-keysexposed-qwerty-navhidden-nonav-2400x1080-v35
+abi: x86_64,arm64-v8a
+[11:26:18] shot 01_ar_onboarding_1
+[11:26:28] shot 02_ar_onboarding_2
+[11:26:41] shot 03_ar_onboarding_3
+[11:26:52] shot 04_ar_onboarding_4
+[11:27:20] shot 05_ar_home
+[11:27:20] SYSTEM LANGUAGE ja-JP
+[11:28:14] system locale property: ja-JP
+config: mcc310-mnc260-ja-rJP-ldltr-sw411dp-w411dp-h914dp-normal-long-notround-nowidecg-lowdr-port-notnight-420dpi-finger-keysexposed-qwerty-navhidden-nonav-2400x1080-v35
+abi: x86_64,arm64-v8a
+[11:28:31] shot 06_ja_onboarding_1
+[11:28:41] shot 07_ja_onboarding_2
+[11:28:54] shot 08_ja_onboarding_3
+[11:29:04] shot 09_ja_onboarding_4
+[11:29:28] shot 10_ja_home
+[11:29:28] SYSTEM LANGUAGE it-IT
+[11:30:22] system locale property: it-IT
+config: mcc310-mnc260-it-rIT-ldltr-sw411dp-w411dp-h914dp-normal-long-notround-nowidecg-lowdr-port-notnight-420dpi-finger-keysexposed-qwerty-navhidden-nonav-2400x1080-v35
+abi: x86_64,arm64-v8a
+[11:30:39] shot 11_it_onboarding_1
+[11:30:49] shot 12_it_onboarding_2
+[11:31:01] shot 13_it_onboarding_3
+[11:31:11] shot 14_it_onboarding_4
+[11:31:40] shot 15_it_home
+[11:32:33] system locale property: en-US
+config: mcc310-mnc260-en-rUS-ldltr-sw411dp-w411dp-h914dp-normal-long-notround-nowidecg-lowdr-port-notnight-420dpi-finger-keysexposed-qwerty-navhidden-nonav-2400x1080-v35
+abi: x86_64,arm64-v8a
+[11:32:37] done: 15 screenshots
