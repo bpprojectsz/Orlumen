@@ -1,0 +1,9 @@
+Performing Streamed Install
+Success
+[04:23:57] launch once so the launcher knows the app, then go Home
+tapped: Skip at (941, 255)
+[04:24:33] shot 01_launcher_home
+[04:24:33] open the app drawer
+[04:24:41] shot 02_app_drawer
+[04:24:46] shot 03_app_drawer_scrolled
+[04:24:48] done: 3 screenshots
